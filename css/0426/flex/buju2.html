@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 百分比宽度 -->
+    <style>
+        
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .outer-container {
+        /* padding: 15px; */
+      }
+
+      .inner-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -5px; 
+         /* 补偿子 div 之间的 margin，以保持整体布局正确 */
+      }
+
+      .item {
+        width: calc(25% - 10px); /* 计算每个 item 的宽度，减去 10px 的空隙 */
+        background-color: #ccc;
+        height: 100px; /* 设置子 div 的高度 */
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="inner-container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <!-- 添加更多子 div 以填充需要的数量 -->
+      </div>
+    </div>
+  </body>
+</html>

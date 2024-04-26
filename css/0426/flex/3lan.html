@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap {
+            height: 200px;
+        }
+        .left {
+            width: 200px;
+            height: 100%;
+            background-color: aqua;
+            float: left;
+        }
+        .right {
+            width: 200px;
+            height: 100%;
+            background-color: blue;
+            float: right;
+        }
+        .content {
+            height: 100%;
+            background-color: red;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+
+        .box {
+            height: 100px;
+            display: flex;
+        }
+
+        .left{
+            width: 100px;
+            min-width: 50px;;
+        }
+        .right{
+            width: 100px;
+            min-width: 50px;
+        }
+        .center{
+            flex:1;
+            background-color: red;
+            min-width: 100px;
+        }
+        
+        .san{
+            width: 0px;
+            height: 0px;
+            border-left: 50px solid transparent;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid transparent;
+            border-right: 50px solid red;
+        }
+        
+        .zi{
+            font-size: 20px;
+            /* zoom:0.5; */
+            transform: scale(0.5);
+        }
+        .zi2{
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="wrap clear">
+        <div class="left">left</div>
+        <div class="right">right</div>
+        <div class="content">content</div>
+    </div> -->
+
+    <div class="box">
+        <div class="left"></div>
+        <div class="center"></div>
+        <div class="right"></div>
+    </div>
+
+    <div class="san"></div>
+
+    <div class="zi">
+        123你好
+    </div>
+    <div class="zi2">
+        123你好
+    </div>
+</body>
+</html>

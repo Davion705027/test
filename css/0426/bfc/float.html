@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            /* overflow: hidden; */
+            position: absolute;
+        }
+        li{
+            list-style: none;
+            width: 200px;
+            height: 50px;
+            background-color: chocolate;
+            float: left;
+        }
+        /* 
+            bfc 是块级格式化上下午 是页面中一个渲染区域 有一套属于自己的渲染规则
+            1. 浮动元素也会计算高度
+            2. 不悔发生margin重叠
+            3. 遵照从上到下从左到右布局排列
+
+        */
+    </style>
+</head>
+<body>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    123123
+</body>
+</html>

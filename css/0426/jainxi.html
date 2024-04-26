@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: green;
+        }
+        .wrap {
+            text-align: center;
+            margin-top: 5px;
+        }
+        span {
+            background: orangered;
+        }
+        .wrap1 {
+            font-size: 0;
+        }
+        .wrap1 span{
+            font-size: 16px;
+        }
+
+        .wrap2{
+            display: flex;
+        }
+
+        .wrap3{
+            word-spacing: -5px;
+        }
+
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<!-- 行内元素的间隙空白是当作了空白节点
+     这个间距会随着不同环境而变化 字体 white-space(用来设置如何处理元素中的空白) 
+    
+-->
+<body>
+    <div class="wrap">
+        <span>你好</span>
+        <span>世界</span>
+    </div>
+    <div class="wrap1 wrap">
+        <span>你好</span>
+        <span>世界</span>
+    </div>
+    <div class="wrap2 wrap">
+        <span>你好</span>
+        <span>世界</span>
+    </div>
+    <div class="wrap3 wrap">
+        <span>你好</span>
+        <span>世界</span>
+    </div>
+
+    <div class="wrap4 wrap">
+        <!-- <span style="margin-left: -5px;">世界</span> -->
+        <img src="./logo.png">
+        <span>xyz</span>
+    </div>
+</body>
+</html>

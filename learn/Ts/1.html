@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let p1 = new Promise(function (resolve, reject) {
+            reject(1)
+            setTimeout(function () {
+            }, 1000)
+        })
+        let p2 = new Promise(function (resolve, reject) {
+            reject(2)
+            setTimeout(function () {
+            }, 300)
+        })
+        let p3 = new Promise(function (resolve, reject) {
+            reject(3)
+            setTimeout(function () {
+            }, 2000)
+        })
+        try{
+            let r = Promise.any([p1, p2, p3]);
+            console.log(r.errors);
+        }catch(err){
+            console.log(123);
+        }
+        Promise.any([p1, p2, p3]).then(res => {
+            console.log(res)
+        }).catch(err => {
+            console.log(err);
+        })
+
+    </script>
+</body>
+</html>

@@ -64,14 +64,35 @@ useInsertionEffect 的执行在 DOM 更新前，所以此时使用 CSS-in-JS 避
 ## 执行顺序
 子useInsertionEffect ==》 父useInsertionEffect ==》 子useLayoutEffect ==》 父useLayoutEffect ==》 子useEffect ==》 父useEffect
 
+# hooks 原理
 
+hooks是函数组件和fiber的桥梁，对应3种形态，每个对象会实现useState等方法
+1. 报错形态 在外部调用
+2. mount 初始化
+3. update 更新 
 
+执行顺序 updateFunctionComponent ==》 renderWithHooks
+执行每个函数之前，会绑定ReactCurrentDispatcher.current，区分是2 还是3形态 函数执行完后，会把current至为第三种形态。和获取vue的实例一样，只能在setup中调
+## 调和
+1. 类组件，memoizedState保存state信息，函数组件，保存hook
+2. updateQueue存放useEffect产生的副作用组成的链表 在commit阶段更新
+3. 绑定ReactCurrentDispatcher.current
+4. hooks执行
+5. hooks内部为什么能读取当前fiber  在renderWithHooks内部使用闭包缓存了当前fiber
 
+## hooks初始化 与fiber建立联系
 
+每个hook执行会产生一个hooks对象，这个对象保存当前的hooks信息，还有next指向下一个hooks对象。 workInProgressHook.next = hook;
+		workInProgressHook = hook;
+## hooks更新
+首先会取出workInProgres.alternate 里面对应的 hook ，然后根据之前的 hooks 复制一份，
 
+## 状态派发
+执行hooks,保存state,创建queue（更新信息），创建一个dispatch更新函数，这个更新函数是dispatch.bind 绑定了fiber queu。
+接下来执行更新函数：
+每次setState,会创建一个update 放到hooks的pending队列中，判断如果当前fiber正在更新就不更新，反之比较两个state，不等就调度更新fiber
 
-
-
+## 副作用
 
 
 

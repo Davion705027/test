@@ -49,11 +49,27 @@ PureComponent
 
 ## useEffect
 异步执行 是在浏览器绘制视图之后。对于 useEffect 执行， React 处理逻辑是采用异步调用 ，对于每一个 effect 的 callback， React 会向 setTimeout回调函数一样，放入任务队列，等到主线程任务完成，DOM 更新，js 执行完成，视图绘制完毕，才执行。所以 effect 回调函数不会阻塞浏览器绘制视图。
+ 
+## useLayoutEffect  
+同步执行 是在浏览器绘制视图之前。useLayoutEffect 会在 DOM 更新之后，浏览器绘制之前，同步调用 callback，并且在 callback 执行期间，会阻塞浏览器绘制，造成卡顿。
 
-## useLayoutEffect
+## useEffect 和 useLayoutEffect 的区别
+
+DOM mutation次数一样
+
+- useEffect 是在渲染结束后执行副作用操作，useLayoutEffect 是在 DOM 更新后，浏览器绘制之前，执行副作用操作。
+- useEffect 执行会异步调用，useLayoutEffect 执行会同步调用。
+- useEffect 执行会晚于 useLayoutEffect 执行。
+- useLayoutEffect 批量更新，代码里请求了多次更新，只会更新一次
+
 同步执行  dom更新之后，浏览器绘制之前 这样可以方便修改dom ，因为callback同步执行，会阻塞浏览器绘制
+执行过程： render commit layout [useLayoutEffect] paint [useEffect] 。。。
+
+
 ## React 内部如何区别 useEffect 和 useLayoutEffect ，执行时机有什么不同
-react使用不同的EffectTag标记，在commit阶段通过标识符
+react使用不同的EffectTag标记，在commit阶段通过标识符区分
+
+大部分情况
 
 ## useInsertionEffect 18
 ### 解决CSS-in-JS 的问题
@@ -89,13 +105,15 @@ hooks是函数组件和fiber的桥梁，对应3种形态，每个对象会实现
 
 ## 状态派发
 执行hooks,保存state,创建queue（更新信息），创建一个dispatch更新函数，这个更新函数是dispatch.bind 绑定了fiber queu。
+
 接下来执行更新函数：
-每次setState,会创建一个update 放到hooks的pending队列中，判断如果当前fiber正在更新就不更新，反之比较两个state，不等就调度更新fiber
+每次setState,会创建一个update 放到hooks的pending队列中，判断如果当前fiber正在更新就不更新，反之比较两个state，不相等就调度更新fiber
 
 ## 副作用
 
 
-
+## meno
+当某个组件因为自己的内部状态发生变化而重渲染的时候，以它自己为根节点的组件子树上的所有子孙组件默认都会被迫进行重渲染。即使，该子孙组件的 props 和 state 没有发生变化的变化。这种重渲染，我们是称之为「被迫的，不必要的重渲染」 使用了之后会浅比较 Object.is -- 一个不为
 
 
 
@@ -194,7 +212,20 @@ hooks是函数组件和fiber的桥梁，对应3种形态，每个对象会实现
 
 
 
+# 调和 递归+ work loop
+一个while循环，对每个节点进行work,为以下两个阶段，
 
+## 递 begin work
+采用深度优先遍历算法自上而下遍历element树 创建全新的fiber，child和return实现父子关系，最后把这个fiber返回
+针对不对的fiber 计算他的子树不一样 
+1. 如果是跟 就是跟的element
+2. 如果是component 就是他的type函数执行
+3. 如果是class 就是他的render
+4 如果是host component 就是children
+
+## 归 complete work
+work loop 会对当前的 workInProgress 进行 complete work。当前的 workInProgress 一旦结束了 complete work, work loop 会检查当前的 workInProgress 是否有兄弟节点，有的话，那么就会对它的兄弟节点进行新的一轮 work loop。
+当子级上的所有的子 fiber 节点都走完了 complete work 阶段，那么 work loop 就会对它们的父 fiber 节点进行 complete work。以此类推，work loop 会以「先是从左到右，后是从下到上」的方向对新建的 fiber 节点进行 complete work，直至回到 hostRootFiber
 
 
 

@@ -227,7 +227,7 @@ hooks是函数组件和fiber的桥梁，对应3种形态，每个对象会实现
 work loop 会对当前的 workInProgress 进行 complete work。当前的 workInProgress 一旦结束了 complete work, work loop 会检查当前的 workInProgress 是否有兄弟节点，有的话，那么就会对它的兄弟节点进行新的一轮 work loop。
 当子级上的所有的子 fiber 节点都走完了 complete work 阶段，那么 work loop 就会对它们的父 fiber 节点进行 complete work。以此类推，work loop 会以「先是从左到右，后是从下到上」的方向对新建的 fiber 节点进行 complete work，直至回到 hostRootFiber
 
-
+某个组件执行setState，会产生一个更新优先级lane,向上标记家childLanes，向下调和会找childLane,如果没有此熟悉则退出，最终找到lane === updateLane 触发更新
 
 
 
@@ -266,7 +266,7 @@ work loop 会对当前的 workInProgress 进行 complete work。当前的 workIn
 
 
 
-# vue vs reavt
+# vue vs react
 相同：
 - vdom 
 - 组件化
@@ -282,3 +282,7 @@ work loop 会对当前的 workInProgress 进行 complete work。当前的 workIn
 - vue watcher    调和
 - 模版
 - hoc 
+
+
+
+

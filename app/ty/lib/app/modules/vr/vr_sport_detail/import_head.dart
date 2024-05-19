@@ -1,0 +1,11 @@
+export  'package:flutter/material.dart';
+export 'package:get/get.dart';
+export 'package:sliver_tools/sliver_tools.dart';
+export 'controllers/vr_sport_detail_logic.dart';
+export 'package:flutter_ty_app/app/modules/vr/vr_sport_detail/view/vr_sport_detail_tab_page.dart';
+export 'package:flutter_ty_app/generated/locales.g.dart';
+export 'package:flutter_ty_app/app/modules/vr/vr_sport_detail/tools/vr_sport_tools.dart';
+export 'package:flutter_ty_app/app/modules/vr/vr_sport_detail/view/appbar.dart';
+export 'package:flutter_ty_app/app/modules/vr/vr_sport_detail/view/vr_sport_detail_tabbar_view.dart';
+export 'package:flutter_ty_app/app/modules/vr/vr_sport_detail/widget/custom_tab_indicator.dart';
+export 'package:flutter_ty_app/app/modules/vr/vr_sport_detail/view/rankGroupDisuseView/vr_sport_group_list.dart';

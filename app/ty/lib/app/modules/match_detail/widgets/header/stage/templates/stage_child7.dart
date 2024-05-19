@@ -1,0 +1,46 @@
+import 'package:auto_size_text/auto_size_text.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_ty_app/app/global/user_controller.dart';
+import 'package:flutter_ty_app/app/modules/match_detail/extension/theme_extension.dart';
+import 'package:get/get.dart';
+
+import '../../../../../../../generated/locales.g.dart';
+import '../../../../../../core/MatchListClass.dart';
+import '../../../../../../db/app_cache.dart';
+import '../../../../../../services/models/res/match_entity.dart';
+import '../../../../../../utils/format_money_util.dart';
+
+/// 详情页显示斯诺克赛事第几节以及赛事时间
+class StageChild7 extends StatelessWidget {
+  const StageChild7(
+      {super.key,
+      required this.isPinnedAppbar,
+      required this.match,
+      required this.isMatchSelect});
+
+  final bool isPinnedAppbar;
+  final MatchEntity match;
+  final bool isMatchSelect;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        AutoSizeText(
+          MatchListClass.matchPeriodMap(match),
+          maxLines: 1,
+          minFontSize: 8,
+          style: TextStyle(
+            color: isMatchSelect ? Get.theme.subSelectTitleColor : Colors.white,
+            fontSize: isPinnedAppbar ? 14.sp : 12.sp,
+            fontFamily: 'PingFang SC',
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+      ],
+    );
+  }
+}

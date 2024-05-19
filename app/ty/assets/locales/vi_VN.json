@@ -1,0 +1,3058 @@
+{
+  "app": {
+    "bet": "Số vé",
+    "activity": "Khuyến mãi",
+    "notice": "Xem thông báo",
+    "myProfile": "Thông tin của tôi",
+    "signOut": "đăng xuất",
+    "loginInvalid": "Đăng nhập đã hết hạn ！",
+    "favorite_Tips": "Chưa có trận đấu nào bạn muốn thêm vào mục yêu thích.",
+    "ball_match": "Trận đấu",
+    "team_name": "Tên đội",
+    "tactical_analysis": "Phân tích chiến thuật",
+    "points_per_game": "Điểm trung bình trên sân",
+    "outbound": "Rời ga",
+    "losing_rate": "Tỷ lệ thua lỗ",
+    "Video_line_prompts": "*Nếu video bị giật hoặc không rõ ràng, bạn có thể tự điều chỉnh kết nối",
+    "more_play": "View More Markets",
+    "toggle_hd_video": "Đang chuyển sang HD",
+    "seconds_ago": "Vài giây trước",
+    "minutes_ago": "vài phút trước",
+    "hours_ago": "vài giờ trước",
+    "days_ago": "vài ngày trước",
+    "months_ago": "vài tháng trước",
+    "years_ago": "vài năm trước",
+    "questionsData": {
+      "1": {
+        "note_1": "Tổng số bàn thắng 2, nhỏ hơn 2.5",
+        "note_2": "Vì vậy nếu bạn đặt cược Xỉu 2.5 có thể ăn trọn ,Đặt cược Tài 2.5 thì thua trọn "
+      },
+      "2": {
+        "note_1": "Số bàn thắng 2, nhỏ hơn 2/2.5",
+        "note_2": "Nguyên tắc cược cơ bản, Cược Xỉu 2/2.5  có thể thắng nửa tiền "
+      }
+    },
+    "early_market": "Cửa sớm",
+    "live_betting": "Cá cược trực tiếp",
+    "outright_winner": "Cửa vô địch",
+    "combine_bets_tips": "Sau khi hủy, bạn sẽ 'tự động chấp nhận bất kỳ tỷ lệ cược nào'",
+    "combine_bets_msg1": "Nếu không chọn tính năng này, hệ thống sẽ coi như bạn 'tự động chấp nhận bất kỳ tỷ lệ cược nào'. (Tức là dù tỷ lệ cược có thay đổi thế nào khi bạn đặt cược, hệ thống sẽ mặc định rằng bạn có thể chấp nhận và không làm gián đoạn hành vi đặt cược của bạn)",
+    "combine_bets_msg2": "Cho dù tỷ lệ cược thay đổi như thế nào khi đặt cược, hệ thống sẽ mặc định rằng bạn có thể chấp nhận được. Trang web sẽ hiển thị thông báo về sự thay đổi tỷ lệ cược mà không làm gián đoạn quá trình đặt cược của bạn",
+    "multi": "Cược xâu",
+    "betting": "ĐẶT CƯỢC",
+    "match_analysis": "PHÂN TÍCH TRẬN ĐẤU",
+    "place_bet": "đặt cược",
+    "lol": "LOL",
+    "dec": "Thập phân",
+    "hk": "Hồng Kông",
+    "pull_up_loading": "tải kéo lên",
+    "failed_to_load": "Không tải được",
+    "release_to_load_more": "Phát hành để tải thêm",
+    "no_more_data": "không còn dữ liệu",
+    "phrase_no": ".",
+    "injury_time": "Thời gian chấn thương",
+    "tbd": "Chưa xác định",
+    "info_rules": {
+        "rule1": "Tất cả nội  dung chiếu trực tiếp tại đây   chỉ mang  tính chất tham khảo,   người chơi cũng có thể coi đây là chỉ dẫn.  Chúng tôi sẽ cố gắng đảm bảo nội dung hiển thị chính xác,  nếu nội dung bị sai, chúng tôi sẽ không chịu bất cứ trách nhiệm nào.",
+        "rule2": "Đối với Tỉ số Trong Trận, ví dụ như Kèo chấp Trong Trận, sẽ    căn cứ vào tỉ số chính xác hiển thị  trên vé cược khi đặt cược."
+    },
+    "notice_center": "Trung tâm thông báo"
+  },
+  "types_competitions": {
+    "odds": {
+      "EU": "Thập phân",
+      "GB": "Tỉ lệ cược Anh",
+      "HK": "Hồng Kông",
+      "ID": "Tỉ lệ cược Indo",
+      "MY": "Tỉ lệ cược Malai",
+      "US": "Tỉ lệ cược Mỹ"
+    },
+    "matchtype": {
+      "1": "Trước trận",
+      "2": "Trong Trận",
+      "3": "",
+      "4": ""
+    },
+    "menu_itme_name": {
+      "results":"Kết Quả",
+      "inplay":"Trong Trận",
+      "today":"Hôm Nay",
+      "early":"Cược Sớm",
+      "outher_early":"Cược Sớm khác",
+      "champion":"Chung Cuộc",
+      "vr":"VR",
+      "lottery":"Lottery",
+      "esports":"Esports"
+    },
+    "sport2": {
+      "1": "Bóng Đá",
+      "2": "Bóng Rổ",
+      "3": "Bóng Chày",
+      "4": "Khúc Côn Cầu Sân Băng",
+      "5": "Quần Vợt",
+      "6": "Bóng bầu dục Mỹ",
+      "7": "Bida",
+      "8": "Bóng Bàn",
+      "9": "Bóng Chuyền",
+      "10": "Cầu Lông",
+      "11": "Bóng Ném",
+      "12": "Quyền Anh",
+      "13": "Bóng Chuyền Bãi Biển",
+      "14": "Bóng Bầu Dục",
+      "15": "Khúc Côn Cầu",
+      "16": "Bóng Nước",
+      "17": "Điền Kinh",
+      "19": "Bơi",
+      "20": "Thể Dục Dụng Cụ",
+      "21": "Nhảy Cầu",
+      "22": "Bắn Súng",
+      "23": "Cử Tạ",
+      "24": "Bắn Cung",
+      "25": "Đấu Kiếm",
+      "26": "Bi Đá Trên Băng",
+      "27": "Taekwondo",
+      "28": "Golf",
+      "29": "Xe đạp",
+      "30": "Cưỡi Ngựa",
+      "31": "Thuyền Buồm",
+      "32": "Chèo Thuyền",
+      "33": "Đua Xe Có Động Cơ",
+      "34": "Judo",
+      "35": "Karate",
+      "36": "Đấu Vật",
+      "37": "Bóng Gậy",
+      "38": "Phi Tiêu",
+      "39": "Bóng Đá Bãi Biển",
+      "50": "Thú Vị",
+      "100": "LOL",
+      "101": "Dota2",
+      "102": "CSGO",
+      "103": "VGVD",
+      "1001": "Bóng Đá VR",
+      "1002": "Bóng Rổ VR",
+      "1004": "Đua Ngựa VR",
+      "1009": "Đua Chó VR",
+      "1010": "Đua Mô Tô VR",
+      "1011": "Đua Mô Tô Đường Đất VR"
+    }
+  },
+  "ouzhou": {
+    "record": {
+      "my_bet": "My Bets",
+      "unsettled": "Unsettled",
+      "settled": "settled",
+      "unpaid_bets": "This record will show all unpaid bets",
+      "settled_time": "Settled time",
+      "bet_time": "Bet time",
+      "match_time": "Match time",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "7_days": "Last 7 Days",
+      "30_days": "In 30 Days",
+      "datails": "Datails"
+    },
+    "detail": {
+      "which_team": "Which team will",
+      "keno_lottery": "keno lottery",
+      "exciting_different": "Exciting and different",
+      "close_handicap": "Close the Handicap",
+      "betting":"Betting",
+      "assault": "Assault",
+      "possession_ball": "Ball Right",
+      "shot_wide_goal": "Shot Wide Goal",
+      "shots_on_goal": "Shot On Goal",
+      "event_analysis":"Event Analysis",
+      "foul": "Foul",
+      "point": "Point",
+      "penalty": "Free Throw",
+      "pause": "Time Out",
+      "read": "read"
+    },
+    "bet": {
+      "place_bet": "Place Bet"
+    },
+    "menu": {
+      "collect": "Favourites",
+      "popular": "POPULAR",
+      "all_sports": "ALL SPORTS",
+      "my_bets": "MyBets"
+    },
+    "match": {
+      "favorites": "Favorites",
+      "matches": "Matches",
+      "featured": "Featured",
+      "featured_events": "Featured Matches",
+      "top_events": "Top Events",
+      "top_leagues": "Top Leagues",
+      "league": "League",
+      "outrights": "Outrights",
+      "15_mins": "15 mins",
+      "inplay": "InPlay",
+      "home": "Home",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "all_matches": "All Matches",
+      "bet_col_Over": "Over",
+      "bet_col_Under": "Under",
+      "home_handicap": "1",
+      "away_handicap": "2",
+      "select_time": {
+        "3h": "Within 3 hrs",
+        "6h": "Within 6 hrs",
+        "9h": "Within 9 hrs",
+        "12h": "Next 12 Hours",
+        "24h": "Next 24 Hours",
+        "72h": "3 Days",
+        "168h": "7 Days"
+      },
+
+      "play_map": {
+        "1": "1 X 2",
+        "2": "O / U",
+        "4": "HDP",
+        "17": "1st Half - 1x2",
+        "18": "1st Half - O/U",
+        "19": "1st Half - O/U",
+        "37": "Money Line",
+        "38": "Total Points",
+        "39": "Handicap",
+        "153": "Winner",
+        "154": "Set Handicap",
+        "155": "Game Handicap",
+        "172": "HDP",
+        "173": "Total Points",
+        "181": "HDP",
+        "182": "Total Frames",
+        "202": "Total Frames",
+        "242": "Winner",
+        "243": "HDP",
+        "244": "Total Goals",
+        "30001": "Match Winner",
+        "30002": "Map Handicap",
+        "30003": "Total Maps",
+        "12_2": "Total Rounds"
+      }
+    },
+    "setting_menu": {
+      "personal": "Personal",
+      "back": "Back",
+      "money": "Money",
+      "language": "Language",
+      "odds_setting": "Odds Settings",
+      "odds_display": "Odds Display",
+      "dec": "DEC",
+      "hk": "HK",
+      "any": "ANY",
+      "hig": "HIG",
+      "version": "Version",
+      "euro": "EURO",
+      "asia": "ASIA"
+    },
+    "no_data": {
+      "coming_soon": "Coming Soon",
+      "no_data": "No Data"
+    },
+    "bet_col": {
+      "bet_col_1": {
+        "bet_col_1": "Home",
+        "bet_col_X": "Draw",
+        "bet_col_2": "Away"
+      },
+      "bet_col_2": {
+        "bet_col_Over": "Over",
+        "bet_col_Under": "Under"
+      },
+      "bet_col_4": {
+        "bet_col_1": "HDP",
+        "bet_col_2": "HDP"
+      },
+      "bet_col_37": {
+        "bet_col_1": "Home",
+        "bet_col_2": "Away"
+      },
+      "bet_col_38": {
+        "bet_col_1": "Total",
+        "bet_col_2": "Total"
+      },
+      "bet_col_39": {
+        "bet_col_1": "HDP",
+        "bet_col_2": "HDP"
+      },
+      "bet_col_153": {
+        "bet_col_1": "Home",
+        "bet_col_2": "Away"
+      },
+      "bet_col_154": {
+        "bet_col_1": "1",
+        "bet_col_2": "2"
+      },
+      "bet_col_155": {
+        "bet_col_1": "1",
+        "bet_col_2": "2"
+      },
+      "bet_col_172": {
+        "bet_col_1": "HDP",
+        "bet_col_2": "HDP"
+      },
+      "bet_col_173": {
+        "bet_col_1": "Total",
+        "bet_col_2": "Total"
+      },
+      "bet_col_181": {
+        "bet_col_1": "1",
+        "bet_col_2": "2"
+      },
+      "bet_col_182": {
+        "bet_col_1": "Over",
+        "bet_col_2": "Under"
+      },
+      "bet_col_242": {
+        "bet_col_1": "1",
+        "bet_col_2": "2"
+      },
+      "bet_col_243": {
+        "bet_col_1": "HDP",
+        "bet_col_2": "HDP"
+      },
+      "bet_col_244": {
+        "bet_col_1": "Over",
+        "bet_col_2": "Under"
+      },
+      "bet_col_30001": {
+        "bet_col_1": "1",
+        "bet_col_2": "2"
+      },
+      "bet_col_30002": {
+        "bet_col_1": "HDP",
+        "bet_col_2": "HDP"
+      },
+      "bet_col_30003": {
+        "bet_col_1": "Over",
+        "bet_col_2": "Under"
+      }
+    },
+    "search": {
+      "change": "Change",
+      "clear_search_history": "Clear search history",
+      "league": "League",
+      "null1": "Search results are empty",
+      "null2": "Try a different term search",
+      "other": "Other search",
+      "search_hot": "Hot search",
+      "search_play": "Search mode",
+      "search_record": "Search history",
+      "search_sports": "Ball searching",
+      "team": "Team",
+      "placeholder": "Please enter the league name or team name",
+      "close": "Close",
+      "view_all_match": "View all matches",
+      "underway": "Underway",
+      "no_search_rezult": "No results found. Please try another search term.",
+      "dogfall": "Draw",
+      "search_history": "Search history",
+      "No_results": "No results"
+    },
+    "15minutes_bet_col": {
+      "0":"Start~14:59",
+      "1":"15:00~29:59",
+      "2":"30:00~1H",
+      "3":"2H Start~59:59",
+      "4":"2H 60:00~74:59",
+      "5":"2H 75:00~FT"
+    }
+  },
+  "app_h5": {
+    "cathectic": {
+      "handicap_tutorial": "Hướng dẫn kèo ",
+      "open_bets": "Đơn cược chưa thanh toán ",
+      "closed_bets": "Đơn cược đã thanh toán",
+      "no_data_pre": "Bạn chưa có dữ liệu cược trước ",
+      "no_data_unsettle": "Hiện không có dữ liệu nào chưa được thanh toán ",
+      "no_data_settle": "Hiện không có dữ liệu nào đã được thanh toán ",
+      "no_data_invalid": "Hiện không có dữ liệu nào bị vô hiệu hoá",
+      "data_loading": "Đang tải dữ liệu…",
+      "kind_tips": "Thông báo ",
+      "adjustment_amount": "Điều chỉnh số dư ",
+      "winnable": "Tiền thắng ",
+      "bet_number": "Mã đơn cược",
+      "bets": "Mục đặt cược",
+      "settle": "Kết toán ",
+      "bet_status": "Trạng thái đơn cược",
+      "cash_failed": "Đổi tiền mặt sớm không thành công ",
+      "sub_wait": "Đăng ký đã gửi đi, Vui lòng chờ đợi ",
+      "all_cash_sess": " Toàn bộ đổi tiền mặt sớm thành công ",
+      "cash_details": "Chi tiết đổi tiền mặt sớm",
+      "cash_rules": "Quy tắc đăng ký đổi tiền mặt sớm",
+      "explain1": "Đổi tiền mặt sớm chỉ áp dụng cho các trận đấu và cược chấp được chỉ định. Nếu một trận đấu hoặc cược chấp bị hủy, đơn cược đổi đổi tiền mặt sớm sẽ được thu hồi và thanh toán lại. Chúng tôi sẽ bảo lưu quyền giải thích cuối cùng về kết quả.",
+      "explain2": "Vui lòng xem quy tắc chi tiết về thanh toán tại [Menu Cài đặt]-[Giải thích Quy tắc]-[Thanh toán Trước].",
+      "confirm_cancel_reservation": "Huỷ cược trước cho trận này? "
+    },
+    "handicap_tutorial": {
+      "answer_question": "Mô phỏng tài xỉu ",
+      "football_master": "Xin chúc mừng, bạn đã trở thành bậc thầy của bóng đá",
+      "training_camp": "Sân huấn luyện ",
+      "actual_combat": "Cược thật ",
+      "practise": "Mô phỏng ",
+      "again": "Học lại ",
+      "single": "Chọn đơn ",
+      "return_home": "Trở về trang chủ ",
+      "next": "Tiếp",
+      "introdution": "Chiến lược ",
+      "results_appear": "Khi kết quả như vậy xảy ra",
+      "red_list": "Chúc mừng bạn đã thắng!",
+      "not_master": "Rất tiếc , Bạn vẫn chưa nắm vững  ",
+      "big_small_ball": "Tài/ Xỉu ",
+      "big_small_ball_tip": "Tổng số bàn thắng 2 đội ghi bàn toàn trận 90 phút (bao gồm phút bù giờ) là tỷ số Tài /Xỉu ",
+      "handicapData_condition": "Chấp 0 ",
+      "handicapData_condition_1": "Tổng số bàn thắng ",
+      "all_win": "Thắng trọn ",
+      "home_team": "Đội nhà  ",
+      "bet_home_team": "Cược đội nhà ",
+      "bet_away_team": "Cược đội khách ",
+      "away_team": "Đội khách ",
+      "all_lose": "Thua trọn ",
+      "win_half": "Thắng nửa tiền ",
+      "lose_half": "Thua nửa tiền ",
+      "tie_handicap": "Kèo đồng banh ",
+      "tie_half_plate": "Kèo hoà chấp nửa quả ",
+      "big_bet": "Cược Tài %s",
+      "small_bet": "Cược xỉu %s",
+      "enter_ball": "Tổng số bàn thắng ",
+      "vice_versa": "Ngược lại ",
+      "return_principal_discount": "Hoàn tiền cược ( hoà)",
+      "return_principal": "Hoàn tiền cược ",
+      "home_team_handicap": "Đội nhà chấp %s quả ",
+      "ball_plate_1": "Kèo 0.5 quả ",
+      "ball_plate_2": "Kèo 0.75 quả",
+      "ball_plate_3": "Kèo 1 quả",
+      "ball_plate_4": "Kèo 1.25 quả",
+      "ball_plate_5": "Kèo 1.5 quả",
+      "ball_plate_6": "Kèo 1.75 quả",
+      "note_1": "Cược đội nhà thì ăn trọn ,đội khách thì thua trọn ",
+      "note_2": "Hoà, hoàn tiền cược (không tính vòng cược )",
+      "note_3": "Cược đội nhà thì ăn trọn , cược đội khách thua trọn ",
+      "note_4": "Hoà , cược đội nhà thì thua trọn , cược đội khách thắng trọn ",
+      "note_5": "Cược đội nhà thì thua trọn, Cược đội khách ăn trọn ",
+      "note_6": "Cược đội nhà thắng nửa tiền, Cược đội khách thua nửa tiền ",
+      "note_7": "Cược đội nhà thì ăn trọn, Cược đội khách thì thua trọn ",
+      "note_8": "Cược cả 2 đội hoàn tiền cược (vòng cược ko tính )",
+      "note_9": "Cược đội nhà thua nửa tiền, cược đội khách thắng nửa tiền ",
+      "note_10": "Cược đội nhà thì thua trọn, Cược đội khách thì ăn trọn ",
+      "note_11": "Cược đội nhà thì thua trọn, cược đội khách thì ăn trọn ",
+      "note_12": "Cược đội nhà thắng nửa tiền, Cược đội khách thua nửa tiền ",
+      "note_13": "Cược đội nhà thì ăn trọn, cược đội khách thì thua trọn ",
+      "note_14": "Cược Tài 2.5 thì ăn trọn, Cược xỉu 2.5 thì thua trọn ",
+      "note_15": "Cược tài 2.5/3 thắng nửa tiền, Cược xỉu 2.5/3 thua nửa tiền ",
+      "note_16": "Cược tài 3/3.5 thì thua nửa tiền, cược xỉu 3/3.5 thắng nửa tiền ",
+      "note_17": "Cược tài 3 thì hoàn tiền cược (vòng cược không được tính),  cược xỉu 3 thì hoàn tiền cược (vòng cược không tính)",
+      "questionsData": {
+        "1": {
+          "note_1": "Tổng số bàn thắng 2, nhỏ hơn 2.5",
+          "note_2": "Vì vậy nếu bạn đặt cược xỉu 2.5 có thể ăn trọn ,Đặt cược Tài 2.5 thì thua trọn "
+        },
+        "2": {
+          "note_1": "Số bàn thắng 2, nhỏ hơn 2/2.5",
+          "note_2": "Nguyên tắc cược cơ bản, Cược xỉu 2/2.5  có thể thắng nửa tiền "
+        }
+      },
+      "ball": "%squả ",
+      "big": "Tài %s",
+      "small": "Xỉu %s",
+      "which_win": "Lựa chọn nào có thể ăn trọn ?",
+      "which_win_half": "Lựa chọn nào có thể thắng nửa tiền ?",
+      "real_madrid": "Real Madrid",
+      "m_chesester_city": "Manchester City",
+      "m_chesester_untied": "Manchester United",
+      "chelsea": "Chelsea",
+      "barcelona": "Barcelona"
+    },
+    "bet": {
+      "no_support_collusion": "Đặt cược chéo không được hỗ trợ",
+      "bet_win": "Đã thắng",
+      "delete": "Xoá",
+      "confirm": "OK",
+      "parlay": "Cược xiên",
+      "odd": "Đơn",
+      "limit": "Hạn mức ",
+      "cancel_appoint": "Huỷ cược trước",
+      "pm_sport": "PM Thể Thao ",
+      "bet_confirm": "Đã xác nhận đơn cược ",
+      "bet_error": "Đơn cược không thành công",
+      "reserve_win": "Số tiền cược trước ",
+      "win_amount": "Số tiền có thể ăn ",
+      "toltip1": "là gì ",
+      "toltipc": "Cược xiên ",
+      "add_event": "Thêm sự kiện",
+      "bet_config": "Đã xác nhận đơn cược",
+      "expect_win": "dự kiến ​​sẽ thắng",
+      "keep_go_bet": "Giữ các lựa chọn của bạn và tiếp tục đặt cược",
+      "toltips": {
+        "2001": {
+          "title": "Cược xiên 2 là việc lựa chọn 2 trận đấu trong một đơn cược. ",
+          "content": "Khi bạn chọn 2 trận đấu liên tiếp để cược xiên 2, hệ thống sẽ gộp 2 trận thành 1 đơn cược , bạn phải thắng cả 2 trận mới được xem là thắng cược.  "
+        },
+        "3001": {
+          "title": "Cược xiên 3 là việc lựa chọn 3 trận đấu trong một đơn cược. ",
+          "content": "Khi bạn chọn 3 trận đấu liên tiếp để cược xiên 3, hệ thống sẽ gộp 3 trận thành 1 đơn cược , bạn phải thắng cả 3 trận mới được xem là thắng cược.  "
+        },
+        "3004": {
+          "title": "Cược liên hoàn 3 là 4 cược cho 3 trận đấu khách nhau",
+          "content": "Cược liên hoàn 3 được kết hợp bởi 3 lựa chọn cược riêng biệt tạo thành 4 đơn cược khác nhau, bao gồm 3 đơn cược xiên 2 và 1 đơn cược xiên 3. Đơn cược thắng khi có ít nhất 2 lựa chọn cược có kết quả thắng."
+        },
+        "4001": {
+          "title": "Cược xiên 4 là việc lựa chọn 4 trận đấu trong một đơn cược. ",
+          "content": "Khi bạn chọn 4 trận đấu liên tiếp để cược xiên 4, hệ thống sẽ gộp 4 trận thành 1 đơn cược , bạn phải thắng cả 4 trận mới được xem là thắng cược.  "
+        },
+        "5001": {
+          "title": "Cược xiên 5 là việc lựa chọn 5 trận đấu trong một đơn cược. ",
+          "content": "Khi bạn chọn 5 trận đấu liên tiếp để cược xiên 5, hệ thống sẽ gộp 5 trận thành 1 đơn cược , bạn phải thắng cả 5 trận mới được xem là thắng cược.  "
+        },
+        "6001": {
+          "title": "Cược xiên 6 là việc lựa chọn 6 trận đấu trong một đơn cược. ",
+          "content": "Khi bạn chọn 6 trận đấu liên tiếp để cược xiên 6, hệ thống sẽ gộp 6  trận thành 1 đơn cược , bạn phải thắng cả 6 trận mới được xem là thắng cược.  "
+        },
+        "7001": {
+          "title": "Cược xiên 7 là việc lựa chọn 7 trận đấu trong một đơn cược. ",
+          "content": "Khi bạn chọn 7  trận đấu liên tiếp để cược xiên 7, hệ thống sẽ gộp 7  trận thành 1 đơn cược , bạn phải thắng cả 7 trận mới được xem là thắng cược.  "
+        },
+        "8001": {
+          "title": "Cược xiên 8 là việc lựa chọn 8 trận đấu trong một đơn cược. ",
+          "content": "Khi bạn chọn 8  trận đấu liên tiếp để cược xiên 8, hệ thống sẽ gộp 8  trận thành 1 đơn cược , bạn phải thắng cả 8 trận mới được xem là thắng cược.  "
+        },
+        "9001": {
+          "title": "Cược xiên 9 là việc lựa chọn 9 trận đấu trong một đơn cược. ",
+          "content": "Khi bạn chọn 9  trận đấu liên tiếp để cược xiên 9, hệ thống sẽ gộp 9  trận thành 1 đơn cược , bạn phải thắng cả 9 trận mới được xem là thắng cược.  "
+        },
+        "10001": {
+          "title": "Cược xiên 10 là việc lựa chọn 10  trận đấu trong một đơn cược. ",
+          "content": "Khi bạn chọn 10  trận đấu liên tiếp để cược xiên 10, hệ thống sẽ gộp 10  trận thành 1 đơn cược , bạn phải thắng cả 10 trận mới được xem là thắng cược.  "
+        },
+        "40011": {
+          "title": "Cược liên hoàn 4 là 11 đơn cược cho 4 trận khác nhau ",
+          "content": "Cược liên hoàn 4 được kết hợp bởi 4 lựa chọn cược riêng biệt tạo thành 11 đơn cược khác nhau, bao gồm 6 đơn cược xiên 2, 4 đơn cược xiên 3 và 1 đơn cược xiên 4. Đơn cược thắng khi có ít nhất 2 lựa chọn cược có kết quả thắng."
+        },
+        "50026": {
+          "title": "Cược liên hoàn 5 là 26 đơn cược cho 5 trận khác nhau ",
+          "content": "Cược liên hoàn 5 được kết hợp bởi  5 lựa chọn cược riêng biệt tạo thành 26 đơn cược khác nhau, bao gồm 10 đơn cược xiên 2, 10 đơn cược xiên 3, 5 đơn cược xiên 4 và 1 đơn cược xiên 5. Đơn cược thắng khi có ít nhất 2 lựa chọn cược có kết quả thắng."
+        },
+        "60057": {
+          "title": "Cược liên hoàn 6 là 57 đơn cược cho 6 trận khác nhau ",
+          "content": "Cược liên hoàn 6 được kết hợp bởi 6 lựa chọn cược riêng biệt tạo thành 57 đơn cược khác nhau, bao gồm 15 đơn cược xiên 2, 20 đơn cược xiên 3, 15 đơn cược xiên 4, 6 đơn cược xiên 5 và 1 đơn cược xiên 6. Đơn cược thắng khi có ít nhất 2 lựa chọn cược có kết quả thắng."
+        },
+        "700120": {
+          "title": "Cược liên hoàn 7 là 120 đơn cược cho 7 trận khác nhau ",
+          "content": "Cược liên hoàn 7 được kết hợp bởi 7 lựa chọn cược riêng biệt tạo thành 120 đơn cược khác nhau, bao gồm 21 đơn cược xiên 2, 35 đơn cược xiên 3, 35 đơn cược xiên 4, 21 đơn cược xiên 5, 7 đơn cược xiên 6 và 1 đơn cược xiên 7. Đơn cược thắng khi có ít nhất 2 lựa chọn cược có kết quả thắng."
+        },
+        "800247": {
+          "title": "Cược liên hoàn 8 là 247 đơn cược cho 7 trận khác nhau ",
+          "content": "Cược liên hoàn 8 được kết hợp bởi 8 lựa chọn cược riêng biệt tạo thành 247 đơn cược khác nhau, bao gồm 28 đơn cược xiên 2, 56 đơn cược xiên 3, 70 đơn cược xiên 4, 56 đơn cược xiên 5, 28 đơn cược xiên 6, 8 đơn cược xiên 7 và 1 đơn cược xiên 8. Đơn cược thắng khi có ít nhất 2 lựa chọn cược có kết quả thắng."
+        },
+        "900502": {
+          "title": "Cược liên hoàn 9 là 502 đơn cược cho 9 trận khác nhau ",
+          "content": "Cược liên hoàn 9 được kết hợp bởi 9 lựa chọn cược riêng biệt tạo thành 502 đơn cược khác nhau, bao gồm 36 đơn cược xiên 2, 84 đơn cược xiên 3, 126 đơn cược xiên 4, 126 đơn cược xiên 5, 84 đơn cược xiên 6, 36 đơn cược xiên 7, 9 đơn cược xiên 8 và 1 đơn cược xiên 9. Đơn cược thắng khi có ít nhất 2 lựa chọn cược có kết quả thắng."
+        },
+        "10001013": {
+          "title": "Cược liên hoàn 10 là 1013 đơn cược cho 10 trận khác nhau ",
+          "content": "Cược liên hoàn 10 được kết hợp bởi 10 lựa chọn cược riêng biệt tạo thành 1013 đơn cược khác nhau, bao gồm 45 đơn cược xiên 2, 120 đơn cược xiên 3, 210 đơn cược xiên 4, 252 đơn cược xiên 5, 210 đơn cược xiên 6, 120 đơn cược xiên 7, 45 đơn cược xiên 8, 10 đơn cược xiên 9 và 1 đơn cược xiên 10. Đơn cược thắng khi có ít nhất 2 lựa chọn cược có kết quả thắng."
+        }
+      },
+      "mergetos":"Please select at least one other project that supports cross-connection"
+
+    },
+    "match": {
+      "all": "Toàn bộ ",
+      "champions": "Giải vô địch Châu Âu UEFA",
+      "premier": "Giải bóng đá ngoại hạng anh (Premier League)",
+      "serie": "Giải bóng đá vô địch quốc gia Italia (Serie A )",
+      "laliga": "Giải bóng đá Tây Ban Nha (La Liga)",
+      "ligue": "Giải bóng đá Pháp (Ligue 1)",
+      "bundesliga": "Bundesliga",
+      "china_super": "Giải bóng đá ngoại hạng Trung Quốc (Chinese Super League)",
+      "normal_results": "Kết quả",
+      "game_results": "Kết qủa E-sport",
+      "vr_results": "Kết quả VR ",
+      "championship_results": "Kết quả vô địch "
+    },
+    "filter": {
+      "more": "Thêm >",
+      "enlarge": "Phóng to ",
+      "font_size": "Cỡ chữ ",
+      "default": "Mặc định ",
+      "turn_on": "Kích hoạt ",
+      "daily_activities": "Ưu đãi mỗi ngày",
+      "go_old_version": "Đi về bản cũ ",
+      "go_web_version": "PC ",
+      "customized_amount": "Tùy chỉnh số tiền đặt cược nhanh",
+      "quick_bet": "Đặt cược nhanh",
+      "change_to": "Thay đổi thành",
+      "single": "Cược xâu",
+      "multi": "Cược đơn",
+      "lowest_money": "Số tiền tối thiểu"
+    },
+    "v_sports": {
+      "event_status": "Trạng thái trận đấu"
+    },
+    "detail": {
+      "half": "Hiệp 1",
+      "not_data_Injury": "Hiện chưa có danh sách cầu thủ bị thương",
+      "not_data_substitute": "Hiện chưa có danh sách cầu thủ dự bị ",
+      "not_data_starter": "Hiện chưa có danh sách bắt đầu",
+      "acronym_half": "Một nửa",
+      "highlights": "Điểm nổi bật",
+      "events": "Trận đấu",
+      "technical_statistics": "Thống kê kỹ thuật"
+    },
+    "search": {
+      "search_tips": "Không tìm thấy sự kiện liên quan"
+    }
+  },
+  "no_crosstalk": {
+    "title": "Prompt",
+    "button": "Đóng",
+    "text": "Cược này không thể đặt cược xiên "
+  },
+  "ac_rules": {
+    "auto": "Tự động chấp nhận tỉ lệ cược tốt  hơn",
+    "understand": "OK"
+  },
+  "accept_rules": {
+    "accept_odds": "chấp nhận tỉ lệ cược này",
+    "automatically_odds": "\"tự động chấp nhận thay đổi tỉ lệ  cược bất kỳ \". ",
+    "do_not_accept_odds": "không chấp nhận tỉ lệ cược này",
+    "feature_not_checked": "không chọn chức năng này",
+    "if": "Nếu ",
+    "if_bet_when": "Khi cược",
+    "increased_odds": "tỉ lệ cược tăng",
+    "interrupt_your_betting": "và làm gián đoạn cá cược, quý khách cần xác nhận tỉ lệ cược rồi mới cược.",
+    "lower_odds": "tỉ lệ cược giảm",
+    "matter_placing_content": "(Khi cược, dù tỉ lệ cược có thay đổi thế nào, hệ thống đều mặc định quý khách chấp nhận tỉ lệ đó, không gián đoạn cá cược)",
+    "system_default": "hệ thống sẽ mặc định quý khách ",
+    "system_will_think": "hệ thống sẽ cho rằng quý khách ",
+    "will_interrupt_behavior": "sẽ không làm gián đoạn cá cược, tăng tỷ lệ cược thành công."
+  },
+  "analysis_football_matches": {
+    "age": "Tuổi",
+    "analysis_data": "Dữ liệu",
+    "away_win": "K",
+    "big": "O",
+    "big_ball": "Trên",
+    "Big_ball_rate": "% T",
+    "Coach_data": "Dữ liệu huấn luyện viên",
+    "company": "Nhà cái",
+    "cup_points": "Điểm Cúp",
+    "customer": "Khách",
+    "Customer_win_rate": "% K",
+    "date": "Ngày",
+    "Disk": "Kèo cược",
+    "European_Finger": "Đội thắng",
+    "Favorable_information": "Tin có lợi",
+    "field": "{0}T cuối",
+    "flat": "H",
+    "Fundamentals": "Cơ bản",
+    "Future_schedule": "Lịch thi đấu",
+    "gain_loss": "+/-",
+    "game": "TĐ",
+    "Go_to_war": "Số trận",
+    "handicap": "Kèo",
+    "historical_war": "Đối đầu",
+    "home_win1": "C",
+    "immediate": "Tức thời",
+    "Initial_offer": "Ban đầu",
+    "bench_lineup": "Danh sách băng ghế dự bị",
+    "Injury_situation": "Danh sách chấn thương",
+    "integral": "Điểm",
+    "intelligence": "Thông tin",
+    "Interval_days": "Cách(Ngày)",
+    "league": "Giải đấu",
+    "league_points": "Điểm giải đấu",
+    "level": "H",
+    "line_up": "Đội hình",
+    "lose": "B",
+    "Lose_plate": "Bại",
+    "main": "Chủ",
+    "Main_win": "C",
+    "Main_win_rate": "% C",
+    "match": "Trận đấu",
+    "Move_plate": "Hòa",
+    "name": "Tên",
+    "near": "Gần",
+    "negative": "B",
+    "net_win": "HS",
+    "Neutral_Information": "Tin trung lập",
+    "no_data": "Không có dữ liệu",
+    "number": "Số",
+    "Odds": "Tỉ lệ",
+    "player": "Cầu thủ",
+    "Points_per_game": "Điểm TB mỗi trận",
+    "position": "Vị trí",
+    "rank": "Xếp hạng",
+    "ranking": "Bảng XH",
+    "reason": "Lý do",
+    "recent_record": "Chiến tích gần đây",
+    "record_clashes": {
+      "5": "5 trận đối đầu gần đây",
+      "10": "10 trận đối đầu gần đây",
+      "15": "15 trận đối đầu gần đây"
+    },
+    "results": "Kết quả",
+    "Return_rate": "%Hoàn",
+    "same_game": "Giải",
+    "same_host_guest": "C&K",
+    "score": "Tỉ số",
+    "shut_down": "Đóng",
+    "size": "Trên/dưới",
+    "small": "D",
+    "small_ball": "Dưới",
+    "small_ball_rate": "% D",
+    "standings": "Chiến tích",
+    "starting_lineup": "Đội hình vào sân",
+    "Tactical_division": "Sơ đồ chiến thuật",
+    "team": "Đội",
+    "Technical_side": "Về kĩ thuật",
+    "Total": "Tổng",
+    "total_all": "Tổng",
+    "turn_around": "Kèo",
+    "Turning_trend": "Xu hướng kèo",
+    "Unfavorable_information": "Tin bất lợi",
+    "victory": "T",
+    "win": "T",
+    "win_plate": "Thắng",
+    "Win_rate": "% Thắng",
+    "analysis_information": "Thông tin"
+  },
+  "basketball_playing_way": {
+    "first_half": "Hiệp 1",
+    "quarter": "Q1"
+  },
+  "bet": {
+    "edit_success": "Tỷ lệ cược thay đổi thành công!",
+    "edit_fail": "Tỷ lệ cược thay đổi thất bại!",
+    "account_balance": "Số dư",
+    "agree_change": "Chấp nhận thay đổi",
+    "agree_change2": "Chấp nhận thay đổi và đặt cược",
+    "away_win": "Khách",
+    "bet": "Cược đơn",
+    "bet_10001": "Xâu 10",
+    "bet_10001013": "Liên hoàn 10",
+    "bet_2001": "Xâu 2",
+    "bet_3001": "Xâu 3",
+    "bet_3004": "Liên hoàn 3",
+    "bet_4001": "Xâu 4",
+    "bet_40011": "Liên hoàn 4",
+    "bet_5001": "Xâu 5",
+    "bet_50026": "Liên hoàn 5",
+    "bet_6001": "Xâu 6",
+    "bet_60057": "Liên hoàn 6",
+    "bet_7001": "Xâu 7",
+    "bet_700120": "Liên hoàn 7",
+    "bet_8001": "Xâu 8",
+    "bet_800247": "Liên hoàn 8",
+    "bet_9001": "Xâu 9",
+    "bet_900502": "Liên hoàn 9",
+    "bet_err": "Đặt cược thất bại",
+    "bet_err2": "Đặt cược  thành công 1 phần",
+    "bet_information": "Thông tin vé cược",
+    "bet_loading": "Vé cược đang được xác nhận",
+    "bet_look_result": "Vé cược đã được xử lý, xin hãy  vào Nhật ký đặt cược xem kết quả",
+    "bet_msg": "{x} xâu {y}",
+    "bet_ok": "Xác nhận vé cược",
+    "bet_record": "Vé cược",
+    "bet_suc": "Đặt cược thành công",
+    "bet_type_1": "Cược đơn",
+    "bet_val": "Tiền cược",
+    "bet_val2": "Hạn mức cược",
+    "bet_win": "Tiền thắng",
+    "betting": "Đặt cược",
+    "clear": "Xóa",
+    "close": "Kèo cược đã đóng",
+    "delete_all": "Xóa tất cả",
+    "disabled": "Hết hiệu lực",
+    "err_msg01": "Tỉ lệ cược đang cập nhật",
+    "err_msg02": "Lỗi mạng, xin hãy thử lại",
+    "err_msg03": "Cược thất bại, mời thử lại~",
+    "err_msg04": "Nhập tiền cược",
+    "err_msg05": "Số dư không đủ, mời nạp tiền",
+    "err_msg06": "Đang tải hạn mức, vui lòng chờ",
+    "err_msg07": "Vé cược cần được duyệt, mời vào  Lịch sử vé cược xem trạng thái mới nhất",
+    "err_msg08": "Hệ thống đang bận, mời thử lại",
+    "err_msg09": "Số dư không đủ, đã đổi thành số tiền tối đa có thể cược",
+    "err_msg10": "Số tiền tối thiểu của 1 cược là {0}",
+    "err_msg11": "Tiền cược ngoài giới hạn cược",
+    "err_msg12": "Kèo cược không hỗ trợ cược xâu",
+    "err_msg13": "Mạng dị thường, hãy kiểm tra đơn cược",
+    "home_win": "Chủ",
+    "input_v": "Nhập tiền cược",
+    "input_v2": "Nhập số tiền",
+    "invalidation": "Hết hiệu lực",
+    "invalidation2": "Không được xâu",
+    "kushikatsu": "Cược xâu",
+    "loading": "Đang xử lý…",
+    "loading2": "Vé cược đang được xử lý",
+    "match_add": "Thêm",
+    "match_max": "Chọn tối đa %s trận",
+    "match_max2": "Số mục cược đã đạt giới hạn",
+    "match_min": "Chọn ít nhất {0} trận",
+    "max": "Tối đa",
+    "millions": "Triệu",
+    "millions_10": "Chục triệu",
+    "money_limit": "Hạn mức %s~%s",
+    "money_limit2": "Hạn mức %s~%s",
+    "msg01": "Tỉ lệ cược của cược xâu là Thập phân",
+    "msg02": "Lỗi mạng, xin hãy xem kết quả  đặt cược trong Vé cược",
+    "msg03": "Kèo, tỉ lệ cược hoặc tính hợp lệ quý khách chọn đã thay đổi",
+    "msg04": "Thu gọn loại cược xâu",
+    "msg05": "Nhiều loại cược xâu hơn",
+    "msg06": "Quy tắc cược xâu",
+    "msg07": "Lỗi mạng, xin hãy xem kết quả  đặt cược trong \"Vé cược\"",
+    "msg08": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+    "msg09": "Không được xâu các mục cược cùng trận",
+    "msg10": "Mục đỏ không thể cược xâu.",
+    "msg11": "Xóa cược vô hiệu",
+    "msg12": "Miệng đĩa bị lỗi",
+    "msg13": "Đi tới Lịch sử cược",
+    "number_transactions": "Số vé",
+    "odd_upd": "Tỉ lệ cược đang cập nhật",
+    "odd_upd_": "Điểm cược đã thay đổi",
+    "odd_upd_2": "Điểm cược, tỉ lệ cược thay đổi",
+    "odd_upded": "Tỉ lệ cược đã thay đổi",
+    "order_no": "Mã vé cược",
+    "pack_up": "Thu gọn",
+    "pack_up2": "Thu gọn",
+    "save": "Giữ lại lựa chọn",
+    "single_more": "Nhiều mục cược đơn",
+    "submitted_successfully": "Đang xác nhận",
+    "sum": "Tổng",
+    "sum2": "Tổng phụ",
+    "total": "Tổng tiền cược",
+    "total_win": "Tổng tiền thắng tối đa",
+    "total_win2": "Tiền thắng tối đa",
+    "understand": "OK",
+    "used_money2": "Tiền thường dùng",
+    "wan": "Chục nghìn",
+    "wanwan": "Trăm triệu",
+    "wanyi": "Nghìn tỷ",
+    "total_bet": "Tổng tiền cược",
+    "total_income": "Tổng doanh thu ước tính",
+    "bet_retract": "Đặt cược lại",
+    "bet_inplay": "trong tiến trình",
+    "bet_auto_msg_1": "Tự động nhận tỉ lệ tốt hơn",
+    "bet_auto_msg_2": "Tự động nhận tỉ lệ thay đổi bất kì",
+    "bet_limit":"giới hạn",
+    "set_cash_out": "Cài đặt số tiền thanh toán trước ",
+    "enter_cash_out": "Vui lòng nhập số tiền.",
+    "max_value": "Giá trị tối đa",
+    "min_value": "Giá trị tối thiểu",
+    "apply_cash_out": "Xác nhận thanh toán trước",
+    "set_to_cash_out": "Đã cài đặt số tiền thanh toán trước là ",
+    "remove_cash_out": "Huỷ bỏ thanh toán trước",
+    "confirm_remove": "Xác nhận huỷ ",
+    "auto_cash_out": "Tự động rút tiền ",
+    "partial_cash_out": "partial cash out",
+    "tips_message_1": "1. Sau khi đặt cược thành công, người dùng có thể lên lịch rút tiền tự động.",
+    "tips_message_2": "2. Khi người dùng đạt đến số tiền tự động rút ra được chỉ định, hệ thống sẽ giải quyết trước với số tiền được chỉ định.",
+    "tips_message_3": "3. Sau khi đặt lịch hẹn rút tiền tự động, người dùng có thể xóa cài đặt bất kỳ lúc nào trước khi kích hoạt rút tiền tự động.",
+    "tips_message_4": "4. Sau khi xóa cài đặt, người dùng có thể đặt lại lịch rút tiền tự động.",
+    "tips_message_5": "5. Đối với các cược có lịch rút tiền tự động, người dùng vẫn có thể thanh toán trước theo cách thủ công.",
+    "tips_message_6": "6. Sau khi thanh toán trước theo cách thủ công, nếu không còn tiền đặt cược, việc rút tiền tự động theo lịch trình cho cược đó sẽ tự động bị vô hiệu.",
+    "tips_message_7": "7. Sau khi thanh toán trước theo cách thủ công, nếu vẫn còn số tiền đặt cược, việc rút tiền tự động theo lịch trình cho cược đó sẽ tự động bị vô hiệu. Người dùng có thể sử dụng số tiền còn lại để đặt lịch rút tiền tự động mới.",
+    "bet_limit":"giới hạn",
+    "bet_book_confirm": "Đặt hẹn",
+    "parlay": "xâu",
+    "bet_booked_msg_tips": "Đặt cược thành công không đồng nghĩa với việc đặt cược thành công, kết quả cuối cùng dựa trên phiếu cược thực tế.",
+    "bet_min_item": "Chọn ít nhất {num} kết quả phù hợp",
+    "bet_max_item": "Chọn tối đa {num} kết quả phù hợp",
+    "bet_max_booked_odds": "It has reached the max booked odds, please readjust",
+    "bet_min_booked_odds": "Can't be lower than booked market odds",
+    "mergetos":"Please select at least one other project that supports cross-connection",
+    "one_click_bet": "Nhấp vào để cược ",
+    "one_click_bet_open": "Đặt cược đã được kích hoạt ",
+    "one_click_bet_change": "Sô tiền cược thay đổi thành",
+    "bet_received": "Cược đã được chấp nhận ",
+    "set_cash_out": "Cài đặt số tiền thanh toán trước ",
+    "enter_cash_out": "Vui lòng nhập số tiền.",
+    "max_value": "Giá trị tối đa",
+    "min_value": "Giá trị tối thiểu",
+    "apply_cash_out": "Xác nhận thanh toán trước",
+    "set_to_cash_out": "Đã cài đặt số tiền thanh toán trước là ",
+    "remove_cash_out": "Huỷ bỏ thanh toán trước",
+    "confirm_remove": "Xác nhận huỷ ",
+    "auto_cash_out": "Tự động rút tiền ",
+    "partial_cash_out": "partial cash out"
+  },
+  "bet_message":{
+    "success": "Đặt cược thành công",
+    "error": "Cược thất bại",
+    "loading": "Đang tải dữ liệu… xin chờ một lát",
+    "m_0402001": "Invalid",
+    "m_0402009": "Tỉ lệ cược đã thay đổi",
+    "m_0402014": "The network is abnormal, please check the betting result in the bet slip",
+    "m_0402015": "Đặt cược chưa thành công, mời thử lại lần nữa",
+    "m_0402018": "Bet failed, please try again!",
+    "m_132113": "Đặt cược thất bại, mời chọn lại kèo cược",
+    "m_0402035": "Sorry, you balance is insufficient. Plese recharge",
+    "m_0402042": "The network is abnormal, please contact customer service",
+    "m_0400453": "Account is abnormal, please contact customer service",
+    "m_0400459": "Confirming, please wait",
+    "m_0400460": "Từ chối đặt cược",
+    "m_0400464": "Số tiền đã được thay đổi, vui lòng thử lại~",
+    "m_0400468": "Điểm đã thay đổi, hãy thử lại",
+    "m_0400469": "Tỉ lệ cược đã thay đổi",
+    "m_M400005": "Mời nhập tiền cược",
+    "m_M400007": "Xin hãy chú ý đến phạm vi đặt cược của mỗi kèo cược",
+    "m_M400009": "This option is currently unavailable for betting, please select another option",
+    "m_M400010": "Tiền cược dưới mức cược thấp nhất",
+    "m_M400011": "Tiền cược cao hơn mức cược cao nhất",
+    "m_M400012": "Đang cập nhật hạn mức, xin chờ một lát",
+    "m_0401038": "Network abnormality, please try again!",
+    "m_DJ001": "Bạn không thể đặt cược vào eSports",
+    "m_DJ003": "Số tiền chỉ có thể là một số nguyên",
+    "m_DJ004": "Some games don't support parlay",
+    "m_DJ005": "Some markets don't support parlay",
+    "m_400004": "Tỉ lệ cược đang cập nhật",
+    "m_0402601": "Ngoài giờ mở cửa, không thể đặt cược."
+  },
+  "bet_record": {
+    "30day": "30 ngày",
+    "7day": "7 ngày",
+    "account": "Đã trả cược",
+    "before": "Trước trận",
+    "bet_amount_betting_limit": "Đã đổi thành số tiền tối đa có thể cược",
+    "bet_amount_betting_limit2": "Tiền cược ngoài giới hạn cược",
+    "bet_date_list": {
+      "0": "Hôm nay",
+      "1": "Hôm qua",
+      "2": "Trong 7 ngày",
+      "3": "Trong 1 tháng"
+    },
+    "bet_enble_list": "Tiền cược hợp lệ",
+    "bet_fail": "Thua",
+    "bet_match_tishi": "Giải đấu không có trận đấu",
+    "bet_max_win": "Tiền thắng tối đa",
+    "bet_no": "Mã vé cược",
+    "bet_no_status00": "Chưa trả cược",
+    "bet_no_status02": "Hòa kèo",
+    "bet_no_status03": "Thua",
+    "bet_no_status04": "Thắng",
+    "bet_no_status05": "Thắng 1/2",
+    "bet_no_status06": "Thua 1/2",
+    "bet_no_status07": "Trận đấu bị hủy",
+    "bet_no_status08": "Trận đấu bị hoãn lại",
+    "bet_no_status11": "Trận đấu bị trì hoãn",
+    "bet_no_status12": "Trận đấu bị gián đoạn",
+    "bet_no_status15": "Trận đấu bị bỏ dở",
+    "bet_no_status16": "D",
+    "bet_no_status17": "đã xác nhận",
+    "bet_refund": "Tiền hoàn trả",
+    "bet_sum_count": "Tổng số vé cược",
+    "bet_sum_val": "Tổng tiền cược",
+    "bet_suopan_info": "Tỉ lệ cược đang cập nhật, xin  chờ một lát",
+    "bet_time": "Thời gian cược",
+    "bet_pre_time": "Cuộc hẹn",
+    "bet_val": "Tiền cược",
+    "bet_val2": "Đặt cược",
+    "bet_win": "Thắng",
+    "betted_title": "Vé đã cược",
+    "cancel_type_1": "Trận đấu bị hủy",
+    "cancel_type_17": "Trận đấu diễn ra sớm hơn",
+    "cancel_type_2": "Trận đấu bị hoãn lại",
+    "cancel_type_20": "Trận đấu bị trì hoãn",
+    "cancel_type_3": "Trận đấu bị gián đoạn",
+    "cancel_type_4": "Thi đấu lại",
+    "cancel_type_5": "Trận đấu bị hủy giữa chừng",
+    "cancel_type_6": "Trận đấu bị bỏ dở",
+    "confirming": "Đang xác nhận",
+    "copy_suc": "Copy mã số vé cược thành công",
+    "go_back": "Trả lại",
+    "ing": "Trong Trận",
+    "invalid": "Vô hiệu",
+    "invalid_bet": "Vé cược vô hiệu",
+    "no_account": "Chưa trả cược",
+    "pack_down": "Hiển thị",
+    "pack_up": "Thu lại",
+    "pack_up2": "Xong",
+    "sort0": "Thứ tự mặc định",
+    "sort1": "Thời gian đặt cược",
+    "sort2": "Match time",
+    "sort3": "Sort by settled time",
+    "sort4": "Sort by bet time",
+    "sort5": "Sort by match time",
+    "submitting_bet": "Vé cược đang gửi",
+    "successful_betting": "Cược thành công",
+    "total_bet_amount": "Tổng tiền cược",
+    "total_winable_amount": "Tổng tiền thắng tối đa",
+    "result_score": "Kết quả",
+    "score_result": "Điểm kết quả",
+    "ty": "Thể thao",
+    "zr": "người thực",
+    "cp": "Vé số",
+    "regular_betting": "Regular betting",
+    "sit_in": "Sit in",
+    "side_bet": "Side bet",
+    "good_streak": "Good streak",
+    "multiple_tables": "Multiple tables",
+    "pending_draw": "Pending draw",
+    "not_winning": "Not winning",
+    "won": "Won",
+    "suspended": "Suspended",
+    "settled": "Settled",
+    "issue": "Issue",
+    "period": "Period",
+    "cancel_order": "Cancel order",
+    "betting_order_number": "Betting order number",
+    "betting_time": "Betting time",
+    "play_method": "Play method",
+    "betting_content": "Betting content",
+    "betting_amount": "Betting amount",
+    "prize": "Prize",
+    "unsettled": "Unsettled",
+    "cancel_bet": "Cancel bet",
+    "surrender": "Surrender",
+    "betting_item": "Betting item",
+    "result": "Result",
+    "payout": "Payout",
+    "round_number": "Round number",
+    "effective_bet": "Effective bet",
+    "betting_status": "Betting status",
+    "settle_num": "Tỷ số khi đặt cược"
+  },
+  "pre_record": {
+    "book_one": "Trước",
+    "book": "Đặt hẹn",
+    "booked": "Đặt hẹn thành công",
+    "booked_tips": "Đặt cược thành công không đồng nghĩa với việc đặt cược thành công, kết quả cuối cùng dựa trên phiếu cược thực tế.",
+    "booked_fail": "Đặt hẹn thất bại",
+    "booking": "Đang đặt hẹn",
+    "processing": "Đang xử lý",
+    "expired": "Hết hiệu lực",
+    "ConfirmedBooking": "Đã xác nhận đặt hẹn",
+    "canceled": "Đã hủy",
+    "handicap": "Kèo cược",
+    "odds": "Vé cược",
+    "book_bet_amount": "Tiền cược hẹn",
+    "confirm_cancle": "xác nhận hủy",
+    "confirm_matchinfo": "Xác nhận hủy hẹn {0}？",
+    "cancle_fail_tips": "Thao tác quá thường xuyên, vui lòng thử lại sau",
+    "cancle_fail_tips2": "Trạng thái trận đấu dị thường, không thể hủy hẹn",
+    "market_error_info": "Đã là giá trị kèo cược hẹn tối thiểu, mời sửa lại。",
+    "market_error_info_max": "Đã là giá trị kèo cược hẹn tối thiểu, mời sửa lại。",
+    "market_error_info_low": "Không thể thấp hơn giá trị min kèo cược hẹn。"
+  },
+  "collect": {
+    "betted_title": "Lưu lại",
+    "historical_record": "Lịch sử",
+    "match_end": "Đã kết thúc",
+    "match_no": "Chưa kết thúc"
+  },
+  "common": {
+    "edit": "sửa đổi",
+    "in_box": "In the box......",
+    "temporarily_unavailable": "Tính năng này tạm thời không khả dụng",
+    "please_refresh": "Hãy làm mới trang và thử lại",
+    "all_notice": "Tất cả thông báo",
+    "all_select": "Chọn tất cả",
+    "analysis": "Thống kê phân tích",
+    "bet": "Đặt cược",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "finish": "Hoàn thành",
+    "hengping_tip": "Để có trải nghiệm tốt, vui lòng vận hành điện thoại của bạn theo chiều dọc!",
+    "loading_suc": "Tải thành công",
+    "maintenance_tips": "Hệ thống sẽ tiến hành bảo trì sau {0} phút, rất tiếc vì sự bất tiện này!",
+    "match_time": "Thời gian thi đấu",
+    "mix": "Cược xâu hỗn hợp",
+    "money": "Số dư",
+    "no_data": "Không có dữ liệu",
+    "no_network": "Mất mạng rồi",
+    "notice": "Thông báo",
+    "ok": "OK",
+    "on": "1H",
+    "rule_description": "Giới thiệu quy tắc",
+    "show_more": "Hiển thị thêm",
+    "show_more2": "Thu lại",
+    "single": "Cược đơn",
+    "title_188": "Bản châu Á",
+    "title_panda": "Bản châu Âu",
+    "under": "2H",
+    "unit": "￥",
+    "virtual_sports": "Thể Thao VR",
+    "auto_close": "Tự động đóng sau %s giây",
+    "HD": "HD",
+    "SD": "SD",
+    "odds_change": "Tỉ lệ cược đã thay đổi"
+  },
+  "detail": {
+    "less": "<",
+    "mins": " phút",
+    "odd_all_closed": "Trận đấu đã đóng hết kèo cược",
+    "odd_closed": "Kèo cược đã đóng",
+    "no_way_bet": "Cược hiện không có sẵn",
+    "popular_recommendation": "Đề xuất hot",
+    "non":"không"
+  },
+  "early": {
+    "btn1": "Dừng trả cược sớm",
+    "btn2": "Trả cược sớm",
+    "btn2_1": "Trả cược sớm",
+    "btn2_2": "￥(Bao gồm tiền gốc)",
+    "btn3": "Xác nhận trả cược sớm",
+    "btn4": "Đang xác nhận…",
+    "btn5": "Đã trả cược sớm",
+    "info1": "Tiền trả cược sớm đã gồm tiền cược",
+    "info2": "Trả cược sớm thất bại",
+    "info3": "Chỉ hỗ trợ trả cược Tất cả",
+    "info4": "Tiền cược trả cược sớm",
+    "info6": "Chức năng tạm dừng, thử lại sau",
+    "info7": "Đang điều chỉnh tiền trả cược sớm, thử lại",
+    "info8": "Số tiền vốn còn lại của đơn cược",
+    "info9": "Số lần thanh toán sớm khả dụng",
+    "list1": "Chi tiết trả cược sớm",
+    "list2": "Tiền cược trả cược",
+    "list3": "Tiền cược còn lại",
+    "list4": "Tiền hoàn trả",
+    "list5": "Thắng/thua",
+    "list6": "Trả cược tiền cược còn lại",
+    "list7": "Tiền cược trả cược (phần)",
+    "list8": "Trả cược Tất cả",
+    "list9": "Hủy/Vô hiệu"
+  },
+  "error_msg_info": {
+    "0400545": {
+      "client_msg": "Đặt hẹn không thành công, vui lòng thử lại"
+    },
+    "0400544": {
+      "client_msg": "Hạn mức đặt hẹn cho trận đấu/cách chơi hiện tại của bạn đã hết"
+    },
+    "0400543": {
+      "client_msg": "Số lượng đơn đặt hẹn trong trận hiện tại vượt quá giới hạn"
+    },
+    "0400542": {
+      "client_msg": "Đã hết giới hạn trả thưởng ngày"
+    },
+    "0400540": {
+      "client_msg": "Tỷ lệ cược đặt hẹn không thể thấp hơn tỷ lệ cược kèo tương ứng"
+    },
+    "1002": {
+      "client_msg": "Số dư không đủ"
+    },
+    "249203": {
+      "client_msg": "Số dư không đủ"
+    },
+    "249207": {
+      "client_msg": "Giới hạn kiểm soát rủi ro, mời liên hệ đại lý"
+    },
+    "0000000": {
+      "client_msg": "Đặt cược thành công"
+    },
+    "0400450": {
+      "client_msg": "Cược thất bại, mời thử lại sau"
+    },
+    "0400451": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0400452": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0400453": {
+      "client_msg": "Tài khoản bất thường, mời liên  hệ bộ phận hỗ trợ khách hàng"
+    },
+    "0400454": {
+      "client_msg": "Số dư không đủ, mời nạp tiền"
+    },
+    "0400455": {
+      "client_msg": "Số dư không đủ, mời nạp tiền"
+    },
+    "0400456": {
+      "client_msg": "Cược thất bại, mời thử lại"
+    },
+    "0400457": {
+      "client_msg": "Cược thất bại, mời thử lại"
+    },
+    "0400458": {
+      "client_msg": "Cược thất bại, mời thử lại"
+    },
+    "0400459": {
+      "client_msg": "Kèo đang xác nhận, vui lòng chờ"
+    },
+    "0400460": {
+      "client_msg": "Từ chối đặt cược"
+    },
+    "0400461": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0400462": {
+      "client_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0400463": {
+      "client_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0400464": {
+      "client_msg": "Giới hạn thay đổi, mời thử lại"
+    },
+    "0400467": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi"
+    },
+    "0400468": {
+      "client_msg": "Tỉ số đã thay đổi, mời thử lại"
+    },
+    "0400469": {
+      "client_msg": "Kèo cược đã chọn không thể cược xâu",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0400475": {
+      "client_msg": "Giới hạn thay đổi, mời thử lại"
+    },
+    "0400476": {
+      "client_msg": "Đang điều chỉnh mục cược, thử lại sau"
+    },
+    "0400477": {
+      "client_msg": "Mục đỏ không thể cược xâu."
+    },
+    "0400478": {
+      "client_msg": "Mục đỏ không thể cược xâu."
+    },
+    "0400479": {
+      "client_msg": "Kèo đang xác nhận, vui lòng chờ"
+    },
+    "0400480": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0400481": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0400483": {
+      "client_msg": "Cược thất bại, mời thử lại~"
+    },
+    "0400484": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0400485": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0400486": {
+      "client_msg": "Hệ thống đang bận, mời thử lại"
+    },
+    "0400488": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0400517": {
+      "client_msg": "Giới hạn thay đổi, mời thử lại"
+    },
+    "0400519": {
+      "client_msg": "Cược thất bại, mời thử lại"
+    },
+    "0400532": {
+      "client_msg": "Đang điều chỉnh tỷ lệ cược"
+    },
+    "0401999": {
+      "client_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402001": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402002": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402003": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402004": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402005": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402006": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402007": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402008": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402009": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402010": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402012": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402015": {
+      "client_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402016": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402017": {
+      "client_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402018": {
+      "client_msg": "Cược thất bại, mời thử lại sau"
+    },
+    "0402020": {
+      "client_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402021": {
+      "client_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402022": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402023": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402024": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402025": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402026": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402027": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402035": {
+      "client_msg": "Số dư không đủ, mời nạp tiền"
+    },
+    "0402038": {
+      "client_msg": "Cược thất bại, mời thử lại sau"
+    },
+    "0402039": {
+      "client_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402040": {
+      "client_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402041": {
+      "client_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402042": {
+      "client_msg": "Lỗi mạng, xin hãy liên hệ bộ  phận hỗ trợ khách hàng",
+      "tost_msg": "Cược thất bại, mời thử lại"
+    },
+    "0402043": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402044": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402045": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402046": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402047": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402048": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "0402049": {
+      "client_msg": "Tỉ lệ cược, kèo cược hoặc tính  hợp lệ của mục chọn đã thay đổi",
+      "tost_msg": "Cược thất bại, mời thử lại!"
+    },
+    "04021001": {
+      "client_msg": "Esports đang bảo trì"
+    },
+    "04021002": {
+      "client_msg": "Bạn không thể đặt cược vào eSports"
+    },
+    "04021003": {
+      "client_msg": "Không đủ tiền cược tối thiểu"
+    },
+    "04021004": {
+      "client_msg": "Số tiền chỉ có thể là một số nguyên"
+    },
+    "04021005": {
+      "client_msg": "Có trận không hỗ trợ cược xâu"
+    },
+    "04021006": {
+      "client_msg": "Có kèo không hỗ trợ cược xâu"
+    },
+    "04021007": {
+      "client_msg": "Hết hiệu lực"
+    },
+    "04021008": {
+      "client_msg": "Hết hiệu lực"
+    },
+    "04021009": {
+      "client_msg": "Hết hiệu lực"
+    },
+    "04021010": {
+      "client_msg": "Hết hiệu lực"
+    },
+    "04021011": {
+      "client_msg": "Hết hiệu lực"
+    },
+    "04021012": {
+      "client_msg": "Hết hiệu lực"
+    },
+    "04021013": {
+      "client_msg": "Hết hiệu lực"
+    }
+  },
+  "filter": {
+    "all_leagues": "Tất cả giải đấu",
+    "match_key": "Mời nhập tên giải đấu",
+    "match_select_title": "Chọn giải đấu",
+    "please_select_league": "Mời chọn giải đấu",
+    "reverse_election": "Chọn ngược lại"
+  },
+  "football_playing_way": {
+    "hpsBold": "TS chính xác",
+    "champion": "Chung cuộc",
+    "corner": "Góc",
+    "hps15Minutes": "15 phút",
+    "hps5Minutes": "5 phút",
+    "hps_next_goal": "BT tiếp theo",
+    "hps15_title": {
+      "0": "Khai mạc-14 phút 59 giây",
+      "1": "15 phút- 29 phút 59 giây",
+      "2": "30 phút - hiệp một",
+      "3": "Bắt đầu hiệp 2- 59 phút 59 giây",
+      "4":"60 phút- 74 phút 59 giây",
+      "5":"75 phút - FT"
+    },
+    "hps_fifteen_minutes_details": {
+      "0":{
+        "title": "15 phút- Giai đoạn 1",
+        "content": "Khai mạc-14 phút 59 giây"
+      },
+      "1":{
+        "title": "15 phút- Giai đoạn 2",
+        "content": "15 phút- 29 phút 59 giây"
+      },
+      "2": {
+        "title": "15 phút- Giai đoạn 3",
+        "content": "30 phút - hiệp một"
+      },
+      "3": {
+        "title": "15 phút- Giai đoạn 4",
+        "content": "Bắt đầu hiệp 2- 59 phút 59 giây"
+      },
+      "4": {
+        "title": "15 phút- Giai đoạn 5",
+        "content": "60 phút- 74 phút 59 giây"
+      },
+      "5": {
+        "title": "15 phút- Giai đoạn 6",
+        "content": "75 phút - FT"
+      }
+    },
+    "overtime": "Hiệp phụ",
+    "penalty_cards": "Thẻ",
+    "penalty_shootout": "Đá luân lưu",
+    "promotion": "Đi tiếp",
+    "full_time_draw": "Hòa",
+    "half_time_draw": "Hòa - Hiệp",
+    "minutes_of_the_Xth_goal": "TG BT {goalnr}",
+    "feature": "Tổ hợp đặc biệt",
+    "any_goal": "BT 5 phút",
+    "all_both": "1X2 & Hai đội ghi bàn",
+    "all_total_goal": "1X2 & Bàn thắng Trên/Dưới",
+    "half_both": "1x2 - Hiệp 1 & Hai đội ghi bàn",
+    "half_total_goal": "1x2 - Hiệp 1 & Bàn thắng Trên/Dưới"
+  },
+  "footer_menu": {
+    "adviser": "Hướng dẫn cược",
+    "all": "Tất cả",
+    "analysis": "Phân tích",
+    "bet_model": "Kiểu cược",
+    "bet_order": "Vé cược",
+    "bet_record": "Vé cược",
+    "change_simple01": "Thay đổi",
+    "change_simple02": "Bản người mới",
+    "collect": "Mục yêu thích",
+    "corner": "Trên/Dưới",
+    "corner_kick": "Phạt góc",
+    "daxiao": "Trên/Dưới",
+    "Day_mode": "Giao diện ngày",
+    "daytime": "Ngày",
+    "filter": "Lọc",
+    "follow": "Quan tâm",
+    "full_time": "Cả trận",
+    "hot": "Hot",
+    "hot2": "Theo độ hot",
+    "league_filter": "Lọc giải đấu",
+    "mode": "Kiểu",
+    "more": "More",
+    "new_v": "Bản cho người mới",
+    "night": "Đêm",
+    "night_mode": "Giao diện đêm",
+    "odds_set": "Cài đặt kèo",
+    "play_way_f": "Loại kèo",
+    "popular_Sort": "Sắp xếp theo độ hot",
+    "pro_v": "Bản chuyên nghiệp",
+    "rangfen": "Kèo chấp",
+    "rangqiu": "Kèo chấp",
+    "refresh": "Tải lại",
+    "search": "Tìm kiếm",
+    "selected": "Đã chọn",
+    "set_menu": "Cài đặt Menu",
+    "settings": "Cài đặt",
+    "sort_title": "Quy tắc sắp xếp",
+    "theme": "Phong cách chủ đề",
+    "time": "Thời gian",
+    "time2": "Theo thời gian",
+    "time_order": "Sắp xếp thời gian",
+    "win_alone": "1X2",
+    "daily_activities": "Ưu đãi mỗi ngày",
+    "turn_on": "Kích hoạt ",
+    "open_bets":"Đơn cược chưa thanh toán",
+    "closed_bets":"Đơn cược đã thanh toán"
+  },
+  "home": {
+    "can_bet": "Mục cược",
+    "home": "Trang chủ",
+    "hot": "Hot",
+    "invalid_credentials": "Thông tin đã hết hiệu lực, xin  hãy đăng nhập lại",
+    "lang_en": "EN",
+    "lang_zj": "中文",
+    "live_video": "Live Video",
+    "login_invalid": "Đăng nhập vô hiệu",
+    "login_success": "Đăng nhập thành công",
+    "match_no_has": "Không có trận đấu",
+    "match_no_hot": "Không có trận đấu hot",
+    "my": "của tôi",
+    "no_favorite_events": "Không có trận đấu yêu thích",
+    "record": "Nhật ký đặt cược"
+  },
+  "home_popular": {
+    "assist": "Kiến tạo",
+    "average": "Điểm mỗi trận",
+    "featured": "Nổi bật",
+    "featured_events": "Trận đấu nổi bật",
+    "player": "Cầu thủ",
+    "quiz": "Cược",
+    "ranking": "Bảng xếp hạng",
+    "win_rate": "% Thắng",
+    "you_may_also_like": "Gợi ý cho bạn"
+  },
+  "info_rules": {
+    "auto": "Giới thiệu trận đấu trực tiếp",
+    "i_know": "OK",
+    "rules": {
+      "rule1": "1 Tất cả nội  dung chiếu trực tiếp tại đây   chỉ mang  tính chất tham khảo,   người chơi cũng có thể coi đây là chỉ dẫn.  Chúng tôi sẽ cố gắng đảm bảo nội dung hiển thị chính xác,  nếu nội dung bị sai, chúng tôi sẽ không chịu bất cứ trách nhiệm nào.",
+      "rule2": "2 Đối với Tỉ số Trong Trận, ví dụ như Kèo chấp Trong Trận, sẽ    căn cứ vào tỉ số chính xác hiển thị  trên vé cược khi đặt cược  "
+    }
+  },
+  "isoName": "zh",
+  "limit": {
+    "msg1": "Thao tác quá thường xuyên, vui lòng thử lại sau"
+  },
+  "list": {
+    "win1": "1",
+    "win2": "2",
+    "dogfall": "X",
+    "play": "Market",
+    "play1": "1x2",
+    "play2": "Handicap",
+    "play3": "Total Goals",
+    "home_hdp": "1",
+    "away_hdp": "2",
+    "over": "Over",
+    "under": "Under",
+    "after_time_start": "{0} phút sau bắt đầu",
+    "after_time_start2": "{0} phút sau bắt đầu",
+    "go_to_details": "Chi tiết",
+    "match_doing": "Trong trận",
+    "match_end": "Đã kết thúc",
+    "match_no": "Chưa kết thúc",
+    "match_no_start": "Chưa bắt đầu",
+    "match_start": "Đã bắt đầu",
+    "score_disparity": "Lệch",
+    "total_play_count": "Tổng số hiệp",
+    "total_pp_score_count": "Tổng điểm",
+    "water_polo_countdown": "<S% phút",
+    "other": "Khác"
+  },
+  "list_title": {
+    "1": {
+      "title": {
+        "0":"1X2",
+        "1":"Kèo chấp",
+        "2":"Trên/Dưới",
+        "3":"Hiệp 1 - 1x2",
+        "4":"Hiệp 1 - Kèo chấp",
+        "5":"Hiệp 1 - Trên/Dưới"
+      }
+    },
+    "2": {
+      "title": {
+        "0":"Đội chiến thắng",
+        "1":"Kèo chấp",
+        "2":"Trên/Dưới"
+      }
+    },
+    "3": {
+      "title": {
+        "0":"Đội chiến thắng",
+        "1":"Kèo chấp",
+        "2":"Trên/Dưới"
+      }
+    },
+    "4": {
+      "title": {
+        "0":"1X2",
+        "1":"Kèo chấp",
+        "2":"Trên/Dưới"
+      }
+    },
+    "5": {
+      "title": {
+        "0":"Đội chiến thắng",
+        "1":"Kèo chấp set",
+        "2":"Kèo chấp game"
+      }
+    },
+    "6": {
+      "title": {
+        "0":"Moneyline",
+        "1":"Kèo chấp",
+        "2":"Trên/Dưới"
+      }
+    },
+    "7": {
+      "title": {
+       "0":"Đội chiến thắng",
+       "1":"Kèo chấp ván",
+       "2":"Tổng số ván"
+      }
+    },
+    "8": {
+      "title": {
+       "0":"Đội chiến thắng",
+       "1":"Kèo chấp",
+       "2":"Tổng điểm"
+      }
+    },
+    "9": {
+      "title": {
+        "0":"Đội chiến thắng",
+        "1":"Kèo chấp",
+        "2":"Tổng điểm"
+      }
+    },
+    "10": {
+      "title": {
+        "0":"Đội chiến thắng",
+        "1":"Kèo chấp",
+        "2":"Tổng điểm"
+      }
+    },
+    "11": {
+      "title": {
+        "0":"1X2",
+        "1":"Kèo chấp",
+        "2":"Tổng số hiệp",
+        "3":"Hiệp 1 - 1x2",
+        "4":"Hiệp 1 - Kèo chấp",
+        "5":"Hiệp 1 - Trên/Dưới"
+      }
+    },
+    "12": {
+      "title": {
+        "0":"1X2",
+        "1":"Tổng số hiệp"
+      }
+    },
+    "13": {
+      "title": {
+        "0":"Đội chiến thắng",
+        "1":"Kèo chấp",
+        "2":"Tổng điểm"
+      }
+    },
+    "14": {
+      "title": {
+        "0":"1x2",
+        "1":"Kèo chấp",
+        "2":"Trên/Dưới",
+        "3":"Hiệp 1 - 1x2",
+        "4":"Hiệp 1 - Kèo chấp",
+        "5":"Hiệp 1 - Trên/Dưới"
+      }
+    },
+    "15": {
+      "title": {
+        "0":"1x2",
+        "1":"Kèo chấp",
+        "2":"Trên/Dưới",
+        "3":"Hiệp 1 - 1x2",
+        "4":"Kèo chấp - Hiệp 1",
+        "5":"Trên/Dưới - Hiệp 1"
+      }
+    },
+    "16": {
+      "title": {
+        "0":"1x2",
+        "1":"Kèo chấp",
+        "2":"Trên/Dưới",
+        "3":"Hiệp 1 - 1x2",
+        "4":"Hiệp 1 - Kèo chấp"
+      }
+    },
+    "100": {
+      "title": {
+        "0":"Đội thắng",
+        "1":"Chấp bản đồ",
+        "2":"Tổng bản đồ"
+      }
+    },
+    "101": {
+      "title": {
+        "0":"Đội thắng",
+        "1":"Chấp bản đồ",
+        "2":"Tổng bản đồ"
+      }
+    },
+    "102": {
+      "title": {
+        "0":"Đội thắng",
+        "1":"Chấp bản đồ",
+        "2":"Tổng bản đồ"
+      }
+    },
+    "103": {
+      "title": {
+        "0":"Đội thắng",
+        "1":"Chấp bản đồ",
+        "2":"Tổng bản đồ"
+      }
+    },
+    "1001": {
+      "title": {
+        "0":"1x2",
+        "1":"Kèo chấp",
+        "2":"Trên/Dưới"
+      }
+    },
+    "1004": {
+      "title": {
+        "0":"Đội chiến thắng",
+        "1":"Kèo chấp",
+        "2":"Tổng điểm",
+        "3":"Đạt 21 điểm"
+      }
+    }
+  },
+  "login": {
+    "err_msg01": "Tên truy cập không được để trống",
+    "err_msg02": "Mật khẩu không được để trống",
+    "login": "Đăng nhập",
+    "name": "Tên truy cập",
+    "no_login": "Chưa đăng nhập",
+    "password": "Mật khẩu",
+    "remember_pwd": "Ghi nhớ mật khẩu",
+    "shop_code": "Mã nhà kinh doanh"
+  },
+  "lost": {
+    "msg1": "Không tìm thấy trang",
+    "msg2": "Đừng lo",
+    "msg3": "Xin hãy làm mới trang",
+    "msg4": "Hãy làm mới trang",
+    "msg5": "Quay lại trang chủ"
+  },
+  "main_menu": {
+    "my_bet": "Cược đã đặt"
+  },
+  "match_info": {
+    "lvs": "Live",
+    "abandon": "Bỏ cuộc",
+    "add": "Thêm",
+    "all_result": "Kết quả",
+    "animation": "Animation",
+    "animation_info": "Info Animation",
+    "ball": "Xấu",
+    "cancel": "Hủy",
+    "delay": "Trì hoãn",
+    "drawn": "Hòa",
+    "full": "FT",
+    "greater": ">",
+    "half": "H1",
+    "ice_add": "Thêm",
+    "interrupt": "Gián đoạn",
+    "less": "<",
+    "m_anima_not_start": "Video hoạt họa trực tiếp chưa  bắt đầu, xin chờ một lát",
+    "m_video_not_start": "Video trực tiếp chưa bắt đầu,  xin chờ một lát",
+    "match_colse": "Đóng",
+    "match_end": "Đã kết thúc",
+    "match_not_start": "Trận đấu chưa bắt đầu",
+    "match_over": "Kết thúc trận đấu",
+    "my_bets": "Cược đã đặt",
+    "no": "Không",
+    "odds_type_additional": "Kèo bổ sung",
+    "pack_up": "Thu lại",
+    "pause": "Tạm dừng",
+    "postpone": "Hoãn lại",
+    "select_event": "Trận đấu",
+    "shoot_out": "Điểm",
+    "show_more": "Hiển thị thêm",
+    "strike": "Đẹp",
+    "strike_out": "Bị loại",
+    "total_score": "Tổng điểm hiện tại",
+    "unknown": "Chưa xác định",
+    "video": "Video",
+    "video_info": "Info Video",
+    "yes": "Có",
+    "match_parlay": "Xâu",
+    "video_live": "video_live",
+    "animation_live": "Live animation"
+  },
+  "match_main": {
+    "cut_off": "Ngừng cược",
+    "Handicap": "Kèo cược",
+    "Rostov_U20": "Rostov U20",
+    "royal_house_Madrid": "Real Madrid"
+  },
+  "match_result": {
+    "attack": "Tấn công",
+    "ball_possession": "Tỉ lệ khống chế bóng",
+    "corner": "Quả phạt góc thứ",
+    "corner_kick": "Góc",
+    "dangerous_offense": "Tấn công nguy hiểm",
+    "end_of_regular_season": "Giờ thi đấu chính thức kết thúc",
+    "event": "Sự kiện",
+    "Field_goal_percentage": "Ném trúng rổ",
+    "finish": "Đã kết thúc",
+    "Fouls": "Số lỗi",
+    "Free_throw": "Ném phạt ghi điểm",
+    "Free_throw_percentage": "Ném phạt",
+    "goal": "BT",
+    "match": "Trận đấu",
+    "match_analysis": "Phân tích trận đấu",
+    "midfield": "Giữa trận",
+    "overtime_is_over": "Kết thúc hiệp phụ",
+    "own_goals": "Phản lưới nhà",
+    "penalty_kick": "Pen",
+    "penalty_kick_ended": "Kết thúc đá luân lưu",
+    "penalty_missed": "Trượt pen",
+    "red_card": "TĐ",
+    "Remaining_pause": "Số lần tạm dừng còn lại",
+    "shoot_right": "Sút trúng khung thành",
+    "shot": "Số cú sút",
+    "shot_off": "Sút lệch khung thành",
+    "start": "Bắt đầu",
+    "statistics": "Thống kê",
+    "substitution": "Đổi người",
+    "three_point_shooting": "Ném trúng 3 điểm",
+    "Three_pointer": "3 điểm",
+    "Two_pointer": "2 điểm",
+    "which_number": "Thứ",
+    "yellow_card": "TV"
+  },
+  "matchtype": {
+    "1": "Trước trận",
+    "2": "Trong Trận",
+    "3": "",
+    "4": ""
+  },
+  "mmp": {
+    "1": {
+      "0": "1H",
+      "6": "1H",
+      "7": "2H",
+      "31": "Nghỉ giữa trận",
+      "32": "Sắp bắt đầu hiệp phụ",
+      "33": "Nghỉ giữa hiệp phụ",
+      "34": "Chờ đá luân lưu",
+      "41": "Hiệp phụ 1",
+      "42": "Hiệp phụ 2",
+      "50": "Đá luân lưu",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị bỏ dở",
+      "100": "Kết thúc hiệp 2",
+      "110": "Kết thúc hiệp phụ",
+      "120": "Kết thúc đá luân lưu",
+      "999": "Kết thúc trận đấu"
+    },
+    "2": {
+      "0": "Chưa bắt đầu",
+      "1": "1H",
+      "2": "2H",
+      "13": "Q1",
+      "14": "Q2",
+      "15": "Q3",
+      "16": "Q4",
+      "21": "Đang diễn ra",
+      "31": "Nghỉ giữa trận",
+      "32": "Chờ hiệp phụ",
+      "40": "Hiệp phụ",
+      "61": "Trận đấu bị hoãn lại",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị bỏ dở",
+      "100": "Kết thúc trận đấu",
+      "110": "Kết thúc hiệp phụ",
+      "301": "Q2",
+      "302": "Q3",
+      "303": "Q4",
+      "999": "Kết thúc trận đấu",
+      "1001": "Q4",
+      "1002": "2H",
+      "99999": "Fulltime"
+    },
+    "3": {
+      "0": "Chưa bắt đầu",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị bỏ dở",
+      "100": "Đã kết thúc",
+      "401": "Hiệp 1 Nửa đầu",
+      "402": "Hiệp 1 Nửa sau",
+      "403": "Hiệp 2 Nửa đầu",
+      "404": "Hiệp 2 Nửa sau",
+      "405": "Hiệp 3 Nửa đầu",
+      "406": "Hiệp 3 Nửa sau",
+      "407": "Hiệp 4 Nửa đầu",
+      "408": "Hiệp 4 Nửa sau",
+      "409": "Hiệp 5 Nửa đầu",
+      "410": "Hiệp 5 Nửa sau",
+      "411": "Hiệp 6 Nửa đầu",
+      "412": "Hiệp 6 Nửa sau",
+      "413": "Hiệp 7 Nửa đầu",
+      "414": "Hiệp 7 Nửa sau",
+      "415": "Hiệp 8 Nửa đầu",
+      "416": "Hiệp 8 Nửa sau",
+      "417": "Hiệp 9 Nửa đầu",
+      "418": "Hiệp 9 Nửa sau",
+      "421": "Hiệp 1 Nửa sau",
+      "422": "Hiệp 2 Nửa đầu",
+      "423": "Hiệp 2 Nửa sau",
+      "424": "Hiệp 3 Nửa đầu",
+      "425": "Hiệp 3 Nửa sau",
+      "426": "Hiệp 4 Nửa đầu",
+      "427": "Hiệp 4 Nửa sau",
+      "428": "Hiệp 5 Nửa đầu",
+      "429": "Hiệp 5 Nửa sau",
+      "430": "Hiệp 6 Nửa đầu",
+      "431": "Hiệp 6 Nửa sau",
+      "432": "Hiệp 7 Nửa đầu",
+      "433": "Hiệp 7 Nửa sau",
+      "434": "Hiệp 8 Nửa đầu",
+      "435": "Hiệp 8 Nửa sau",
+      "436": "Hiệp 9 Nửa đầu",
+      "437": "Hiệp 9 Nửa sau",
+      "438": "Chờ hiệp phụ",
+      "999": "Kết thúc",
+      "999_app_h5": "Kết thúc",
+      "41910": "Hiệp 10 Nửa đầu",
+      "41911": "Hiệp 11 Nửa đầu",
+      "41912": "Hiệp 12 Nửa đầu",
+      "41913": "Hiệp 13 Nửa đầu",
+      "41914": "Hiệp 14 Nửa đầu",
+      "41915": "Hiệp 15 Nửa đầu",
+      "41916": "Hiệp 16 Nửa đầu",
+      "41917": "Hiệp 17 Nửa đầu",
+      "41918": "Hiệp 18 Nửa đầu",
+      "41919": "Hiệp 19 Nửa đầu",
+      "41920": "Hiệp 20 Nửa đầu",
+      "42010": "Hiệp 10 Nửa sau",
+      "42011": "Hiệp 11 Nửa sau",
+      "42012": "Hiệp 12 Nửa sau",
+      "42013": "Hiệp 13 Nửa sau",
+      "42014": "Hiệp 14 Nửa sau",
+      "42015": "Hiệp 15 Nửa sau",
+      "42016": "Hiệp 16 Nửa sau",
+      "42017": "Hiệp 17 Nửa sau",
+      "42018": "Hiệp 18 Nửa sau",
+      "42019": "Hiệp 19 Nửa sau",
+      "42020": "Hiệp 20 Nửa sau",
+      "43810": "Hiệp 11 Nửa đầu",
+      "43811": "Hiệp 12 Nửa đầu",
+      "43812": "Hiệp 13 Nửa đầu",
+      "43813": "Hiệp 14 Nửa đầu",
+      "43814": "Hiệp 15 Nửa đầu",
+      "43815": "Hiệp 16 Nửa đầu",
+      "43816": "Hiệp 17 Nửa đầu",
+      "43817": "Hiệp 18 Nửa đầu",
+      "43818": "Hiệp 19 Nửa đầu",
+      "43819": "Hiệp 20 Nửa đầu",
+      "43910": "Hiệp 10 Nửa sau",
+      "43911": "Hiệp 11 Nửa sau",
+      "43912": "Hiệp 12 Nửa sau",
+      "43913": "Hiệp 13 Nửa sau",
+      "43914": "Hiệp 14 Nửa sau",
+      "43915": "Hiệp 15 Nửa sau",
+      "43916": "Hiệp 16 Nửa sau",
+      "43917": "Hiệp 17 Nửa sau",
+      "43918": "Hiệp 18 Nửa sau",
+      "43919": "Hiệp 19 Nửa sau",
+      "43920": "Hiệp 20 Nửa sau"
+    },
+    "4": {
+      "0": "Hiệp 1",
+      "1": "Hiệp 1",
+      "2": "Hiệp 2",
+      "3": "Hiệp 3",
+      "32": "Chờ hiệp phụ",
+      "34": "Đá luân lưu",
+      "40": "Hiệp phụ",
+      "50": "Đá luân lưu",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị bỏ dở",
+      "100": "Đã kết thúc",
+      "110": "Kết thúc hiệp phụ",
+      "120": "Kết thúc đá luân lưu",
+      "301": "Hiệp 2",
+      "302": "Hiệp 3",
+      "999": "Đã kết thúc"
+    },
+    "5": {
+      "0": "Set 1",
+      "8": "Set 1",
+      "9": "Set 2",
+      "10": "Set 3",
+      "11": "Set 4",
+      "12": "Set 5",
+      "61": "Trận đấu bị trì hoãn",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị hủy",
+      "93": "Cầu thủ đội khách không thi đấu",
+      "94": "Cầu thủ đội chủ nhà không thi đấu",
+      "95": "Cầu thủ đội chủ nhà rút lui",
+      "96": "Cầu thủ đội khách rút lui",
+      "97": "Cầu thủ đội chủ nhà vắng mặt",
+      "98": "Cầu thủ đội khách vắng mặt",
+      "100": "Đã kết thúc",
+      "301": "Set 2",
+      "302": "Set 3",
+      "303": "Set 4",
+      "304": "Set 5",
+      "305": "Đã kết thúc",
+      "800": "Set 1",
+      "900": "Set 2",
+      "999": "Đã kết thúc",
+      "1000": "Set 3",
+      "1100": "Set 4",
+      "1200": "Set 5"
+    },
+    "6": {
+      "0": "Chưa bắt đầu",
+      "13": "Q1",
+      "14": "Q2",
+      "15": "Q3",
+      "16": "Q4",
+      "32": "Chờ hiệp phụ",
+      "40": "Hiệp phụ",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị bỏ dở",
+      "100": "Đã kết thúc",
+      "110": "Kết thúc hiệp phụ",
+      "301": "Q2",
+      "302": "Q3",
+      "303": "Q4",
+      "999": "Đã kết thúc"
+    },
+    "7": {
+      "0": "Chưa bắt đầu",
+      "21": "Đang tiến hành",
+      "30": "Tạm dừng",
+      "61": "Trận đấu bị trì hoãn",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị hủy",
+      "93": "Cầu thủ đội khách không thi đấu",
+      "94": "Cầu thủ đội chủ nhà không thi đấu",
+      "95": "Đội chủ nhà rút lui",
+      "96": "Đội khách rút lui",
+      "97": "Đội chủ nhà bỏ quyền",
+      "98": "Đội khách bỏ quyền",
+      "100": "Đã kết thúc",
+      "419": "1H",
+      "420": "2H",
+      "439": "2H",
+      "445": "Nghỉ giữa ván",
+      "999": "Đã kết thúc",
+      "x": "Ván %s"
+    },
+    "8": {
+      "0": "Hiệp 1",
+      "8": "Hiệp 1",
+      "9": "Hiệp 2",
+      "10": "Hiệp 3",
+      "11": "Hiệp 4",
+      "12": "Hiệp 5",
+      "61": "Trận đấu bị trì hoãn",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị hủy",
+      "93": "Cầu thủ đội khách không thi đấu",
+      "94": "Cầu thủ đội chủ nhà không thi đấu",
+      "95": "Cầu thủ đội chủ nhà rút lui",
+      "96": "Cầu thủ đội khách rút lui",
+      "97": "Cầu thủ đội chủ nhà vắng mặt",
+      "98": "Cầu thủ đội khách vắng mặt",
+      "100": "Kết thúc trận đấu",
+      "301": "Hiệp 2",
+      "302": "Hiệp 3",
+      "303": "Hiệp 4",
+      "304": "Hiệp 5",
+      "305": "Hiệp 6",
+      "306": "Hiệp 7",
+      "441": "Hiệp 6",
+      "442": "Hiệp 7",
+      "999": "Đã kết thúc"
+    },
+    "9": {
+      "0": "Chưa bắt đầu",
+      "8": "Hiệp 1",
+      "9": "Hiệp 2",
+      "10": "Hiệp 3",
+      "11": "Hiệp 4",
+      "12": "Hiệp 5",
+      "17": "Hiệp 5",
+      "37": "Hiệp 5",
+      "61": "Trận đấu bị trì hoãn",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị hủy",
+      "93": "Đội khách không thi đấu",
+      "94": "Đội chủ nhà không thi đấu",
+      "95": "Đội chủ nhà rút lui",
+      "96": "Đội khách rút lui",
+      "100": "Đã kết thúc",
+      "130": "Đã kết thúc",
+      "301": "Hiệp 2",
+      "302": "Hiệp 3",
+      "303": "Hiệp 4",
+      "304": "Hiệp 5",
+      "305": "Hiệp 6",
+      "306": "Hiệp 7",
+      "441": "Hiệp 6",
+      "442": "Hiệp 7",
+      "999": "Đã kết thúc"
+    },
+    "10": {
+      "0": "Hiệp 1",
+      "8": "Hiệp 1",
+      "9": "Hiệp 2",
+      "10": "Hiệp 3",
+      "11": "Hiệp 4",
+      "12": "Hiệp 5",
+      "61": "Trận đấu bị trì hoãn",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị hủy",
+      "93": "Cầu thủ đội khách không thi đấu",
+      "94": "Cầu thủ đội chủ nhà không thi đấu",
+      "95": "Cầu thủ đội chủ nhà rút lui",
+      "96": "Cầu thủ đội khách rút lui",
+      "97": "Cầu thủ đội chủ nhà vắng mặt",
+      "98": "Cầu thủ đội khách vắng mặt",
+      "100": "Đã kết thúc",
+      "301": "Hiệp 2",
+      "302": "Hiệp 3",
+      "303": "Hiệp 4",
+      "304": "Hiệp 5",
+      "999": "Đã kết thúc"
+    },
+    "11": {
+      "0": "1H",
+      "6": "1H",
+      "7": "2H",
+      "31": "Nghỉ giữa trận",
+      "32": "Sắp bắt đầu hiệp phụ",
+      "33": "Nghỉ giữa hiệp phụ",
+      "34": "Chờ đá luân lưu",
+      "41": "Hiệp phụ 1",
+      "42": "Hiệp phụ 2",
+      "50": "Đá luân lưu",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị bỏ dở",
+      "100": "Kết thúc hiệp 2",
+      "110": "Kết thúc hiệp phụ",
+      "120": "Kết thúc đá luân lưu",
+      "999": "Kết thúc trận đấu"
+    },
+    "12": {},
+    "13": {
+      "0": "Chưa bắt đầu",
+      "8": "Hiệp 1",
+      "9": "Hiệp 2",
+      "10": "Hiệp 3",
+      "11": "Hiệp 4",
+      "12": "Hiệp 5",
+      "17": "Hiệp 5",
+      "37": "Hiệp 5",
+      "61": "Trận đấu bị trì hoãn",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị hủy",
+      "93": "Đội khách không thi đấu",
+      "94": "Đội chủ nhà không thi đấu",
+      "95": "Đội chủ nhà rút lui",
+      "96": "Đội khách rút lui",
+      "100": "Đã kết thúc",
+      "130": "Đã kết thúc",
+      "301": "Hiệp 2",
+      "302": "Hiệp 3",
+      "303": "Hiệp 4",
+      "304": "Hiệp 5",
+      "305": "Hiệp 6",
+      "306": "Hiệp 7",
+      "441": "Hiệp 6",
+      "442": "Hiệp 7",
+      "999": "Đã kết thúc"
+    },
+    "14": {
+      "0": "Chưa bắt đầu",
+      "6": "1H",
+      "7": "2H",
+      "31": "Nghỉ giữa trận",
+      "32": "Sắp bắt đầu hiệp phụ",
+      "33": "Nghỉ giữa hiệp phụ",
+      "34": "Chờ đá luân lưu",
+      "41": "Hiệp phụ 1",
+      "42": "Hiệp phụ 2",
+      "50": "Đá luân lưu",
+      "60": "Trận đấu tạm dừng",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị bỏ dở",
+      "100": "Kết thúc hiệp 2",
+      "110": "Kết thúc hiệp phụ",
+      "120": "Kết thúc đá luân lưu",
+      "440": "Hiệp phụ",
+      "443": "Chờ bắt đầu hiệp phụ",
+      "444": "Kết thúc hiệp phụ",
+      "999": "Kết thúc trận đấu"
+    },
+    "15": {
+      "0": "Chưa bắt đầu",
+      "6": "1H",
+      "7": "2H",
+      "13": "Q1",
+      "14": "Q2",
+      "15": "Q3",
+      "16": "Q4",
+      "21": "Đang tiến hành",
+      "31": "Nghỉ giữa trận",
+      "32": "Chờ hiệp phụ",
+      "34": "Chờ đá luân lưu",
+      "40": "Hiệp phụ",
+      "50": "Đá luân lưu",
+      "61": "Trận đấu bị hoãn lại",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị bỏ dở",
+      "100": "Q4",
+      "110": "Hiệp phụ kết thúc",
+      "120": "Kết thúc đá luân lưu",
+      "301": "Q2",
+      "302": "Q3",
+      "303": "Q4",
+      "440": "Hiệp phụ",
+      "443": "Chờ bắt đầu hiệp phụ",
+      "444": "Hiệp phụ kết thúc",
+      "999": "Kết thúc trận đấu"
+    },
+    "16": {
+      "0": "Chưa bắt đầu",
+      "13": "Q1",
+      "14": "Q2",
+      "15": "Q3",
+      "16": "Q4",
+      "34": "Chờ đá luân lưu",
+      "50": "Đá luân lưu",
+      "80": "Trận đấu bị gián đoạn",
+      "90": "Trận đấu bị bỏ dở",
+      "100": "Đã kết thúc",
+      "120": "Kết thúc đá luân lưu",
+      "301": "Q2",
+      "302": "Q3",
+      "303": "Q4",
+      "999": "Kết thúc trận đấu"
+    },
+    "100": {
+      "0": "Hiệp 1",
+      "1": "Hiệp 1",
+      "2": "Hiệp 2",
+      "3": "Hiệp 3",
+      "4": "Hiệp 4",
+      "5": "Hiệp 5",
+      "6": "Hiệp 6",
+      "7": "Hiệp 7",
+      "8": "Hiệp 8",
+      "9": "Hiệp 9",
+      "10": "Hiệp 10",
+      "11": "Hiệp 11"
+    },
+    "101": {
+      "0": "Hiệp 1",
+      "1": "Hiệp 1",
+      "2": "Hiệp 2",
+      "3": "Hiệp 3",
+      "4": "Hiệp 4",
+      "5": "Hiệp 5",
+      "6": "Hiệp 6",
+      "7": "Hiệp 7",
+      "8": "Hiệp 8",
+      "9": "Hiệp 9",
+      "10": "Hiệp 10",
+      "11": "Hiệp 11"
+    },
+    "102": {
+      "0": "Hiệp 1",
+      "1": "Hiệp 1",
+      "2": "Hiệp 2",
+      "3": "Hiệp 3",
+      "4": "Hiệp 4",
+      "5": "Hiệp 5",
+      "6": "Hiệp 6",
+      "7": "Hiệp 7",
+      "8": "Hiệp 8",
+      "9": "Hiệp 9",
+      "10": "Hiệp 10",
+      "11": "Hiệp 11"
+    },
+    "103": {
+      "0": "Hiệp 1",
+      "1": "Hiệp 1",
+      "2": "Hiệp 2",
+      "3": "Hiệp 3",
+      "4": "Hiệp 4",
+      "5": "Hiệp 5",
+      "6": "Hiệp 6",
+      "7": "Hiệp 7",
+      "8": "Hiệp 8",
+      "9": "Hiệp 9",
+      "10": "Hiệp 10",
+      "11": "Hiệp 11"
+    },
+    "eports_scoring": "Scoring"
+  },
+  "ms": {
+    "0": "Chưa bắt đầu",
+    "1": "Đang diễn ra",
+    "2": "Tạm dừng",
+    "3": "Kết thúc",
+    "4": "Đóng",
+    "5": "Hủy",
+    "6": "Trận đấu bị bỏ dở",
+    "7": "Trì hoãn",
+    "8": "Chưa xác định",
+    "9": "Trận đấu bị hoãn lại",
+    "10": "Trận đấu bị gián đoạn",
+    "110": "Sắp bắt đầu"
+  },
+  "msc": {
+    "S1": "Tỉ số cả trận",
+    "S10": "Tỉ số đá luân lưu",
+    "S100": "Tỉ số game 13 set 5",
+    "S101": "Tỉ số game 14 set 5",
+    "S102": "Tỉ số game 15 set 5",
+    "S103": "Tỉ số game hiện tại",
+    "S104": "Số lần tấn công",
+    "S105": "",
+    "S106": "",
+    "S10601": "Số lỗi Q1",
+    "S10602": "Số lỗi Q2",
+    "S10603": "Số lỗi Q3",
+    "S10604": "Số lỗi Q4",
+    "S10605": "Số lần phạm quy hiệp phụ",
+    "S10606": "Số lỗi hiệp 1",
+    "S10607": "Số lỗi hiệp 2",
+    "S107": "",
+    "S108": "",
+    "S109": "",
+    "S10901": "Số lần tạm dừng Q1",
+    "S10902": "Số lần tạm dừng Q2",
+    "S10903": "Số lần tạm dừng Q3",
+    "S10904": "Số lần tạm dừng Q4",
+    "S10906": "Số lần tạm dừng hiệp phụ",
+    "S11": "Tỉ số thẻ đỏ",
+    "S110": "",
+    "S111": "",
+    "S1111": "Tỉ số chính thức",
+    "S113": "Số lần phát cầu lỗi",
+    "S114": "Tỷ lệ bên nhận cầu ghi điểm và  thắng game hiện tại",
+    "S115": "Số lần ghi điểm",
+    "S116": "Số lần ghi điểm khi nhận cầu",
+    "S117": "Tỷ lệ ghi điểm khi giao cầu",
+    "S118": "Số lỗi",
+    "S119": "Lượt cơ cao nhất",
+    "S12": "Tỉ số thẻ vàng",
+    "S120": "Tỉ số hiệp 1",
+    "S121": "Tỉ số hiệp 2",
+    "S122": "Tỉ số hiệp 3",
+    "S123": "Tỉ số hiệp 4",
+    "S124": "Tỉ số hiệp 5",
+    "S125": "Tỉ số hiệp 6",
+    "S126": "Tỉ số hiệp 7",
+    "S127": "Tỉ số hiệp 8",
+    "S128": "Tỉ số hiệp 9",
+    "S129": "Tỉ số hiệp 10",
+    "S13": "Tỉ số thẻ đỏ hiệp 1",
+    "S130": "Tỉ số hiệp 11",
+    "S131": "Tỉ số hiệp 12",
+    "S132": "Tỉ số hiệp 13",
+    "S133": "Tỉ số hiệp 14",
+    "S134": "Tỉ số hiệp 15",
+    "S135": "Tỉ số hiệp 16",
+    "S136": "Tỉ số hiệp 17",
+    "S137": "Tỉ số hiệp 18",
+    "S138": "Tỉ số hiệp 19",
+    "S139": "Tỉ số hiệp 20",
+    "S14": "Tỉ số thẻ vàng hiệp 2",
+    "S140": "Tỉ số hiệp 21",
+    "S141": "Tỉ số hiệp 22",
+    "S142": "Tỉ số hiệp 23",
+    "S143": "Tỉ số hiệp 24",
+    "S144": "Tỉ số hiệp 25",
+    "S145": "Tỉ số hiệp 26",
+    "S146": "Tỉ số hiệp 27",
+    "S147": "Tỉ số hiệp 28",
+    "S148": "Tỉ số hiệp 29",
+    "S149": "Tỉ số hiệp 30",
+    "S15": "Tỉ số Phạt góc hiệp 1",
+    "S150": "Tỉ số hiệp 31",
+    "S151": "Tỉ số hiệp 32",
+    "S152": "Tỉ số hiệp 33",
+    "S153": "Tỉ số hiệp 34",
+    "S154": "Tỉ số hiệp 35",
+    "S155": "Tỉ số hiệp 36",
+    "S156": "Tỉ số hiệp 37",
+    "S157": "Tỉ số hiệp 38",
+    "S158": "Tỉ số hiệp 39",
+    "S159": "Tỉ số hiệp 40",
+    "S16": "Tỉ số Phạt góc hiệp 2",
+    "S17": "Tỉ số lần sút chệch khung thành",
+    "S170": "Tỉ số đá luân lưu",
+    "S18": "Tỉ số lần sút trúng khung thành",
+    "S19": "Tỉ số hiệp 1",
+    "S190": "Số phần ném phạt",
+    "S191": "Số lần ném phạt không trúng rổ",
+    "S2": "Tỉ số hiệp 1",
+    "S20": "Tỉ số hiệp 2",
+    "S200": "Tỉ số số lần giao bóng",
+    "S201": "Số lần ghi điểm thắng game đối thủ giao bóng khi tỉ số 30-40, 40-Adv",
+    "S202": "Số lần phát bóng lỗi 2 lần",
+    "S21": "Tỉ số hiệp 3",
+    "S22": "Tỉ số hiệp 4",
+    "S23": "Tỉ số set 1",
+    "S24": "Tỉ số game 1 set 1",
+    "S25": "Tỉ số game 2 set 1",
+    "S26": "Tỉ số game 3 set 1",
+    "S27": "Tỉ số game 4 set 1",
+    "S28": "Tỉ số game 5 set 1",
+    "S29": "Tỉ số game 6 set 1",
+    "S3": "Tỉ số hiệp 2",
+    "S30": "Tỉ số game 7 set 1",
+    "S3011": "Tỉ số bóng đẹp",
+    "S3012": "Tỉ số bóng xấu",
+    "S3013": "Tỉ số chốt gôn",
+    "S3014": "Tỉ số bị loại",
+    "S3015": "Tỉ số đánh bóng thành công",
+    "S31": "Tỉ số game 8 set 1",
+    "S32": "Tỉ số game 9 set 1",
+    "S33": "Tỉ số game 10 set 1",
+    "S34": "Tỉ số game 11 set 1",
+    "S35": "Tỉ số game 12 set 1",
+    "S36": "Tỉ số game 13 set 1",
+    "S37": "Tỉ số game 14 set 1",
+    "S38": "Tỉ số game 15 set 1",
+    "S39": "Tỉ số set 2",
+    "S4": "Tỉ số phát bóng",
+    "S40": "Tỉ số game 1 set 2",
+    "S4011": "Tỉ số lỗi nặng",
+    "S4012": "Tỉ số lỗi nhẹ",
+    "S4013": "Tỉ số sút gôn",
+    "S41": "Tỉ số game 2 set 2",
+    "S42": "Tỉ số game 3 set 2",
+    "S43": "Tỉ số game 4 set 2",
+    "S44": "Tỉ số game 5 set 2",
+    "S45": "Tỉ số game 6 set 2",
+    "S46": "Tỉ số game 7 set 2",
+    "S47": "Tỉ số game 8 set 2",
+    "S48": "Tỉ số game 9 set 2",
+    "S49": "Tỉ số game 10 set 2",
+    "S5": "Tỉ số Phạt góc",
+    "S50": "Tỉ số game 11 set 2",
+    "S500": "Tỉ số Phạt góc trong hiệp phụ",
+    "S501": "Tỉ số Phạt góc trong hiệp phụ 1",
+    "S502": "Tỉ số Phạt góc trong hiệp phụ 2",
+    "S51": "Tỉ số game 12 set 2",
+    "S52": "Tỉ số game 13 set 2",
+    "S53": "Tỉ số game 14 set 2",
+    "S54": "Tỉ số game 15 set 2",
+    "S55": "Tỉ số set 3",
+    "S555": "Tỉ số Phạt góc",
+    "S56": "Tỉ số game 1 set 3",
+    "S57": "Tỉ số game 2 set 3",
+    "S58": "Tỉ số game 3 set 3",
+    "S59": "Tỉ số game 4 set 3",
+    "S6": "Tỉ số đá phạt trực tiếp",
+    "S60": "Tỉ số game 5 set 3",
+    "S6011": "Tỉ số lần đi bóng",
+    "S6012": "Tỉ số sút gôn",
+    "S6014": "Tỉ số chốt gôn",
+    "S61": "Tỉ số game 6 set 3",
+    "S62": "Tỉ số game 7 set 3",
+    "S63": "Tỉ số game 8 set 3",
+    "S64": "Tỉ số game 9 set 3",
+    "S65": "Tỉ số game 10 set 3",
+    "S66": "Tỉ số game 11 set 3",
+    "S67": "Tỉ số game 12 set 3",
+    "S68": "Tỉ số game 13 set 3",
+    "S69": "Tỉ số game 14 set 3",
+    "S7": "Tỉ số hiệp phụ",
+    "S70": "Tỉ số game 15 set 3",
+    "S701": "Tỉ số hiệp phụ 1",
+    "S702": "Tỉ số hiệp phụ 2",
+    "S71": "Tỉ số set 4",
+    "S72": "Tỉ số game 1 set 4",
+    "S73": "Tỉ số game 2 set 4",
+    "S74": "Tỉ số game 3 set 4",
+    "S75": "Tỉ số game 4 set 4",
+    "S76": "Tỉ số game 5 set 4",
+    "S77": "Tỉ số game 6 set 4",
+    "S78": "Tỉ số game 7 set 4",
+    "S79": "Tỉ số game 8 set 4",
+    "S8": "Tỉ số số lần tấn công nguy hiểm",
+    "S80": "Tỉ số game 9 set 4",
+    "S81": "Tỉ số game 10 set 4",
+    "S82": "Tỉ số game 11 set 4",
+    "S83": "Tỉ số game 12 set 4",
+    "S84": "Tỉ số game 13 set 4",
+    "S85": "Tỉ số game 14 set 4",
+    "S86": "Tỉ số game 15 set 4",
+    "S87": "Tỉ số set 5",
+    "S88": "Tỉ số game 1 set 5",
+    "S89": "Tỉ số game 2 set 5",
+    "S9": "Tỉ số giao bóng lỗi 2 lần",
+    "S90": "Tỉ số game 3 set 5",
+    "S91": "Tỉ số game 4 set 5",
+    "S92": "Tỉ số game 5 set 5",
+    "S93": "Tỉ số game 6 set 5",
+    "S94": "Tỉ số game 7 set 5",
+    "S95": "Tỉ số game 8 set 5",
+    "S96": "Tỉ số game 9 set 5",
+    "S97": "Tỉ số game 10 set 5",
+    "S98": "Tỉ số game 11 set 5",
+    "S99": "Tỉ số game 12 set 5"
+  },
+  "msg": {
+    "msg_nodata_01": "Không thấy trận đấu tương ứng",
+    "msg_nodata_02": "Không có dữ liệu",
+    "msg_nodata_03": "Mất kết nối mạng, mời kiểm tra  cài đặt mạng",
+    "msg_nodata_04": "Không thấy tìm kiếm liên quan",
+    "msg_nodata_05": "Đi đặt cược",
+    "msg_nodata_06": "Làm mới",
+    "msg_nodata_07": "Xin hãy thử làm mới trang",
+    "msg_nodata_08": "Không có trận đấu yêu thích",
+    "msg_nodata_09": "Lỗi mạng",
+    "msg_nodata_10": "Chưa có vé cược nào",
+    "msg_nodata_11": "Không thấy trận đấu liên quan",
+    "msg_nodata_12": "Không có vé cược chưa trả cược",
+    "msg_nodata_13": "Không có vé cược đã trả cược",
+    "msg_nodata_14": "Không có trận đấu trực tiếp",
+    "msg_nodata_15": "Không có vé chưa trả cược sớm",
+    "msg_nodata_16": "Không có vé đã trả cược sớm",
+    "msg_nodata_17": "Không có thông tin nào",
+    "msg_nodata_18": "Không có cược hẹn",
+    "msg_nodata_19": "Đặt hẹn",
+    "msg_nodata_20": "Hi, thật không may, mất trang rồi",
+    "msg_nodata_21": "Đừng lo, click “làm mới” tìm lại ngay",
+    "msg_nodata_22": "Đang có quá nhiều khách truy cập, mời thử lại sau",
+    "msg_nodata_23": "Sắp ra mắt"
+  },
+  "myScroll": {
+    "msg1": "Kéo xuống để làm mới",
+    "msg2": "Đang làm mới",
+    "msg3": "Thả ra",
+    "msg4": "Đã làm mới",
+    "msg5": "Đang tải",
+    "msg6": "Đã tải xong",
+    "msg7": "Hết"
+  },
+  "nativeName": "Tiếng Việt",
+  "odds": {
+    "EU": "Thập phân",
+    "GB": "Tỉ lệ cược Anh",
+    "HK": "Hồng Kông",
+    "ID": "Tỉ lệ cược Indo",
+    "MY": "Tỉ lệ cược Malai",
+    "US": "Tỉ lệ cược Mỹ"
+  },
+  "play_way_info": {
+    "1": "",
+    "2": "Kèo 1x2 và trên/dưới chỉ tính số bàn thắng trong 5 lượt đầu đá luân lưu, không tính bàn thắng đối đầu sinh tử (Từ lượt thứ 6 trở đi)",
+    "3": "",
+    "4": "",
+    "5": "Kèo thẻ phạt trả cược dựa trên điểm số, thẻ đỏ 2 điểm, thẻ vàng 1 điểm. Mỗi cầu thủ có tối đa 3 điểm thẻ phạt.",
+    "6": "Cược đặt số quả phạt góc của đội nhà hoặc đội khách, đội nào có X quả phạt góc trước.",
+    "17": {
+      "0":  {
+        "title": "15 phút- Giai đoạn 1",
+        "content": "Khai mạc-14 phút 59 giây"
+      },
+      "1": {
+        "title": "15 phút- Giai đoạn 2",
+        "content": "15 phút- 29 phút 59 giây"
+      },
+      "2": {
+        "title": "15 phút- Giai đoạn 3",
+        "content": "30 phút - hiệp một"
+      },
+      "3":  {
+        "title": "15 phút- Giai đoạn 4",
+        "content": "Bắt đầu hiệp 2- 59 phút 59 giây"
+      },
+      "4":  {
+        "title": "15 phút- Giai đoạn 5",
+        "content": "60 phút- 74 phút 59 giây"
+      },
+      "5":  {
+        "title": "15 phút- Giai đoạn 6",
+        "content": "75 phút - FT"
+      }
+    },
+    "19": {
+      "0": {
+        "content": "Bắt đầu ~ 04 phút 59 giây",
+        "title": "5 phút ~ P1"
+      },
+      "1":  {
+        "content": "05 phút ~ 09 phút 59 giây",
+        "title": "5 phút ~ P2"
+      },
+      "2": {
+        "content": "Vui lòng xem Quy tắc thể thao",
+        "title": "5min-icon"
+      },
+      "3": {
+        "content": "85 phút ~ 90 phút 00 giây",
+        "title": "5 phút ~ P18"
+      },
+      "4": {
+        "content": "",
+        "title": "Không BT(0-0)",
+        "Xth_title": "Không có BT thứ X"
+      },
+      "5": {
+        "content": "",
+        "title": "BT Hiệp phụ(H1/H2)"
+      }
+    }
+  },
+  "rule_description": {
+    "american_football": "Bóng bầu dục Mỹ",
+    "badminton": "Cầu Lông",
+    "baseball": "Bóng Chày",
+    "basketball": "Bóng Rổ",
+    "champion": "Cược Chung Cuộc",
+    "football": "Bóng Đá",
+    "general_rules": "Luật chung",
+    "pingpong": "Bóng Bàn",
+    "puck": "Khúc Côn Cầu Sân Băng",
+    "Snooker": "Bida",
+    "tennis": "Quần Vợt",
+    "volleyball": "Bóng Chuyền"
+  },
+  "scroll_wrapper": {
+    "is_footer": "Hết",
+    "loding_more": "Thêm"
+  },
+  "search": {
+    "clear_search_history": "Xóa lịch sử tìm kiếm",
+    "hot": "Hot",
+    "hot_league": "Giải đấu hot",
+    "keyword_is_empty": "Mời nhập từ khóa",
+    "search_history": "Lịch sử tìm kiếm",
+    "search_hot": "Tìm kiếm hot",
+    "search_qihao": "Mời nhập số kỳ trận đấu ảo",
+    "search_title": "Tìm kiếm",
+    "search_title_bw3": "Nhập tên giải đấu hoặc tên đội"
+  },
+  "setting_menu": {
+    "chan_lan": "Đổi ngôn ngữ",
+    "concise": "Người mới",
+    "footer_t_handicap": "Kèo",
+    "footer_t_odds": "Vé cược",
+    "footer_t_sort": "Sắp xếp",
+    "handicap": "Tỉ lệ cược",
+    "lang": "Tiếng Việt",
+    "league": "Hot",
+    "lottery": "Tiền thưởng",
+    "newer": "Người mới",
+    "newer_s_edt": "Phiên bản",
+    "odd_any": "Bất kỳ",
+    "odd_any2": "Tỉ lệ cược bất kỳ",
+    "odd_europe": "Thập phân",
+    "odd_europe2": "Thập phân",
+    "odd_hong_kong": "Hồng Kông",
+    "odd_hong_kong2": "Hồng Kông",
+    "odd_optimal": "Tốt nhất",
+    "odd_optimal2": "Tỉ lệ cược tốt nhất",
+    "prize": "Lịch sử trả thưởng",
+    "rule_description": "Quy tắc",
+    "skin": "Đổi giao diện",
+    "standard": "Tiêu chuẩn",
+    "time": "Thời gian",
+    "tutorials": "Giáo trình",
+    "version": "Phiên bản"
+  },
+  "sport": {
+    "badminton": "Cầu Lông",
+    "basketball": "Bóng Rổ",
+    "football": "Bóng Đá",
+    "pingpong": "Bóng Bàn",
+    "snooker": "Bida",
+    "tennis": "Quần Vợt"
+  },
+  "menu_itme_name": {
+    "results": "Kết Quả",
+    "inplay": "Trong Trận",
+    "today": "Hôm Nay",
+    "early": "Cược Sớm",
+    "outher_early": "Cược Sớm khác",
+    "champion": "Chung Cuộc",
+    "vr": "VR",
+    "lottery": "Lottery",
+    "esports": "Esports",
+    "cp_menu" :"xổ số",
+    "zr_menu" :"casino trực tuyến"
+  },
+  "sport2": {
+    "1": "Bóng Đá",
+    "2": "Bóng Rổ",
+    "3": "Bóng Chày",
+    "4": "Khúc Côn Cầu Trên băng",
+    "5": "Quần Vợt",
+    "6": "Bóng bầu dục Mỹ",
+    "7": "Bida",
+    "8": "Bóng Bàn",
+    "9": "Bóng Chuyền",
+    "10": "Cầu Lông",
+    "11": "Bóng Ném",
+    "12": "Quyền Anh",
+    "13": "Bóng Chuyền Bãi Biển",
+    "14": "Bóng Bầu Dục",
+    "15": "Khúc Côn Cầu",
+    "16": "Bóng Nước",
+    "17": "Điền Kinh",
+    "19": "Bơi",
+    "20": "Thể Dục Dụng Cụ",
+    "21": "Nhảy Cầu",
+    "22": "Bắn Súng",
+    "23": "Cử Tạ",
+    "24": "Bắn Cung",
+    "25": "Đấu Kiếm",
+    "26": "Bi Đá Trên Băng",
+    "27": "Taekwondo",
+    "28": "Golf",
+    "29": "Xe đạp",
+    "30": "Cưỡi Ngựa",
+    "31": "Thuyền Buồm",
+    "32": "Chèo Thuyền",
+    "33": "Đua Xe Có Động Cơ",
+    "34": "Judo",
+    "35": "Karate",
+    "36": "Đấu Vật",
+    "37": "Bóng Gậy",
+    "38": "Phi Tiêu",
+    "39": "Bóng Đá Bãi Biển",
+    "50": "Thú Vị",
+    "100": "LOL",
+    "101": "Dota2",
+    "102": "CSGO",
+    "103": "VGVD",
+    "1001": "Bóng Đá VR",
+    "1002": "Bóng Rổ VR",
+    "1004": "Đua Ngựa VR",
+    "1009": "Đua Chó VR",
+    "1010": "Đua Mô Tô VR",
+    "1011": "Đua Mô Tô Đường Đất VR"
+  },
+  "sport_head_play_category": {
+    "1": {
+      "0":"1X2",
+      "1":"Kèo chấp",
+      "2":"Trên/Dưới",
+      "3":"Hiệp 1 - 1x2",
+      "4":"Hiệp 1-Kèo chấp",
+      "5":"Hiệp 1-Trên/Dưới"
+    },
+    "2": {
+      "0":"Đội chiến thắng",
+      "1":"Kèo chấp set",
+      "2":"Kèo chấp game"
+    },
+    "3": {
+      "0":"Đội chiến thắng",
+      "1":"Kèo chấp",
+      "2":"Tổng điểm"
+    },
+    "4": {
+      "0":"1X2",
+      "1":"Kèo chấp",
+      "2":"Trên/Dưới"
+    },
+    "5": {
+      "0":"1X2",
+      "1":"Kèo chấp",
+      "2":"Trên/Dưới"
+    },
+    "6": {
+      "0":"1X2",
+      "1":"Kèo chấp",
+      "2":"Trên/Dưới"
+    },
+    "7": {
+      "0":"Đội chiến thắng",
+      "1":"Tổng số hiệp"
+    },
+    "8": {
+      "0":"Đội chiến thắng",
+      "1":"Kèo chấp",
+      "2":"Tổng số ván"
+    },
+    "9": {
+      "0":"Đội thắng",
+      "1":"Chấp bản đồ",
+      "2":"Tổng bản đồ"
+    },
+    "10": {
+      "0":"Đội thắng",
+      "1":"Chấp bản đồ",
+      "2":"Tổng bản đồ"
+    },
+    "11": {
+     "0":"1x2",
+     "1":"Kèo chấp",
+     "2":"Trên/Dưới",
+     "3":"Hiệp 1-1x2",
+     "4":"Hiệp 1-Kèo chấp",
+     "5":"Hiệp 1-Trên/Dưới"
+    },
+    "12": {
+      "0":"1X2",
+      "1":"Kèo chấp",
+      "2":"Trên/Dưới",
+      "3":"Hiệp 1-1x2",
+      "4":"Hiệp 1-Kèo chấp",
+      "5":"Hiệp 1-Trên/Dưới"
+    }
+  },
+  "time": {
+    "monthes": {
+      "0":"Tháng 1",
+      "1":"Tháng 2",
+      "2":"Tháng 3",
+      "3":"Tháng 4",
+      "4":"Tháng 5",
+      "5":"Tháng 6",
+      "6":"Tháng 7",
+      "7":"Tháng 8",
+      "8":"Tháng 9",
+      "9":"Tháng 10",
+      "10":"Tháng 11",
+      "11":"Tháng 12"
+    },
+    "time_date_1": "%date/%month",
+    "time_date_2": "%s/%s (%s)",
+    "time_date_3": "%s/%s %s:%s",
+    "time_date_week": {
+      "0":"Chủ Nhật",
+      "1":"Thứ 2",
+      "2":"Thứ 3",
+      "3":"Thứ 4",
+      "4":"Thứ 5",
+      "5":"Thứ 6",
+      "6":"Thứ 7"
+    }
+  },
+  "time2": "dd/MM",
+  "time3": "dd/MM",
+  "time4": "dd/MM HH:mm",
+  "time5": "dd/MM/yy",
+  "time6": "dd/MM/yyyy HH:mm",
+  "time7": "dd/MM/yyyy HH:mm",
+  "time8": "dd/MM/yyyy HH:mm:ss",
+  "time9": "HH:mm",
+  "time11": "dd/MM HH:mm",
+  "tips": {
+    "msg1": "Gộp kèo cược",
+    "msg2": "Sau khi chọn, tùy ý đổi cược đơn/xâu, hiển thị nhiều kèo cược, cược kèo cùng 1 kèo cược sẽ thay thế cược ban đầu",
+    "close": "Đóng",
+    "expand": "Mở rộng"
+  },
+  "today": "Hôm nay",
+  "token_inv": {
+    "confrim": "OK",
+    "dear_user": "Quý khách thân mến",
+    "msg": "Thông tin tài khoản đã hết hiệu  lực, xin hãy đăng nhập lại!",
+    "play_happily": "Chúc quý khách đặt cược vui vẻ",
+    "reaccess": "Mời truy cập lại",
+    "token_dis": "Thông tin đăng nhập hết hiệu lực, mời đóng trang"
+  },
+  "tomorrow": "Ngày mai",
+  "video": {
+    "after": "Mời truy cập lại để xem",
+    "change_video": "Đổi sang Animation",
+    "click_on": "Click 1 lần ",
+    "close": "Đóng",
+    "close_1": "Live Animation đã đóng",
+    "close_2": "Live Video đã đóng",
+    "double_click": "Click đúp",
+    "full_screen_play": " Toàn màn hình",
+    "lost": "Thông tin tài khoản hết hiệu lực",
+    "msg": "Tất cả nội dung chiếu trực tiếp  chỉ mang tính chất tham khảo, người chơi cũng có thể coi như đây là chỉ dẫn.  Chúng tôi sẽ cố gắng đảm bảo nội dung hiển thị chính xác, nếu nội dung bị  sai, chúng tôi sẽ không chịu bất cứ trách nhiệm nào. Đối với tỉ số trong  trận, ví dụ kèo chấp trong trận sẽ lấy tỉ số chính xác hiển thị trên vé cược  làm chuẩn.",
+    "show_hide": "Hiển thị/Ẩn",
+    "sorry": "Rất tiếc, hiện không thể tải nguồn",
+    "nohandle": "Bạn quá lâu không thao tác, video bị tạm dừng, vui lòng bấm phát lại để xem tiếp",
+    "video_line": "Video Line",
+    "flv": "HD1",
+    "m3u8": "HD2"
+  },
+  "virtual_sports": {
+    "advance": "BT",
+    "champion": "Hạng 1",
+    "comprehensive_rating": "Đánh giá tổng hợp",
+    "date_number_title": "Kỳ %s",
+    "FINAL": "Chung kết",
+    "finals": "Chung kết",
+    "game": "Trận",
+    "goal_difference": "GD",
+    "group": "Bảng",
+    "group_matches": "Đấu bảng",
+    "GROUPS": "Đấu bảng",
+    "INGAME": "Trong trận",
+    "integral": "Điểm",
+    "knockout": "Đấu loại",
+    "leaderboard": "Bảng xếp hạng",
+    "legOrder": "Lượt %",
+    "lose": "BB",
+    "match_status": {
+      "0": "Bắt đầu",
+      "1": "1 phút cuối",
+      "2": "Kết thúc",
+      "ended": "Kết thúc",
+      "playing": "Đang diễn ra",
+      "x_to_ended": "Cách kết thúc %s"
+    },
+    "matchDay": "Vòng %s",
+    "next_batch_no": "Vòng %s",
+    "next_date_no": "Kỳ %s",
+    "no_data": "Không có dữ liệu",
+    "PREGAME": "Chưa bắt đầu",
+    "Q16": "Vòng 32 đội",
+    "Q4": "Tứ kết",
+    "Q8": "Vòng 16 đội",
+    "quarter_finals": "Tứ kết 1/4",
+    "result": {
+      "0":"Vô hiệu",
+      "1":"Vô hiệu",
+      "2":"Hòa kèo",
+      "3":"Thua",
+      "4":"Thắng",
+      "5":"Thắng 1/2",
+      "6":"Thua 1/2"
+    },
+    "results_last_games": "Kết quả 5 trận gần đây",
+    "results_previous": "Kết quả kỳ trước",
+    "runner_up": "Hạng 2",
+    "SEMIFINAL": "Bán kết",
+    "semifinals": "Bán kết",
+    "show_more": "Xem thêm",
+    "team": "Đội",
+    "third_place": "Hạng 3",
+    "top_16": "Vòng 16 đội",
+    "top_32": "Vòng 32 đội",
+    "top_64": "Vòng 64 đội",
+    "vitality_performance": "Sức sống ảo",
+    "win_tie_loss": "T/H/B",
+    "balance": "Sự cân bằng",
+    "matching": "Trong cuộc thi",
+    "show_all_markets":"Hiển thị tất cả các thị trường",
+    "match_detail": {
+      "leaderboard": "Danh sách xếp hạng",
+      "historical_results": "Kết quả lịch sử",
+      "bet": "cá cược"
+    }
+  },
+  "new_menu": {
+    "1": "Trong Trận",
+    "2": "Hôm Nay",
+    "3": "Cược Sớm",
+    "4": "Chung Cuộc",
+    "5": "Sắp bắt đầu",
+    "6": "Cược Xâu",
+    "7": "Esports",
+    "8": "VR",
+    "30": "Lottery",
+    "28": "Kết Quả",
+    "400": "Chung Cuộc"
+  },
+  "highlights": {
+    "title": "Đặc sắc",
+    "collapse_replay": "Thu gọn",
+    "type": {
+      "all": "Tất cả",
+      "goal": "Bàn thắng",
+      "corner": "Phạt góc",
+      "penalty": "Thẻ Phạt",
+      "card_red": "Thẻ Đỏ",
+      "card_yellow": "Thẻ Vàng",
+      "card_yellow_red": "Thẻ đỏ vàng"
+    },
+    "event_type": {
+      "goal": "Bàn thắng thứ {X}",
+      "corner": "Quả phạt góc thứ {X}",
+      "red_card": "Thẻ Đỏ thứ {X}",
+      "yellow_card": "Thẻ Vàng thứ {X}",
+      "yellow_red_card": "Thẻ Vàng Đỏ thứ {X}",
+      "new_goal": "Bàn thắng{X}",
+      "new_corner": "Phạt góc{X}",
+      "new_red_card": "Thẻ Đỏ{X}",
+      "new_yellow_card": "Thẻ Vàng{X}",
+      "new_yellow_red_card": "Thẻ đỏ vàng{X}"
+    },
+    "back_live": "Trở về Livestream"
+  },
+  "game": {
+    "start": "Trò chơi bắt đầu"
+  },
+  "match": {
+    "group_score_list": "Group score list",
+    "most_appearances": "Most appearances",
+    "best_shooter": "Best shooter",
+    "best_record": "Best record",
+    "best_moment": "Best moment",
+    "final_victory": "Final victory",
+    "total_scored": "Total scored",
+    "matches_number": "Matches number",
+    "net_win": "GD",
+    "ranking_score": "Pts",
+    "bet_close": "Stop betting"
+  }
+}

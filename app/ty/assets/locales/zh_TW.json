@@ -1,0 +1,3094 @@
+{
+  "app": {
+    "bet": "註單",
+    "activity": "活動",
+    "notice": "公告",
+    "myProfile": "個人中心",
+    "signOut": "退出登錄",
+    "loginInvalid": "登錄已失效 ！",
+    "favorite_Tips": "還沒你想收藏的賽事",
+    "ball_match": "球赛",
+    "team_name": "队名",
+    "tactical_analysis": "戰術分析",
+    "points_per_game": "均場得分",
+    "outbound": "出站",
+    "losing_rate": "輸盤率",
+    "Video_line_prompts": "*影片卡頓或不清晰可自行調整線路",
+    "more_play": "更多玩法",
+    "toggle_hd_video": "正在切換到高清",
+    "seconds_ago": "秒前",
+    "minutes_ago": "分鐘前",
+    "hours_ago": "小时前",
+    "days_ago": "天前",
+    "months_ago": "月前",
+    "years_ago": "年前",
+    "questionsData": {
+      "1": {
+        "note_1": "進球數2，小於2.5",
+        "note_2": "故投注小2.5能全贏,投注大2.5則全輸"
+      },
+      "2": {
+        "note_1": "進球數2，小於2/2.5",
+        "note_2": "基本對分原理，投注小2/2.5能贏一半"
+      }
+    },
+    "early_market": "早盤盤口",
+    "live_betting": "滾球盤口",
+    "outright_winner": "冠軍盤口",
+    "combine_bets_tips": "取消後你將“自動接受任何賠率”",
+    "combine_bets_msg1": "若未勾選此功能，系統將認爲您“自動接受任何賠率”。(即無論下注時的賠率如何變化系統都將默認您可以接受,不會打斷您的下注行爲）",
+    "combine_bets_msg2": "即無論下注時的賠率如何變化，系統都將默認你可以接受，頁面會出現賠率變化提示但不會打斷你的下注行為",
+    "multi": "串關投注",
+    "betting": "投注",
+    "match_analysis": "賽事分析",
+    "place_bet": "下注",
+    "lol": "英雄聯盟",
+    "dec": "歐洲盤",
+    "hk": "香港盤",
+    "pull_up_loading": "上拉加載",
+    "failed_to_load": "載入失敗",
+    "release_to_load_more": "鬆開加載更多",
+    "no_more_data": "沒有更多數據",
+    "phrase_no": "。",
+    "injury_time": "傷停補時",
+    "tbd": "待定",
+    "info_rules": {
+        "rule1": "此版面顯示的所有直播內容僅供參考，會員亦可使用此內容為指南。我們將盡最大的努力確保顯示的內容是正確的，如有錯誤，本公司將不承擔任何責任。",
+        "rule2": "對於滾球比分，例如滾球讓球，將以投注時在投注單中顯示的正確比分為準。"
+    },
+    "notice_center": "公告中心"
+  },
+  "types_competitions": {
+    "odds": {
+      "EU": "歐洲盤",
+      "GB": "英式盤",
+      "HK": "香港盤",
+      "ID": "印尼盤",
+      "MY": "馬來盤",
+      "US": "美式盤"
+    },
+    "matchtype": {
+      "1": "賽前",
+      "2": "滾球",
+      "3": "",
+      "4": ""
+    },
+    "menu_itme_name": {
+      "results": "赛果",
+      "inplay": "滚球",
+      "today": "今日",
+      "early": "早盘",
+      "outher_early": "其他早盘",
+      "champion": "冠军",
+      "vr": "VR",
+      "lottery": "竞足",
+      "esports": "电竞"
+    },
+    "sport2": {
+      "1": "足球",
+      "2": "籃球",
+      "3": "棒球",
+      "4": "冰球",
+      "5": "網球",
+      "6": "美式足球",
+      "7": "斯諾克",
+      "8": "乒乓球",
+      "9": "排球",
+      "10": "羽毛球",
+      "11": "手球",
+      "12": "拳击",
+      "13": "沙滩排球",
+      "14": "英式橄榄球",
+      "15": "曲棍球",
+      "16": "水球",
+      "17": "田徑",
+      "19": "游泳",
+      "20": "體操",
+      "21": "跳水",
+      "22": "射擊",
+      "23": "舉重",
+      "24": "射箭",
+      "25": "擊劍",
+      "26": "冰壺",
+      "27": "跆拳道",
+      "28": "高爾夫",
+      "29": "自行車",
+      "30": "賽馬",
+      "31": "帆船",
+      "32": "划船",
+      "33": "賽馬",
+      "34": "柔道",
+      "35": "空手道",
+      "36": "摔跤",
+      "37": "板球",
+      "38": "飛鏢",
+      "39": "沙灘足球",
+      "50": "趣味",
+      "100": "LOL",
+      "101": "Dota2",
+      "102": "CSGO",
+      "103": "王者榮耀",
+      "1001": "VR足球",
+      "1002": "VR賽狗",
+      "1004": "VR籃球",
+      "1009": "VR泥地摩托車",
+      "1010": "VR摩托車",
+      "1011": "VR賽馬"
+    }
+  },
+  "ouzhou": {
+    "record": {
+      "my_bet": "注單曆史",
+      "unsettled": "未結算",
+      "settled": "已結算",
+      "unpaid_bets": "該記錄將顯示所有未支付的投注",
+      "settled_time": "結算時間",
+      "bet_time": "投注時間",
+      "match_time": "比賽時間",
+      "today": "今天",
+      "yesterday": "昨天",
+      "7_days": "七天內",
+      "30_days": "30天內",
+      "datails": "投注詳情"
+    },
+    "detail": {
+      "which_team": "哪支球隊",
+      "keno_lottery": "基諾彩票",
+      "exciting_different": "令人興奮且與衆不同",
+      "close_handicap": "關閉讓分盤",
+      "betting": "投注",
+      "assault": "進攻",
+      "possession_ball": "球權",
+      "shot_wide_goal": "射偏球門",
+      "shots_on_goal": "射正球門",
+      "event_analysis": "賽事分析",
+      "foul": "犯規",
+      "point": "分",
+      "penalty": "罰球",
+      "pause": "暫停",
+      "read": "閲讀"
+    },
+    "bet": {
+      "place_bet": "下注"
+    },
+    "menu": {
+      "collect": "收藏",
+      "popular": "熱門",
+      "all_sports": "全部賽事",
+      "my_bets": "注單記錄"
+    },
+    "match": {
+      "league": "聯賽",
+      "outrights": "冠軍",
+      "favorites": "收藏",
+      "matches": "賽事",
+      "featured": "特色",
+      "featured_events": "特色賽事",
+      "top_events": "熱門賽事",
+      "top_leagues": "熱門聯賽",
+      "all_matches": "所有賽事",
+      "15_mins": "15分鍾",
+      "inplay": "滾球",
+      "home": "體育投注",
+      "today": "今日",
+      "early": "早盤",
+      "bet_col_Over": "大于",
+      "bet_col_Under": "小于",
+      "home_handicap": "主隊讓分",
+      "away_handicap": "客隊讓分",
+      "tomorrow": "明天",
+      "select_time": {
+        "12h": "12小時以內",
+        "24h": "24小時以內",
+        "72h": "三天以內",
+        "168h": "七天以內"
+      },
+      "play_map": {
+        "1": "全場獨贏",
+        "2": "全場大小",
+        "4": "全場讓球",
+        "17": "半場獨贏",
+        "18": "半場大小",
+        "19": "半場讓球",
+        "37": "全場獨贏",
+        "38": "全场总分",
+        "39": "全場總分",
+        "153": "全場獨贏",
+        "154": "全場讓盤",
+        "155": "全場讓局",
+        "172": "全場讓分",
+        "173": "全場總分",
+        "181": "全場讓局",
+        "182": "總局數",
+        "242": "全場獨贏",
+        "243": "場讓球球",
+        "244": "全場大小",
+        "30001": "全局獲勝",
+        "30002": "地圖讓分",
+        "30003": "地圖總數",
+        "12_2": "總回合數",
+        "20043": "全場獨贏",
+        "20045": "讓分",
+        "20044": "總分",
+        "20046": "達到21分"
+      }
+    },
+    "setting_menu": {
+      "personal": "個人",
+      "back": "返回",
+      "money": "余額",
+      "language": "語言",
+      "odds_setting": "賠率設置",
+      "odds_display": "賠率盤口",
+      "dec": "歐洲盤",
+      "hk": "香港盤",
+      "any": "任何賠率",
+      "hig": "最佳賠率",
+      "version": "版本",
+      "euro": "歐洲版",
+      "asia": "亞洲版",
+      "hot": "熱門",
+      "time": "時間",
+      "sort": "排序"
+    },
+    "no_data": {
+      "coming_soon": "即將推出",
+      "no_data": "暫無數據"
+    },
+    "search": {
+      "change": "換壹換",
+      "clear_search_history": "清除搜索曆史",
+      "league": "聯賽",
+      "null1": "搜索結果爲空",
+      "null2": "換個詞搜索試試吧",
+      "other": "其他搜索",
+      "search_hot": "熱門搜索",
+      "search_play": "搜玩法",
+      "search_record": "搜索曆史",
+      "search_sports": "搜球類",
+      "team": "球隊",
+      "placeholder": "請輸入聯賽名或球隊名",
+      "close": "關閉",
+      "view_all_match": "查看所有比賽",
+      "underway": "進行中",
+      "no_search_rezult": "沒有發現結果。請嘗試另壹個搜索詞。",
+      "dogfall": "平局",
+      "search_history": "搜索曆史",
+      "No_results": "無搜索結果"
+    },
+    "bet_col": {
+      "bet_col_1": {
+        "bet_col_1": "主勝",
+        "bet_col_X": "平局",
+        "bet_col_2": "客勝"
+      },
+      "bet_col_2": {
+        "bet_col_Over": "全場大小",
+        "bet_col_Under": "全場大小"
+      },
+      "bet_col_4": {
+        "bet_col_1": "主隊",
+        "bet_col_2": "客隊"
+      },
+      "bet_col_37": {
+        "bet_col_1": "主勝",
+        "bet_col_2": "客勝"
+      },
+      "bet_col_38": {
+        "bet_col_1": "總分",
+        "bet_col_2": "總分"
+      },
+      "bet_col_39": {
+        "bet_col_1": "讓分",
+        "bet_col_2": "讓分"
+      },
+      "bet_col_153": {
+        "bet_col_1": "主勝",
+        "bet_col_2": "客勝"
+      },
+      "bet_col_154": {
+        "bet_col_1": "讓盤",
+        "bet_col_2": "讓盤"
+      },
+      "bet_col_155": {
+        "bet_col_1": "讓局",
+        "bet_col_2": "讓局"
+      },
+      "bet_col_172": {
+        "bet_col_1": "讓分",
+        "bet_col_2": "讓分"
+      },
+      "bet_col_173": {
+        "bet_col_1": "總分",
+        "bet_col_2": "總分"
+      },
+      "bet_col_181": {
+        "bet_col_1": "讓局",
+        "bet_col_2": "讓局"
+      },
+      "bet_col_182": {
+        "bet_col_1": "大于",
+        "bet_col_2": "小于"
+      },
+      "bet_col_242": {
+        "bet_col_1": "全場獨贏",
+        "bet_col_2": "全場獨贏"
+      },
+      "bet_col_243": {
+        "bet_col_1": "主隊",
+        "bet_col_2": "客隊"
+      },
+      "bet_col_244": {
+        "bet_col_1": "大于",
+        "bet_col_2": "小于"
+      },
+      "bet_col_30001": {
+        "bet_col_1": "1",
+        "bet_col_2": "2"
+      },
+      "bet_col_30002": {
+        "bet_col_1": "讓分",
+        "bet_col_2": "讓分"
+      },
+      "bet_col_30003": {
+        "bet_col_1": "總數",
+        "bet_col_2": "總數"
+      }
+    },
+    "15minutes_bet_col": {
+      "0": "開場~14:59",
+      "1": "上半場 15:00~29:59",
+      "2": "上半場 30:00~半场",
+      "3": "下半場 开始~59:59",
+      "4": "下半場 60:00~74:59",
+      "5": "下半場 75:00~全场"
+    }
+  },
+  "app_h5": {
+    "cathectic": {
+      "handicap_tutorial": "盤口教程",
+      "open_bets": "未結注單",
+      "closed_bets": "已結注單",
+      "no_data_pre": "您暫無預約中數據",
+      "no_data_unsettle": "您暫無未結算數據",
+      "no_data_settle": "您暫無已結算數據",
+      "no_data_invalid": "您暫無已失效數據",
+      "data_loading": "數據加載中...",
+      "kind_tips": "溫馨提示",
+      "adjustment_amount": "調整金額",
+      "winnable": "可贏額",
+      "bet_number": "投注單號",
+      "bets": "投注項",
+      "settle": "結算",
+      "bet_status": "注單狀態",
+      "cash_failed": "提前兌現失敗",
+      "sub_wait": "已提交申請，請耐心等待",
+      "all_cash_sess": "全部提前兌現成功",
+      "cash_details": "提前兌現詳情",
+      "cash_rules": "提前兌現規則申明",
+      "explain1": "提前兌現只適用於指定賽事和盤口，如遇到賽事或盤口取消，提前兌現注單將會被收回重新結算。我方將保留賽果最終解釋權。",
+      "explain2": "具體兌現規則請查看【設置菜單】-【規則說明】-【提前結算】。",
+      "confirm_cancel_reservation": "確定取消本場比賽預約？",
+      "champions_handicap": "冠軍盤口"
+    },
+    "handicap_tutorial": {
+      "answer_question": "大小球模擬訓練",
+      "football_master": "恭喜，您已進階爲足球大師",
+      "training_camp": "訓練營",
+      "actual_combat": "實戰來一注",
+      "practise": "模擬練習",
+      "again": "再學一次",
+      "single": "單選",
+      "return_home": "返回主頁",
+      "next": "下一題",
+      "introdution": "攻略",
+      "results_appear": "當出現這樣的賽果",
+      "red_list": "恭喜紅單",
+      "not_master": "很遺憾，您還未完全掌握",
+      "big_small_ball": "大小球",
+      "big_small_ball_tip": "全場90分鐘（含傷停補時）兩隊進球數的總和即爲大小球",
+      "handicapData_condition": "均不讓球即0",
+      "handicapData_condition_1": "進球之和",
+      "all_win": "全贏",
+      "home_team": "主隊",
+      "bet_home_team": "投注主隊",
+      "bet_away_team": "投注客隊",
+      "away_team": "客隊",
+      "all_lose": "全輸",
+      "win_half": "贏一半",
+      "lose_half": "輸一半",
+      "tie_handicap": "平手盤",
+      "tie_half_plate": "平手半球盤",
+      "big_bet": "投注大%s",
+      "small_bet": "投注小%s",
+      "enter_ball": "進球之和",
+      "vice_versa": "反之亦然",
+      "return_principal_discount": "退回本金（打和）",
+      "return_principal": "退回本金",
+      "home_team_handicap": "主隊讓%s球",
+      "ball_plate_1": "半球盤",
+      "ball_plate_2": "半球/一球盤",
+      "ball_plate_3": "一球盤",
+      "ball_plate_4": "一球/球半盤",
+      "ball_plate_5": "球半盤",
+      "ball_plate_6": "球半/兩球盤",
+      "note_1": "投注主隊全贏，投注客隊全輸",
+      "note_2": "打平，退回本金（走水）",
+      "note_3": "投注主隊全贏，投注客隊全輸",
+      "note_4": "打平，投注主隊全輸，投注客隊全贏",
+      "note_5": "投注主隊全輸，投注客隊全贏",
+      "note_6": "投注主隊贏一半，投注客隊輸一半",
+      "note_7": "投注主隊全贏，投注客隊全輸",
+      "note_8": "投注主客均退回本金（走水）",
+      "note_9": "投注主隊輸一半，投注客隊贏一半",
+      "note_10": "投注主隊全輸，投注客隊全贏",
+      "note_11": "投注主隊全輸，投注客隊全贏",
+      "note_12": "投注主隊贏一半，投注客隊輸一半",
+      "note_13": "投注主隊全贏，投注客隊全輸",
+      "note_14": "投注大2.5全贏，投注小2.5全輸",
+      "note_15": "投注大2.5/3贏一半，投注小2.5/3輸一半",
+      "note_16": "投注大3/3.5輸一半，投注小3/3.5贏一半",
+      "note_17": "投注大3退回本金（走水），投注小3退回本金（走水）",
+      "questionsData": {
+        "1": {
+          "note_1": "進球數2，小於2.5",
+          "note_2": "故投注小2.5能全贏,投注大2.5則全輸"
+        },
+        "2": {
+          "note_1": "進球數2，小於2/2.5",
+          "note_2": "基本對分原理，投注小2/2.5能贏一半"
+        }
+      },
+      "ball": "%s球",
+      "big": "大%s",
+      "small": "小%s",
+      "which_win": "哪個選項能全贏?",
+      "which_win_half": "哪個選項能贏一半?",
+      "real_madrid": "皇馬",
+      "m_chesester_city": "曼城",
+      "m_chesester_untied": "曼聯",
+      "chelsea": "切爾西",
+      "barcelona": "巴薩"
+    },
+    "bet": {
+      "no_support_collusion": "不支援串關投注",
+      "bet_win": "可赢",
+      "delete": "删除",
+      "confirm": "確認",
+      "parlay": "串",
+      "odd": "單",
+      "limit": "限額",
+      "cancel_appoint": "取消預約",
+      "pm_sport": "PM體育",
+      "bet_confirm": "注單已確認",
+      "bet_error": "注單失敗",
+      "reserve_win": "預約金額",
+      "win_amount": "可贏金額",
+      "toltip1": "什麼是",
+      "toltipc": "串",
+      "add_event": "新增賽事",
+      "bet_config": "注單已確認",
+      "keep_go_bet": "保留選項，繼續投注",
+      "expect_win": "預計可贏",
+      "toltips": {
+        "2001": {
+          "title": "2串1是由2場賽事組成的一個注單。",
+          "content": "選擇2場賽事投注2串1時，系統將選擇的2場賽事中合併爲一個注單，2場賽事必須全贏纔可獲得盈利"
+        },
+        "3001": {
+          "title": "3串1是由3場賽事組成的一個注單。",
+          "content": "選擇3場賽事投注3串1時，系統將選擇的3場賽事中合併爲一個注單，3場賽事必須全贏纔可獲得盈利"
+        },
+        "4001": {
+          "title": "4串1是由4場賽事組成的一個注單。",
+          "content": "選擇4場賽事投注4串1時，系統將選擇的4場賽事中合併爲一個注單，4場賽事必須全贏纔可獲得盈利"
+        },
+        "5001": {
+          "title": "5串1是由5場賽事組成的一個注單。",
+          "content": "選擇5場賽事投注5串1時，系統將選擇的5場賽事中合併爲一個注單，5場賽事必須全贏纔可獲得盈利"
+        },
+        "6001": {
+          "title": "6串1是由6場賽事組成的一個注單。",
+          "content": "選擇6場賽事投注6串1時，系統將選擇的6場賽事中合併爲一個注單，6場賽事必須全贏纔可獲得盈利"
+        },
+        "7001": {
+          "title": "7串1是由7場賽事組成的一個注單。",
+          "content": "選擇7場賽事投注7串1時，系統將選擇的7場賽事中合併爲一個注單，7場賽事必須全贏纔可獲得盈利"
+        },
+        "8001": {
+          "title": "8串1是由8場賽事組成的一個注單。",
+          "content": "選擇8場賽事投注8串1時，系統將選擇的8場賽事中合併爲一個注單，8場賽事必須全贏纔可獲得盈利"
+        },
+        "9001": {
+          "title": "9串1是由9場賽事組成的一個注單。",
+          "content": "選擇9場賽事投注9串1時，系統將選擇的9場賽事中合併爲一個注單，9場賽事必須全贏纔可獲得盈利"
+        },
+        "10001": {
+          "title": "10串1是由10場賽事組成的一個注單。",
+          "content": "選擇10場賽事投注10串1時，系統將選擇的10場賽事中合併爲一個注單，10場賽事必須全贏纔可獲得盈利"
+        },
+        "3004": {
+          "title": "3串4是由3場賽事組成的4個不同注單。",
+          "content": "選擇3場賽事投注3串4時，系統將從選擇的3場賽事中拆出一個3個2串1以及1個3串1，一個串關爲一單即一共4個注單。"
+        },
+        "40011": {
+          "title": "4串11是由4場賽事組成的11個不同注單。",
+          "content": "選擇4場賽事投注4串11時，系統將從選擇的4場賽事中拆出一個6個2串1,4個3串1以及1個4串1，一個串關爲一單即一共11個注單。"
+        },
+        "50026": {
+          "title": "5串26是由5場賽事組成的26個不同注單。",
+          "content": "選擇5場賽事投注5串26時，系統將從選擇的5場賽事中拆出一個10個2串1,10個3串1,5個4串1以及1個5串1，一個串關爲一單即一共26個注單。"
+        },
+        "60057": {
+          "title": "6串57是由6場賽事組成的57個不同注單。",
+          "content": "選擇6場賽事投注6串57時，系統將從選擇的6場賽事中拆出一個15個2串1,20個3串1,15個4串1,6個5串1以及1個6串1，一個串關爲一單即一共57個注單。"
+        },
+        "700120": {
+          "title": "7串120是由7場賽事組成的120個不同注單。",
+          "content": "選擇7場賽事投注7串120時，系統將從選擇的7場賽事中拆出一個21個2串1,35個3串1,35個4串1,21個5串1,7個6串1以及1個7串1，一個串關爲一單即一共120個注單。"
+        },
+        "800247": {
+          "title": "8串247是由8場賽事組成的247個不同注單。",
+          "content": "選擇8場賽事投注8串247時，系統將從選擇的8場賽事中拆出一個28個2串1,56個3串1,70個4串1,56個5串1,28個6串1,8個7串1以及1個8串1，一個串關爲一單即一共247個注單。"
+        },
+        "900502": {
+          "title": "9串502是由9場賽事組成的502個不同注單。",
+          "content": "選擇9場賽事投注9串502時，系統將從選擇的9場賽事中拆出一個36個2串1,84個3串1,126個4串1,126個5串1,84個6串1,36個7串1,9個8串1以及1個9串1，一個串關爲一單即一共502個注單。"
+        },
+        "10001013": {
+          "title": "10串1013是由10場賽事組成的1013個不同注單。",
+          "content": "選擇10場賽事投注10串1013時，系統將從選擇的10場賽事中拆出一個45個2串1,120個3串1,210個4串1,252個5串1,210個6串1,120個7串1,45個8串1,10個9串1以及1個10串1，一個串關爲一單即一共1013個注單。"
+        }
+      }
+    },
+    "match": {
+      "all": "全部",
+      "champions": "歐冠",
+      "premier": "英超",
+      "serie": "意甲",
+      "laliga": "西甲",
+      "ligue": "法甲",
+      "bundesliga": "德甲",
+      "china_super": "中超",
+      "normal_results": "普通賽果",
+      "game_results": "電競賽果",
+      "vr_results": "VR賽果",
+      "championship_results": "冠軍賽果"
+    },
+    "filter": {
+      "more": "更多>",
+      "enlarge": "放大",
+      "font_size": "字號大小",
+      "default": "默認",
+      "turn_on": "開啓",
+      "daily_activities": "每日活動",
+      "go_old_version": "前往舊版",
+      "go_web_version": "前往網頁版",
+      "customized_amount": "自定义快捷投注金额",
+      "quick_bet": "快捷投注額",
+      "change_to": "更改為",
+      "single": "單關投注",
+      "multi": "串關投注",
+      "lowest_money": "最小投注額"
+    },
+    "v_sports": {
+      "event_status": "賽事狀態"
+    },
+    "detail": {
+      "half": "上半場",
+      "not_data_Injury": "暫無傷停名單",
+      "not_data_substitute": "暫無替補名單",
+      "not_data_starter": "暫無首發名單",
+      "acronym_half": "半",
+      "highlights": "精彩集錦",
+      "events": "賽事事件",
+      "technical_statistics": "技術統計"
+    },
+    "search": {
+      "search_tips": "未搜尋到相關賽事"
+    }
+  },
+  "match": {
+    "group_score_list": "小組賽積分榜",
+    "most_appearances": "出場次數最多",
+    "best_shooter": "最佳射手",
+    "best_record": "最佳戰績",
+    "best_moment": "最佳瞬間",
+    "final_victory": "最終勝利",
+    "total_scored": "縂進球數",
+    "matches_number": "比賽次數",
+    "net_win": "净勝",
+    "ranking_score": "積分",
+    "bet_close": "截止投注"
+  },
+  "no_crosstalk": {
+    "title": "提示",
+    "button": "關閉",
+    "text": "此投注項無法連串投注"
+  },
+  "ac_rules": {
+    "auto": "自動接受更好賠率",
+    "understand": "我知道了"
+  },
+  "accept_rules": {
+    "accept_odds": "接受此賠率",
+    "automatically_odds": "\"自動接受任何賠率\"。",
+    "do_not_accept_odds": "不接受此賠率",
+    "feature_not_checked": "未選取此功能",
+    "if": "若",
+    "if_bet_when": "下注時若",
+    "increased_odds": "賠率升高",
+    "interrupt_your_betting": "並打斷您的下注行為，您需要確認賠率後再次投注。",
+    "lower_odds": "賠率降低",
+    "matter_placing_content": "（即無論下注時的賠率如何變化系統都將默認您可以接受，不會打斷您的下注行為）",
+    "system_default": "系統將默認您",
+    "system_will_think": "系統將認為您",
+    "will_interrupt_behavior": "不會打斷您的下注行為，提高下注成功率。",
+    "chat_msg": "當跟單時賠率於曬單賠率不同時，以點擊跟單時間點的實时賠率為准"
+  },
+  "analysis_football_matches": {
+    "age": "年齡",
+    "analysis_data": "數據",
+    "away_win": "客勝",
+    "bench_lineup": "替補名單",
+    "big": "大",
+    "big_ball": "大球",
+    "Big_ball_rate": "大球率",
+    "Coach_data": "教練數據",
+    "company": "公司",
+    "cup_points": "盃賽積分",
+    "customer": "客",
+    "Customer_win_rate": "客勝率",
+    "date": "日期",
+    "Disk": "盤面",
+    "European_Finger": "欧指",
+    "Favorable_information": "有利情報",
+    "field": "近{0}場",
+    "flat": "和",
+    "Fundamentals": "基本面",
+    "Future_schedule": "未來賽程",
+    "gain_loss": "進/失",
+    "game": "賽",
+    "Go_to_war": "出戰",
+    "handicap": "盤口",
+    "historical_war": "歷史交戰",
+    "home_win1": "主勝",
+    "immediate": "即時",
+    "ball_match": "球赛",
+    "team_name": "队名",
+
+
+
+    "Initial_offer": "初盤",
+    "Injury_situation": "傷停名單",
+    "integral": "積分",
+    "intelligence": "情报",
+    "Interval_days": "間隔(天)",
+    "league": "聯賽積分",
+    "league_points": "聯賽積分",
+    "level": "走",
+    "line_up": "陣容",
+    "lose": "輸",
+    "Lose_plate": "輸盤",
+    "main": "主",
+    "Main_win": "主勝",
+    "Main_win_rate": "主勝率",
+    "match": "賽況",
+    "Move_plate": "走盤",
+    "name": "姓名",
+    "near": "近",
+    "negative": "負",
+    "net_win": "淨勝",
+    "Neutral_Information": "中立情報",
+    "no_data": "暫無數據",
+    "number": "號碼",
+    "Odds": "赔率",
+    "player": "球員",
+    "Points_per_game": "場均得分",
+    "position": "位置",
+    "rank": "排名",
+    "ranking": "積分榜",
+    "reason": "原因",
+    "recent_record": "近期戰績",
+    "record_clashes": {
+      "5": "近5場交鋒記錄",
+      "10": "近10場交鋒記錄",
+      "15": "近15場交鋒記錄"
+    },
+    "results": "賽果",
+    "Return_rate": "返還率",
+    "same_game": "同賽事",
+    "same_host_guest": "同主客",
+    "score": "比分",
+    "shut_down": "關閉",
+    "size": "大小",
+    "small": "小",
+    "small_ball": "小球",
+    "small_ball_rate": "小球率",
+    "standings": "戰績",
+    "starting_lineup": "首發陣容",
+    "Tactical_division": "戰術分格",
+    "team": "球隊",
+    "Technical_side": "技術面",
+    "Total": "總盤",
+    "total_all": "總",
+    "turn_around": "盤口",
+    "Turning_trend": "盤路走勢",
+    "Unfavorable_information": "不利情報",
+    "victory": "勝",
+    "win": "贏",
+    "win_plate": "贏盤",
+    "Win_rate": "贏盤率",
+    "analysis_information": "資訊"
+  },
+  "basketball_playing_way": {
+    "first_half": "半場",
+    "quarter": "第一節"
+  },
+  "bet": {
+    "edit_success": "賠率修改成功！",
+    "edit_fail": "賠率修改失敗！",
+    "account_balance": "帳戶餘額",
+    "agree_change": "接受變化",
+    "agree_change2": "接受變化並投注",
+    "away_win": "客勝",
+    "bet": "單關",
+    "bet_10001": "10串1",
+    "bet_10001013": "10串1013",
+    "bet_2001": "2串1",
+    "bet_3001": "3串1",
+    "bet_3004": "3串4",
+    "bet_4001": "4串1",
+    "bet_40011": "4串11",
+    "bet_5001": "5串1",
+    "bet_50026": "5串26",
+    "bet_6001": "6串1",
+    "bet_60057": "6串57",
+    "bet_7001": "7串1",
+    "bet_700120": "7串120",
+    "bet_8001": "8串1",
+    "bet_800247": "8串247",
+    "bet_9001": "9串1",
+    "bet_900502": "9串502",
+    "bet_err": "投注失敗",
+    "bet_err2": "部分投注成功",
+    "bet_information": "注單信息",
+    "bet_loading": "注單確認中",
+    "bet_look_result": "注單已受理，請在投注記錄中查看結果",
+    "bet_msg": "{x}串{y}",
+    "bet_ok": "確認注單",
+    "bet_record": "投注單",
+    "bet_suc": "投注成功",
+    "bet_type_1": "單關",
+    "bet_val": "投注金額",
+    "bet_val2": "下注限額",
+    "bet_win": "可贏金額",
+    "betting": "投注",
+    "clear": "清除",
+    "close": "盤口已關閉",
+    "delete_all": "刪除全部",
+    "disabled": "已失效",
+    "err_msg01": "賠率更新中～",
+    "err_msg02": "網路異常，請重試",
+    "err_msg03": "投注未成功，再試一次吧~",
+    "err_msg04": "請輸入投注金額",
+    "err_msg05": "餘額不足，請您先充值",
+    "err_msg06": "限額獲取中，請稍候",
+    "err_msg07": "訂單需要審核請在注單歷史中查看最新狀態",
+    "err_msg08": "系統繁忙，再試一次吧～",
+    "err_msg09": "餘額不足，已轉換為最大可投注金額",
+    "err_msg10": "最小單筆投注金額為 {0}",
+    "err_msg11": "您的投注金額超出投注限額",
+    "err_msg12": "盤口不支持串關",
+    "err_msg13": "網絡異常，請查看投注是否成功",
+    "home_win": "主勝",
+    "input_v": "請輸入投注金額",
+    "input_v2": "請輸入金額",
+    "invalidation": "失效",
+    "invalidation2": "不支持串關",
+    "kushikatsu": "串關",
+    "loading": "處理中….",
+    "loading2": "注單處理中",
+    "match_add": "添加",
+    "match_max": "最多選擇%s場比賽",
+    "match_max2": "投注項數量已達上限",
+    "match_min": "至少選擇{0}場比賽",
+    "max": "最大",
+    "millions": "百萬",
+    "millions_10": "千萬",
+    "money_limit": "限額 %s~%s",
+    "money_limit2": "限額 %s~%s",
+    "msg01": "串關所有賠率均為歐洲賠率",
+    "msg02": "網路異常，請在注單中查看投注結果",
+    "msg03": "您所選的盤口、賠率或有效性已產生變化",
+    "msg04": "收起串關類型",
+    "msg05": "更多串關類型",
+    "msg06": "串關規則",
+    "msg07": "網路異常，請在\"注單\"中查看投注結果",
+    "msg08": "您所選投注項的賠率、盤口及有效性產生變化",
+    "msg09": "存在同場比賽的投注項，他們不能串在一起",
+    "msg10": "紅色選項不可結合進行串關投注",
+    "msg11": "移除無效投注",
+    "msg12": "盤口已失效",
+    "msg13": "去注單記錄查看",
+    "number_transactions": "筆數",
+    "odd_upd": "賠率更新中～",
+    "odd_upd_": "盤口值已變更",
+    "odd_upd_2": "盤口值已變更，賠率已變更",
+    "odd_upded": "賠率已更改",
+    "order_no": "注單號",
+    "pack_up": "收起",
+    "pack_up2": "收起",
+    "save": "保留選項",
+    "single_more": "多項單注",
+    "submitted_successfully": "確認中",
+    "sum": "合計",
+    "sum2": "小計",
+    "total": "總投注額",
+    "total_win": "總最高可額",
+    "total_win2": "最高可贏",
+    "understand": "知道了",
+    "used_money2": "常用金額",
+    "wan": "萬",
+    "wanwan": "億",
+    "wanyi": "萬億",
+    "total_bet": "總投注",
+    "total_income": "預計總收益",
+    "bet_retract": "賭注收回",
+    "bet_inplay": "進行中",
+    "bet_limit":"限額",
+    "bet_min_item": "至少選擇{num}場比賽",
+    "bet_max_item": "至多選擇{num}場比賽",
+    "bet_book_confirm": "預約",
+    "bet_auto_msg_1": "自動接受更好的賠率",
+    "bet_auto_msg_2": "自動接受任何賠率變動",
+    "parlay": "串",
+    "bet_booked_msg_tips": "預約成功並不代表下注成功，最終結果以實際注單為準。",
+    "bet_max_booked_odds": "已為最高預約賠率值，請重新調整",
+    "bet_min_booked_odds": "預約賠率不能低於所對應的盤口賠率",
+    "combine_bets_msg1": "下注時若賠率升高，系統將默認您接受此賠率,不會打斷您的下注行爲,提高下注成功率。",
+    "combine_bets_msg2": "下注時若賠率降低，系統將默認您不接受此賠率，並打斷您的下注行爲，您需要確認賠率後再次投注。",
+    "combine_bets_msg3": "若未勾選此功能，系統將認爲您'自動接受任何賠率'。(即無論下注時的賠率如何變化系統都將默認您可以接受,不會打斷您的下注行爲",
+    "mergetos":"請至少選擇一項支援串關的投註項",
+    "one_click_bet": "一鍵投注",
+    "one_click_bet_open": "一鍵投注已開啟，金額為",
+    "one_click_bet_change": "一鍵投注金額改為",
+    "bet_received": "投注已接受"
+  },
+  "bet_message": {
+    "success": "投注成功",
+    "error": "投注失敗",
+    "loading": "投注確認中",
+    "m_0402001": "已失效",
+    "m_0402009": "投注項盤口、賠率或有效性產生變化!",
+    "m_0402014": "網絡異常，請在注單中查看投注結果",
+    "m_0402015": "投注未成功~再試一次吧！",
+    "m_0402018": "投注未成功,請稍後再試",
+    "m_132113": "投注失敗，請重新選擇投注項",
+    "m_0402035": "余額不足,請您先充值",
+    "m_0402042": "網絡異常,請聯系客服",
+    "m_0400453": "賬戶異常,請聯系客服",
+    "m_0400459": "盤口確認中，請稍等",
+    "m_0400460": "拒絕投注",
+    "m_0400464": "額度已變更,再試一次吧~",
+    "m_0400468": "比分已變更,再試一次吧",
+    "m_0400469": "投注項盤口、賠率或有效性產生變化!",
+    "m_M400005": "請您輸入投注金額",
+    "m_M400007": "請您留意每個選項的投注範圍",
+    "m_M400009": "該選項當前不可投注，請選擇其他選項",
+    "m_M400010": "投注金額未達最低限額",
+    "m_M400011": "投注金額超過最高限額",
+    "m_M400012": "限額獲取中請稍後",
+    "m_0401038": "網絡異常，請再試一次!",
+    "m_DJ001": "您無法投注電競賽事",
+    "m_DJ003": "投注金額只能為整數",
+    "m_DJ004": "存在不支持串關賽事",
+    "m_DJ005": "存在不支持串關盤口",
+    "m_400004": "赔率更新中",
+    "m_0402601": "非開售時間，無法投注"
+  },
+  "bet_record": {
+    "30day": "30天",
+    "7day": "7天",
+    "account": "已結算",
+    "before": "賽前",
+    "bet_amount_betting_limit": "已轉換為最大可投注金額",
+    "bet_amount_betting_limit2": "您的投注金額超出投注限額",
+    "bet_date_list": {
+      "0": "今日",
+      "1": "昨日",
+      "2": "七日內",
+      "3": "一月內"
+    },
+    "bet_enble_list": "有效流水",
+    "bet_fail": "輸",
+    "bet_match_tishi": "當前聯賽暫無賽事",
+    "bet_max_win": "最高可贏",
+    "bet_no": "訂單號",
+    "bet_no_status00": "未結算",
+    "bet_no_status02": "走水",
+    "bet_no_status03": "輸",
+    "bet_no_status04": "贏",
+    "bet_no_status05": "贏半",
+    "bet_no_status06": "輸半",
+    "bet_no_status07": "比賽取消",
+    "bet_no_status08": "比賽延期",
+    "bet_no_status11": "比賽延遲",
+    "bet_no_status12": "比賽中斷",
+    "bet_no_status15": "比賽放棄",
+    "bet_refund": "返還金額",
+    "bet_sum_count": "總單數",
+    "bet_sum_val": "總投注額",
+    "bet_suopan_info": "賠率更新中，請稍候",
+    "bet_time": "投注時間",
+    "bet_pre_time": "預約時間",
+    "bet_val": "投注額",
+    "bet_val2": "投注",
+    "bet_win": "贏",
+    "betted_title": "已投注單",
+    "cancel_type_1": "比賽取消",
+    "cancel_type_17": "比賽提前",
+    "cancel_type_2": "比賽延期",
+    "cancel_type_20": "比賽延遲",
+    "cancel_type_3": "比賽中斷",
+    "cancel_type_4": "比賽重賽",
+    "cancel_type_5": "比賽腰斬",
+    "cancel_type_6": "比賽放棄",
+    "confirming": "確認中",
+    "copy_suc": "複製訂單號成功",
+    "go_back": "返還",
+    "ing": "滾球",
+    "invalid": "無效",
+    "invalid_bet": "注單無效",
+    "no_account": "未結算",
+    "pack_down": "展開",
+    "pack_up": "收起",
+    "sort0": "默認排序",
+    "sort1": "投注時間",
+    "sort2": "開賽時間",
+    "sort3": "默認排序",
+    "sort4": "按投注時間排序",
+    "sort5": "按開賽時間排序",
+    "submitting_bet": "注單提交中",
+    "successful_betting": "投注成功",
+    "total_bet_amount": "投注總金額",
+    "total_winable_amount": "可贏總金額",
+    "result_score": "結果比數",
+    "score_result": "Result score",
+    "ty": "體育",
+    "zr": "真人",
+    "cp": "彩票",
+    "regular_betting": "常規下注",
+    "sit_in": "入座",
+    "side_bet": "旁注",
+    "good_streak": "好路",
+    "multiple_tables": "多台",
+    "pending_draw": "待開獎",
+    "not_winning": "未中獎",
+    "won": "已中獎",
+    "suspended": "掛起",
+    "settled": "已結算",
+    "issue": "第",
+    "period": "期",
+    "cancel_order": "撤單",
+    "betting_order_number": "投注單號",
+    "betting_time": "投注時間",
+    "play_method": "玩法",
+    "betting_content": "投注內容",
+    "betting_amount": "投注金額",
+    "prize": "獎金",
+    "unsettled": "未結算",
+    "cancel_bet": "取消投注",
+    "surrender": "投降",
+    "betting_item": "投注項目",
+    "result": "結果",
+    "payout": "派彩",
+    "round_number": "局號",
+    "effective_bet": "有效投注",
+    "betting_status": "注單狀態",
+    "settle_num": "下注時比分"
+  },
+  "pre_record": {
+    "book_one": "預",
+    "book": "預約",
+    "booked_tips": "預約成功並不代表下注成功，最終結果以實際注單為準。",
+    "booked": "預約成功",
+    "booked_fail": "預約失敗",
+    "booking": "預約中",
+    "processing": "進行中",
+    "expired": "已失效",
+    "ConfirmedBooking": "已確認預約",
+    "canceled": "已取消",
+    "handicap": "盤口",
+    "odds": "賠率",
+    "book_bet_amount": "預約投注額",
+    "confirm_cancle": "確認預約",
+    "confirm_matchinfo": "確認取消 {0} 的預約嗎？",
+    "cancle_fail_tips": "當前操作頻繁，請稍後再試",
+    "cancle_fail_tips2": "賽事狀態異常，不能取消預約",
+    "market_error_info": "已為最低預約盤口值，請重新調整。",
+    "market_error_info_max": "已為最低預約盤口值，請重新調整。",
+    "market_error_info_low": "不能低於最小預約盤口值。"
+  },
+  "collect": {
+    "betted_title": "收藏",
+    "historical_record": "歷史戰績",
+    "match_end": "已完賽",
+    "match_no": "未完賽"
+  },
+  "common": {
+    "edit": "修改",
+    "in_box": "抽盒中......",
+    "temporarily_unavailable": "本功能暫不可用",
+    "please_refresh": "請您刷新下頁面重試",
+    "all_notice": "所有公告",
+    "all_select": "全選",
+    "analysis": "統計分析",
+    "bet": "投注",
+    "cancel": "取消",
+    "close": "關閉",
+    "finish": "完成",
+    "hengping_tip": "為了您的良好體驗，請將手機豎屏操作！",
+    "loading_suc": "加載成功",
+    "maintenance_tips": "系統將在{0}分鐘後進入維護，造成不便，深表歉意！",
+    "match_time": "比賽時間",
+    "mix": "混合過關",
+    "money": "餘額",
+    "no_data": "暫無數據",
+    "no_network": "網路中斷了～",
+    "notice": "公告",
+    "ok": "確定",
+    "on": "上",
+    "rule_description": "規則說明",
+    "show_more": "显示更多",
+    "show_more2": "收起",
+    "single": "單關投注",
+    "title_188": "亞洲版",
+    "title_panda": "歐洲版",
+    "under": "下",
+    "unit": "元",
+    "virtual_sports": "VR體育",
+    "auto_close": "%s 秒後自動關閉",
+    "HD": "高清",
+    "SD": "標清",
+    "odds_change": "賠率已變更"
+  },
+  "detail": {
+    "less": "小於",
+    "mins": "分鐘",
+    "odd_all_closed": "當前賽事盤口已全部關閉",
+    "odd_closed": "盤口已關閉",
+    "no_way_bet": "當前無法進行投注",
+    "popular_recommendation": "熱門推薦",
+    "non": "非"
+  },
+  "early": {
+    "btn1": "暫停提前結算",
+    "btn2": "提前結算",
+    "btn2_1": "提前兌現",
+    "btn2_2": "元(含本金)",
+    "btn3": "確認提前結算",
+    "btn4": "確認中",
+    "btn5": "已提前結算",
+    "info1": "提前結算金額已包含本金",
+    "info2": "提前結算申請未通過",
+    "info3": "僅支持全額結算",
+    "info4": "提前結算投注額",
+    "info6": "功能暫停中，請稍候再試",
+    "info7": "提前結算金額調整中，請再試一次",
+    "info8": "注單剩餘本金",
+    "info9": "提前結算可用次數",
+    "list1": "提前結算詳情",
+    "list2": "結算本金",
+    "list3": "剩餘本金",
+    "list4": "返還金額",
+    "list5": "輸/贏",
+    "list6": "剩餘本金結算",
+    "list7": "結算本金（部分）",
+    "list8": "全額結算",
+    "list9": "取消/無效"
+  },
+  "error_msg_info": {
+    "0400545": {
+      "client_msg": "預約失敗，請再試一次"
+    },
+    "0400544": {
+      "client_msg": "您當前賽事或玩法預約額度已用完"
+    },
+    "0400543": {
+      "client_msg": "當前賽事預約中訂單數量超過上限"
+    },
+    "0400542": {
+      "client_msg": "您當日派彩額度已用完"
+    },
+    "0400540": {
+      "client_msg": "預約賠率不能低於所對應的的盤口賠率"
+    },
+    "1002": {
+      "client_msg": "餘額不足"
+    },
+    "249203": {
+      "client_msg": "餘額不足"
+    },
+    "249207": {
+      "client_msg": "已觸發風控額度，請聯繫代理"
+    },
+    "0000000": {
+      "client_msg": "下注成功"
+    },
+    "0400450": {
+      "client_msg": "投注未成功，請稍後再試"
+    },
+    "0400451": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0400452": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0400453": {
+      "client_msg": "帳戶異常，請聯繫客服"
+    },
+    "0400454": {
+      "client_msg": "餘額不足，請您先充值"
+    },
+    "0400455": {
+      "client_msg": "餘額不足，請您先充值"
+    },
+    "0400456": {
+      "client_msg": "投注未成功～再試一次吧"
+    },
+    "0400457": {
+      "client_msg": "投注未成功～再試一次吧"
+    },
+    "0400458": {
+      "client_msg": "投注未成功～再試一次吧"
+    },
+    "0400459": {
+      "client_msg": "盤口確認中，請稍候"
+    },
+    "0400460": {
+      "client_msg": "拒絕投注"
+    },
+    "0400461": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0400462": {
+      "client_msg": "投注未成功，再試一次吧！"
+    },
+    "0400463": {
+      "client_msg": "投注未成功，再試一次吧！"
+    },
+    "0400464": {
+      "client_msg": "額度已變更，再試一次吧！"
+    },
+    "0400467": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化"
+    },
+    "0400468": {
+      "client_msg": "比分已變更，再試一次吧！"
+    },
+    "0400469": {
+      "client_msg": "您所選投注項的盤口，無法參與串關玩法",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0400475": {
+      "client_msg": "額度已變更，再試一次吧！"
+    },
+    "0400476": {
+      "client_msg": "投注項調整中，請稍後再試"
+    },
+    "0400477": {
+      "client_msg": "紅色選項不可結合進行串關投注"
+    },
+    "0400478": {
+      "client_msg": "紅色選項不可結合進行串關投注"
+    },
+    "0400479": {
+      "client_msg": "盤口確認中，請稍等"
+    },
+    "0400480": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0400481": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0400483": {
+      "client_msg": "系統繁忙，再試一次吧！"
+    },
+    "0400484": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0400485": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0400486": {
+      "client_msg": "系統繁忙，再試一次吧！"
+    },
+    "0400488": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0400517": {
+      "client_msg": "額度已變更，再試一次吧！"
+    },
+    "0400519": {
+      "client_msg": "投注失敗，請再試一次"
+    },
+    "0400532": {
+      "client_msg": "賠率調整中"
+    },
+    "0401999": {
+      "client_msg": "投注未成功，再試一次吧！"
+    },
+    "0402001": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402002": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402003": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402004": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402005": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402006": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402007": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402008": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402009": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402010": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402012": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402015": {
+      "client_msg": "投注未成功，再試一次吧！"
+    },
+    "0402016": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402017": {
+      "client_msg": "投注未成功，再試一次吧！"
+    },
+    "0402018": {
+      "client_msg": "投注未成功，請稍後再試"
+    },
+    "0402020": {
+      "client_msg": "投注未成功，再試一次吧！"
+    },
+    "0402021": {
+      "client_msg": "投注未成功，再試一次吧！"
+    },
+    "0402022": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402023": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402024": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402025": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402026": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402027": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402035": {
+      "client_msg": "餘額不足，請您先充值"
+    },
+    "0402038": {
+      "client_msg": "投注未成功，請稍後再試～"
+    },
+    "0402039": {
+      "client_msg": "投注未成功，再試一次吧！"
+    },
+    "0402040": {
+      "client_msg": "投注未成功，再試一次吧！"
+    },
+    "0402041": {
+      "client_msg": "投注未成功，再試一次吧！"
+    },
+    "0402042": {
+      "client_msg": "網路異常，請聯繫客服",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402043": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402044": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402045": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402046": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402047": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402048": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "0402049": {
+      "client_msg": "您所選投注項的賠率、盤口及有效性產生變化",
+      "tost_msg": "投注未成功，再試一次吧！"
+    },
+    "04021001": {
+      "client_msg": "電競服務維護中"
+    },
+    "04021002": {
+      "client_msg": "電競服務維護中"
+    },
+    "04021003": {
+      "client_msg": "投注金額不足"
+    },
+    "04021004": {
+      "client_msg": "投注金額只能為整數"
+    },
+    "04021005": {
+      "client_msg": "存在不支持串關賽事"
+    },
+    "04021006": {
+      "client_msg": "存在不支持串關盤口"
+    },
+    "04021007": {
+      "client_msg": "已失效"
+    },
+    "04021008": {
+      "client_msg": "已失效"
+    },
+    "04021009": {
+      "client_msg": "已失效"
+    },
+    "04021010": {
+      "client_msg": "已失效"
+    },
+    "04021011": {
+      "client_msg": "已失效"
+    },
+    "04021012": {
+      "client_msg": "已失效"
+    },
+    "04021013": {
+      "client_msg": "已失效"
+    }
+  },
+  "filter": {
+    "all_leagues": "全部聯賽",
+    "match_key": "請輸入聯賽名",
+    "match_select_title": "選擇聯賽",
+    "please_select_league": "請選擇聯賽",
+    "reverse_election": "反選"
+  },
+  "football_playing_way": {
+    "hpsBold": "波膽",
+    "champion": "冠軍",
+    "corner": "角球",
+    "hps15Minutes": "15分鐘",
+    "hps5Minutes": "5分鐘",
+    "hps_next_goal": "下一個進球",
+    "hps15_title": {
+      "0": "開場-14分59秒（特一）",
+      "1": "15分-29分59秒（特二）",
+      "2": "30分-半場（特三）",
+      "3": "下半場開始-59分59秒（特四）",
+      "4": "60分-74分59秒（特五）",
+      "5": "75分钟-全場（特六）"
+    },
+    "hps_fifteen_minutes_details": {
+      "0": {
+        "title": "15分鐘-時段1",
+        "content": "開場-14分59秒"
+      },
+      "1": {
+        "title": "15分鐘-時段2",
+        "content": "15分-29分59秒"
+      },
+      "2": {
+        "title": "15分鐘-時段3",
+        "content": "30分-半場"
+      },
+      "3": {
+        "title": "15分鐘-時段4",
+        "content": "下半場開始-59分59秒"
+      },
+      "4": {
+        "title": "15分鐘-時段5",
+        "content": "60分-74分59秒"
+      },
+      "5": {
+        "title": "15分鐘-時段6",
+        "content": "75分钟-全場"
+      }
+    },
+    "overtime": "加時賽",
+    "penalty_cards": "罰牌",
+    "penalty_shootout": "點球大戰",
+    "promotion": "晉級",
+    "full_time_draw": "全場平局",
+    "half_time_draw": "半場平局",
+    "minutes_of_the_Xth_goal": "第{goalnr}個進球時分",
+    "any_goal": "5分鐘時段進球",
+    "feature": "特色组合",
+    "all_both": "全場獨贏 & 兩隊都進球",
+    "all_total_goal": "全場獨贏 & 進球大小",
+    "half_both": "半場獨贏 & 兩隊都進球",
+    "half_total_goal": "半場獨贏 & 進球大小"
+  },
+  "footer_menu": {
+    "adviser": "投注教程",
+    "all": "全部",
+    "analysis": "分析",
+    "bet_model": "投注模式",
+    "bet_order": "注單",
+    "bet_record": "注單",
+    "change_simple01": "切換",
+    "change_simple02": "簡版",
+    "collect": "收藏",
+    "corner": "大小",
+    "corner_kick": "角球",
+    "daxiao": "大小",
+    "Day_mode": "日間模式",
+    "daytime": "日間",
+    "filter": "篩選",
+    "follow": "關注",
+    "full_time": "全場",
+    "hot": "熱門",
+    "hot2": "按熱門",
+    "league_filter": "聯賽篩選",
+    "mode": "模式",
+    "more": "更多",
+    "new_v": "新手版",
+    "night": "夜間",
+    "daily_activities": "每日活動",
+    "turn_on": "開啓",
+    "night_mode": "夜間模式",
+    "odds_set": "盤口設置",
+    "play_way_f": "玩法",
+    "popular_Sort": "熱門排序",
+    "pro_v": "專業版",
+    "rangfen": "讓分",
+    "rangqiu": "讓球",
+    "refresh": "刷新",
+    "search": "搜尋",
+    "selected": "已選",
+    "set_menu": "設置目錄",
+    "settings": "設置",
+    "sort_title": "排序規則",
+    "theme": "主題風格",
+    "time": "時間",
+    "time2": "按時間",
+    "time_order": "時間排序",
+    "win_alone": "獨贏",
+    "open_bets": "未結注單",
+    "closed_bets": "已結注單"
+  },
+  "home": {
+    "can_bet": "可投注項",
+    "home": "首頁",
+    "hot": "熱門",
+    "invalid_credentials": "信息已失效，請您重新登錄",
+    "lang_en": "EN",
+    "lang_zj": "中文",
+    "live_video": "視頻直播",
+    "login_invalid": "登錄失效",
+    "login_success": "登錄成功",
+    "match_no_has": "暫無賽事",
+    "match_no_hot": "暫無熱門賽事",
+    "my": "我的",
+    "no_favorite_events": "暫無收藏賽事",
+    "record": "投注記錄"
+  },
+  "home_popular": {
+    "assist": "助攻",
+    "average": "場均",
+    "featured": "精選",
+    "featured_events": "精選賽事",
+    "player": "球員",
+    "quiz": "競猜",
+    "ranking": "積分榜",
+    "win_rate": "勝率",
+    "you_may_also_like": "猜你喜歡"
+  },
+  "info_rules": {
+    "auto": "賽事直播說明",
+    "i_know": "我知道了",
+    "rules": {
+      "rule1": "1 此版面顯示的所有直播內容僅供參考，會員亦可使用此內容為指南。我們將盡最大的努力確保顯示的內容是正確的，如有錯誤，本公司將不承擔任何責任。",
+      "rule2": "2 對於滾球比分，例如滾球讓球，將以投注時在投注單中顯示的正確比分為準"
+    }
+  },
+  "isoName": "zh tw",
+  "limit": {
+    "msg1": "當前操作頻繁，請稍後再試"
+  },
+  "list": {
+    "win1": "主勝",
+    "win2": "客勝",
+    "play": "玩法",
+    "play1": "全場獨贏",
+    "play2": "全場讓球",
+    "play3": "全場大小",
+    "dogfall": "平局",
+    "home_hdp": "主隊讓球",
+    "away_hdp": "客隊讓球",
+    "over": "全場大",
+    "under": "全場小",
+    "after_time_start": "{0}分鐘後開賽",
+    "after_time_start2": "{0}分鐘後開始",
+    "go_to_details": "詳情",
+    "match_doing": "進行中",
+    "match_end": "已完賽",
+    "match_no": "未完賽",
+    "match_no_start": "未開賽",
+    "match_start": "已開賽",
+    "score_disparity": "分差",
+    "total_play_count": "總局數",
+    "total_pp_score_count": "總分",
+    "water_polo_countdown": "小於S%分鐘",
+    "other": "其他"
+  },
+  "list_title": {
+    "1": {
+      "title": {
+        "0": "全场獨贏",
+        "1": "全場讓球",
+        "2": "全場大小",
+        "3": "半場獨贏",
+        "4": "半場讓球",
+        "5": "半場大小"
+      }
+    },
+    "2": {
+      "title": {
+        "0": "全場獨贏",
+        "1": "讓分",
+        "2": "總分"
+      }
+    },
+    "3": {
+      "title": {
+        "0": "全場獨贏",
+        "1": "讓分",
+        "2": "總分"
+      }
+    },
+    "4": {
+      "title": {
+        "0": "全场獨贏",
+        "1": "全場讓球",
+        "2": "全場大小"
+      }
+    },
+    "5": {
+      "title": {
+        "0": "獨贏",
+        "1": "讓盤",
+        "2": "讓局"
+      }
+    },
+    "6": {
+      "title": {
+        "0": "全场獨贏",
+        "1": "全場讓球",
+        "2": "全場大小"
+      }
+    },
+    "7": {
+      "title": {
+        "0": "獨贏",
+        "1": "讓局",
+        "2": "總局數"
+      }
+    },
+    "8": {
+      "title": {
+        "0": "獨贏",
+        "1": "讓分",
+        "2": "總分"
+      }
+    },
+    "9": {
+      "title": {
+        "0": "獨贏",
+        "1": "讓分",
+        "2": "總分"
+      }
+    },
+    "10": {
+      "title": {
+        "0": "獨贏",
+        "1": "讓分",
+        "2": "總分"
+      }
+    },
+    "11": {
+      "title": {
+        "0": "全场独赢",
+        "1": "全場讓球",
+        "2": "總分合数",
+        "3": "半場獨贏",
+        "4": "半場讓球",
+        "5": "半場大小"
+      }
+    },
+    "12": {
+      "title": {
+        "0": "全场独赢",
+        "1": "總回合數"
+      }
+    },
+    "13": {
+      "title": {
+        "0": "獨贏",
+        "1": "讓分",
+        "2": "總分"
+      }
+    },
+    "14": {
+      "title": {
+        "0": "全場獨贏",
+        "1": "全場讓分",
+        "2": "全場總分",
+        "3": "半場獨贏",
+        "4": "半場讓分",
+        "5": "半場總分"
+      }
+    },
+    "15": {
+      "title": {
+        "0": "全場獨贏",
+        "1": "全場讓球",
+        "2": "全場大小",
+        "3": "半場獨贏",
+        "4": "半場讓球",
+        "5": "半場大小"
+      }
+    },
+    "16": {
+      "title": {
+        "0": "全場獨贏",
+        "1": "全場讓分",
+        "2": "全場總分",
+        "3": "半場獨贏",
+        "4": "半場讓分"
+      }
+    },
+    "100": {
+      "title": {
+        "0": "全域獲勝",
+        "1": "地圖讓分",
+        "2": "地圖總數"
+      }
+    },
+    "101": {
+      "title": {
+        "0": "全域獲勝",
+        "1": "地圖讓分",
+        "2": "地圖總數大小"
+      }
+    },
+    "102": {
+      "title": {
+        "0": "全域獲勝",
+        "1": "地圖讓分",
+        "2": "地圖總數"
+      }
+    },
+    "103": {
+      "title": {
+        "0": "全域獲勝",
+        "1": "地圖讓分",
+        "2": "地圖總數"
+      }
+    },
+    "1001": {
+      "title": {
+        "0": "全場獨贏",
+        "1": "全場讓球",
+        "2": "全場大小"
+      }
+    },
+    "1004": {
+      "title": {
+        "0": "全場獨贏",
+        "1": "讓分",
+        "2": "總分",
+        "3": "達到21分"
+      }
+    }
+  },
+  "login": {
+    "err_msg01": "用戶名不能為空",
+    "err_msg02": "密碼不能為空",
+    "login": "登錄",
+    "name": "用戶名",
+    "no_login": "未登錄",
+    "password": "密碼",
+    "remember_pwd": "記住密碼",
+    "shop_code": "商戶代碼"
+  },
+  "lost": {
+    "msg1": "喔～頁面不見了",
+    "msg2": "別緊張",
+    "msg3": "刷新頁面試試",
+    "msg4": "刷新一下",
+    "msg5": "返回首頁"
+  },
+  "match_info": {
+    "lvs": "演播廳",
+    "Topic": "專題",
+    "abandon": "放棄",
+    "add": "加",
+    "all_result": "所有賽果",
+    "animation": "動畫",
+    "animation_info": "動畫訊息",
+    "ball": "壞球",
+    "cancel": "取消",
+    "delay": "延遲",
+    "drawn": "和局",
+    "full": "全",
+    "greater": "大於",
+    "half": "半",
+    "ice_add": "加",
+    "interrupt": "中斷",
+    "less": "小於",
+    "m_anima_not_start": "動畫直播還未開始，請稍候",
+    "m_video_not_start": "視頻直播還未開始，請稍候",
+    "match_colse": "關閉",
+    "match_end": "完賽",
+    "match_not_start": "比賽還未開始",
+    "match_over": "全場結束",
+    "my_bets": "我的注單",
+    "no": "否",
+    "odds_type_additional": "附加盤",
+    "pack_up": "收起",
+    "pause": "暫停",
+    "postpone": "延期",
+    "select_event": "精選賽事",
+    "shoot_out": "點",
+    "show_more": "显示更多",
+    "strike": "好球",
+    "strike_out": "出局",
+    "total_score": "當前總分",
+    "unknown": "未知",
+    "video": "視頻",
+    "video_info": "視訊訊息",
+    "yes": "是",
+    "match_parlay": "串",
+    "animation_live": "動畫直播",
+    "match_cancellation": "比賽取消"
+  },
+  "match_main": {
+    "cut_off": "截止",
+    "Handicap": "盤口",
+    "Rostov_U20": "羅斯托夫U20",
+    "royal_house_Madrid": "皇家馬德里"
+  },
+  "match_result": {
+    "attack": "進攻",
+    "ball_possession": "控球率",
+    "corner": "個角球",
+    "corner_kick": "角球",
+    "dangerous_offense": "危險進攻",
+    "end_of_regular_season": "常規賽結束",
+    "event": "事件",
+    "Field_goal_percentage": "投篮命中率",
+    "finish": "完賽",
+    "Fouls": "犯规数",
+    "Free_throw": "罚球得分",
+    "Free_throw_percentage": "罚球命中率",
+    "goal": "進球",
+    "match": "賽況",
+    "match_analysis": "賽事分析",
+    "midfield": "中場",
+    "overtime_is_over": "加時賽結束",
+    "own_goals": "烏龍球",
+    "penalty_kick": "點球",
+    "penalty_kick_ended": "點球大戰結束",
+    "penalty_missed": "點球未進",
+    "red_card": "紅牌",
+    "Remaining_pause": "剩余暂停",
+    "shoot_right": "射正",
+    "shot": "射門",
+    "shot_off": "射偏",
+    "start": "開始",
+    "statistics": "統計",
+    "substitution": "換人",
+    "three_point_shooting": "三分命中率",
+    "Three_pointer": "三分球得分",
+    "Two_pointer": "两分球得分",
+    "which_number": "第",
+    "yellow_card": "黃牌"
+  },
+  "matchtype": {
+    "1": "賽前",
+    "2": "滾球",
+    "3": "",
+    "4": ""
+  },
+  "mmp": {
+    "1": {
+      "0": "上半場",
+      "6": "上半場",
+      "7": "下半場",
+      "31": "中場休息",
+      "32": "即將加時",
+      "33": "加時中場休息",
+      "34": "等待點球大戰",
+      "41": "加時上半場",
+      "42": "加時下半場",
+      "50": "點球大戰",
+      "80": "比賽中斷",
+      "90": "比賽放棄",
+      "100": "下半場結束",
+      "110": "加時賽結束",
+      "120": "點球大戰結束",
+      "999": "全場結束"
+    },
+    "2": {
+      "0": "未開賽",
+      "1": "上半場",
+      "2": "下半場",
+      "13": "第一節",
+      "14": "第二節",
+      "15": "第三節",
+      "16": "第四節",
+      "21": "進行中",
+      "31": "中場休息",
+      "32": "等待加時",
+      "40": "加時賽",
+      "61": "比賽推遲",
+      "80": "比賽中斷",
+      "90": "比賽放棄",
+      "100": "全場結束",
+      "110": "加時賽結束",
+      "301": "第二節",
+      "302": "第三節",
+      "303": "第四節",
+      "999": "全場結束",
+      "1001": "第四節",
+      "1002": "下半場",
+      "99999": "全場"
+    },
+    "3": {
+      "0": "未開賽",
+      "80": "比賽中斷",
+      "90": "比賽放棄",
+      "100": "完賽 ",
+      "401": "第一局 上",
+      "402": "第一局 下",
+      "403": "第二局 上",
+      "404": "第二局 下",
+      "405": "第三局 上",
+      "406": "第三局 下",
+      "407": "第四局 上",
+      "408": "第四局 下",
+      "409": "第五局 上",
+      "410": "第五局 下",
+      "411": "第六局 上",
+      "412": "第六局 下",
+      "413": "第七局 上",
+      "414": "第七局 下",
+      "415": "第八局 上",
+      "416": "第八局 下",
+      "417": "第九局 上",
+      "418": "第九局 下",
+      "421": "第一局 下",
+      "422": "第二局 上",
+      "423": "第二局 下",
+      "424": "第三局 上",
+      "425": "第三局 下",
+      "426": "第四局 上",
+      "427": "第四局 下",
+      "428": "第五局 上",
+      "429": "第五局 下",
+      "430": "第六局 上",
+      "431": "第六局 下",
+      "432": "第七局 上",
+      "433": "第七局 下",
+      "434": "第八局 上",
+      "435": "第八局 下",
+      "436": "第九局 上",
+      "437": "第九局 下",
+      "438": "等待加時",
+      "999": "比賽結束",
+      "41910": "第十局 上",
+      "41911": "第十一局 上",
+      "41912": "第十二局 上",
+      "41913": "第十三局 上",
+      "41914": "第十四局 上",
+      "41915": "第十五局 上",
+      "41916": "第十六局 上",
+      "41917": "第十七局 上",
+      "41918": "第十八局 上",
+      "41919": "第十九局 上",
+      "41920": "第二十局 上",
+      "42010": "第十局 下",
+      "42011": "第十一局 下",
+      "42012": "第十二局 下",
+      "42013": "第十三局 下",
+      "42014": "第十四局 下",
+      "42015": "第十五局 下",
+      "42016": "第十六局 下",
+      "42017": "第十七局 下",
+      "42018": "第十八局 下",
+      "42019": "第十九局 下",
+      "42020": "第二十局 下",
+      "43810": "第十一局 上",
+      "43811": "第十二局 上",
+      "43812": "第十三局 上",
+      "43813": "第十四局 上",
+      "43814": "第十五局 上",
+      "43815": "第十六局 上",
+      "43816": "第十七局 上",
+      "43817": "第十八局 上",
+      "43818": "第十九局 上",
+      "43819": "第二十局 上",
+      "43910": "第十局 下",
+      "43911": "第十一局 下",
+      "43912": "第十二局 下",
+      "43913": "第十三局 下",
+      "43914": "第十四局 下",
+      "43915": "第十五局 下",
+      "43916": "第十六局 下",
+      "43917": "第十七局 下",
+      "43918": "第十八局 下",
+      "43919": "第十九局 下",
+      "999_app_h5": "已結束",
+      "43920": "第二十局 下"
+    },
+    "4": {
+      "0": "第一節",
+      "1": "第一節",
+      "2": "第二節",
+      "3": "第三節",
+      "32": "等待加時",
+      "34": "點球大戰",
+      "40": "加時賽",
+      "50": "點球大戰",
+      "80": "比賽中斷",
+      "90": "比賽放棄",
+      "100": "完賽",
+      "110": "加時賽結束",
+      "120": "點球大戰結束",
+      "301": "第二節",
+      "302": "第三節 ",
+      "999": "完賽"
+    },
+    "5": {
+      "0": "第一盤",
+      "8": "第一盤",
+      "9": "第二盤",
+      "10": "第三盤",
+      "11": "第四盤",
+      "12": "第五盤",
+      "61": "比賽推遲",
+      "80": "比賽中斷",
+      "90": "比賽取消",
+      "93": "客隊球員未參賽",
+      "94": "主隊球員未參賽",
+      "95": "主隊球員退賽",
+      "96": "客隊球員退賽",
+      "97": "主隊球員未到場",
+      "98": "客隊球員未到場",
+      "100": "完賽",
+      "301": "第二盤",
+      "302": "第三盤",
+      "303": "第四盤",
+      "304": "第五盤",
+      "305": "完賽",
+      "800": "第一盤",
+      "900": "第二盤",
+      "999": "完賽",
+      "1000": "第三盤",
+      "1100": "第四盤",
+      "1200": "第五盤"
+    },
+    "6": {
+      "0": "未開賽",
+      "13": "第一節",
+      "14": "第二節",
+      "15": "第三節",
+      "16": "第四節",
+      "32": "等待加時",
+      "40": "加時賽",
+      "80": "比賽中斷",
+      "90": "比賽放棄",
+      "100": "完賽",
+      "110": "加時賽結束",
+      "301": "第二節",
+      "302": "第三節",
+      "303": "第四節",
+      "999": "完賽"
+    },
+    "7": {
+      "0": "未開賽",
+      "21": "進行中",
+      "30": "暫停",
+      "61": "比賽推遲",
+      "80": "比賽中斷",
+      "90": "比賽取消",
+      "93": "客隊球員未參賽",
+      "94": "主隊球員未參賽",
+      "95": "主隊退賽",
+      "96": "客隊退賽",
+      "97": "主隊棄權",
+      "98": "客隊棄權",
+      "100": "完賽",
+      "419": "上",
+      "420": "下",
+      "439": "下",
+      "445": "局間休息",
+      "999": "完賽",
+      "x": "第%s局"
+    },
+    "8": {
+      "0": "第一局",
+      "8": "第一局",
+      "9": "第二局",
+      "10": "第三局",
+      "11": "第四局",
+      "12": "第五局",
+      "61": "比賽推遲",
+      "80": "比賽中斷",
+      "90": "比賽取消",
+      "93": "客隊球員未參賽",
+      "94": "主隊球員未參賽",
+      "95": "主隊球員退賽",
+      "96": "客隊球員退賽",
+      "97": "主隊球員未到場",
+      "98": "客隊球員未到場",
+      "100": "完賽",
+      "301": "第二局",
+      "302": "第三局",
+      "303": "第四局",
+      "304": "第五局",
+      "305": "第六局",
+      "306": "第七局",
+      "441": "第六局",
+      "442": "第七局",
+      "999": "完賽"
+    },
+    "9": {
+      "0": "未開賽",
+      "8": "第一局",
+      "9": "第二局",
+      "10": "第三局",
+      "11": "第四局",
+      "12": "第五局",
+      "17": "第五局",
+      "37": "第五局",
+      "61": "比賽推遲",
+      "80": "比賽中斷",
+      "90": "比賽取消",
+      "93": "客隊未參賽",
+      "94": "主隊未參賽",
+      "95": "主隊退賽",
+      "96": "客隊退賽",
+      "100": "完賽",
+      "130": "完賽",
+      "301": "第二局",
+      "302": "第三局",
+      "303": "第四局",
+      "304": "第五局",
+      "305": "第六局",
+      "306": "第七局",
+      "441": "第六局",
+      "442": "第七局",
+      "999": "完賽"
+    },
+    "10": {
+      "0": "第一局",
+      "8": "第一局",
+      "9": "第二局",
+      "10": "第三局",
+      "11": "第四局",
+      "12": "第五局",
+      "61": "比賽推遲",
+      "80": "比賽中斷",
+      "90": "比賽取消",
+      "93": "客隊球員未參賽",
+      "94": "主隊球員未參賽",
+      "95": "主隊球員退賽",
+      "96": "客隊球員退賽",
+      "97": "主隊球員未到場",
+      "98": "客隊球員未到場",
+      "100": "完賽",
+      "301": "第二局",
+      "302": "第三局",
+      "303": "第四局",
+      "304": "第五局",
+      "999": "完賽"
+    },
+    "11": {
+      "0": "上半場",
+      "6": "上半場",
+      "7": "下半場",
+      "31": "中場休息",
+      "32": "即將加時",
+      "33": "加時中場休息",
+      "34": "等待點球大戰",
+      "41": "加時上半場",
+      "42": "加時下半場",
+      "50": "點球大戰",
+      "80": "比賽中斷",
+      "90": "比賽放棄",
+      "100": "下半場結束",
+      "110": "加時賽結束",
+      "120": "點球大戰結束",
+      "999": "全場結束"
+    },
+    "12": {
+    },
+    "13": {
+      "0": "未開賽",
+      "8": "第一局",
+      "9": "第二局",
+      "10": "第三局",
+      "11": "第四局",
+      "12": "第五局",
+      "17": "第五局",
+      "37": "第五局",
+      "61": "比賽推遲",
+      "80": "比賽中斷",
+      "90": "比賽取消",
+      "93": "客隊未參賽",
+      "94": "主隊未參賽",
+      "95": "主隊退賽",
+      "96": "客隊退賽",
+      "100": "完賽",
+      "130": "完賽",
+      "301": "第二局",
+      "302": "第三局",
+      "303": "第四局",
+      "304": "第五局",
+      "305": "第六局",
+      "306": "第七局",
+      "441": "第六局",
+      "442": "第七局",
+      "999": "完賽"
+    },
+    "14": {
+      "0": "未開賽",
+      "6": "上半場",
+      "7": "下半場",
+      "31": "中場休息",
+      "32": "即將加時",
+      "33": "加時中場休息",
+      "34": "等待點球大戰",
+      "41": "加時上半場",
+      "42": "加時下半場",
+      "50": "點球大戰",
+      "60": "比賽暫停",
+      "80": "比賽中斷",
+      "90": "比賽放棄",
+      "100": "下半場結束",
+      "110": "加時賽結束",
+      "120": "點球大戰結束",
+      "440": "加時賽",
+      "443": "等待加時開始",
+      "444": "加時賽結束",
+      "999": "全場結束"
+    },
+    "15": {
+      "0": "未開賽",
+      "6": "上半場",
+      "7": "下半場",
+      "13": "第一節",
+      "14": "第二節",
+      "15": "第三節",
+      "16": "第四節",
+      "21": "進行中",
+      "31": "中場休息",
+      "32": "等待加時",
+      "34": "等待點球大戰",
+      "40": "加時賽",
+      "50": "點球大戰",
+      "61": "比賽推遲",
+      "80": "比賽中斷",
+      "90": "比賽放棄",
+      "100": "第四節",
+      "110": "加時賽結束",
+      "120": "點球大戰結束",
+      "301": "第二節",
+      "302": "第三節",
+      "303": "第四節",
+      "440": "加時賽",
+      "443": "等待加時開始",
+      "444": "加時賽結束",
+      "999": "全場結束"
+    },
+    "16": {
+      "0": "未開賽",
+      "13": "第一節",
+      "14": "第二節",
+      "15": "第三節",
+      "16": "第四節",
+      "34": "等待點球大戰",
+      "50": "點球大戰",
+      "80": "比賽中斷",
+      "90": "比賽放棄",
+      "100": "完賽",
+      "120": "點球大戰結束",
+      "301": "第二節",
+      "302": "第三節",
+      "303": "第四節",
+      "999": "全場結束"
+    },
+    "100": {
+      "0": "第一局",
+      "1": "第一局",
+      "2": "第二局",
+      "3": "第三局",
+      "4": "第四局",
+      "5": "第五局",
+      "6": "第六局",
+      "7": "第七局",
+      "8": "第八局",
+      "9": "第九局",
+      "10": "第十局",
+      "11": "第十一局"
+    },
+    "101": {
+      "0": "第一局",
+      "1": "第一局",
+      "2": "第二局",
+      "3": "第三局",
+      "4": "第四局",
+      "5": "第五局",
+      "6": "第六局",
+      "7": "第七局",
+      "8": "第八局",
+      "9": "第九局",
+      "10": "第十局",
+      "11": "第十一局"
+    },
+    "102": {
+      "0": "第一局",
+      "1": "第一局",
+      "2": "第二局",
+      "3": "第三局",
+      "4": "第四局",
+      "5": "第五局",
+      "6": "第六局",
+      "7": "第七局",
+      "8": "第八局",
+      "9": "第九局",
+      "10": "第十局",
+      "11": "第十一局"
+    },
+    "103": {
+      "0": "第一局",
+      "1": "第一局",
+      "2": "第二局",
+      "3": "第三局",
+      "4": "第四局",
+      "5": "第五局",
+      "6": "第六局",
+      "7": "第七局",
+      "8": "第八局",
+      "9": "第九局",
+      "10": "第十局",
+      "11": "第十一局"
+    },
+    "eports_scoring": "判定中"
+  },
+  "ms": {
+    "0": "未開賽",
+    "1": "進行中",
+    "2": "暫停",
+    "3": "結束",
+    "4": "關閉",
+    "5": "取消",
+    "6": "比賽放棄",
+    "7": "延遲",
+    "8": "未知",
+    "9": "延期",
+    "10": "比賽中斷",
+    "110": "即將開賽"
+  },
+  "msc": {
+    "S1": "全場比分",
+    "S10": "點球比分",
+    "S100": "第5盤第13局比分",
+    "S101": "第5盤第14局比分",
+    "S102": "第5盤第15局比分",
+    "S103": "當前局比分",
+    "S104": "進攻次數",
+    "S105": "",
+    "S106": "",
+    "S10601": "第一節犯規次數",
+    "S10602": "第二節犯規次數",
+    "S10603": "第三節犯規次數",
+    "S10604": "第四節犯規次數",
+    "S10605": "加時賽犯規次數",
+    "S10606": "上半場犯規次數",
+    "S10607": "下半場犯規次數",
+    "S107": "",
+    "S108": "",
+    "S109": "",
+    "S10901": "第一節暫停次數",
+    "S10902": "第二節暫停次數",
+    "S10903": "第三節暫停次數",
+    "S10904": "第四節暫停次數",
+    "S10906": "加時賽暫停次數",
+    "S11": "紅牌比分",
+    "S110": "",
+    "S111": "",
+    "S1111": "常規賽比分",
+    "S113": "發球失誤次數",
+    "S114": "破發成功率",
+    "S115": "得分次數",
+    "S116": "接收點得分次數",
+    "S117": "發球得分率",
+    "S118": "犯規次數",
+    "S119": "單桿最高",
+    "S12": "黃牌比分",
+    "S120": "第1局比分",
+    "S121": "第2局比分",
+    "S122": "第3局比分",
+    "S123": "第4局比分",
+    "S124": "第5局比分",
+    "S125": "第6局比分",
+    "S126": "第7局比分",
+    "S127": "第8局比分",
+    "S128": "第9局比分",
+    "S129": "第10局比分",
+    "S13": "上半場紅牌比分",
+    "S130": "第11局比分",
+    "S131": "第12局比分",
+    "S132": "第13局比分",
+    "S133": "第14局比分",
+    "S134": "第15局比分",
+    "S135": "第16局比分",
+    "S136": "第17局比分",
+    "S137": "第18局比分",
+    "S138": "第19局比分",
+    "S139": "第20局比分",
+    "S14": "下半場黃牌比分",
+    "S140": "第21局比分",
+    "S141": "第22局比分",
+    "S142": "第23局比分",
+    "S143": "第24局比分",
+    "S144": "第25局比分",
+    "S145": "第26局比分",
+    "S146": "第27局比分",
+    "S147": "第28局比分",
+    "S148": "第29局比分",
+    "S149": "第30局比分",
+    "S15": "上半場角球比分",
+    "S150": "第31局比分",
+    "S151": "第32局比分",
+    "S152": "第33局比分",
+    "S153": "第34局比分",
+    "S154": "第35局比分",
+    "S155": "第36局比分",
+    "S156": "第37局比分",
+    "S157": "第38局比分",
+    "S158": "第39局比分",
+    "S159": "第40局比分",
+    "S16": "下半場角球比分",
+    "S17": "射偏次數比分",
+    "S170": "點球大戰比分",
+    "S18": "射正次數比分",
+    "S19": "第一節比分",
+    "S190": "罰球次數",
+    "S191": "罰球未命中數",
+    "S2": "上半場比分",
+    "S20": "第二節比分",
+    "S200": "發球次數比",
+    "S201": "破發次數",
+    "S202": "雙發失誤次數",
+    "S21": "第三節比分",
+    "S22": "第四節比分",
+    "S23": "第1盤比分",
+    "S24": "第1盤第1局比分",
+    "S25": "第1盤第2局比分",
+    "S26": "第1盤第3局比分",
+    "S27": "第1盤第4局比分",
+    "S28": "第1盤第5局比分",
+    "S29": "第1盤第6局比分",
+    "S3": "下半場比分",
+    "S30": "第1盤第7局比分",
+    "S3011": "好球比分",
+    "S3012": "壞球比分",
+    "S3013": "上壘比分",
+    "S3014": "出局比分",
+    "S3015": "安打數比分",
+    "S31": "第1盤第8局比分",
+    "S32": "第1盤第9局比分",
+    "S33": "第1盤第10局比分",
+    "S34": "第1盤第11局比分",
+    "S35": "第1盤第12局比分",
+    "S36": "第1盤第13局比分",
+    "S37": "第1盤第14局比分",
+    "S38": "第1盤第15局比分",
+    "S39": "第2盤比分",
+    "S4": "發球比分",
+    "S40": "第2盤第1局比分",
+    "S4011": "大罰比分",
+    "S4012": "小罰比分",
+    "S4013": "射門比分",
+    "S41": "第2盤第2局比分",
+    "S42": "第2盤第3局比分",
+    "S43": "第2盤第4局比分",
+    "S44": "第2盤第5局比分",
+    "S45": "第2盤第6局比分",
+    "S46": "第2盤第7局比分",
+    "S47": "第2盤第8局比分",
+    "S48": "第2盤第9局比分",
+    "S49": "第2盤第10局比分",
+    "S5": "角球比分",
+    "S50": "第2盤第11局比分",
+    "S500": "加時角球比分",
+    "S501": "加時上半場角球比分",
+    "S502": "加時下半場角球比分",
+    "S51": "第2盤第12局比分",
+    "S52": "第2盤第13局比分",
+    "S53": "第2盤第14局比分",
+    "S54": "第2盤第15局比分",
+    "S55": "第3盤比分",
+    "S555": "角球比分",
+    "S56": "第3盤第1局比分",
+    "S57": "第3盤第2局比分",
+    "S58": "第3盤第3局比分",
+    "S59": "第3盤第4局比分",
+    "S6": "任意球比分",
+    "S60": "第3盤第5局比分",
+    "S6011": "沖球數比分",
+    "S6012": "射門比分",
+    "S6014": "達陣比分",
+    "S61": "第3盤第6局比分",
+    "S62": "第3盤第7局比分",
+    "S63": "第3盤第8局比分",
+    "S64": "第3盤第9局比分",
+    "S65": "第3盤第10局比分",
+    "S66": "第3盤第11局比分",
+    "S67": "第3盤第12局比分",
+    "S68": "第3盤第13局比分",
+    "S69": "第3盤第14局比分",
+    "S7": "加時賽比分",
+    "S70": "第3盤第15局比分",
+    "S701": "加時上半場比分",
+    "S702": "加時下半場比分",
+    "S71": "第4盤比分",
+    "S72": "第4盤第1局比分",
+    "S73": "第4盤第2局比分",
+    "S74": "第4盤第3局比分",
+    "S75": "第4盤第4局比分",
+    "S76": "第4盤第5局比分",
+    "S77": "第4盤第6局比分",
+    "S78": "第4盤第7局比分",
+    "S79": "第4盤第8局比分",
+    "S8": "危險進攻次數比分",
+    "S80": "第4盤第9局比分",
+    "S81": "第4盤第10局比分",
+    "S82": "第4盤第11局比分",
+    "S83": "第4盤第12局比分",
+    "S84": "第4盤第13局比分",
+    "S85": "第4盤第14局比分",
+    "S86": "第4盤第15局比分",
+    "S87": "第5盤比分",
+    "S88": "第5盤第1局比分",
+    "S89": "第5盤第2局比分",
+    "S9": "兩次發球失誤比分",
+    "S90": "第5盤第3局比分",
+    "S91": "第5盤第4局比分",
+    "S92": "第5盤第5局比分",
+    "S93": "第5盤第6局比分",
+    "S94": "第5盤第7局比分",
+    "S95": "第5盤第8局比分",
+    "S96": "第5盤第9局比分",
+    "S97": "第5盤第10局比分",
+    "S98": "第5盤第11局比分",
+    "S99": "第5盤第12局比分"
+  },
+  "msg": {
+    "msg_nodata_01": "沒有找到相應比賽～",
+    "msg_nodata_02": "空空如也～",
+    "msg_nodata_03": "居然斷網啦，請檢查您的網路設置～",
+    "msg_nodata_04": "未找到相關搜尋",
+    "msg_nodata_05": "去投注～",
+    "msg_nodata_06": "刷新一下",
+    "msg_nodata_07": "別緊張，刷新頁面試試",
+    "msg_nodata_08": "還沒有您想收藏的賽事",
+    "msg_nodata_09": "網路連線不良",
+    "msg_nodata_10": "還沒有任何投注記錄",
+    "msg_nodata_11": "未找到相關賽事",
+    "msg_nodata_12": "無未結算注單",
+    "msg_nodata_13": "無已結算注單",
+    "msg_nodata_14": "暫無直播的賽事喔",
+    "msg_nodata_15": "無未提前結算注單",
+    "msg_nodata_16": "無已提前結算注單",
+    "msg_nodata_17": "暫無消息記錄",
+    "msg_nodata_18": "無預約注單",
+    "msg_nodata_19": "去預約",
+    "msg_nodata_20": "Hi，真不巧，頁面走丟了",
+    "msg_nodata_21": "別緊張，點“刷新”馬上找回~",
+    "msg_nodata_22": "當前訪問人數過多，請稍後再試",
+    "msg_nodata_23": "即將推出"
+  },
+  "myScroll": {
+    "msg1": "下拉刷新",
+    "msg2": "刷新中",
+    "msg3": "鬆開刷新",
+    "msg4": "刷新完成",
+    "msg5": "加載中",
+    "msg6": "加載完成",
+    "msg7": "沒有更多了"
+  },
+  "nativeName": "中文（繁體）",
+  "odds": {
+    "EU": "歐洲盤",
+    "GB": "英式盤",
+    "HK": "香港盤",
+    "ID": "印尼盤",
+    "MY": "馬來盤",
+    "US": "美式盤"
+  },
+  "play_way_info": {
+    "1": "",
+    "2": "獨贏和大小玩法只計算球隊在點球大戰前5回合的進球，驟死賽(第6回合起) 將不計算在內。",
+    "3": "",
+    "4": "",
+    "5": "罰牌盤口以分數為結算依據。 紅牌等於2分，黃牌等於1分。 每個球員最高罰牌分數為3分。",
+    "6": "該玩法為主隊或者客隊的角球數，誰先達到X個。",
+    "17": {
+      "0":{
+        "title": "15分鐘-時段1",
+        "content": "開場-14分59秒"
+      },
+      "1":{
+        "title": "15分鐘-時段2",
+        "content": "15分-29分59秒"
+      },
+      "2":{
+        "title": "15分鐘-時段3",
+        "content": "30分-半場"
+      },
+      "3":{
+        "title": "15分鐘-時段4",
+        "content": "下半場開始-59分59秒"
+      },
+      "4":{
+        "title": "15分鐘-時段5",
+        "content": "60分-74分59秒"
+      },
+      "5":{
+        "title": "15分鐘-時段6",
+        "content": "75分钟-全場"
+      }
+    },
+    "19": {
+      "0": {
+        "content": "開場~04分59秒",
+        "title": "5分鐘~P1"
+      },
+      "1": {
+        "content": "05分~09分59秒",
+        "title": "5分鐘~P2"
+      },
+      "2":{
+        "content": "更多請查看體育規則",
+        "title": "5min-icon"
+      },
+      "3": {
+        "content": "85分~90分00秒",
+        "title": "5分鐘~P18"
+      },
+      "4":{
+        "content": "",
+        "title": "無進球(0-0)",
+        "Xth_title": "無第X個進球"
+      },
+      "5":{
+        "content": "",
+        "title": "絕殺球(含上/下半場補時)"
+      }
+    }
+  },
+  "rule_description": {
+    "american_football": "美式足球",
+    "badminton": "羽毛球",
+    "baseball": "棒球",
+    "basketball": "籃球",
+    "champion": "冠軍",
+    "football": "足球",
+    "general_rules": "一般規則",
+    "pingpong": "乒乓球",
+    "puck": "冰球",
+    "Snooker": "斯諾克",
+    "tennis": "網球",
+    "volleyball": "排球"
+  },
+  "scroll_wrapper": {
+    "is_footer": "到底了",
+    "loding_more": "加載更多"
+  },
+  "search": {
+    "clear_search_history": "清除搜尋記錄",
+    "hot": "熱",
+    "hot_league": "熱門聯賽",
+    "keyword_is_empty": "請輸入關鍵字",
+    "search_history": "搜尋歷史",
+    "search_hot": "熱門搜尋",
+    "search_qihao": "請輸入VR賽事期號",
+    "search_title": "搜尋",
+    "search_title_bw3": "輸入聯賽名或球隊名"
+  },
+  "setting_menu": {
+    "chan_lan": "切換語言",
+    "concise": "簡版",
+    "footer_t_handicap": "盤",
+    "footer_t_odds": "賠率",
+    "footer_t_sort": "排序",
+    "handicap": "盤口",
+    "lang": "繁體中文",
+    "league": "熱門",
+    "lottery": "彩金",
+    "newer": "簡",
+    "newer_s_edt": "版",
+    "odd_any": "任何",
+    "odd_any2": "任何賠率",
+    "odd_europe": "歐洲",
+    "odd_europe2": "歐洲盤",
+    "odd_hong_kong": "香港",
+    "odd_hong_kong2": "香港盤",
+    "odd_optimal": "最佳",
+    "odd_optimal2": "最佳賠率",
+    "prize": "兌獎記錄",
+    "rule_description": "規則說明",
+    "skin": "換膚",
+    "standard": "標準",
+    "time": "時間",
+    "tutorials": "教程",
+    "version": "版本"
+  },
+  "sport": {
+    "badminton": "羽毛球",
+    "basketball": "籃球",
+    "football": "足球",
+    "pingpong": "兵乓球",
+    "snooker": "斯諾克",
+    "tennis": "網球"
+  },
+  "menu_itme_name": {
+    "results": "賽果",
+    "inplay": "滾球",
+    "today": "今日",
+    "early": "早盤",
+    "outher_early": "其他早盤",
+    "champion": "冠軍",
+    "vr": "VR",
+    "lottery": "竟足",
+    "esports": "電競",
+    "cp_menu": "彩票投注",
+    "zr_menu": "真人娛樂"
+  },
+  "sport2": {
+    "1": "足球",
+    "2": "籃球",
+    "3": "棒球",
+    "4": "冰球",
+    "5": "網球",
+    "6": "美式足球",
+    "7": "斯諾克",
+    "8": "乒乓球",
+    "9": "排球",
+    "10": "羽毛球",
+    "11": "手球",
+    "12": "拳击",
+    "13": "沙滩排球",
+    "14": "英式橄榄球",
+    "15": "曲棍球",
+    "16": "水球",
+    "17": "田徑",
+    "19": "游泳",
+    "20": "體操",
+    "21": "跳水",
+    "22": "射擊",
+    "23": "舉重",
+    "24": "射箭",
+    "25": "擊劍",
+    "26": "冰壺",
+    "27": "跆拳道",
+    "28": "高爾夫",
+    "29": "自行車",
+    "30": "賽馬",
+    "31": "帆船",
+    "32": "划船",
+    "33": "賽馬",
+    "34": "柔道",
+    "35": "空手道",
+    "36": "摔跤",
+    "37": "板球",
+    "38": "飛鏢",
+    "39": "沙灘足球",
+    "50": "趣味",
+    "100": "LOL",
+    "101": "Dota2",
+    "102": "CSGO",
+    "103": "王者榮耀",
+    "1001": "VR足球",
+    "1002": "VR賽狗",
+    "1004": "VR籃球",
+    "1009": "VR泥地摩托車",
+    "1010": "VR摩托車",
+    "1011": "VR賽馬"
+  },
+  "sport_head_play_category": {
+    "1": {
+      "0":"全場獨贏",
+      "1":"全場讓球",
+      "2":"全場大小",
+      "3":"半場獨贏",
+      "4":"半場讓球",
+      "5":"半場大小"
+    },
+    "2": {
+      "0": "全場獨贏",
+      "1": "全場讓盤",
+      "2": "全場讓局"
+    },
+    "3": {
+      "0": "全場獨贏",
+      "1": "全場讓分",
+      "2": "全場總分"
+    },
+    "4": {
+      "0": "全場獨贏",
+      "1": "全場讓球",
+      "2": "全場大小"
+    },
+    "5": {
+      "0": "全場獨贏",
+      "1": "全場讓分",
+      "2": "全場總分"
+    },
+    "6": {
+      "0": "全場獨贏",
+      "1": "全場讓球",
+      "2": "全場大小"
+    },
+    "7": {
+      "0": "全場獨贏",
+      "1": "總回合數"
+    },
+    "8": {
+      "0": "全場獨贏",
+      "1": "全場讓局",
+      "2": "總局數"
+    },
+    "9": {
+      "0": "全局獲勝",
+      "1": "地圖讓分",
+      "2": "地圖總數大小"
+    },
+    "10": {
+      "0": "全局獲勝",
+      "1": "地圖讓分",
+      "2": "地圖總數"
+    },
+    "11": {
+      "0": "全場獨贏",
+      "1": "全場讓分",
+      "2": "全場總分",
+      "3": "半場獨贏",
+      "4": "半場讓分",
+      "5": "半場總分"
+    },
+    "12": {
+      "0": "全場獨贏",
+      "1": "全場讓分",
+      "2": "全場大小",
+      "3": "半場獨贏",
+      "4": "半場讓球",
+      "5": "半場大小"
+    }
+  },
+  "time": {
+    "monthes": {
+      "0": "1",
+      "1": "2",
+      "2": "3",
+      "3": "4",
+      "4": "5",
+      "5": "6",
+      "6": "7",
+      "7": "8",
+      "8": "9",
+      "9": "10",
+      "10": "11",
+      "11": "12"
+    },
+    "time_date_1": "%month月%date日",
+    "time_date_2": "%s月%s日 (%s)",
+    "time_date_3": "%s月%s日 %s:%s",
+    "time_date_week": {
+      "0": "週日",
+      "1": "週一",
+      "2": "週二",
+      "3": "週三",
+      "4": "週四",
+      "5": "週五",
+      "6": "週六"
+    }
+  },
+  "time2": "MM月dd日",
+  "time3": "MM/dd",
+  "time4": "MM/dd HH:mm",
+  "time5": "yy-MM-dd",
+  "time6": "yyyy-MM-dd HH:mm",
+  "time7": "yyyy年MM月dd日 HH:mm",
+  "time8": "yyyy年MM月dd日 HH:mm:ss",
+  "time9": "HH:mm",
+  "time11": "MM月dd日 HH:mm",
+  "tips": {
+    "msg1": "合併投注項",
+    "msg2": "勾選後，單/串關可自由切換，多個投注項會同時展示在投注欄裏，同一玩法的盤口投注會替換原投注項。"
+  },
+  "today": "今天",
+  "token_inv": {
+    "confrim": "知道了",
+    "dear_user": "親愛的用戶",
+    "msg": "登錄信息已失效，請重新登錄",
+    "play_happily": "祝您遊戲愉快",
+    "reaccess": "再次重新進入本場館",
+    "token_dis": "您的登錄信息已失效, 請關閉本頁面",
+    "token_landing": "登入失敗",
+    "token_no": "您的登錄信息無效，請關閉此頁面，重新進入網站，祝您生活愉快",
+    "relanding": "重新登入",
+    "close": "收起",
+    "expand": "展開"
+  },
+  "tomorrow": "明天",
+  "video": {
+    "after": "請重新進入後觀看",
+    "change_video": "切換到動畫",
+    "click_on": "單擊",
+    "close": "關閉",
+    "close_1": "動畫直播線路已關閉",
+    "close_2": "視頻直播線路已關閉",
+    "double_click": "雙擊",
+    "full_screen_play": "全屏播放",
+    "lost": "帳戶信息已經失效",
+    "msg": "此版面顯示的所有直播內容僅供參考，會員亦可使用此內容為指南。我們將盡最大的努力確保顯示的內容是正確的，如有錯誤，本公司將不承擔任何責任。對於滾球比分，例如滾球讓球，將以投注時在投注單中顯示的正確比分為準",
+    "show_hide": "顯示/隱藏操作按鈕",
+    "sorry": "抱歉，暫時無法連線視頻",
+    "nohandle": "您長時間未操作，視頻暫停，若要繼續觀看請重新點擊播放",
+    "video_line": "視頻線路",
+    "novideo1": "暫無直播視頻，請耐心等待",
+    "novideo2": "快速結算注單",
+    "novideo3": "支持多種語言&貨幣",
+    "novideo4": "極致用戶體驗",
+    "novideo5": "極致服務團隊",
+    "novideo6": "您長時間未操作，視頻暫停，若要繼續觀看請重新點擊播放",
+    "flv": "高清一",
+    "m3u8": "高清二",
+    "clarity1": "高清",
+    "clarity2": "标清"
+  },
+  "virtual_sports": {
+    "rank": "排名",
+    "advance": "進",
+    "champion": "冠軍",
+    "comprehensive_rating": "綜合評價",
+    "date_number_title": "期",
+    "FINAL": "決賽",
+    "finals": "決賽",
+    "game": "比賽",
+    "goal_difference": "淨勝球",
+    "group": "組",
+    "group_matches": "小組賽",
+    "GROUPS": "小組賽",
+    "INGAME": "進行中",
+    "integral": "積分",
+    "knockout": "淘汰賽",
+    "leaderboard": "排行榜",
+    "legOrder": "第%回合",
+    "lose": "失",
+    "match_status": {
+      "0": "開始",
+      "1": "最後1分鐘",
+      "2": "結束",
+      "ended": "比賽結束",
+      "playing": "進行中",
+      "x_to_ended": "距離結束 %s",
+      "balance": "餘額",
+      "matching": "比賽中",
+      "show_all_markets": "顯示所有盤口"
+    },
+    "matchDay": "第%s輪",
+    "next_batch_no": "第%s輪",
+    "next_date_no": "%s期",
+    "no_data": "暫無",
+    "PREGAME": "未開賽",
+    "Q16": "32強",
+    "Q4": "8強",
+    "Q8": "16強",
+    "quarter_finals": "1/4決賽",
+    "result": {
+      "0": "無效",
+      "1": "無效",
+      "2": "走水",
+      "3": "輸",
+      "4": "贏",
+      "5": "贏半",
+      "6": "輸半"
+    },
+    "results_last_games": "最近5場賽果",
+    "results_previous": "上期結果",
+    "runner_up": "亞軍",
+    "SEMIFINAL": "半決賽",
+    "semifinals": "半決賽",
+    "show_more": "查看更多",
+    "team": "球隊",
+    "third_place": "季軍",
+    "top_16": "16強",
+    "top_32": "32強",
+    "top_64": "64強",
+    "vitality_performance": "活力表現",
+    "win_tie_loss": "勝/平/負",
+    "balance": "餘額",
+    "matching": "比賽中",
+    "show_all_markets": "顯示所有盤口",
+    "match_detail": {
+      "leaderboard": "排行榜",
+      "historical_results": "歷史戰績",
+      "bet": "投注"
+    }
+  },
+  "new_menu": {
+    "1": "滾球",
+    "2": "今日",
+    "3": "早盤",
+    "4": "冠軍",
+    "5": "即将开赛",
+    "6": "串關",
+    "7": "電競",
+    "8": "VR",
+    "30": "競足",
+    "28": "賽果",
+    "400": "冠軍"
+  },
+  "chatroom": {
+    "read_more": "查看更多消息",
+    "post_bet_info1": "在手機上曬了一單",
+    "input_field_ph1": "您剩餘{numOfSend}次發言次數，CD{numOfCD}分鐘",
+    "post_bet": "曬單",
+    "betting": "注單",
+    "block_msg_info1": "屏蔽消息，僅展示曬單",
+    "block_msg_info2": "點擊可屏蔽消息，僅展示曬單",
+    "pop_content1": "知道了",
+    "pop_send_hint1": "自由發言條件 (擇一完成即可)",
+    "pop_send_hint2": "1. 前三日累計投注金額500元以上",
+    "pop_send_hint3": "2. 前七日累計投注金額1500元以上",
+    "pop_send_hint4": "發言規則",
+    "pop_send_hint5": "聊天室禁止發送廣告和任何形式的聯繫方式，若有存提款問題，可諮詢7×24在線客服",
+    "mute_hint1": "您已被禁言！",
+    "mute_hint2": "當前為全體禁言",
+    "mute_hint3": "抱歉，您還不能發言！",
+    "mute_hint4": "您{type}，禁言{time}",
+    "mute_hint": {
+      "time": {
+        "0": "15分鐘",
+        "1": "30分鐘",
+        "2": "60分鐘",
+        "3": "180分鐘",
+        "4": "永久"
+      },
+      "type": {
+        "0": "違規濫發廣告",
+        "1": "辱罵主播或其他會員",
+        "2": "違法違規言論"
+      }
+    },
+    "follow_bet": "跟單",
+    "send_err_hint1": "請輸入聊天內容",
+    "send_err_hint2": "抱歉！您說話太快了",
+    "ban_post_bet": "當前為全體禁止曬單",
+    "post_bet_info2": "注：本頁面僅展示直播間相關賽事的注單，選擇後可發布曬單",
+    "clear": "清空",
+    "post_bet2": "發布曬單",
+    "bulletin": "聊天室公告",
+    "close": "關閉"
+  },
+  "highlights": {
+    "title": "精彩回放",
+    "collapse_replay": "收起回放",
+    "type": {
+      "all": "全部",
+      "goal": "進球",
+      "corner": "角球",
+      "penalty": "罰牌",
+      "card_red": "紅牌",
+      "card_yellow": "黃牌",
+      "card_yellow_red": "黃紅牌"
+    },
+    "event_type": {
+      "goal": "第{X}個進球",
+      "corner": "第{X}個角球",
+      "red_card": "第{X}個紅牌",
+      "yellow_card": "第{X}個黃牌",
+      "yellow_red_card": "第{X}個黃紅牌",
+      "new_goal": "進球{X}",
+      "new_corner": "角球{X}",
+      "new_red_card": "紅牌{X}",
+      "new_yellow_card": "黃牌{X}",
+      "new_yellow_red_card": "黃紅牌{X}"
+    },
+    "back_live": "返回直播"
+  },
+  "game": {
+    "start": "比賽開始"
+  }
+}

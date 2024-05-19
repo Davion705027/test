@@ -1,0 +1,3145 @@
+{
+  "app": {
+    "bet": "내 베팅",
+    "activity": "프로모션",
+    "notice": "알림",
+    "myProfile": "개인 센터",
+    "signOut": "로그아웃",
+    "loginInvalid": "로그인이 만료됨 ！",
+    "favorite_Tips": "원하는 이벤트가 아직 없습니다.",
+    "ball_match": "경기",
+    "team_name": "팀 이름",
+    "tactical_analysis": "전술 분석",
+    "points_per_game": "경기당 평균 득점",
+    "outbound": "출발",
+    "losing_rate": "패배율",
+    "Video_line_prompts": "*비디오가 끊기거나 선명하지 않으면 직접 연결을 조정할 수 있습니다",
+    "more_play": "더 많은 마켓",
+    "toggle_hd_video": "고화질 둘로 전환 중",
+    "seconds_ago": "초 전",
+    "minutes_ago": "분 전",
+    "hours_ago": "시간 전",
+    "days_ago": "일 전",
+    "months_ago": "개월 전",
+    "years_ago": "년 전",
+    "questionsData": {
+      "1": {
+        "note_1": "골득실 2:2.5미만",
+        "note_2": "그러므로 소 2.5을 베팅하면 다 이기고, 대 2.5을 베팅하면 다 진다."
+      },
+      "2": {
+        "note_1": "골득실2/2.5미만",
+        "note_2": "기본 대등분 원리, 소 2/2.5을 베팅하면 반을 이긴다."
+      }
+    },
+    "early_market": "조기 게임 배당",
+    "live_betting": "실시간 배팅",
+    "outright_winner": "챔피언십 배당",
+    "combine_bets_tips": "취소 후에는 '모든 배당률을 자동으로 수락하게 됩니다'.",
+    "combine_bets_msg1": "이 기능을 선택하지 않을 경우, 시스템은 '모든 배당률을 자동으로 수락하는 것'으로 간주합니다. (즉, 베팅 시 배당률이 어떻게 변하든 간에 시스템은 당신이 수락할 것으로 기본 설정되며, 베팅 행위를 중단시키지 않습니다).",
+    "combine_bets_msg2": "베팅 시 배당률이 어떻게 변하든 시스템은 당신이 수락할 것으로 기본 설정되며, 페이지에는 배당률 변경 알림이 표시되지만 베팅 행위는 중단되지 않습니다.",
+    "multi": "멀티 베팅",
+    "betting": "베팅",
+    "match_analysis": "경기 분석",
+    "place_bet": "베팅하다",
+    "lol": "리그 오브 레전드",
+    "dec": "유럽 판",
+    "hk": "홍콩 판",
+    "pull_up_loading": "위로 당겨서 로드",
+    "failed_to_load": "로드 실패",
+    "release_to_load_more": "손을 놓고 더 많이 로드",
+    "no_more_data": "더 이상 데이터 없음",
+    "phrase_no": ".",
+    "injury_time": "부상 시간 추가",
+    "tbd": "미정",
+    "info_rules": {
+      "rule1": "이 페이지에 표시되는 모든 라이브 콘텐츠 는 참조용이며 회원은 이 콘텐츠를 가이드로 사용할 수도 있습니다. 표시된 내용이 정확한지 확인하기 위해 최선을 다할 것이며, 회사는 오류에 대해 책임을지지 않습니다.",
+      "rule2": "라이브 핸디캡과 같은 라이브 스코어의 경우 베팅 시 베팅 슬립에 표시된 정확한 점수를 기반으로 합니다."
+    },
+    "notice_center": "공지 센터"
+  },
+  "types_competitions": {
+    "odds": {
+      "EU": "유럽 판",
+      "HK": "홍콩 판",
+      "GB": "영어 판",
+      "MY": "말레이시아 판",
+      "US": "미국 판",
+      "ID": "인도네시아 판"
+    },
+    "matchtype": {
+      "1": "경기 전",
+      "2": "인플레이",
+      "3": "",
+      "4": ""
+    },
+    "menu_itme_name": {
+      "results": "결과",
+      "inplay": "진행중인 게임",
+      "today": "오늘",
+      "early": "",
+      "outher_early": "다른 예정경기",
+      "champion": "챔피언",
+      "vr": "VR",
+      "lottery": "",
+      "esports": "E스포츠",
+      "cp_menu" :"복권",
+      "zr_menu" :"라이브 카지노"
+    },
+    "sport2": {
+      "1": "축구",
+      "2": "농구",
+      "3": "야구",
+      "4": "아이스하키",
+      "5": "테니스",
+      "6": "미식축구",
+      "7": "스누커",
+      "8": "탁구",
+      "9": "배구",
+      "10": "배드민턴",
+      "11": "핸드볼",
+      "12": "복싱/무술",
+      "13": "비치발리볼",
+      "14": "럭비",
+      "15": "하키",
+      "16": "수구",
+      "17": "육상 경기",
+      "19": "수영하다",
+      "20": "체조",
+      "21": "다이빙",
+      "22": "쏘다",
+      "23": "역도",
+      "24": "양궁",
+      "25": "펜싱",
+      "26": "컬링",
+      "27": "태권도",
+      "28": "골프",
+      "29": "자전거",
+      "30": "경주마",
+      "31": "범선",
+      "32": "조정",
+      "33": "경주용 자동차",
+      "34": "유도",
+      "35": "카라테",
+      "36": "레슬링",
+      "37": "크리켓",
+      "38": "비행기표",
+      "39": "비치발리볼",
+      "50": "흥미롭다",
+      "100": "LOL",
+      "101": "도타2",
+      "102": "CSGO (씨에스고)",
+      "103": "KOG",
+      "1001": "가상 축구",
+      "1002": "가상 그레이하운드 경주",
+      "1004": "가상 농구",
+      "1009": "가상 사륜오토바이",
+      "1010": "가상 오토바이",
+      "1011": "가상 경마"
+    }
+  },
+  "ouzhou": {
+    "record": {
+      "my_bet": "내 베팅",
+      "unsettled": "미결산",
+      "settled": "결산필",
+      "unpaid_bets": "이 기록은 복권되지 않은 모든 베팅을 보여줍니다.",
+      "settled_time": "결제시간",
+      "bet_time": "베팅 시간",
+      "match_time": "경기 시간",
+      "today": "오늘",
+      "yesterday": "어제",
+      "7_days": "칠일 이내",
+      "30_days": "30일 이내",
+      "datails": "베팅 내역"
+    },
+    "detail": {
+      "which_team": "어느 팀",
+      "keno_lottery": "키노 복권",
+      "exciting_different": "신나고 색다르게",
+      "close_handicap": "양도양수오퍼 닫기",
+      "betting":"베팅하다",
+      "assault": "공격",
+      "possession_ball": "구기 종목의 권리",
+      "shot_wide_goal": "슛하여 골문을 빗나가다",
+      "shots_on_goal": "골문을 열다",
+      "event_analysis":"경기분석",
+      "foul": "반칙",
+      "point": "나누다",
+      "penalty": "자유투",
+      "pause": "일시정지",
+      "read": "읽다"
+    },
+    "bet": {
+      "place_bet": "베팅하다"
+    },
+    "menu": {
+      "collect": "수장",
+      "popular": "자주 방문하다",
+      "all_sports": "전부",
+      "my_bets": "주문기록"
+    },
+    "match": {
+      "favorites": "저장",
+      "matches": "대회",
+      "featured": "특색",
+      "featured_events": "이색 대회",
+      "top_events": "인기 대회",
+      "top_leagues": "인기 리그전",
+      "league": "리그전",
+      "outrights": "우승자",
+      "15_mins": "15분",
+      "inplay": "공을 굴리다",
+      "home": "체육에 베팅하다",
+      "today": "오늘",
+      "tomorrow": "내일",
+      "all_matches": "모든 대회",
+      "bet_col_Over": "만장이 넓다",
+      "bet_col_Under": "만장이 좁다",
+      "home_handicap": "홈팀이 점수를 양보하다",
+      "away_handicap": "원정팀이 점수를 양보하다",
+      "select_time": {
+        "3h": "3시간 이내",
+        "6h": "6시간 이내",
+        "9h": "9시간 이내",
+        "12h": "12시간 이내",
+        "24h": "24시간 이내",
+        "72h": "3일 이내",
+        "168h": "7일 이내"
+      },
+
+      "play_map": {
+        "1": "승무패",
+        "2": "오버/언더",
+        "4": "핸디캡",
+        "17": "하프 - 1x2",
+        "18": "하프타임",
+        "19": "하프타임에 공을 내주다",
+        "37": "머니 라인",
+        "38": "총 포인트",
+        "39": "핸디캡",
+        "153": "위너",
+        "154": "세트 핸디캡",
+        "155": "핸디캡",
+        "172": "풀타임 핸디캡",
+        "173": "총 포인트",
+        "181": "풀타임 핸디캡",
+        "182": "총 프레임",
+        "202": "총 프레임",
+        "242": "우승자",
+        "243": "풀타임 핸디캡",
+        "244": "총 골",
+        "30001": "승패",
+        "30002": "세트 핸디캡",
+        "30003": "총 세트수 오버/언더",
+        "12_2": "총 라운드 수"
+      }
+    },
+    "setting_menu": {
+      "personal": "개인",
+      "back": "되돌아가다",
+      "money": "잔액",
+      "language": "언어",
+      "odds_setting": "배당률설정",
+      "odds_display": "배당률반입구",
+      "dec": "유로 시세",
+      "hk": "홍콩 시세",
+      "any": "임의배당률",
+      "hig": "최적배율",
+      "version": "판본",
+      "euro": "유럽판",
+      "asia": "아시아판"
+    },
+    "no_data": {
+      "coming_soon": "곧 출시될 것이다",
+      "no_data": "현재 데이터가 없습니다"
+    },
+    "bet_col": {
+      "bet_col_1": {
+        "bet_col_1": "주승",
+        "bet_col_X": "무승부",
+        "bet_col_2": "객승"
+      },
+      "bet_col_2": {
+        "bet_col_Over": "다음보다 큼",
+        "bet_col_Under": "다음보다 작음"
+      },
+      "bet_col_4": {
+        "bet_col_1": "홈팀",
+        "bet_col_2": "원정팀"
+      },
+      "bet_col_37": {
+        "bet_col_1": "1",
+        "bet_col_2": "2"
+      },
+      "bet_col_38": {
+        "bet_col_1": "총점",
+        "bet_col_2": "총점"
+      },
+      "bet_col_39": {
+        "bet_col_1": "점수를 내주다",
+        "bet_col_2": "점수를 내주다"
+      },
+      "bet_col_153": {
+        "bet_col_1": "홈",
+        "bet_col_2": "어웨이"
+      },
+      "bet_col_154": {
+        "bet_col_1": "세트 핸디캡",
+        "bet_col_2": "세트 핸디캡"
+      },
+      "bet_col_155": {
+        "bet_col_1": "핸디캡",
+        "bet_col_2": "핸디캡"
+      },
+      "bet_col_172": {
+        "bet_col_1": "핸디캡",
+        "bet_col_2": "핸디캡"
+      },
+      "bet_col_173": {
+        "bet_col_1": "점수",
+        "bet_col_2": "점수"
+      },
+      "bet_col_181": {
+        "bet_col_1": "핸디캡",
+        "bet_col_2": "핸디캡"
+      },
+      "bet_col_182": {
+        "bet_col_1": "보다 큼",
+        "bet_col_2": "미만"
+      },
+      "bet_col_242": {
+        "bet_col_1": "승무패",
+        "bet_col_2": "승무패"
+      },
+      "bet_col_243": {
+        "bet_col_1": "홈팀",
+        "bet_col_2": "원정팀"
+      },
+      "bet_col_244": {
+        "bet_col_1": "보다 큼",
+        "bet_col_2": "미만"
+      },
+      "bet_col_30001": {
+        "bet_col_1": "1",
+        "bet_col_2": "2"
+      },
+      "bet_col_30002": {
+        "bet_col_1": "점수를 내주다",
+        "bet_col_2": "점수를 내주다"
+      },
+      "bet_col_30003": {
+        "bet_col_1": "총 수",
+        "bet_col_2": "총 수"
+      }
+    },
+    "search": {
+      "change": "바꾸다",
+      "clear_search_history": "과거 기록 지우기",
+      "league": "리그전",
+      "null1": "검색 결과가 비어 있습니다",
+      "null2": "단어를 바꿔서 검색해보자.",
+      "other": "기타 검색",
+      "search_hot": "인기 검색어",
+      "search_play": "수완법",
+      "search_record": "과거 기록 검색",
+      "search_sports": "수구류",
+      "team": "팀",
+      "placeholder": "리그명 또는 팀명을 입력해주세요",
+      "close": "닫기",
+      "view_all_match": "모든 경기 보기",
+      "underway": "진행 중",
+      "no_search_rezult": "결과를 발견하지 못했습니다.다른 검색어를 시도해 보세요.",
+      "dogfall": "무승부",
+      "search_history": "검색 기록",
+      "No_results": "검색 결과 없음"
+    },
+    "15minutes_bet_col": {
+       "0": "시작~14:59",
+       "1": "15:00~29:59",
+       "2": "30:00~하프타임",
+       "3": "다음하프타임경기시작~59:59",
+       "4": "후반전 60:00~74:59",
+       "5": "후반전 75:00~전 경기"
+    }
+  },
+  "app_h5": {
+    "cathectic": {
+      "handicap_tutorial": "반구교정",
+      "open_bets": "오픈 노트",
+      "closed_bets": "마감주문",
+      "no_data_pre": "예약된 데이터가 없습니다",
+      "no_data_unsettle": "현재 미결산 데이터가 없습니다",
+      "no_data_settle": "결산 데이터가 없습니다",
+      "no_data_invalid": "유효하지 않은 데이터입니다",
+      "data_loading": "데이터 로딩중입니다…",
+      "kind_tips": "사랑스러운 도움말",
+      "adjustment_amount": "조정금액",
+      "winnable": "이익가득액",
+      "bet_number": "베팅 번호",
+      "bets": "베팅 항목",
+      "settle": "결제하다.",
+      "bet_status": "주문 상태",
+      "cash_failed": "조기 현금화에 실패하다",
+      "sub_wait": "신청서를 제출했으니 기다려 주십시오.",
+      "all_cash_sess": "전부 조기 현금화에 성공하다",
+      "cash_details": "상세한 상황을 앞당겨 현금화하다.",
+      "cash_rules": "규칙을 앞당겨 실행하다.",
+      "explain1": "사전 현금화는 지정된 경기 및 장외거래에만 적용되며, 경기 또는 장외거래 취소 시 사전 현금화 메모는 회수되어 재결제됩니다.우리 측은 경기 결과에 대한 최종 해석권을 보유할 것입니다.",
+      "explain2": "구체적인 현금화 규칙은 [설정 메뉴]-[규칙 설명]-[조기 결제]를 참조하십시오.",
+      "confirm_cancel_reservation": "이번 경기 예약을 취소하시겠습니까?"
+    },
+    "handicap_tutorial": {
+      "answer_question": "스몰볼 모의 훈련",
+      "football_master": "축하합니다, 당신은 이미 축구 대가입니다.",
+      "training_camp": "훈련소",
+      "actual_combat": "실전에서 한 차례 베팅하다.",
+      "practise": "모의 연습",
+      "again": "다시 한 번 배우다",
+      "single": "선택",
+      "return_home": "홈 페이지로 돌아가기",
+      "next": "다음 문제",
+      "introdution": "공략하다",
+      "results_appear": "이런 결과가 나왔을 때",
+      "red_list": "축하 리스트",
+      "not_master": "유감스럽게도 당신은 아직 완전히 파악하지 못했습니다.",
+      "big_small_ball": "크고 작은 공",
+      "big_small_ball_tip": "경기 90분(인저리타임 포함) 동안 두 팀의 골득실 총합이 바로 크고 작은 공이 된다.",
+      "handicapData_condition": "듀스 제로",
+      "handicapData_condition_1": "골의 합계",
+      "all_win": "완승하다",
+      "home_team": "홈팀",
+      "bet_home_team": "홈팀에 베팅하다.",
+      "bet_away_team": "원정팀에 베팅하다.",
+      "away_team": "원정팀",
+      "all_lose": "전패",
+      "win_half": "절반 이기다",
+      "lose_half": "반패",
+      "tie_handicap": "평행판",
+      "tie_half_plate": "평행반구판",
+      "big_bet": "큰 %s에 베팅하기",
+      "small_bet": "%s에 베팅하는 중...",
+      "enter_ball": "골의 합계",
+      "vice_versa": "바꿔 말해도 역시 그렇다.",
+      "return_principal_discount": "원금반환(타와)",
+      "return_principal": "원금반환",
+      "home_team_handicap": "홈팀이 %s을( 를) 내주다",
+      "ball_plate_1": "반구반",
+      "ball_plate_2": "반구/ 원반",
+      "ball_plate_3": "한 구반",
+      "ball_plate_4": "한 골/반 접시",
+      "ball_plate_5": "볼의 반쪽",
+      "ball_plate_6": "볼 하프/두 볼 플레이트",
+      "note_1": "홈팀이 모두 이기고, 원정팀이 모두 졌다.",
+      "note_2": "비기고 원금반환(누수)",
+      "note_3": "홈팀이 모두 이기고, 원정팀이 모두 졌다.",
+      "note_4": "무승부로 홈팀 전패, 원정팀 전승을 베팅하다.",
+      "note_5": "홈팀이 모두 지고, 원정팀이 모두 이겼다.",
+      "note_6": "베팅하는 홈팀이 절반 이기고, 베팅하는 원정팀이 절반 졌다.",
+      "note_7": "홈팀이 모두 이기고, 원정팀이 모두 졌다.",
+      "note_8": "베팅 고객 모두 원금환급(누수)",
+      "note_9": "홈팀이 절반 지고, 원정팀이 절반 이겼다.",
+      "note_10": "홈팀이 모두 지고, 원정팀이 모두 이겼다.",
+      "note_11": "홈팀이 모두 지고, 원정팀이 모두 이겼다.",
+      "note_12": "베팅하는 홈팀이 절반 이기고, 베팅하는 원정팀이 절반 졌다.",
+      "note_13": "홈팀이 모두 이기고, 원정팀이 모두 졌다.",
+      "note_14": "베팅은 큰 2.5로 다 이기고, 작은 2.5로 다 진다.",
+      "note_15": "베팅은 2.5/3이 절반, 베팅은 2.5/3이 절반이다.",
+      "note_16": "베팅은 3/3.5가 절반이고, 베팅은 3/3.5가 절반이다.",
+      "note_17": "3번 베팅하면 원금반환(누수), 3번 베팅하면 원금반환(누수)",
+      "questionsData": {
+        "1": {
+          "note_1": "골득실 2:2.5미만",
+          "note_2": "그러므로 소 2.5을 베팅하면 다 이기고, 대 2.5을 베팅하면 다 진다."
+        },
+        "2": {
+          "note_1": "골득실2/2.5미만",
+          "note_2": "기본 대등분 원리, 소 2/2.5을 베팅하면 반을 이긴다."
+        }
+      },
+      "ball": "%s 공",
+      "big": "큰 %s",
+      "small": "작은%s",
+      "which_win": "어느 옵션이 다 이길 수 있나요?",
+      "which_win_half": "어떤 옵션이 반을 이길 수 있나요?",
+      "real_madrid": "레알",
+      "m_chesester_city": "맨체스터 시티",
+      "m_chesester_untied": "맨체스터 유나이티드",
+      "chelsea": "첼시",
+      "barcelona": "바르사"
+    },
+    "bet": {
+      "no_support_collusion": "크로스베팅은 지원되지 않습니다.",
+      "bet_win": "이길 수 있는",
+      "delete": "삭제하다.",
+      "confirm": "확인하다",
+      "parlay": "꿰미",
+      "odd": "홑벌",
+      "limit": "한도액",
+      "cancel_appoint": "예약을 취소하다",
+      "pm_sport": "PM스포츠",
+      "bet_confirm": "주서 확인됨",
+      "bet_error": "주문 실패",
+      "reserve_win": "예약금액",
+      "win_amount": "이익가능금액",
+      "toltip1": "무엇이",
+      "toltipc": "꿰미",
+      "add_event": "이벤트 추가",
+      "bet_config": "주서 확인됨",
+      "expect_win": "승리할 것으로 예상됨",
+      "keep_go_bet": "옵션을 유지하고 계속 베팅하세요",
+      "toltips": {
+        "2001": {
+          "title": "2줄 1은 2경기로 구성된 하나의 주서다.",
+          "content": "2경기를 선택해 2줄 1을 베팅할 경우, 시스템은 선택한 2경기를 하나의 베팅으로 통합하고 2경기를 모두 이겨야 수익을 얻을 수 있습니다."
+        },
+        "3001": {
+          "title": "3줄 1은 3경기로 구성된 하나의 주서다.",
+          "content": "3경기를 선택해 3줄 1을 베팅할 경우, 시스템은 선택한 3경기 중 1개의 베팅으로 합쳐 3경기를 모두 이겨야만 수익을 얻을 수 있습니다."
+        },
+        "3004": {
+          "title": "3줄 4줄은 3경기로 구성된 4개의 서로 다른 주문이다.",
+          "content": "3개의 경기에 3줄 4개를 베팅할 때 시스템은 선택한 3개의 경기에서 1개의 2줄 3개와 1개의 3줄 1개를 분리하고 1개의 줄을 하나로 묶어서 총 4개의 비고를 제공합니다."
+        },
+        "4001": {
+          "title": "4줄 1은 4경기로 구성된 하나의 주서다.",
+          "content": "4경기를 선택해 4줄 1을 베팅할 경우, 시스템은 선택한 4경기 중 1개의 베팅으로 통합하고, 4경기를 모두 이겨야만 수익을 얻을 수 있습니다."
+        },
+        "5001": {
+          "title": "5줄 1은 5경기로 구성된 하나의 주서다.",
+          "content": "5개 대회 중 5개 대회 1개를 베팅할 경우, 시스템은 선택한 5개 대회 중 1개를 베팅하여 5개 대회를 모두 이겨야 수익을 얻을 수 있습니다."
+        },
+        "6001": {
+          "title": "6줄 1은 6경기로 구성된 하나의 주서다.",
+          "content": "6개 대회 중 6개 대회 1개를 베팅하면 6개 대회 중 1개를 베팅해 6개 대회를 모두 이겨야 흑자를 낼 수 있다."
+        },
+        "7001": {
+          "title": "7줄 1은 7경기로 구성된 하나의 주서다.",
+          "content": "7경기 중 7골 1개를 베팅할 경우 선택한 7경기 중 1개를 베팅해 7경기를 모두 이겨야 흑자를 낼 수 있다."
+        },
+        "8001": {
+          "title": "8줄 1은 8경기로 구성된 하나의 주서다.",
+          "content": "8경기를 선택해 8골 1도 베팅할 경우 선택한 8경기 중 하나로 합쳐 8경기를 모두 이겨야 수익을 낼 수 있다."
+        },
+        "9001": {
+          "title": "9줄 1은 9경기로 구성된 하나의 주서다.",
+          "content": "9개 대회 중 9개 대회 1개를 베팅할 경우, 시스템은 선택한 9개 대회 중 1개를 베팅하여 9개 대회를 모두 이겨야 수익을 얻을 수 있습니다."
+        },
+        "10001": {
+          "title": "10줄 1은 10경기로 구성된 하나의 주서다.",
+          "content": "10개 대회를 선택해 10줄 1개를 베팅하면, 선택한 10개 대회 중 1개를 합쳐 10개 대회를 모두 이겨야 수익을 낼 수 있다."
+        },
+        "40011": {
+          "title": "4줄 11은 4경기로 구성된 11개의 서로 다른 주문이다.",
+          "content": "4개의 경기에 11번 4번 4개를 베팅할 때 시스템은 선택한 4개의 경기 중 1번 2번 6개, 1번 3번 4번 1번 1개, 총 11번의 베팅으로 1개를 분리합니다."
+        },
+        "50026": {
+          "title": "5곶 26은 5경기로 구성된 26개의 서로 다른 주문이다.",
+          "content": "5개 경기 중 5개 26개를 선택하면 시스템은 선택한 5개 경기 중 1개, 1개, 3개 1, 5개, 1개, 1개의 5개의 1개의 1개를 분리하여 1개의 1개로 총 26개의 목록을 표시합니다."
+        },
+        "60057": {
+          "title": "6꼬치 57은 6경기로 구성된 57개의 서로 다른 주문이다.",
+          "content": "6경기 중 6꼬치 57을 선택하면 시스템은 선택한 6경기 중 1개, 2꼬치 1, 20개, 3꼬치 1, 15개, 4꼬치 1, 6개, 1개, 6꼬치 1개, 1개, 1개 등 총 57개의 메모를 제거합니다."
+        },
+        "700120": {
+          "title": "7곶 120은 7경기로 구성된 120개의 서로 다른 주문이다.",
+          "content": "7개 대회 중 7개 120개를 선택하면 시스템은 선택한 7개 대회 중 21개 2개, 135개 3개, 135개, 115개, 1121개의 5줄, 1개의 6줄, 1개의 7줄, 1개의 1개의 1개를 제거하여 총 120개의 메모를 제공합니다."
+        },
+        "800247": {
+          "title": "8줄 247은 8경기로 구성된 247개의 서로 다른 주문이다.",
+          "content": "8개 대회 중 8개 꼬치 247개를 선택하면 시스템은 선택한 8개 대회 중 1개 2개 꼬치 1,56개 꼬치 1,70개 4개 꼬치 1,56개의 5꼬치 1,28개의 6꼬치 1,8개의 7꼬치 1,1개의 8꼬치 1개를 분리하고 1개의 꼬치는 1개로 총 247개의 메모를 남깁니다."
+        },
+        "900502": {
+          "title": "9줄 502는 9경기로 구성된 502개의 서로 다른 주문이다.",
+          "content": "9개 대회 중 9개 502개를 선택하면 시스템은 선택한 9개 대회 중 1개 2개 꼬치 1,84개 3개 꼬치 1,126개 4꼬치 1,126개의 5꼬치 1,84개의 6꼬치 1,36개의 7꼬치 1,9개의 8꼬치 1,9개의 9꼬치 1,1개의 1개를 분리하고 1개의 꼬치는 총 502개의 주문입니다."
+        },
+        "10001013": {
+          "title": "10줄 1013은 10경기로 구성된 1013개의 서로 다른 주문이다.",
+          "content": "10개 대회에 10개의 10개의 10개의 10개의 10개의 10개의 10개의 시리즈가 선택되면 시스템은 1개의 2개 시리즈 1,120개 3개 시리즈 1,210개 4개 시리즈 1,252개 5개 시리즈 1,120개에 1,120개에 7,120개에 1,458개를 1,109개에 1,120개를 1개씩 분리하고 1개는 총 1,013개를 주문합니다."
+        }
+      }
+    },
+    "match": {
+      "all": "전부",
+      "champions": "챔피언스리그",
+      "premier": "프리미어리그",
+      "serie": "세리에 A",
+      "laliga": "프리메라리가",
+      "ligue": "프랑스 리그1",
+      "bundesliga": "분데스리가",
+      "china_super": "중국 슈퍼 리그",
+      "normal_results": "일반 경기 결과",
+      "game_results": "경기 결과",
+      "vr_results": "VR 경기 결과",
+      "championship_results": "챔피언 결정전"
+    },
+    "filter": {
+      "more": "더 보기 >",
+      "enlarge": "확대하다",
+      "font_size": "글자크기",
+      "default": "기본값",
+      "turn_on": "열다",
+      "daily_activities": "일일 활동",
+      "go_old_version": "이전 버전으로 가기",
+      "go_web_version": "웹 버전으로 가기",
+      "customized_amount": "빠른 베팅 금액 맞춤 설정",
+      "quick_bet": "빠른 베팅",
+      "change_to": "개정하다",
+      "single": "싱글",
+      "multi": "멀티",
+      "lowest_money": "최소 금액"
+    },
+    "v_sports": {
+      "event_status": "경기 상태"
+    },
+    "detail": {
+      "half": "전반전",
+      "not_data_Injury": "부상자 명단은 아직 없다",
+      "not_data_substitute": "후보 명단이 없다",
+      "not_data_starter": "당분간 선발 명단이 없다.",
+      "acronym_half": "반",
+      "highlights": "하이라이트",
+      "events": "이벤트",
+      "technical_statistics": "기술통계"
+    },
+    "search": {
+      "search_tips": "관련 이벤트가 없습니다."
+    }
+  },
+  "no_crosstalk": {
+    "title": "prompt",
+    "button": "Close",
+    "text": "This betting option cannot be included in accumulator bets"
+  },
+  "ac_rules": {
+    "auto": "더 나은 배당률 자동 수락",
+    "rules": {
+      "rule2": "2. 베팅을 할 때 배당률이 감소하면 시스템은 귀하가 배당률을 수락하지 않고 베팅 행동을 중단한다고 가정하고 배당률을 확인하고 다시 베팅해야 합니다.",
+      "rule3": "3. 이 기능을 선택하지 않으면 시스템은 \"모든 확률을 자동으로 수락\"하는 것으로 간주합니다.",
+      "rule1": "1. 베팅을 할 때 배당률이 증가하면 시스템은 베팅에 방해 없이 더 나은  베팅 성공률을 향상시키기 위해 배당률을 수락하는 것으로 기본 설정됩니다.",
+      "rule4": "(즉, 베팅 시점의 배당률 변동에 관계없이 시스템은 귀하가 수락 가능하다고 가정하고 귀하의 베팅 행동을 방해하지 않습니다.)"
+    },
+    "understand": "알고있습니다"
+  },
+  "accept_rules": {
+    "automatically_odds": "모든 배당 자동으로 승인",
+    "feature_not_checked": "이 기능은 선택되어 있지 않습니다",
+    "if_bet_when": "베팅을 할 때",
+    "if": "만약",
+    "do_not_accept_odds": "배당률이 승인 되지 않습니다.",
+    "accept_odds": "배당 승인 하십시오",
+    "increased_odds": "배당률 증가",
+    "interrupt_your_betting": "그리고 베팅 행동을 중단하려면 확률을 확인하고 다시 베팅해야 합니다.",
+    "lower_odds": "배당률 감소",
+    "matter_placing_content": "(즉, 베팅 시점의 배당률 변동에 관계없이 시스템은 귀하가 수락 가능하다고 가정하고 귀하의 베팅 행동을 방해하지 않습니다.)",
+    "system_default": "당신은 채무 불이행이 될 것입니다",
+    "will_interrupt_behavior": "베팅 행동을 방해하지 않고 베팅 성공률을 높입니다.",
+    "chat_msg": "복사 당시의 배당률이 복사 당시의 배당률과 다른 경우, 복사를 클릭할 때의 실시간 배당률이 우선합니다",
+    "system_will_think": "시스템이 당신을 생각할 것입니다"
+  },
+  "analysis_football_matches": {
+    "analysis_data": "데이터",
+    "away_win": "어웨이 승",
+    "big": "오버",
+    "age": "연령",
+    "big_ball": "오버",
+    "Big_ball_rate": "O%",
+    "Coach_data": "코칭 데이터",
+    "cup_points": "월드컵 포인트",
+    "company": "회사",
+    "Customer_win_rate": "어웨이 승률",
+    "customer": "어웨이",
+    "Favorable_information": "유리한 정보",
+    "Disk": "접시",
+    "European_Finger": "",
+    "date": "날짜",
+    "flat": "X",
+    "field": "필드",
+    "Future_schedule": "향후 일정",
+    "gain_loss": "인/아웃",
+    "Fundamentals": "기본",
+    "game": "싸움",
+    "Go_to_war": "싸우자",
+    "handicap": "라인",
+    "immediate": "즉시",
+    "historical_war": "경기기록",
+    "home_win1": "홈경기 승",
+    "Initial_offer": "초급 제공",
+    "bench_lineup": "벤치 목록",
+    "Injury_situation": "부상자 목록",
+    "intelligence": "정보",
+    "league": "리그 경기",
+    "integral": "포인트",
+    "league_points": "리그 포인트",
+    "Interval_days": "간격(일)",
+    "level": "걷다",
+    "line_up": "라인업",
+    "lose": "잃다",
+    "Lose_plate": "잃고",
+    "Main_win": "홈",
+    "main": "홈",
+    "match": "경기 상태",
+    "Main_win_rate": "홈 승률",
+    "Move_plate": "걷기",
+    "near": "가까움",
+    "name": "이름",
+    "negative": "패",
+    "no_data": "아직 데이터가 없습니다",
+    "Neutral_Information": "중립 정보",
+    "net_win": "순 승리",
+    "Odds": "배당률",
+    "number": "수",
+    "player": "선수",
+    "Points_per_game": "경기당 평균 득점",
+    "rank": "순위",
+    "position": "위치",
+    "reason": "원인",
+    "record_clashes": {
+      "5": "최근 5회의 기록",
+      "10": "최근 10회의 기록",
+      "15": "최근 15회의 기록"
+    },
+    "ranking": "포인트",
+    "recent_record": "최근 결과",
+    "results": "결과",
+    "Return_rate": "수익률",
+    "same_game": "같은 이벤트",
+    "same_host_guest": "홈&어웨이 같음",
+    "score": "점수",
+    "shut_down": "끄기",
+    "size": "오버/언더",
+    "small_ball": "언더",
+    "small_ball_rate": "U%",
+    "standings": "기록",
+    "small": "언더",
+    "Tactical_division": "전술 부문",
+    "starting_lineup": "선발 라인업",
+    "team": "팀",
+    "Technical_side": "기술",
+    "total_all": "합계",
+    "Turning_trend": "코일 무브먼트",
+    "Total": "총 경기",
+    "turn_around": "픽스",
+    "Unfavorable_information": "불리한 정보",
+    "victory": "승리",
+    "win": "승리",
+    "win_plate": "승리",
+    "Win_rate": "승률",
+    "analysis_information": "뉴스"
+  },
+  "basketball_playing_way": {
+    "first_half": "하프타임",
+    "quarter": "쿼터"
+  },
+  "bet": {
+    "edit_success": "배당률 수정 완료!",
+    "edit_fail": "배당률 수정 실패! ",
+    "account_balance": "계좌 잔액",
+    "agree_change2": "변경 사항을 수락하고 베팅하십시오",
+    "agree_change": "변화 수용",
+    "away_win": "어웨이",
+    "bet": "싱글 베팅",
+    "bet_10001": "10배",
+    "bet_10001013": "블록 (10)",
+    "bet_3001": "고음",
+    "bet_2001": "배",
+    "bet_4001": "4단",
+    "bet_3004": "트릭스",
+    "bet_50026": "슈퍼 양키",
+    "bet_6001": "6단",
+    "bet_40011": "양키",
+    "bet_60057": "하인즈",
+    "bet_5001": "5단",
+    "bet_700120": "슈퍼 하인즈",
+    "bet_7001": "7단",
+    "bet_8001": "8단",
+    "bet_800247": "골리앗",
+    "bet_900502": "블록 (9)",
+    "bet_9001": "9단",
+    "bet_err": "취소됨",
+    "bet_look_result": "베팅 슬립이 수락되었습니다, 기록에서 결과를 확인하십시오",
+    "bet_err2": "베팅 실패",
+    "bet_information": "베팅 정보",
+    "bet_loading": "가공",
+    "bet_msg": "{x}및{y}",
+    "bet_suc": "베팅",
+    "bet_val": "베팅 금 한도",
+    "bet_type_1": "싱글 베팅",
+    "betting": "베팅",
+    "bet_win": "당첨 금액",
+    "bet_record": "베팅 슬립",
+    "bet_val2": "베팅 한도",
+    "bet_ok": "베팅 확인",
+    "clear": "깨끗한다",
+    "close": "이벤트가 닫혔습니다",
+    "bet_inplay": "인플레이",
+    "chatroom": "채팅 공간",
+    "err_msg01": "배당률이 업데이트 중입니다~",
+    "disabled": "실패",
+    "delete_all": "모두 제거",
+    "err_msg02": "네트워크 이상, 다시 시도하십시오.",
+    "err_msg03": "베팅 실패, 다시 시도하십시오",
+    "err_msg05": "잔액이 부족하면 먼저 충전하십시오",
+    "err_msg04": "베팅 금액을 입력해 주세요",
+    "err_msg06": "할당량 획득, 잠시만 기다려 주십시오.",
+    "err_msg09": "잔액이 부족하여 최대 베팅 금액으로 전환되었습니다.",
+    "err_msg10": "최소 단일 베팅 금액은 {0}입니다.",
+    "err_msg08": "서비스 사용량이 많아서 다시 시도하세요~",
+    "err_msg07": "주문은 검토가 필요하므로 베팅 내역에서 최신 상태를 확인하십시오.",
+    "err_msg12": "시장은 교차 잠금을 지원하지 않습니다",
+    "err_msg11": "베팅 금액이 베팅 한도를 초과합니다.",
+    "home_win": "내버려 두지 마세요",
+    "input_v": "베팅 금액을 입력해 주세요",
+    "err_msg13": "네트워크가 비정상적이므로 베팅이 성공했는지 확인하십시오.",
+    "invalidation": "경과",
+    "invalidation2": "교차 입력은 지원되지 않습니다.",
+    "kushikatsu": "공모",
+    "input_v2": "금액을 입력해 주세요",
+    "loading2": "베팅 주문 처리",
+    "loading": "진행 중...",
+    "match_max": "최대 %s개의 게임을 선택합니다.",
+    "match_add": "에 추가",
+    "match_max2": "최대 베팅 횟수에 도달했습니다.",
+    "match_min": "{0}개 이상의 일치 항목을 선택합니다.",
+    "millions": "백만",
+    "max": "최대한",
+    "money_limit": "%s~%s 제한",
+    "millions_10": "백만",
+    "money_limit2": "%s~%s 제한",
+    "msg01": "모든 배당률은 유럽 배당률입니다.",
+    "msg03": "선택한 시장, 배당률 또는 유효 기간이 변경되었습니다.",
+    "msg02": "네트워크가 비정상적이니 베팅 슬립에서 베팅 결과를 확인하세요",
+    "msg05": "더 많은 유형의 누화",
+    "msg04": "레벨 유형 축소",
+    "msg06": "스트링 규칙",
+    "msg08": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+    "msg09": "같은 경기에 대한 베팅이 있으며 함께 묶을 수 없습니다",
+    "msg07": "네트워크가 비정상적이므로 \"베팅 슬립\"에서 베팅 결과를 확인하십시오.",
+    "msg10": "빨간색 옵션은 멀티 베팅에 결합할 수 없습니다",
+    "msg11": "유효하지 않은 베팅 제거",
+    "number_transactions": "펜 수",
+    "odd_upd_2": "시장 가치가 변경되고 배당률이 변경되었습니다.",
+    "odd_upd": "배당률이 업데이트 중입니다~",
+    "odd_upded": "확률이 변경되었습니다",
+    "odd_upd_": "핸디캡 값이 변경되었습니다",
+    "order_no": "베팅 번호",
+    "pack_up": "접기",
+    "pack_up2": "접기",
+    "save": "저장",
+    "single_more": "멀티 베팅",
+    "sum": "합계",
+    "submitted_successfully": "확인",
+    "total": "총 베팅금",
+    "total_win2": "최고 우승",
+    "understand": "알겠습니다.",
+    "sum2": "소계",
+    "total_win": "총 최고 당첨",
+    "used_money2": "사용금액",
+    "wanwan": "억",
+    "wan": "만",
+    "wanyi": "만억",
+    "bet_auto_msg_1": "실시간 배당 설정",
+    "bet_auto_msg_2": "배당률 승인하세요",
+    "bet_book_confirm": "예약",
+    "parlay": "팔레이",
+    "bet_booked_msg_tips": "예약 성공은 배팅 성공을 의미하지 않으며 최종 결과는 실제 베팅 내역을 기준으로 합니다.",
+    "bet_min_item": "최소 {num} 개의 일치 항목을 선택하세요.",
+    "bet_max_item": "최대 {num} 개 일치 항목을 선택하세요.",
+    "bet_max_booked_odds": "It has reached the max booked odds, please readjust",
+    "bet_min_booked_odds": "Can't be lower than booked market odds",
+    "mergetos":"Please select at least one other project that supports cross-connection",
+    "one_click_bet": "원클릭 베팅",
+    "one_click_bet_open": "원클릭 베팅이 시작되었으며, 금액은 입니다",
+    "one_click_bet_change": "원클릭 베팅 금액이 로 변경되었습니다",
+    "bet_received": "베팅이 수락되었습니다",
+    "set_cash_out": "Set an Auto Cash Out value",
+    "enter_cash_out": "Enter Auto Cash Out value",
+    "max_value": "Max",
+    "min_value": "Min",
+    "apply_cash_out": "Apply Auto Cash Out",
+    "set_to_cash_out": "Auto Cash Out value set to ",
+    "remove_cash_out": "Remove Auto Cash Out",
+    "confirm_remove": "Confirm to remove",
+    "auto_cash_out": "Auto Cash Out",
+    "partial_cash_out": "partial cash out"
+  },
+  "bet_message":{
+    "success": "베티성공",
+    "error": "베팅실패",
+    "loading": "로딩중.. 잠시만 기다려 주세요.",
+    "m_0402001": "Invalid",
+    "m_0402009": "배당이 변경됐습니다.",
+    "m_0402014": "The network is abnormal, please check the betting result in the bet slip",
+    "m_0402015": "베팅에 실패하셨습니다.다시 시도 해주세요.",
+    "m_0402018": "Bet failed, please try again!",
+    "m_132113": "베팅 실패, 베팅액을 다시 선택해 주세요.",
+    "m_0402035": "Sorry, you balance is insufficient. Plese recharge",
+    "m_0402042": "The network is abnormal, please contact customer service",
+    "m_0400453": "Account is abnormal, please contact customer service",
+    "m_0400459": "Confirming, please wait",
+    "m_0400460": "베팅 거절",
+    "m_0400464": "The quota has been changed, please try again~",
+    "m_0400468": "The score has changed, please try again",
+    "m_0400469": "배당이 변경됐습니다.",
+    "m_M400005": "베팅금을 입력해주세요.",
+    "m_M400007": "각 선택지의 베팅옵션을 유의해 주세요.",
+    "m_M400009": "This option is currently unavailable for betting, please select another option",
+    "m_M400010": "최소 베팅금액이 아닙니다.",
+    "m_M400011": "베팅할 수 있는 한도금액을 초과하셨습니다.",
+    "m_M400012": "할당량 획득, 잠시만 기다려 주십시오.",
+    "m_0401038": "Network abnormality, please try again!",
+    "m_DJ001": "E스포츠 베팅 할 수 없습니다.",
+    "m_DJ003": "베팅 금액은 정수만 가능합니다.",
+    "m_DJ004": "조합배팅(다폴더)를 지원하지 않음",
+    "m_DJ005": "조합배팅(다폴더)를 지원하지 않음",
+    "m_400004": "배당 업데이트 중",
+    "m_0402601": "판매 시간이 아닌 경우에는 베팅이 불가능합니다",
+    "tips_message_1": "1. Once successful bet, users can schedule an auto cash out.",
+    "tips_message_2": "2. When the user's reached designated auto cash out amount, the system will settle in advance with the specified amount.",
+    "tips_message_3": "3. Once the appointment for auto cash out is set, users can remove the setting at any time before triggering the auto cash out.",
+    "tips_message_4": "4. After removing the setting, users can set schedule for auto cash out again.",
+    "tips_message_5": "5. For bets with auto cash out schedule, users can still manually settle them in advance.",
+    "tips_message_6": "6. After manually settling in advance, if there is no remaining stake, the scheduled auto cash out for that bet is automatically invalidated.",
+    "tips_message_7": "7. After manually settling in advance, if there is still remaining stake, the scheduled auto cah out for that bet is automatically invalidated. Users can use the remaining amount to set a new scheduled auto cash out."
+  },
+  "bet_record": {
+    "30day": "30일",
+    "7day": "7일",
+    "account": "정산 했습니다",
+    "bet_amount_betting_limit2": "베팅 금액이 베팅 한도를 초과합니다.",
+    "bet_amount_betting_limit": "최대 베팅 가능 금액으로 전환",
+    "before": "경기 전",
+    "bet_date_list": {
+       "0": "오늘",
+       "1": "어제",
+       "2": "7일 이내",
+       "3": "한 달 이내"
+    },
+    "bet_enble_list": "효율적인 흐름",
+    "bet_fail": "잃다",
+    "bet_match_tishi": "현재 리그에는 경기가 없습니다",
+    "bet_max_win": "최고 우승",
+    "bet_no_status00": "정산되지 않음",
+    "bet_no": "주문 번호",
+    "bet_no_status02": "흐름",
+    "bet_no_status04": "승리",
+    "bet_no_status03": "잃다",
+    "bet_no_status06": "반으로 잃는다",
+    "bet_no_status05": "절반을 이겨라",
+    "bet_no_status08": "대회 연기",
+    "bet_no_status11": "게임 지연",
+    "bet_no_status07": "경기가 취소되었습니다.",
+    "bet_no_status15": "게임이 중단되었습니다.",
+    "bet_no_status16": "무",
+    "bet_no_status17": "확인됨",
+    "bet_sum_count": "총 싱글",
+    "bet_no_status12": "게임 중단",
+    "bet_refund": "환불 금액",
+    "bet_suopan_info": "배당률이 업데이트되고 있습니다. 잠시만 기다려 주십시오",
+    "bet_sum_val": "총 베팅금액",
+    "bet_time": "베팅 시간",
+    "bet_pre_time": "약속",
+    "bet_win": "승리",
+    "betted_title": "베팅 슬립",
+    "cancel_type_1": "경기가 취소되었습니다.",
+    "bet_val": "베팅액",
+    "bet_val2": "베팅",
+    "cancel_type_17": "경기 전",
+    "cancel_type_2": "경기 연기",
+    "cancel_type_3": "게임 중단",
+    "cancel_type_20": "경기 지연",
+    "cancel_type_5": "취소",
+    "cancel_type_4": "재대결",
+    "cancel_type_6": "게임이 중단되었습니다.",
+    "confirming": "승인 중",
+    "go_back": "돌아오다",
+    "invalid": "무효",
+    "ing": "인플레이",
+    "invalid_bet": "베팅이 무효입니다",
+    "no_account": "정산되지 않음",
+    "pack_down": "펴기",
+    "copy_suc": "주문 번호가 성공적으로 복사되었습니다.",
+    "pack_up": "접기",
+    "sort0": "기본 정렬",
+    "sort1": "베팅 시간",
+    "sort3": "기본 정렬",
+    "sort4": "베팅 시간순으로 정렬",
+    "sort5": "시작 시간순으로 정렬",
+    "sort2": "시작 시간",
+    "successful_betting": "베팅 완료",
+    "total_bet_amount": "총 베팅 금액",
+    "submitting_bet": "베팅 제출",
+    "total_winable_amount": "당첨 총 금액",
+    "result_score": "스코어",
+    "pack_up2": "접기",
+    "ty": "스포츠",
+    "zr": "실제 사람",
+    "cp": "복권 가게",
+    "regular_betting": "Regular betting",
+    "sit_in": "Sit in",
+    "side_bet": "Side bet",
+    "good_streak": "Good streak",
+    "multiple_tables": "Multiple tables",
+    "pending_draw": "Pending draw",
+    "not_winning": "Not winning",
+    "won": "Won",
+    "suspended": "Suspended",
+    "settled": "Settled",
+    "issue": "Issue",
+    "period": "Period",
+    "cancel_order": "Cancel order",
+    "betting_order_number": "Betting order number",
+    "betting_time": "Betting time",
+    "play_method": "Play method",
+    "betting_content": "Betting content",
+    "betting_amount": "Betting amount",
+    "prize": "Prize",
+    "unsettled": "Unsettled",
+    "cancel_bet": "Cancel bet",
+    "surrender": "Surrender",
+    "betting_item": "Betting item",
+    "result": "Result",
+    "payout": "Payout",
+    "round_number": "Round number",
+    "effective_bet": "Effective bet",
+    "betting_status": "Betting status",
+    "score_result": "결과 점수",
+    "settle_num": "베팅 시 점수"
+  },
+  "chatroom": {
+    "ban_post_bet": "현재 모든 사람에 대한 주문을 게시하는 것은 금지되어 있습니다",
+    "betting": "베팅",
+    "clear": "비우다",
+    "block_msg_info1": "메시지를 차단하고 게시 주문만 표시",
+    "block_msg_info2": "메시지를 차단하고 목록만 표시하려면 클릭합니다.",
+    "follow_bet": "복사",
+    "input_field_ph1": "{numOfSend}의 말하기 시간이 남아 있고, CD {numOfCD}분이 남아 있습니다.",
+    "mute_hint2": "현재 모두에게 금지되어 있습니다",
+    "mute_hint1": "당신은 채팅금지되었습니다!",
+    "pop_content1": "알겠습니다",
+    "pop_send_hint3": "2. 지난 7 일 동안의 누적 베팅 금액은 1500 위안 이상입니다.",
+    "mute_hint3": "죄송합니다, 아직 말을 할 수 없습니다!",
+    "pop_send_hint2": "1. 처음 3 일 동안의 누적 베팅 금액은 500 위안 이상입니다.",
+    "pop_send_hint1": "언론의 자유 조건(하나를 선택하여 완료)",
+    "post_bet2": "단일 목록 게시",
+    "post_bet": "목록 게시",
+    "post_bet_info1": "내 휴대 전화에 싱글을 올렸습니다.",
+    "send_err_hint1": "채팅 내용을 입력해 주세요",
+    "send_err_hint2": "죄송합니다! 당신은 너무 빨리 말합니다",
+    "post_bet_info2": "참고: 이 페이지에는 생방송 룸의 관련 이벤트 베팅 목록만 표시되며, 선택 후 게시 목록을 게시할 수 있습니다",
+    "read_more": "메시지 더 보기",
+    "pop_send_hint4": "",
+    "mute_hint4": "",
+    "pop_send_hint5": "",
+    "mute_hint": {
+      "time": {
+       "0":"",
+       "1":"",
+       "2":"",
+       "3":"",
+       "4":""
+      },
+      "type": {
+       "0":"",
+       "1":"",
+       "2":""
+      }
+    },
+    "close": "",
+    "bulletin": ""
+  },
+  "collect": {
+    "betted_title": "저장",
+    "match_end": "완료",
+    "historical_record": "기록",
+    "match_no": "종료 되지 않음"
+  },
+  "common": {
+    "edit": "수정",
+    "in_box": "In the box......",
+    "all_notice": "모든 공지 사항",
+    "all_select": "모두 선택",
+    "analysis": "통계 분석",
+    "bet": "도박",
+    "auto_close": "%s초 후 자동으로 닫힘",
+    "cancel": "취소",
+    "close": "끄기",
+    "finish": "끝내다",
+    "hengping_tip": "좋은 경험을 위해 휴대폰 세로 화면을 조작하십시오!",
+    "HD": "고화질",
+    "loading_suc": "다운로드 성공",
+    "maintenance_tips": "시스템은 {0}분 후에 서비스 점검 시간입니다. 이용에 불편을 끼쳐 드려 죄송합니다!",
+    "match_time": "게임 시간",
+    "mix": "조합배팅(다폴더)",
+    "no_data": "아직 데이터가 없습니다",
+    "no_network": "네트워크가 없습니다",
+    "money": "잔애",
+    "on": "1H",
+    "ok": "확실한가요",
+    "notice": "발표",
+    "please_refresh": "다음 페이지를 새로고침한 후 다시 시도하세요.",
+    "rule_description": "규칙 설명",
+    "show_more2": "접기",
+    "show_more": "더 보기",
+    "temporarily_unavailable": "이 기능은 지금 사용할 수 없습니다",
+    "single": "싱글 베팅",
+    "SD": "증권 시세 표시기",
+    "title_188": "아시아 버전",
+    "title_panda": "유럽 버전",
+    "under": "아래의",
+    "unit": "위안",
+    "virtual_sports": "가상 스포츠",
+    "odds_change": "배당이 변경 되었습니다."
+  },
+  "highlights": {
+    "title": "하이라이트",
+    "collapse_replay": "리플레이 닫기",
+    "type": {
+      "all": "모두",
+      "goal": "골",
+      "corner": "코너킥",
+      "penalty": "패널티",
+      "card_red": "레드카드",
+      "card_yellow": "옐로 카드",
+      "card_yellow_red": "옐로우 레드 카드"
+    },
+    "event_type": {
+      "goal": "{X}골",
+      "corner": "{X} 모서리",
+      "red_card": "{X}레드 카드",
+      "yellow_card": "{X} 경고 카드",
+      "yellow_red_card": "{X} 옐로우 레드 카드",
+      "new_goal": "{X}골",
+      "new_corner": "{X}코너킥",
+      "new_red_card": "{X}레드카드",
+      "new_yellow_card": "{X}옐로 카드",
+      "new_yellow_red_card": "{X}옐로우 레드 카드"
+    },
+    "back_live": "라이브로 돌아가기",
+    "reconnect": "Wait a moment,I'll be right back"
+  },
+  "detail": {
+    "less": "미만",
+    "odd_all_closed": "시장이 모두 닫혔습니다",
+    "odd_closed": "시장이 닫혔습니다",
+    "no_way_bet": "현재 베팅을 이용할 수 없습니다",
+    "mins": "분",
+    "popular_recommendation": "강력 추천",
+    "non":"아닌"
+  },
+  "early": {
+    "btn2": "조기 정산",
+    "btn1": "조기 정산가 일시 중단되었습니다.",
+    "btn3": "조기 정산 확인",
+    "btn4": "확인...",
+    "btn5": "조기 정산 승인",
+    "btn2_1": "조기 정산",
+    "btn2_2": "¥(교장 포함)",
+    "info1": "조기 정산 금액에는 원금이 포함됩니다",
+    "info2": "다시 시도해 주세요",
+    "info4": "미리 내기를 정산하십시오",
+    "info5": "나머지 원금은 더 이상 조기 정산을 지원하지 않습니다",
+    "info3": "전체 청구만 지원됩니다",
+    "info8": "베팅의 나머지 원금",
+    "info9": "조기 청구를 사용할 수 있는 횟수",
+    "list1": "조기 청구 세부 정보",
+    "info7": "조기 정산 금액의 조정에 다시 시도하십시오",
+    "info6": "다시 시도해 주세요",
+    "list2": "원금 정산",
+    "list4": "환불 금액",
+    "list3": "남은 원금",
+    "list5": "패배/승리",
+    "list6": "나머지 원금의 정산",
+    "list7": "정산 원금(일부)",
+    "list8": "완전 결제",
+    "list9": "취소됨/무효"
+  },
+  "error_msg_info": {
+    "1002": {
+      "client_msg": "잔액부족"
+    },
+    "249203": {
+      "client_msg": "잔액 부족"
+    },
+    "249207": {
+      "client_msg": "위험 관리 할당량이 승격되었습니다."
+    },
+    "0000000": {
+      "client_msg": "베팅 성공"
+    },
+    "0400451": {
+      "tost_msg": "베팅에 실패하여 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0400452": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅에 실패하여 다시 시도하십시오!"
+    },
+    "0400450": {
+      "client_msg": "베팅에 실패했습니다. 나중에 다시 시도하세요."
+    },
+    "0400453": {
+      "client_msg": "계정이 비정상인 경우 고객 서비스에 문의하십시오."
+    },
+    "0400454": {
+      "client_msg": "잔액 부족 먼저 충전하십시오"
+    },
+    "0400455": {
+      "client_msg": "잔액 부족 먼저 충전하십시오"
+    },
+    "0400456": {
+      "client_msg": "베팅 실패 ~ 다시 시도"
+    },
+    "0400457": {
+      "client_msg": "베팅 실패 ~ 다시 시도"
+    },
+    "0400458": {
+      "client_msg": "베팅 실패 ~ 다시 시도"
+    },
+    "0400459": {
+      "client_msg": "시장이 확정되는 동안 잠시 기다려 주십시오."
+    },
+    "0400460": {
+      "client_msg": "베팅 거부"
+    },
+    "0400461": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅실패 다시 시도하십시오!"
+    },
+    "0400463": {
+      "client_msg": "베팅에 실패하면 다시 시도하십시오!"
+    },
+    "0400462": {
+      "client_msg": "베팅 실패 다시 시도하십시오!"
+    },
+    "0400467": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0400464": {
+      "client_msg": "할당량이 변경되었으니 다시 시도하세요!"
+    },
+    "0400469": {
+      "client_msg": "선택한 베팅의 마켓은 조합배팅(다폴더)에 참여할 수 없습니다",
+      "tost_msg": "베팅 실패 다시 시도하십시오!"
+    },
+    "0400468": {
+      "client_msg": "점수가 변경되었으니 다시 시도하세요!"
+    },
+    "0400476": {
+      "client_msg": "베팅 조정, 나중에 다시 시도하십시오"
+    },
+    "0400475": {
+      "client_msg": "할당량이 변경되었으니 다시 시도하세요!"
+    },
+    "0400477": {
+      "client_msg": "빨간색 옵션은 크로스 레벨링에 결합할 수 없습니다"
+    },
+    "0400480": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0400479": {
+      "client_msg": "승인중  잠시만 기다려 주십시오"
+    },
+    "0400478": {
+      "client_msg": "빨간색 옵션은 멀티 베팅에 결합할 수 없습니다"
+    },
+    "0400481": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0400483": {
+      "client_msg": "서비스 사용량이 많아서 다시 시도하세요~"
+    },
+    "0400484": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0400486": {
+      "client_msg": "서비스 사용량이 많아서 다시 시도하세요~"
+    },
+    "0400488": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0400485": {
+      "tost_msg": "베팅 실패, 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0400517": {
+      "client_msg": "할당량이 변경되었으니 다시 시도하세요!"
+    },
+    "0400519": {
+      "client_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0400532": {
+      "client_msg": "배당률 조정"
+    },
+    "0400540": {
+      "client_msg": "예약 배당률은 해당 시장 배당률보다 낮을 수 없습니다"
+    },
+    "0400542": {
+      "client_msg": "당일의 지급 할당량이 소진되었습니다."
+    },
+    "0400543": {
+      "client_msg": "현재 이벤트 예약의 주문 수가 한도를 초과합니다."
+    },
+    "0401999": {
+      "client_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0400544": {
+      "client_msg": "현재 이벤트 또는 플레이 예약 할당량"
+    },
+    "0402001": {
+      "client_msg": "베팅 실패, 다시 시도하십시오!",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0400545": {
+      "client_msg": "예약에 실패했습니다. 다시 시도하세요."
+    },
+    "0402002": {
+      "tost_msg": "베팅 실패, 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0402003": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402004": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402006": {
+      "tost_msg": "베팅 실패, 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0402005": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402007": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402008": {
+      "tost_msg": "베팅 실패, 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0402009": {
+      "tost_msg": "베팅 실패, 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0402010": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402012": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅에 실패하면 다시 시도하십시오!"
+    },
+    "0402015": {
+      "client_msg": "베팅 실패 ~ 다시 시도"
+    },
+    "0402016": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅에 실패하면 다시 시도하십시오!"
+    },
+    "0402017": {
+      "client_msg": "베팅 실패 ~ 다시 시도"
+    },
+    "0402018": {
+      "client_msg": "베팅에 실패했습니다. 나중에 다시 시도하세요."
+    },
+    "0402020": {
+      "client_msg": "베팅 실패 다시 시도"
+    },
+    "0402022": {
+      "tost_msg": "베팅 실패, 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0402021": {
+      "client_msg": "베팅 실패 ~ 다시 시도"
+    },
+    "0402023": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402024": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402025": {
+      "tost_msg": "베팅 실패, 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0402026": {
+      "tost_msg": "베팅 실패, 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0402027": {
+      "tost_msg": "베팅 실패, 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0402035": {
+      "client_msg": "잔액이 부족하면 먼저 충전하십시오"
+    },
+    "0402038": {
+      "client_msg": "베팅에 실패했습니다, 나중에 다시 시도해주세요~"
+    },
+    "0402039": {
+      "client_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402040": {
+      "client_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402042": {
+      "client_msg": "네트워크가 비정상인 경우 고객 서비스에 문의하십시오.",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402041": {
+      "client_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402043": {
+      "tost_msg": "베팅 실패, 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0402044": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402045": {
+      "tost_msg": "베팅 실패, 다시 시도하십시오!",
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화"
+    },
+    "0402046": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "0402047": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅에 실패하면 다시 시도하십시오!"
+    },
+    "0402048": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "04021001": {
+      "client_msg": "e스포츠 서비스 점검"
+    },
+    "04021002": {
+      "client_msg": "e스포츠 이벤트에는 베팅할 수 없습니다"
+    },
+    "0402049": {
+      "client_msg": "선택한 베팅의 배당률, 시장 및 유효성의 변화",
+      "tost_msg": "베팅 실패, 다시 시도하십시오!"
+    },
+    "04021003": {
+      "client_msg": "베팅금액 부족"
+    },
+    "04021005": {
+      "client_msg": "조합배팅(다폴더)를 지원하지 않는 이벤트가 있습니다"
+    },
+    "04021004": {
+      "client_msg": "베팅 금액은 정수일 수 있습니다."
+    },
+    "04021006": {
+      "client_msg": "조합배팅(다폴더) 지원하지 않는 교차 시장이 있습니다"
+    },
+    "04021007": {
+      "client_msg": "실패"
+    },
+    "04021008": {
+      "client_msg": "실패"
+    },
+    "04021011": {
+      "client_msg": "실패"
+    },
+    "04021012": {
+      "client_msg": "실패"
+    },
+    "04021013": {
+      "client_msg": "실패"
+    },
+    "04021010": {
+      "client_msg": "실패"
+    },
+    "04021009": {
+      "client_msg": "실패"
+    },
+    "DJ001": {
+      "client_msg": "e스포츠 이벤트에는 베팅할 수 없습니다"
+    },
+    "DJ004": {
+      "client_msg": "조합배팅(다폴더)를 지원하지 않는 이벤트가 있습니다"
+    },
+    "DJ005": {
+      "client_msg": "교차를 지원하지 않는 교차 시장이 있습니다"
+    },
+    "DJ003": {
+      "client_msg": "베팅 금액은 정수일 수 있습니다."
+    },
+    "DJ002": {
+      "client_msg": "최소한 베팅을 해주세요{0}"
+    },
+    "DJ006": {
+      "client_msg": "실패"
+    }
+  },
+  "filter": {
+    "all_leagues": "모든 리그",
+    "match_select_title": "리그 선택",
+    "match_key": "리그 이름을 입력해 주세요",
+    "please_select_league": "리그를 선택하세요",
+    "reverse_election": "역선택"
+  },
+  "football_playing_way": {
+    "champion": "챔피언",
+    "hps15_title": {
+      "0":"시작 ~14:59(스페셜1)",
+      "1":"15:00~29:59(스페셜 2)",
+      "2":"30:00~하프타임 (스페셜 3)",
+      "3":"후반 시작 ~59:59(스페셜 포)",
+      "4":"60:00~74:59(특별 금요일)",
+      "5":"75:00~전체 세션 (특별 토요일)"
+    },
+    "corner": "코너킥",
+    "hps15Minutes": "15분",
+    "hps5Minutes": "5분",
+    "hps_fifteen_minutes_details": {
+      "0":  {
+        "content": "시작 - 14분 59초",
+        "title": "15분 - 기간 1"
+      },
+      "1":  {
+        "content": "15 분 - 29 분 59 초",
+        "title": "15분 - 기간 2"
+      },
+      "2":  {
+        "content": "30점 - 하프타임",
+        "title": "15분 - 기간 3"
+      },
+      "3": {
+        "content": "후반전 시작 - 59:59",
+        "title": "15분 - 기간 4"
+      },
+      "4":  {
+        "content": "60 분-74 분 59 초",
+        "title": "15분 - 기간 5"
+      },
+      "5": {
+        "content": "75 분 - 전체 게임",
+        "title": "15분 - 기간 6"
+      }
+    },
+    "hps_next_goal": "다음 골",
+    "penalty_cards": "패널티",
+    "overtime": "추가시간",
+    "penalty_shootout": "승부차기",
+    "hpsBold": "알맞은 점수",
+    "promotion": "보급",
+    "full_time_draw": "전체 추첨",
+    "minutes_of_the_Xth_goal": "X 골이 득점되었습니다",
+    "half_time_draw": "하프타임 추첨",
+    "feature": "조합 배팅",
+    "any_goal": "언제든지 득점할 수 있습니다",
+    "all_both": "승무패 & 양팀 모두 득점",
+    "all_total_goal": "승무패&골 오버/언더",
+    "half_both": "전반전 승무패& 전반전 양팀 모두 득점",
+    "half_total_goal": "전반전 승무패&전반전 골 오버/언더"
+  },
+  "footer_menu": {
+    "adviser": "베팅 튜토리얼",
+    "all": "모두",
+    "analysis": "분석",
+    "bet_model": "베팅 모드",
+    "bet_record": "베팅슬립",
+    "bet_order": "내 베팅",
+    "change_simple01": "바꾸기",
+    "change_simple02": "간단한 버전",
+    "collect": "저장",
+    "corner_kick": "코너킥",
+    "daxiao": "언더/ 오버",
+    "corner": "오버/ 언더",
+    "Day_mode": "주간 모드",
+    "daytime": "낮",
+    "follow": "관심",
+    "hot": "인기",
+    "full_time": "풀타임",
+    "hot2": "인기",
+    "filter": "구별",
+    "league_filter": "리그 심사",
+    "mode": "모드",
+    "more": "더",
+    "new_v": "초급자 버전",
+    "night": "야간",
+    "odds_set": "핸디캡 설정",
+    "play_way_f": "경기",
+    "night_mode": "야간 모드",
+    "popular_Sort": "인기있는 종류",
+    "rangfen": "핸디캡",
+    "pro_v": "프로 버전",
+    "rangqiu": "핸디캡",
+    "search": "검색",
+    "selected": "선택한",
+    "refresh": "새로고침",
+    "set_menu": "설정 메뉴",
+    "settings": "설치",
+    "theme": "테마 스타일",
+    "sort_title": "규칙 정렬",
+    "time2": "시간별",
+    "time": "시간",
+    "daily_activities": "일일 활동",
+    "turn_on": "열다",
+    "time_order": "시간 순서",
+    "win_alone": "혼자 승리",
+    "open_bets":"오픈 노트",
+    "closed_bets":"마감주문"
+  },
+  "home": {
+    "can_bet": "사용 가능한 베팅",
+    "hot": "인기",
+    "home": "메인 화면",
+    "lang_en": "영어",
+    "invalid_credentials": "정보가 더 이상 유효하지 않습니다. 다시 로그인하십시오.",
+    "live_video": "라이브 방송",
+    "login_invalid": "로그인 실패",
+    "lang_zj": "중국어",
+    "login_success": "로그인 성공",
+    "match_no_hot": "인기있는 이벤트가 없습니다",
+    "match_no_has": "이벤트 없음",
+    "my": "내꺼",
+    "no_favorite_events": "좋아하는 이벤트가 없습니다",
+    "record": "베팅 내역"
+  },
+  "home_popular": {
+    "featured": "선택한",
+    "featured_events": "특집 행사",
+    "average": "경기당 평균",
+    "player": "플레이어",
+    "assist": "지원",
+    "quiz": "퀴즈",
+    "ranking": "순위",
+    "win_rate": "승률",
+    "you_may_also_like": "당신이 좋아하는 것 같아요"
+  },
+  "info_rules": {
+    "i_know": "알아요",
+    "rules": {
+      "rule1": "이 페이지에 표시되는 모든 라이브 콘텐츠 는 참조용이며 회원은 이 콘텐츠를 가이드로 사용할 수도 있습니다. 표시된 내용이 정확한지 확인하기 위해 최선을 다할 것이며, 회사는 오류에 대해 책임을지지 않습니다.",
+      "rule2": "라이브 핸디캡과 같은 라이브 스코어의 경우 베팅 시 베팅 슬립에 표시된 정확한 점수를 기반으로 합니다"
+    },
+    "auto": "이벤트의 라이브에 대한 설명"
+  },
+  "isoName": "ko",
+  "limit": {
+    "msg1": "안타깝게도 페이지가 누락되었습니다",
+    "msg2": "긴장하지 말고 \"새로고침\"을 클릭하면 즉시 되돌릴 수 있습니다~"
+  },
+  "list": {
+    "win1": "1",
+    "win2": "2",
+    "dogfall": "X",
+    "play": "Market",
+    "play1": "1x2",
+    "play2": "Handicap",
+    "play3": "Total Goals",
+    "home_hdp": "1",
+    "away_hdp": "2",
+    "over": "Over",
+    "under": "Under",
+    "after_time_start2": "{0}분 후에 시작됩니다",
+    "match_end": "완료",
+    "go_to_details": "세부",
+    "after_time_start": "게임은 {0}분 후에 시작됩니다",
+    "match_no_start": "시작 전",
+    "match_no": "끝나지 않은 레이스",
+    "match_start": "경기가 시작되었습니다",
+    "total_play_count": "총 라운드 수",
+    "total_pp_score_count": "점수",
+    "score_disparity": "점수 차이",
+    "water_polo_countdown": "S% 분 미만",
+    "match_doing": "진행 중",
+    "other": "다른"
+  },
+  "list_title": {
+    "1": {
+      "title": {
+        "0":"1X2",
+        "1":"전체 코트 핸디캡",
+        "2":"풀타임 오버/언더",
+        "3":"전반전- 1x2",
+        "4":"전반전의 핸디캡",
+        "5":"전반전 =오버/언더"
+      }
+    },
+    "2": {
+      "title": {
+        "0":"머니라인",
+        "1":"핸디캡",
+        "2":"전체 포인트"
+      }
+    },
+    "3": {
+      "title": {
+        "0":"머니라인",
+        "1":"핸디캡",
+        "2":"젠체 포인트"
+      }
+    },
+    "4": {
+      "title": {
+        "0":"1X2",
+        "1":"핸디캡",
+        "2":"총 골"
+      }
+    },
+    "5": {
+      "title": {
+        "0":"우승자",
+        "1":"풀 핸디캡",
+        "2":"게임 핸디캡"
+      }
+    },
+    "6": {
+      "title": {
+        "0":"1X2",
+        "1":"전체 코트 핸디캡",
+        "2":"총 골"
+      }
+    },
+    "7": {
+      "title": {
+        "0":"우승자",
+        "1":"풀 타임 핸디캡",
+        "2":"총 프레임"
+      }
+    },
+    "8": {
+      "title": {
+        "0":"우승자",
+        "1":"포인트 핸디캡",
+        "2":"전체 게임의 총점"
+      }
+    },
+    "9": {
+      "title": {
+        "0":"전체 게임에서 승리하십시오",
+        "1":"풀 코트 핸디캡",
+        "2":"전체 게임의 총점"
+      }
+    },
+    "10": {
+      "title": {
+        "0":"전체 게임에서 승리하십시오",
+        "1":"포인트  핸디캡",
+        "2":"전체 게임의 총점"
+      }
+    },
+    "11": {
+      "title": {
+        "0":"1X2",
+        "1":"풀 코트 핸디캡",
+        "2":"전체 게임의 총점",
+        "3":"하프타임에 혼자 승리",
+        "4":"하프타임 핸디캡",
+        "5":"하프타임의 총 점수"
+      }
+    },
+    "12": {
+      "title": {
+        "0":"1X2",
+        "1":"총 라운드 수"
+      }
+    },
+    "13": {
+      "title": {
+        "0":"전체 게임에서 승리하십시오",
+        "1":"풀 코트 핸디캡",
+        "2":"전체 게임의 총점"
+      }
+    },
+    "14": {
+      "title": {
+        "0":"1X2",
+        "1":"풀 코트 핸디캡",
+        "2":"전체 게임의 총점",
+        "3":"하프타임에 혼자 승리",
+        "4":"하프타임 핸디캡",
+        "5":"하프타임의 총 점수"
+      }
+    },
+    "15": {
+      "title": {
+        "0":"1X2",
+        "1":"전체 코트 핸디캡",
+        "2":"전체 필드 크기",
+        "3":"하프타임에 1X2",
+        "4":"하프타임의 핸디캡",
+        "5":"하프 코트 크기"
+      }
+    },
+    "16": {
+      "title": {
+        "0":"1X2",
+        "1":"풀 코트 핸디캡",
+        "2":"전체 게임의 총점",
+        "3":"하프타임에 1X2",
+        "4":"하프타임 핸디캡"
+      }
+    },
+    "100": {
+      "title": {
+        "0":"승패",
+        "1":"지도 핸디캡",
+        "2":"총 세트수 오버/언더"
+      }
+    },
+    "101": {
+      "title": {
+        "0":"승패",
+        "1":"지도 핸디캡",
+        "2":"총 세트수 오버/언더"
+      }
+    },
+    "102": {
+      "title": {
+        "0":"승패",
+        "1":"지도 핸디캡",
+        "2":"총 세트수 오버/언더"
+      }
+    },
+    "103": {
+      "title": {
+        "0":"승패",
+        "1":"지도 핸디캡",
+        "2":"총 세트수 오버/언더"
+      }
+    },
+    "1001": {
+      "title": {
+        "0":"1X2",
+        "1":"핸디캡",
+        "2":"전체 필드 크기"
+      }
+    },
+    "1004": {
+      "title": {
+        "0":"전체 게임에서 승리하십시오",
+        "1":"핸디캡",
+        "2":"점수",
+        "3":"21 포인트 도달"
+      }
+    }
+  },
+  "login": {
+    "err_msg01": "사용자 이름은 비워 둘 수 없습니다",
+    "login": "로그인",
+    "name": "사용자 이름",
+    "err_msg02": "암호는 비워 둘 수 없습니다.",
+    "no_login": "로그인하지 않음",
+    "remember_pwd": "암호를 기억하십시오",
+    "password": "암호",
+    "shop_code": "판매자 코드"
+  },
+  "lost": {
+    "msg1": "오 ~ 페이지가 사라졌습니다",
+    "msg2": "긴장하지마세요 ~",
+    "msg3": "페이지를 새로 고쳐 시도해보세요",
+    "msg4": "새로 고침",
+    "msg5": "홈 페이지로 돌아가기"
+  },
+  "main_menu": {
+    "my_bet": "내 베팅"
+  },
+  "match_info": {
+    "all_result": "전체 결과",
+    "add": "더하다",
+    "abandon": "포기",
+    "animation": "애니메이션",
+    "animation_info": "애니메이션 정보",
+    "ball": "공",
+    "delay": "지연",
+    "cancel": "취소",
+    "full": "전체",
+    "drawn": "무",
+    "greater": "보다 큼",
+    "half": "반",
+    "ice_add": "더하다",
+    "interrupt": "중단",
+    "less": "미만",
+    "lvs": "스튜디오",
+    "m_video_not_start": "라이브 시작 전입니다. 나중에 다시 시도해주세요..",
+    "m_anima_not_start": "라이브 애니메이션이 시작 전이오니 잠시만 기다려 주십시오",
+    "match_colse": "닫기",
+    "match_not_start": "경기 시작 전",
+    "match_end": "경기 종료",
+    "match_over": "모든 장면이 끝났습니다",
+    "no": "안됩니다.",
+    "my_bets": "내 베팅",
+    "odds_type_additional": "추가 판",
+    "pause": "시간 초과",
+    "pack_up": "접기",
+    "postpone": "연기하다",
+    "select_event": "특집 행사",
+    "strike": "파업",
+    "shoot_out": "점",
+    "strike_out": "아웃",
+    "show_more": "더 보기",
+    "yes": "있다",
+    "total_score": "현재 총점",
+    "match_parlay": "조합배팅(다폴더)",
+    "unknown": "알려지지 않은",
+    "video": "비디오",
+    "video_info": "영상정보",
+    "video_line_info": "If the video is lagging or unclear, you can adjust the connection yourself.",
+    "Topic": "",
+    "topic": "",
+    "video_live": "라이브 방송",
+    "animation_live": "애니메이션 중계"
+  },
+  "match_main": {
+    "cut_off": "끝",
+    "Handicap": "핸디캡",
+    "Rostov_U20": "로스토프 U20",
+    "royal_house_Madrid": "레알 마드리드"
+  },
+  "match_result": {
+    "attack": "공격",
+    "ball_possession": "소유",
+    "corner": "모서리",
+    "dangerous_offense": "위허만 공격",
+    "end_of_regular_season": "풀타임",
+    "Field_goal_percentage": "필드 골",
+    "corner_kick": "코너킥",
+    "finish": "종료",
+    "event": "이벤트",
+    "Fouls": "파울 횟수",
+    "Free_throw": "자유투 득점",
+    "goal": "골",
+    "Free_throw_percentage": "자유투 비율",
+    "midfield": "하프타임",
+    "overtime_is_over": "추가 경기 종료",
+    "match": "매치",
+    "own_goals": "자살골",
+    "match_analysis": "경기 분석",
+    "penalty_kick": "페널티킥",
+    "penalty_kick_ended": "승부차기가 끝났습니다",
+    "red_card": "레드카드",
+    "penalty_missed": "페널티킥은 득점되지 않았다",
+    "Remaining_pause": "남은 일시 중지",
+    "shoot_right": "목표물에 쐈다",
+    "shot_off": "슛이 목표에 빗겨갔습니다.",
+    "statistics": "통계",
+    "shot": "슛",
+    "start": "시작되다",
+    "substitution": "치환",
+    "three_point_shooting": "3점슛",
+    "Three_pointer": "3점슛 득점",
+    "Two_pointer": "2점슛 득점",
+    "which_number": "넘버",
+    "yellow_card": "옐로 카드"
+  },
+  "matchtype": {
+    "1": "경기 전",
+    "2": "인플레이",
+    "3": "",
+    "4": ""
+  },
+  "mmp": {
+    "1": {
+      "0": "전반전",
+      "6": "전반전",
+      "7": "후반전",
+      "31": "하프타임 쉬는시간",
+      "32": "추가 시간을 기다리고 있습니다",
+      "33": "추가 시간 중 쉬는 시간",
+      "34": "승부차기 기다리는 중",
+      "41": "연장전 전반전",
+      "42": "연장전 후반",
+      "50": "승부차기",
+      "80": "경기 중단",
+      "90": "경기 포기",
+      "100": "후반전 종료",
+      "110": "연장전 종료",
+      "120": "승부차기가 끝났습니다",
+      "999": "모든 경기 종료"
+    },
+    "2": {
+      "0": "시작 전",
+      "1": "전반전",
+      "2": "후반전",
+      "13": "쿼터 1",
+      "14": "쿼터 2",
+      "15": "쿼터 3",
+      "16": "쿼터 4",
+      "21": "진행 중",
+      "31": "휴식",
+      "32": "연장전 기다리는 중",
+      "40": "연장전",
+      "61": "경기가 연기되었습니다",
+      "80": "게임 중단",
+      "90": "경기 포기",
+      "100": "경기 종료",
+      "110": "연장전 종료",
+      "301": "쿼터 2",
+      "302": "쿼터3",
+      "303": "쿼터 4",
+      "999": "모든 경기가 종료되었습니다",
+      "1001": "쿼터4",
+      "1002": "후반전",
+      "99999": "풀타임"
+    },
+    "3": {
+      "0": "시작 전",
+      "80": "게임 중단",
+      "90": "경기 포기",
+      "100": "경기가 종료되었습니다",
+      "401": "1 이닝 탑",
+      "402": "1 이닝 다운",
+      "403": "2 이닝 탑",
+      "404": "2 이닝 바텁",
+      "405": "3 이닝 탑",
+      "406": "3 이닝 바텀",
+      "407": "4 이닝 탑",
+      "408": "4 이닝 바텀",
+      "409": "5 이닝 탑",
+      "410": "5 이닝 바텀",
+      "411": "6 이닝  탑",
+      "412": "6 이닝 바텀",
+      "413": "7 이닝 탑",
+      "414": "7 이닝 바텀",
+      "415": "8 이닝 탑",
+      "416": "8 이닝 바텀",
+      "417": "9 이닝 탑",
+      "418": "9 이닝 바텀",
+      "421": "1 이닝 바텀",
+      "422": "2 이닝 탑",
+      "423": "2 이닝 바텁",
+      "424": "3 이닝 탑",
+      "425": "3 이닝 바텀",
+      "426": "4 이닝 탑",
+      "427": "4 이닝 바텀",
+      "428": "5 이닝 탑",
+      "429": "5 이닝 바텀",
+      "430": "6 이닝  탑",
+      "431": "6 이닝 바텀",
+      "432": "7 이닝 탑",
+      "433": "7 이닝 바텀",
+      "434": "8 이닝 탑",
+      "435": "8 이닝 바텀",
+      "436": "9 이닝 탑",
+      "437": "9 이닝 바텀",
+      "438": "연장전 기다리는 중",
+      "999": "경기 종료",
+      "999_app_h5": "종료",
+      "41910": "10 이닝 탑",
+      "41911": "11 이닝 탑",
+      "41912": "12 이닝 탑",
+      "41913": "13 이닝 탑",
+      "41914": "14 이닝 탑",
+      "41915": "15 이닝 탑",
+      "41916": "16 이닝 탑",
+      "41917": "17 이닝 탑",
+      "41918": "18 이닝 탑",
+      "41919": "19 이닝 탑",
+      "41920": "20 이닝 탑",
+      "42010": "10 이닝 바텀",
+      "42011": "11 이닝 바텀",
+      "42012": "12 이닝 바텀",
+      "42013": "13 이닝 바텀",
+      "42014": "14 이닝 바텀",
+      "42015": "15 이닝 바텀",
+      "42016": "16 이닝 바텀",
+      "42017": "17 이닝 바텀",
+      "42018": "18 이닝 바텀",
+      "42019": "19 이닝 바텀",
+      "42020": "20 이닝 바텀",
+      "43810": "11 이닝 탑",
+      "43811": "12 이닝 탑",
+      "43812": "13 이닝 탑",
+      "43813": "14 이닝 탑",
+      "43814": "15 이닝 탑",
+      "43815": "16 이닝 탑",
+      "43816": "17 이닝 탑",
+      "43817": "18 이닝 탑",
+      "43818": "19 이닝 탑",
+      "43819": "20 이닝 탑",
+      "43910": "10 이닝 바텀",
+      "43911": "11 이닝 바텀",
+      "43912": "12 이닝 바텀",
+      "43913": "13 이닝 바텀",
+      "43914": "14 이닝 바텀",
+      "43915": "15 이닝 바텀",
+      "43916": "16 이닝 바텀",
+      "43917": "17 이닝 바텀",
+      "43918": "18 이닝 바텀",
+      "43919": "19 이닝 바텀",
+      "43920": "20 이닝 바텀"
+    },
+    "4": {
+      "0": "P1",
+      "1": "P1",
+      "2": "P2",
+      "3": "P3",
+      "32": "연장전 기다리",
+      "34": "승부차기",
+      "40": "연장전",
+      "50": "승부차기",
+      "80": "경기 중단",
+      "90": "경기 포기",
+      "100": "경기 종료",
+      "110": "연장전 종료",
+      "120": "승부차기 종료",
+      "301": "P2",
+      "302": "P3",
+      "999": "종료"
+    },
+    "5": {
+      "0": "세트 1",
+      "8": "세트 2",
+      "9": "세트 3",
+      "10": "세트 4",
+      "11": "세트 5",
+      "12": "세트 6",
+      "61": "경기 지연",
+      "80": "경기 중단",
+      "90": "경기 취소",
+      "93": "원정 경기팀 불참",
+      "94": "홈 경기팀 불참",
+      "95": "홈 경기팀 퇴장",
+      "96": "원정 경기팀 퇴장",
+      "97": "홈 경기 도착 안함",
+      "98": "원정 경기팀 도착 안함",
+      "100": "경기 종료",
+      "301": "세트2",
+      "302": "세트 3",
+      "303": "세트 4",
+      "304": "세트 5",
+      "305": "경기 종료",
+      "800": "세트 1",
+      "900": "세트 2",
+      "999": "경기 종료",
+      "1000": "세트 3",
+      "1100": "세트 4",
+      "1200": "세트 5"
+    },
+    "6": {
+      "0": "시작 전",
+      "13": "쿼터 1",
+      "14": "쿼터 2",
+      "15": "쿼터 3",
+      "16": "쿼터 4",
+      "32": "연장전을 기다리고 있습니다",
+      "40": "연장전",
+      "80": "경기 중단",
+      "90": "경기 포기",
+      "100": "경기 종료",
+      "110": "연장전 종료",
+      "301": "쿼터2",
+      "302": "쿼터3",
+      "303": "쿼터4",
+      "999": "경기 종료"
+    },
+    "7": {
+      "0": "경기 시작 전",
+      "21": "진행 중",
+      "30": "중지",
+      "61": "지연",
+      "80": "경기 중단",
+      "90": "경기 취소",
+      "93": "원정 경기팀 불참",
+      "94": "홈 경기팀 불참",
+      "95": "홈 경기팀 퇴장",
+      "96": "원정 경기팀 퇴장",
+      "97": "홈 경기팀 기권",
+      "98": "원정 경기팀 기권",
+      "100": "경기 종료",
+      "419": "전반전",
+      "420": "후반전",
+      "439": "후반전",
+      "445": "일시 중지",
+      "999": "경기종료",
+      "x": "프레임 %s"
+    },
+    "8": {
+      "0": "게임 1",
+      "8": "게임 1",
+      "9": "게임 2",
+      "10": "게임 3",
+      "11": "게임 4",
+      "12": "게임 5",
+      "61": "지연",
+      "80": "중단",
+      "90": "취소",
+      "93": "원정 경기팀 불참",
+      "94": "홈 경기팀 불참",
+      "95": "홈 경기팀 퇴장",
+      "96": "원정 경기팀 퇴장",
+      "97": "홈 경기팀 도착 전",
+      "98": "원정 경기팀 도착 전",
+      "100": "경기 종료",
+      "301": "게임 2",
+      "302": "게임 3",
+      "303": "게임 4",
+      "304": "게임 5",
+      "305": "게임 6",
+      "306": "게임 7",
+      "441": "게임 6",
+      "442": "게임 7",
+      "999": "경기 종료"
+    },
+    "9": {
+      "0": "시작 전",
+      "8": "세트 1",
+      "9": "세트 2",
+      "10": "세트 3",
+      "11": "세트 4",
+      "12": "세트 5",
+      "17": "세트 5",
+      "37": "세트 5",
+      "61": "지연",
+      "80": "중단",
+      "90": "취소",
+      "93": "원정 경기팀 불참",
+      "94": "홈 경기팀 불참",
+      "95": "홈 경기팀 퇴장",
+      "96": "원정 경기팀 퇴장",
+      "100": "경기 종료",
+      "130": "경기 종료",
+      "301": "세트 2",
+      "302": "세트 3",
+      "303": "세트 4",
+      "304": "세트 5",
+      "305": "세트 6",
+      "306": "세트 7",
+      "441": "세트 6",
+      "442": "세트 7",
+      "999": "경기 종료"
+    },
+    "10": {
+      "0": "게임 1",
+      "8": "게임 1",
+      "9": "게임 2",
+      "10": "게임 3",
+      "11": "게임 4",
+      "12": "게임 5",
+      "61": "지연",
+      "80": "경기 중단",
+      "90": "경기 취소",
+      "93": "원정 경기팀 불참",
+      "94": "홈 경기팀 불참",
+      "95": "홈 경기팀 퇴장",
+      "96": "원정 경기팀 퇴장",
+      "97": "홈 경기팀 도착 전",
+      "98": "원정 경기팀 도착 전",
+      "100": "경기 종료",
+      "301": "게임 2",
+      "302": "게임 3",
+      "303": "게임 4",
+      "304": "게임 5",
+      "999": "경기 종료"
+    },
+    "11": {
+      "0": "전반전",
+      "6": "전반전",
+      "7": "후반전",
+      "31": "휴식시간",
+      "32": "연장전 기다리는 중",
+      "33": "연장전 쉬는시간",
+      "34": "승부차기를 기다리세요",
+      "41": "연장전 전반전",
+      "42": "연장전 후반",
+      "50": "승부차기",
+      "80": "게임 중단",
+      "90": "게임이 중단되었습니다.",
+      "100": "후반전 종료",
+      "110": "연장전 종료",
+      "120": "승부차기가 끝났습니다",
+      "999": "모든 장면이 끝났습니다"
+    },
+    "13": {
+      "0": "경기 시작 전",
+      "8": "첫 이닝",
+      "9": "두 번째 이닝",
+      "10": "세 번째 이닝",
+      "11": "네 번째 이닝",
+      "12": "다섯 번째 이닝",
+      "17": "다섯 번째 이닝",
+      "37": "다섯 번째 이닝",
+      "61": "경기가 연기되었습니다",
+      "80": "게임 중단",
+      "90": "경기가 취소되었습니다.",
+      "93": "원정 경기팀 불참",
+      "94": "홈 경기팀 불참",
+      "95": "홈 경기팀 퇴장",
+      "96": "원정 경기팀 퇴장",
+      "100": "경기 종료",
+      "130": "경기 종료",
+      "301": "두 번째 이닝",
+      "302": "세 번째 이닝",
+      "303": "네 번째 이닝",
+      "304": "다섯 번째 이닝",
+      "305": "여섯 번째 이닝",
+      "306": "일곱 번째 이닝",
+      "441": "여섯 번째 이닝",
+      "442": "일곱 번째 이닝",
+      "999": "경기 종료"
+    },
+    "14": {
+      "0": "시작 전",
+      "6": "전반전",
+      "7": "후반전",
+      "31": "휴식시간",
+      "32": "연장전을 기다리고 있습니다",
+      "33": "연장전 쉬는 시간",
+      "34": "승부차기를 기다리세요",
+      "41": "연장전 전반전",
+      "42": "연장전 후반",
+      "50": "승부차기",
+      "60": "게임이 일시 중단됩니다",
+      "80": "게임 중단",
+      "90": "게임이 중단되었습니다.",
+      "100": "후반전 종료",
+      "110": "연장전 종료",
+      "120": "승부차기가 끝났습니다",
+      "440": "연장전",
+      "443": "연장전을 기다리고 있습니다",
+      "444": "연장전 종료",
+      "999": "경기 종료"
+    },
+    "15": {
+      "0": "경기 시작 전",
+      "6": "전반전",
+      "7": "후반전",
+      "13": "쿼터1",
+      "14": "쿼터2",
+      "15": "쿼터3",
+      "16": "쿼터4",
+      "21": "진행 중",
+      "31": "휴식",
+      "32": "연장전 기다리는 중",
+      "34": "승부차기를 기다리세요",
+      "40": "연장전",
+      "50": "승부차기",
+      "61": "경기가 연기되었습니다",
+      "80": "경기 중단",
+      "90": "게임이 중단되었습니다.",
+      "100": "쿼터 4",
+      "110": "연장전 종료",
+      "120": "승부차기가 끝났습니다",
+      "301": "쿼터2",
+      "302": "쿼터3",
+      "303": "쿼터4",
+      "440": "연장전",
+      "443": "연장전을 기다리고 있습니다",
+      "444": "연장전 종료",
+      "999": "풀타임 종료"
+    },
+    "16": {
+      "0": "경기 시작 전",
+      "13": "쿼터 1",
+      "14": "쿼터 2",
+      "15": "쿼터 3",
+      "16": "쿼터 4",
+      "34": "승부차기를 기다리세요",
+      "50": "승부차기",
+      "80": "게임 중단",
+      "90": "게임이 중단되었습니다.",
+      "100": "게임 종료",
+      "120": "승부차기 종료",
+      "301": "쿼터 2",
+      "302": "쿼터 3",
+      "303": "쿼터 4",
+      "999": "경기 종료"
+    },
+    "100": {
+      "0":"경기 시작 전",
+      "1":"게임 1",
+      "2":"게임 2",
+      "3":"게임 3",
+      "4":"게임 4",
+      "5":"게임 5",
+      "6":"게임 6",
+      "7":"게임 7",
+      "8":"게임 8",
+      "9":"게임 9",
+      "10":"게임 10",
+      "11":"게임 11"
+    },
+    "101": {
+      "0":"경기 시작 전",
+      "1":"게임 1",
+      "2":"게임 2",
+      "3":"게임 3",
+      "4":"게임 4",
+      "5":"게임 5",
+      "6":"게임 6",
+      "7":"게임 7",
+      "8":"게임 8",
+      "9":"게임 9",
+      "10":"게임 10",
+      "11":"게임 11"
+    },
+    "102": {
+      "0":"게임 시작 전",
+      "1":"게임 1",
+      "2":"게임 2",
+      "3":"게임 3",
+      "4":"게임 4",
+      "5":"게임 5",
+      "6":"게임 6",
+      "7":"게임 7",
+      "8":"게임 8",
+      "9":"게임 9",
+      "10":"게임 10",
+      "11":"게임 11"
+    },
+    "103": {
+      "0":"경기 시작 전",
+      "1":"게임 1",
+      "2":"게임 2",
+      "3":"게임 3",
+      "4":"게임 4",
+      "5":"게임 5",
+      "6":"게임 6",
+      "7":"게임 7",
+      "8":"게임 8",
+      "9":"게임 9",
+      "10":"게임 10",
+      "11":"게임 11"
+    },
+    "eports_scoring": "판단"
+  },
+  "ms": {
+    "0": "게임 시작 전",
+    "1": "진행 중",
+    "2": "잠시 경기 중지",
+    "3": "경기 종료",
+    "4": "닫기",
+    "5": "취소",
+    "6": "경기 포기",
+    "7": "경기 지연",
+    "8": "알 수 없음",
+    "9": "연기",
+    "10": "경기 중단",
+    "110": "경기 곧 시작"
+  },
+  "msc": {
+    "S1": "풀타임 점수",
+    "S100": "세트 5, 게임 13",
+    "S10": "패널티 점수",
+    "S101": "세트 5, 게임 14",
+    "S102": "세트 5, 게임 15",
+    "S104": "공격 횟수",
+    "S10602": "2쿼터의 파울 수",
+    "S10601": "1쿼터의 파울 수",
+    "S103": "현재 게임 점수",
+    "S10603": "3쿼터의 파울 수",
+    "S10604": "4쿼터에 범한 파울 수",
+    "S10605": "연장전에서 저지른 파울 횟수",
+    "S10606": "전반전의 파울 횟수",
+    "S10901": "1분기의 일시 중지 횟수",
+    "S10902": "2분기의 일시 중지 횟수",
+    "S10607": "후반전 파울 횟수",
+    "S10903": "3분기의 일시 중지 횟수",
+    "S10904": "4분기의 일시 중지 횟수",
+    "S10906": "연장전 초과 횟수",
+    "S11": "레드 카드 점수",
+    "S1111": "풀타임 점수",
+    "S113": "놓친 서브 횟수",
+    "S114": "브레이크 성공률",
+    "S117": "서브 득점률",
+    "S118": "파울 횟수",
+    "S116": "점수가 득점된 횟수",
+    "S119": "",
+    "S115": "점수 수",
+    "S12": "옐로카드 스코어라인",
+    "S120": "게임 1 점수",
+    "S121": "게임 2 점수",
+    "S124": "게임 5 점수",
+    "S125": "게임 6 점수",
+    "S123": "게임 4 점수",
+    "S122": "게임 3 점수",
+    "S127": "게임 8 점수",
+    "S126": "게임 7 점수",
+    "S128": "게임 9 점수",
+    "S130": "게임 11 점수",
+    "S131": "게임 12 점수",
+    "S13": "전반전 레드카드 득점라인",
+    "S132": "게임 13 점수",
+    "S129": "게임 10 점수",
+    "S133": "게임 14 점수",
+    "S134": "게임 15 점수",
+    "S136": "게임 17 점수",
+    "S135": "게임 16 점수",
+    "S137": "게임 18 점수",
+    "S138": "게임 19 점수",
+    "S139": "게임 20 점수",
+    "S140": "게임 21 점수",
+    "S142": "게임 23 점수",
+    "S141": "게임 22 점수",
+    "S14": "후반전 옐로카드",
+    "S143": "게임 24 점수",
+    "S144": "게임 25 점수",
+    "S145": "게임 26 점수",
+    "S146": "게임 27 점수",
+    "S147": "게임 28 점수",
+    "S148": "게임 29 점수",
+    "S149": "게임 30 점수",
+    "S151": "게임 32 점수",
+    "S152": "게임 33 점수",
+    "S153": "게임 34 점수",
+    "S150": "게임 31 점수",
+    "S15": "전반 코너킥 스코어",
+    "S154": "게임 35 점수",
+    "S155": "게임 36 점수",
+    "S156": "게임 37 점수",
+    "S158": "게임 39 점수",
+    "S157": "게임 38 점수",
+    "S17": "샷 편향 점수",
+    "S159": "게임 40 점수",
+    "S170": "승부차기 스코어라인",
+    "S18": "목표 슛 점수",
+    "S16": "후반전 코너킥 스코어라인",
+    "S19": "1쿼터 점수",
+    "S2": "전반전 스코어라인",
+    "S20": "2쿼터 스코어라인",
+    "S191": "놓친 자유투 횟수",
+    "S200": "서브 비율 수",
+    "S190": "자유투 횟수",
+    "S202": "더블샷 오류 수",
+    "S21": "3쿼터 점수",
+    "S201": "휴식 횟수",
+    "S22": "4쿼터 점수",
+    "S23": "첫 세트 스코어",
+    "S24": "1세트 1차전 점수",
+    "S26": "1세트, 3차전 점수",
+    "S27": "1세트, 4차전 점수",
+    "S28": "1세트, 5차전 점수",
+    "S25": "1세트, 2차전 스코어",
+    "S29": "1세트, 6차전 점수",
+    "S3": "후반전 점수",
+    "S30": "1세트 , 6차전 점수",
+    "S3012": "볼 점수",
+    "S3013": "베이스 점수",
+    "S3014": "아웃 점수",
+    "S3011": "스트라이크 점수",
+    "S31": "1세트, 8차전 점수",
+    "S3015": "안타 점수",
+    "S32": "1세트, 9차전 점수",
+    "S33": "1세트, 10차전 점수",
+    "S34": "1세트, 11차전 점수",
+    "S35": "1세트, 12차전 점수",
+    "S38": "1세트, 15차전 점수",
+    "S36": "1세트, 13차전 점수",
+    "S39": "2세트 스코어라인",
+    "S4": "서브 점수",
+    "S37": "1세트, 14차전 점수",
+    "S40": "2세트, 1차전 스코어",
+    "S4012": "작은 페널티 점수",
+    "S4013": "슛 점수",
+    "S4011": "큰 페널티 점수",
+    "S41": "2세트, 2차전 스코어",
+    "S43": "2세트, 4차전 스코어",
+    "S42": "2세트, 3차전 스코어",
+    "S44": "2세트, 5차전 스코어",
+    "S45": "2세트, 6차전 스코어",
+    "S48": "2세트, 9차전 스코어",
+    "S47": "2세트, 8차전 스코어",
+    "S49": "2세트, 10차전 스코어",
+    "S46": "2세트, 7차전 스코어",
+    "S50": "2세트 , 11차전 스코어",
+    "S5": "코너킥 스코어",
+    "S502": "연장전 후반 코너킥 득점",
+    "S500": "연장전 코너 스코어",
+    "S501": "연장전 전반전 코너킥 득점",
+    "S51": "2세트, 12차전 스코어",
+    "S53": "2세트, 14차전 스코어",
+    "S52": "2세트, 13차전 스코어",
+    "S56": "3세트, 1차전 스코어",
+    "S54": "2세트, 15차전 스코어",
+    "S58": "3세트, 3차전 스코어",
+    "S555": "코너킥 스코어",
+    "S55": "3번째 세트 스코어",
+    "S57": "3세트, 2차전 스코어",
+    "S59": "3세트, 4차전 스코어",
+    "S60": "3세트, 5차전 스코어",
+    "S6012": "골 점수",
+    "S6014": "터치다운 스코어라인",
+    "S6": "프리킥 점수",
+    "S6011": "러쉬 스코어",
+    "S61": "3세트, 6차전 스코어",
+    "S62": "3세트, 7차전 스코어",
+    "S63": "3세트, 8차전 스코어",
+    "S65": "3세트, 10차전 스코어",
+    "S64": "3세트, 9차전 스코어",
+    "S67": "3세트, 12차전 스코어",
+    "S66": "3세트, 11차전 스코어",
+    "S68": "3세트, 13차전 스코어",
+    "S69": "3세트, 14차전 스코어",
+    "S7": "연장전 점수",
+    "S701": "연장전 전반전 스코어라인",
+    "S70": "3세트, 15차전 스코어",
+    "S72": "4세트, 1차전 스코어",
+    "S71": "4세트 스코어라인",
+    "S702": "연장전 후반 스코어라인",
+    "S73": "4세트, 2차전 스코어",
+    "S74": "4세트, 3차전 스코어",
+    "S75": "4세트, 4차전 스코어",
+    "S77": "4세트, 6차전 스코어",
+    "S76": "4세트, 5차전 스코어",
+    "S78": "4세트, 7차전 스코어",
+    "S79": "4세트, 8차전 스코어",
+    "S80": "4세트, 9차전 스코어",
+    "S8": "위험 공격 점수",
+    "S82": "4세트, 11차전 스코어",
+    "S83": "4세트, 12차전 스코어",
+    "S81": "4세트, 10차전 스코어",
+    "S84": "4세트, 13차전 스코어",
+    "S86": "4세트, 15차전 스코어",
+    "S85": "4세트, 14차전 스코어",
+    "S87": "세트 5 스코어",
+    "S88": "5세트, 1차전 스코어",
+    "S9": "더블 실수 스코어",
+    "S91": "5세트, 4차전 스코어",
+    "S89": "5세트, 2차전 스코어",
+    "S90": "5세트, 3차전 스코어",
+    "S92": "5세트, 5차전 스코어",
+    "S94": "5세트, 7차전 스코어",
+    "S93": "5세트, 6차전 스코어",
+    "S95": "5세트, 8차전 스코어",
+    "S97": "5세트, 10차전 스코어",
+    "S96": "5세트, 9차전 스코어",
+    "S99": "5세트, 12차전 스코어",
+    "S98": "5세트, 11차전 스코어",
+    "S106": "",
+    "S105": "",
+    "S108": "",
+    "S107": "",
+    "S109": "",
+    "S110": "",
+    "S111": ""
+  },
+  "msg": {
+    "msg_nodata_02": "데이터가 없습니다 ~",
+    "msg_nodata_03": "네트워크가 없습니다. 네트워크를 확인해주세요.",
+    "msg_nodata_01": "일치하는 항목을 찾을 수 없습니다 ~",
+    "msg_nodata_04": "관련 검색어를 찾을 수 없습니다.",
+    "msg_nodata_06": "새로 고침",
+    "msg_nodata_05": "베팅하러 가기",
+    "msg_nodata_08": "따라야 할 이벤트가 없습니다",
+    "msg_nodata_07": "긴장하지 말고 페이지를 새로고침하고 사용해 보세요",
+    "msg_nodata_10": "아직 베팅 기록이 없습니다",
+    "msg_nodata_09": "네트워크가 강력하지 않습니다.",
+    "msg_nodata_11": "이벤트를 찾을 수 없습니다.",
+    "msg_nodata_12": "미결 베팅 없음",
+    "msg_nodata_13": "정산된 베팅 없음",
+    "msg_nodata_14": "라이브 이벤트가 없습니다",
+    "msg_nodata_15": "미결제 베팅 없음",
+    "msg_nodata_16": "사전 정산된 베팅 없음",
+    "msg_nodata_18": "사전 약속 베팅 없음",
+    "msg_nodata_19": "약속하러 가기",
+    "msg_nodata_17": "메시지가 기록되지 않습니다",
+    "msg_nodata_22": "현재 방문자 수가 너무 많습니다. 나중에 다시 시도해 주세요.",
+    "msg_nodata_21": "긴장하지 말고 \"새로고침\"을 클릭하면 즉시 되돌릴 수 있습니다~",
+    "msg_nodata_20": "안녕하세요, 안타깝게도 페이지가 손실되었습니다",
+    "msg_nodata_23": "곧 오세요"
+  },
+  "myScroll": {
+    "msg1": "아래로 당겨 새로 고침",
+    "msg2": "새로고침 중",
+    "msg3": "새로고침",
+    "msg4": "새로 고침이 완료되었습니다",
+    "msg6": "로딩이 완료되었습니다",
+    "msg5": "로딩 중",
+    "msg7": "그 이상 아닌"
+  },
+  "nativeName": "중국어(간체)",
+  "odds": {
+    "EU": "유럽 판",
+    "HK": "홍콩 판",
+    "GB": "영어 판",
+    "MY": "말레이시아 판",
+    "US": "미국 판",
+    "ID": "인도네시아 판"
+  },
+  "play_way_info": {
+    "1": "",
+    "2": "솔로 승리 및 크고 작은 플레이는 승부차기의 첫 5라운드에서 득점한 팀의 골만 계산하며, 서든 데스 매치(6라운드 이후)는 계산되지 않습니다.",
+    "3": "",
+    "4": "",
+    "5": "페널티 시장은 부분 기준으로 정산됩니다. 레드 카드는 2점, 옐로우 카드는 1점입니다. 플레이어당 최대 페널티 점수는 3점입니다.",
+    "6": "이 게임은 홈 팀 또는 원정 팀의 코너킥 수를 재생하며, 누가 먼저 X에 도달하는지 봅니다",
+    "17": {
+      "0": {
+        "content": "시작 - 14분 59초",
+        "title": "15분 - 기간 1"
+      },
+      "1": {
+        "title": "15분 - 기간 2",
+        "content": "15 분 - 29 분 59 초"
+      },
+      "2":{
+        "content": "30점 - 하프타임",
+        "title": "15분 - 기간 3"
+      },
+      "3": {
+        "content": "후반전 시작 - 59:59",
+        "title": "15분 - 기간 4"
+      },
+      "4": {
+        "content": "60 분-74 분 59 초",
+        "title": "15분 - 기간 5"
+      },
+      "5": {
+        "title": "15분 - 기간 6",
+        "content": "75 분 - 전체 게임"
+      }
+    },
+    "19": {
+      "0":{
+        "content": "시작 ~ 04 분 59 초",
+        "title": "5분 ~ P1"
+      },
+      "1":{
+        "title": "5분 ~ P2",
+        "content": "05 분 ~ 09 분 59 초"
+      },
+      "2":{
+        "title": "5분 아이콘",
+        "content": "자세한 내용은 스포츠 규칙을 확인하시기 바랍니다"
+      },
+      "3":{
+        "content": "85분 ~ 90분 00초",
+        "title": "5분~ P18"
+      },
+      "4": {
+        "title": "골 없음",
+        "Xth_title": "",
+        "content": "90 포인트"
+      },
+      "5":{
+        "content": "45:01+ 또는 90:01+",
+        "title": "자살골 (정지 시간)"
+      }
+    }
+  },
+  "pre_record": {
+    "book": "예약",
+    "book_bet_amount": "베팅금 예약",
+    "book_one": "예약 실패",
+    "booked_fail": "예약 실패",
+    "booked_tips": "예약 성공은 배팅 성공을 의미하지 않으며 최종 결과는 실제 베팅 내역을 기준으로 합니다.",
+    "booking": "예약 중",
+    "canceled": "취소",
+    "cancle_fail_tips": "너무 자주 시도 하셨습니다. 나중에 다시 시도하십시오.",
+    "booked": "예약이 성공적이었습니다",
+    "confirm_cancle": "취소 확인",
+    "confirm_matchinfo": "예약 취소{0} 확인 하시겠습니까?",
+    "cancle_fail_tips2": "이벤트 이상. 예약을 취소할 수 없습니다.",
+    "ConfirmedBooking": "예약 확정",
+    "expired": "만료",
+    "handicap": "핸디캡 값이 변경되었습니다",
+    "market_error_info_max": "가장 높은 예약 시장 가치가 이루어졌으므로 재조정하십시오.",
+    "market_error_info": "최소 예약 가치 입니다. 재조정하십시오.",
+    "odds": "베팅 슬립",
+    "market_error_info_low": "최소 예약 시장 가격보다 낮을 수 없습니다.",
+    "processing": "진행 중"
+  },
+  "rule_description": {
+    "american_football": "미식축구",
+    "badminton": "배드민턴",
+    "baseball": "야구",
+    "basketball": "농구",
+    "champion": "챔피언",
+    "football": "축구",
+    "pingpong": "탁구",
+    "general_rules": "일반 규칙",
+    "puck": "아이스하키",
+    "Snooker": "스누커",
+    "volleyball": "배구",
+    "tennis": "테니스"
+  },
+  "scroll_wrapper": {
+    "is_footer": "결국",
+    "loding_more": "더 불러오기"
+  },
+  "search": {
+    "clear_search_history": "검색 기록 지우기",
+    "hot": "인기",
+    "keyword_is_empty": "키워드를 입력해 주세요",
+    "hot_league": "인기 리그",
+    "search_history": "검색 기록",
+    "search_qihao": "가상 이벤트 발행 번호를 입력하세요.",
+    "search_hot": "인기 검색어",
+    "search_title": "검색",
+    "search_title_bw3": "리그명 혹은 팀 이름 입력"
+  },
+  "setting_menu": {
+    "chan_lan": "언어 전환",
+    "concise": "라이트 버전",
+    "footer_t_odds": "확률",
+    "footer_t_handicap": "판",
+    "footer_t_sort": "종류",
+    "lang": "중국어 간체",
+    "handicap": "판",
+    "league": "인기",
+    "lottery": "보너스",
+    "odd_any": "어떤",
+    "newer": "간단한",
+    "odd_any2": "모든 배당",
+    "newer_s_edt": "판",
+    "odd_europe": "유럽",
+    "odd_europe2": "유럽 판",
+    "odd_hong_kong2": "홍콩 판",
+    "odd_optimal2": "최고의 배당률",
+    "odd_optimal": "최적의",
+    "odd_hong_kong": "홍콩",
+    "rule_description": "규칙 설명",
+    "notice_center": "발표",
+    "prize": "상환 내역",
+    "time": "시간",
+    "standard": "표준",
+    "tutorials": "튜토리얼",
+    "version": "버전",
+    "skin": "스킨"
+  },
+  "sport": {
+    "badminton": "배드민턴",
+    "football": "축구",
+    "pingpong": "탁구",
+    "tennis": "테니스",
+    "snooker": "스누커",
+    "basketball": "농구"
+  },
+  "sport2": {
+    "1": "축구",
+    "2": "농구",
+    "3": "야구",
+    "4": "아이스하키",
+    "5": "테니스",
+    "6": "미식축구",
+    "7": "스누커",
+    "8": "탁구",
+    "9": "배구",
+    "10": "배드민턴",
+    "11": "핸드볼",
+    "12": "복싱/무술",
+    "13": "비치발리볼",
+    "14": "럭비",
+    "15": "하키",
+    "16": "수구",
+    "17": "육상 경기",
+    "19": "수영하다",
+    "20": "체조",
+    "21": "다이빙",
+    "22": "쏘다",
+    "23": "역도",
+    "24": "양궁",
+    "25": "펜싱",
+    "26": "컬링",
+    "27": "태권도",
+    "28": "골프",
+    "29": "자전거",
+    "30": "경주마",
+    "31": "범선",
+    "32": "조정",
+    "33": "경주용 자동차",
+    "34": "유도",
+    "35": "카라테",
+    "36": "레슬링",
+    "37": "크리켓",
+    "38": "비행기표",
+    "39": "비치발리볼",
+    "50": "흥미롭다",
+    "100": "LOL",
+    "101": "도타2",
+    "102": "CSGO (씨에스고)",
+    "103": "KOG",
+    "1001": "가상 축구",
+    "1002": "가상 그레이하운드 경주",
+    "1004": "가상 농구",
+    "1009": "가상 사륜오토바이",
+    "1010": "가상 오토바이",
+    "1011": "가상 경마"
+  },
+  "sport_head_play_category": {
+    "1": {
+      "0": "1x2",
+      "1": "전체 코트 핸디캡",
+      "2": "오버/언더",
+      "3": "하프타임-1x2",
+      "4": "하프타임의 핸디캡",
+      "5": "하프 타임-오버/언더"
+    },
+    "2": {
+      "0": "1x2",
+      "1": "풀타임 핸디캡",
+      "2": "풀타임 핸디캡"
+    },
+    "3": {
+      "0": "1x2",
+      "1": "핸디캡",
+      "2": "풀타임 총점"
+    },
+    "4": {
+      "0": "1x2",
+      "1": "핸디캡",
+      "2": "오버/언더"
+    },
+    "5": {
+      "0": "1x2",
+      "1": "풀 타임 핸디캡",
+      "2": "풀 타임 포인트"
+    },
+    "6": {
+      "0": "1x2",
+      "1": "풀 타임 핸디캡",
+      "2": "오버/언더"
+    },
+    "7": {
+      "0": "1x2",
+      "1": "총 라운드 수"
+    },
+    "8": {
+      "0": "1x2",
+      "1": "핸디캡",
+      "2": "총 라운드 수"
+    },
+    "9": {
+      "0": "글로벌 우승",
+      "1": "지도 핸디캡",
+      "2": "총 맵 수의 크기입니다"
+    },
+    "10": {
+      "0": "글로벌 우승",
+      "1": "지도 핸디캡",
+      "2": "총 맵 수"
+    },
+    "11": {
+      "0": "1x2",
+      "1": "풀 코트 핸디캡",
+      "2": "전체 게임의 총점",
+      "3": "하프타임-1x2",
+      "4": "하프타임 핸디캡",
+      "5": "하프타임의 총 점수"
+    },
+    "12": {
+      "0": "1x2",
+      "1": "풀 코트 핸디캡",
+      "2": "전체 필드 크기",
+      "3": "1x2-하프타임",
+      "4": "하프타임의 핸디캡",
+      "5": "하프 코트 크기"
+    }
+  },
+  "time": {
+    "monthes": {
+      "0": "1",
+      "1": "2",
+      "2": "3",
+      "3": "4",
+      "4": "5",
+      "5": "6",
+      "6": "7",
+      "7": "8",
+      "8": "9",
+      "9": "10",
+      "10":"11",
+      "11":"12"
+    },
+    "month_1": "1월",
+    "gongli": "날짜",
+    "month_10": "10월",
+    "month_11": "11월",
+    "month_2": "2월",
+    "month_3": "3울",
+    "month_12": "12월",
+    "month_5": "5월",
+    "month_6": "6월",
+    "month_7": "7월",
+    "month_8": "8월",
+    "month_4": "4월",
+    "time_date_1": "%월, 월, %날짜",
+    "time_date_2": "%s 월%s 일(%s)",
+    "time_date_week": {
+      "0": "일요일",
+      "1": "월요일",
+      "2": "화요일",
+      "3": "수요일",
+      "4": "목요일",
+      "5": "금요일",
+      "6": "토요일"
+    },
+    "time_date_3": "%s 월 %s 일 %s:%s",
+    "time3": "MM/dd",
+    "time2": "MM 월 dd 일",
+    "time6": "yyyy-MM-dd HH:mm",
+    "time7": "yyyy MM dd 일 HH:mm",
+    "time5": "yy-MM-dd",
+    "time8": "yyyy MM dd HH:mm:ss",
+    "time4": "MM/dd HH:mm",
+    "time11": "dd/MM HH:mm",
+    "y_M_d": "dd/MM/yyyy",
+    "year_text": "년도",
+    "month_text": "달",
+    "day_text": "낮"
+  },
+  "time2": "MM 월 dd 일",
+  "time3": "MM/dd",
+  "time4": "MM/dd HH:mm",
+  "time5": "yy-MM-dd",
+  "time6": "yyyy-MM-dd HH:mm",
+  "time7": "yyyy MM dd 일 HH:mm",
+  "time8": "yyyy MM dd HH:mm:ss",
+  "time9": "HH:mm",
+  "time10": "yyyy/MM/dd HH:mm",
+  "time11": "dd/MM HH:mm",
+  "tips": {
+    "msg1": "베팅 합산",
+    "msg2": "확인 후 싱글/시리즈를 자유롭게 전환할 수 있으며 여러 베팅 항목이 동시에 베팅 표시줄에 표시되며 동일한 게임의 시장 베팅 항목이 원래 베팅 항목을 대체합니다.",
+    "close": "닫기",
+    "expand": "확장"
+  },
+  "time9": "HH:mm",
+  "token_inv": {
+    "confrim": "알겠습니다.",
+    "dear_user": "친애하는 사용자 여러분",
+    "msg": "로그인 정보가 더 이상 유효하지 않습니다. 다시 로그인하십시오!",
+    "play_happily": "즐거운 시간 보내세요",
+    "token_dis": "로그인 정보가 더 이상 유효하지 않습니다. 이 페이지를 닫으십시오.",
+    "reaccess": "행사장에 다시 입장"
+  },
+  "today": "오늘",
+  "tomorrow": "내일",
+  "video": {
+    "after": "다시 입장하셔서 시청해주세요",
+    "change_video": "애니메이션으로 전환",
+    "click_on": "클릭",
+    "close": "끄기",
+    "close_2": "라이브 비디오 스트림이 닫힙니다.",
+    "close_1": "애니메이션 라이브 스트림이 닫힙니다",
+    "double_click": "두 번 클릭",
+    "full_screen_play": "전체 화면 재생",
+    "lost": "계정 정보가 더 이상 유효하지 않습니다.",
+    "msg": "이 페이지에 표시되는 모든 라이브 스트리밍 콘텐츠는 참고용이며 회원이 가이드로 사용할 수도 있습니다. 표시된 내용이 정확한지 확인하기 위해 최선을 다할 것이며, 회사는 오류에 대해 책임을지지 않습니다. 라이브 핸디캡과 같은 라이브 스코어의 경우, 베팅 시 베팅 슬립에 표시된 정확한 점수가 우선합니다.",
+    "nohandle": "오랫동안 활성화되지 않은 경우 동영상이 일시 중지되고 계속 시청하려면 재생을 다시 클릭합니다",
+    "sorry": "죄송 합니다만, 지금은 리소스를 로드할 수 없습니다",
+    "show_hide": "작업 단추 표시/숨기기",
+    "video_line": "비디오 라인"
+  },
+  "new_menu": {
+    "1": "인플레이",
+    "2": "오늘",
+    "3": "오전 거래",
+    "4": "챔피언",
+    "5": "커밍 순",
+    "6": "멀티",
+    "7": "Esports",
+    "8": "VR",
+    "30": "Lottery",
+    "28": "결과 기록",
+    "400": "챔피언"
+  },
+  "virtual_sports": {
+    "comprehensive_rating": "종합 평가",
+    "advance": "들어가다",
+    "champion": "챔피언",
+    "date_number_title": "기한",
+    "FINAL": "결승전",
+    "finals": "결승전",
+    "goal_difference": "골 차이",
+    "game": "경기",
+    "group_matches": "조별 예선",
+    "group": "그룹",
+    "GROUPS": "조별 예선",
+    "INGAME": "진행 중",
+    "integral": "적분",
+    "legOrder": "% 라운드",
+    "lose": "잃다",
+    "match_status": {
+      "0": "시작되다",
+      "1": "마지막 1분",
+      "2": "종료",
+      "ended": "게임이 끝났습니다",
+      "x_to_ended": "거리 끝 %s",
+      "playing": "진행 중"
+    },
+    "leaderboard": "목록",
+    "knockout": "녹아웃",
+    "matchDay": "라운드 %s",
+    "no_data": "없음",
+    "next_date_no": "%s 기간",
+    "PREGAME": "시작되지 않음",
+    "next_batch_no": "라운드 %s",
+    "Q16": "32 강",
+    "Q4": "8 강",
+    "Q8": "16 강",
+    "quarter_finals": "1/4 결승",
+    "result": {
+     "0": "무효",
+     "1": "무효",
+     "2": "흐름",
+     "3": "패",
+     "4": "승",
+     "5": "하프 승",
+     "6": "하프 패"
+    },
+    "results_previous": "이전 경기의 결과",
+    "results_last_games": "최근 5경기 결과",
+    "runner_up": "준우승",
+    "SEMIFINAL": "준결승",
+    "semifinals": "준결승",
+    "show_more": "더보기",
+    "third_place": "3위",
+    "team": "팀",
+    "top_16": "16 라운드",
+    "top_32": "32 라운드",
+    "top_64": "64 라운드",
+    "win_tie_loss": "승/무승부/패배",
+    "vitality_performance": "활기찬 성능",
+    "balance": "균형",
+    "matching": "게임에서",
+    "show_all_markets": "모든 시장 보기",
+    "match_detail": {
+      "leaderboard": "순위 목록",
+      "historical_results": "과거 결과",
+      "bet": "내기"
+    }
+  },
+  "section_play": "%s회",
+  "pan_paly": "%s판",
+  "menu_itme_name": {
+    "results": "결과",
+    "inplay": "진행중인 게임",
+    "today": "오늘",
+    "early": "",
+    "outher_early": "다른 예정경기",
+    "champion": "챔피언",
+    "vr": "VR",
+    "lottery": "",
+    "esports": "E스포츠",
+    "cp_menu" :"복권",
+    "zr_menu" :"라이브 카지노"
+  },
+  "game": {
+    "start": "게임 시작"
+  },
+  "match": {
+    "group_score_list": "Group score list",
+    "most_appearances": "Most appearances",
+    "best_shooter": "Best shooter",
+    "best_record": "Best record",
+    "best_moment": "Best moment",
+    "final_victory": "Final victory",
+    "total_scored": "Total scored",
+    "matches_number": "Matches number",
+    "net_win": "GD",
+    "ranking_score": "Pts",
+    "bet_close": "Bet Closed"
+  },
+  "cerocup":{
+    "bet_closed":"15/07/2024 03:00 마감 시간"
+  }
+}
+

@@ -1,0 +1,51 @@
+{
+    "topic": [
+        "noHL8dkgxQ66rb9rW2phKnBwD1m5VAK23W8l+6DDi/AY+WOILcOrhGZ9EI+Ih3am"
+    ],
+    "img": [
+        "4dWmyPxV9+vsSqYXkBo4NjsYFiMbuQysCah8C6GllsbeEx+QpGN9PK+bOm9lsKyG"
+    ],
+    "jt_static": [
+        "6FbdCIHRX4gkt/R1Pb1/GhNx9Fp7th8HIOHBcX4W+dNaDKqR3GvdECeXRhscoqcd"
+    ],
+    "static": [],
+    "file_name": "test.json",
+    "chatroom": [
+        "Wgyqkdxr3RAnl0YbHKKnHQ=="
+    ],
+    "GAB": {
+        "api": [
+            "wpS6jQ6pOCFaf5gUn/skSDsYFiMbuQysCah8C6GllsbeEx+QpGN9PK+bOm9lsKyG",
+            "wpS6jQ6pOCFaf5gUn/skSDsYFiMbuQysCah8C6GllsbeEx+QpGN9PK+bOm9lsKyG"
+        ]
+    },
+    "type": "测试环境",
+    "testFileUpload": {
+        "opt": "Wgyqkdxr3RAnl0YbHKKnHQ=="
+    },
+    "update_time": "2023-12-18 16:17:02",
+    "live_domains": {
+        "pc": "Wgyqkdxr3RAnl0YbHKKnHQ==",
+        "h5": "Wgyqkdxr3RAnl0YbHKKnHQ==",
+        "end": "Wgyqkdxr3RAnl0YbHKKnHQ=="
+    },
+    "GAS": {
+        "api": [
+            "EPh262EChsXWphDmCpQNOzsYFiMbuQysCah8C6GllsbeEx+QpGN9PK+bOm9lsKyG"
+        ]
+    },
+    "api": [
+        "r9xOXBBZdEI5f+RyybW9JzsYFiMbuQysCah8C6GllsbeEx+QpGN9PK+bOm9lsKyG"
+    ],
+    "update_by": "ob",
+    "GAY": {
+        "api": [
+            "isfQZCiWuWsbDiWY34e1218gfnJhkhO+gGKfXx/tsjI="
+        ]
+    },
+    "GACOMMON": {
+        "api": [
+            "r9xOXBBZdEI5f+RyybW9JzsYFiMbuQysCah8C6GllsbeEx+QpGN9PK+bOm9lsKyG"
+        ]
+    }
+}

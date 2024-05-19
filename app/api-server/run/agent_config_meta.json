@@ -1,0 +1,369 @@
+{
+  "SERVER_API_DOMAIN": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.local.js",
+  "cluster": {
+    "listen": {
+      "port": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.local.js",
+      "hostname": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "keys": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+  "jwterr": {
+    "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "match": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js"
+  },
+  "middleware": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+      "ignoreJSON": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+      "type": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "mongoose": {
+    "client": {
+      "url": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.local.js",
+      "options": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.local.js",
+      "plugins": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.local.js"
+    },
+    "url": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-mongoose/config/config.default.js",
+    "options": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-mongoose/config/config.default.js",
+    "plugins": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-mongoose/config/config.default.js",
+    "loadModel": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-mongoose/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "appLogName": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "coreLogName": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "agentLogName": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "errorLogName": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "encoding": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "env": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "level": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+  },
+  "cors": {
+    "origin": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "allowMethods": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "fileSize": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "fileModeMatch": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "allowArrayField": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "whitelist": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "autoFields": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "key": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "httpOnly": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "encrypt": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "logValue": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js"
+  },
+  "jwt": {
+    "secret": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "match": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "expiresIn": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js"
+  },
+  "api_prefix": {
+    "backend_prefix": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "client_prefix": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js"
+  },
+  "upload_dir": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+  "static": {
+    "dir": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "prefix": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-static/config/config.default.js"
+  },
+  "bodyParser": {
+    "jsonLimit": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "formLimit": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+  },
+  "onerror": {
+    "all": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.default.js",
+    "errorPageUrl": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "open_delete_fn": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/config.local.js",
+  "helper": {
+    "shtml": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-view/config/config.default.js"
+  },
+  "validate": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-validate/config/config.default.js",
+  "routerGroup": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-router-group/config/config.default.js",
+  "env": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "name": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "version": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "description": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "private": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "doc-make": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "doc-server": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "doc": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "start": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "start1": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "start2": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "start3": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "start-test": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "start-prod": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "dev-egg": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "test": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "apidoc": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "dayjs": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "egg": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "egg-jwt": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "egg-router-group": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "json2xls": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "moment": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "mongoose-paginate": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "node-xlsx": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "pump": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "randomstring": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "url-parse": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "uuid": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "live-server": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "npm-run-all": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "sequelize-cli": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "url": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "license": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/config.default.js"
+}

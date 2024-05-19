@@ -1,0 +1,174 @@
+{
+  "$__": {
+    "old": {
+      "strictMode": true,
+      "selected": {},
+      "getters": {},
+      "_id": "6432b9944d787e7058f4ffaa",
+      "wasPopulated": false,
+      "activePaths": {
+        "paths": {
+          "root": "init",
+          "status": "init",
+          "_id": "init",
+          "key": "init",
+          "group": "init",
+          "project": "init",
+          "description": "init",
+          "mark": "init",
+          "night": "init",
+          "day": "init",
+          "createdAt": "init",
+          "updatedAt": "init",
+          "__v": "init"
+        },
+        "states": {
+          "ignore": {},
+          "default": {},
+          "init": {
+            "_id": true,
+            "root": true,
+            "status": true,
+            "key": true,
+            "group": true,
+            "project": true,
+            "description": true,
+            "mark": true,
+            "night": true,
+            "day": true,
+            "createdAt": true,
+            "updatedAt": true,
+            "__v": true
+          },
+          "modify": {},
+          "require": {}
+        },
+        "stateNames": [
+          "require",
+          "modify",
+          "init",
+          "default",
+          "ignore"
+        ]
+      },
+      "pathsToScopes": {},
+      "cachedRequired": {},
+      "session": null,
+      "$setCalled": {},
+      "emitter": {
+        "_events": {},
+        "_eventsCount": 0,
+        "_maxListeners": 0
+      },
+      "$options": {
+        "skipId": true,
+        "isNew": false,
+        "willInit": true,
+        "defaults": true
+      }
+    },
+    "new": {
+      "strictMode": true,
+      "selected": {},
+      "getters": {},
+      "_id": "6432b9944d787e7058f4ffaa",
+      "wasPopulated": false,
+      "activePaths": {
+        "paths": {
+          "root": "init",
+          "status": "init",
+          "_id": "init",
+          "key": "init",
+          "group": "init",
+          "project": "init",
+          "description": "init",
+          "mark": "init",
+          "night": "init",
+          "day": "init",
+          "createdAt": "init",
+          "updatedAt": "init",
+          "__v": "init"
+        },
+        "states": {
+          "ignore": {},
+          "default": {},
+          "init": {
+            "_id": true,
+            "root": true,
+            "status": true,
+            "key": true,
+            "group": true,
+            "project": true,
+            "description": true,
+            "mark": true,
+            "night": true,
+            "day": true,
+            "createdAt": true,
+            "updatedAt": true,
+            "__v": true
+          },
+          "modify": {},
+          "require": {}
+        },
+        "stateNames": [
+          "require",
+          "modify",
+          "init",
+          "default",
+          "ignore"
+        ]
+      },
+      "pathsToScopes": {},
+      "cachedRequired": {},
+      "session": null,
+      "$setCalled": {},
+      "emitter": {
+        "_events": {},
+        "_eventsCount": 0,
+        "_maxListeners": 0
+      },
+      "$options": {
+        "skipId": true,
+        "isNew": false,
+        "willInit": true,
+        "defaults": true
+      }
+    }
+  },
+  "$locals": {
+    "old": {},
+    "new": {}
+  },
+  "_doc": {
+    "old": {
+      "root": -1,
+      "status": 1,
+      "_id": "6432b9944d787e7058f4ffaa",
+      "key": "public-bg-image6",
+      "group": "background",
+      "project": 2,
+      "description": "113333",
+      "mark": "1314",
+      "night": "url(/image/yabo/theme02/img/png/refresh_02.png)",
+      "day": "url(/image/yabo/theme01/img/png/refresh_01.png)",
+      "createdAt": "2023-04-09T13:11:48.240Z",
+      "updatedAt": "2023-04-09T13:26:10.795Z",
+      "__v": 0
+    },
+    "new": {
+      "root": -1,
+      "status": 1,
+      "_id": "6432b9944d787e7058f4ffaa",
+      "key": "public-bg-image6",
+      "group": "background",
+      "project": 2,
+      "description": "113333sxsxsx",
+      "mark": "1314",
+      "night": "url(/image/yabo/theme02/img/png/refresh_02.png)",
+      "day": "url(/image/yabo/theme01/img/png/refresh_01.png)",
+      "createdAt": "2023-04-09T13:11:48.240Z",
+      "updatedAt": "2023-04-09T13:27:10.419Z",
+      "__v": 0
+    }
+  }
+}

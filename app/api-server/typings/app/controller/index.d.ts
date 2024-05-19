@@ -1,0 +1,128 @@
+// This file is created by egg-ts-helper@1.35.1
+// Do not modify this file!!!!!!!!!
+/* eslint-disable */
+
+import 'egg';
+import ExportAdmin = require('../../../app/controller/admin');
+import ExportAdminRecord = require('../../../app/controller/adminRecord');
+import ExportAnimBaseManage = require('../../../app/controller/animBaseManage');
+import ExportAnimTeamManage = require('../../../app/controller/animTeamManage');
+import ExportAnimTemplate = require('../../../app/controller/animTemplate');
+import ExportAppAssets = require('../../../app/controller/appAssets');
+import ExportAppLogger = require('../../../app/controller/appLogger');
+import ExportAppSdkVersion = require('../../../app/controller/appSdkVersion');
+import ExportArticle = require('../../../app/controller/article');
+import ExportAssetsKey = require('../../../app/controller/assetsKey');
+import ExportBSdkDocpool = require('../../../app/controller/b_sdk_docpool');
+import ExportBSdkMddocpool = require('../../../app/controller/b_sdk_mddocpool');
+import ExportBSdkMenu = require('../../../app/controller/b_sdk_menu');
+import ExportClient = require('../../../app/controller/client');
+import ExportClientLanguage = require('../../../app/controller/clientLanguage');
+import ExportClientMenu = require('../../../app/controller/clientMenu');
+import ExportClientRole = require('../../../app/controller/clientRole');
+import ExportCodeTag = require('../../../app/controller/codeTag');
+import ExportCompetitionManage = require('../../../app/controller/competitionManage');
+import ExportCompetitionSlice = require('../../../app/controller/competitionSlice');
+import ExportComponentDoc = require('../../../app/controller/componentDoc');
+import ExportComponentKey = require('../../../app/controller/componentKey');
+import ExportConfigVersion = require('../../../app/controller/configVersion');
+import ExportCssKey = require('../../../app/controller/cssKey');
+import ExportDetail = require('../../../app/controller/detail');
+import ExportDocpool = require('../../../app/controller/docpool');
+import ExportFaq = require('../../../app/controller/faq');
+import ExportFileUpload = require('../../../app/controller/fileUpload');
+import ExportFileUploadBySpliteChunk = require('../../../app/controller/fileUploadBySpliteChunk');
+import ExportI18nKey = require('../../../app/controller/i18nKey');
+import ExportImgDescription = require('../../../app/controller/imgDescription');
+import ExportJsKey = require('../../../app/controller/jsKey');
+import ExportKeyChangeRecord = require('../../../app/controller/keyChangeRecord');
+import ExportKeyConfigRecord = require('../../../app/controller/keyConfigRecord');
+import ExportKeyGroup = require('../../../app/controller/keyGroup');
+import ExportLanguage = require('../../../app/controller/language');
+import ExportLayoutTemplate = require('../../../app/controller/layoutTemplate');
+import ExportMdHistory = require('../../../app/controller/mdHistory');
+import ExportMddocpool = require('../../../app/controller/mddocpool');
+import ExportMenu = require('../../../app/controller/menu');
+import ExportMiddlewareInterface = require('../../../app/controller/middlewareInterface');
+import ExportModularSettingCache = require('../../../app/controller/modularSettingCache');
+import ExportPackingConfig = require('../../../app/controller/packingConfig');
+import ExportPackingProcess = require('../../../app/controller/packingProcess');
+import ExportPackingRecord = require('../../../app/controller/packingRecord');
+import ExportQuestionTopic = require('../../../app/controller/questionTopic');
+import ExportRole = require('../../../app/controller/role');
+import ExportScanMatch = require('../../../app/controller/scanMatch');
+import ExportThemeTemplate = require('../../../app/controller/themeTemplate');
+import ExportUpdateRecord = require('../../../app/controller/updateRecord');
+import ExportUser = require('../../../app/controller/user');
+import ExportVersionGroup = require('../../../app/controller/versionGroup');
+import ExportMatchMaterialAthleteManage = require('../../../app/controller/matchMaterial/athleteManage');
+import ExportMatchMaterialHistoricalVideos = require('../../../app/controller/matchMaterial/historical_videos');
+import ExportMatchMaterialMatchOyh = require('../../../app/controller/matchMaterial/match_oyh');
+import ExportMatchMaterialMatchOzb = require('../../../app/controller/matchMaterial/match_ozb');
+import ExportMatchMaterialUploadFile = require('../../../app/controller/matchMaterial/uploadFile');
+import ExportMatchMaterialVenueManage = require('../../../app/controller/matchMaterial/venueManage');
+
+declare module 'egg' {
+  interface IController {
+    admin: ExportAdmin;
+    adminRecord: ExportAdminRecord;
+    animBaseManage: ExportAnimBaseManage;
+    animTeamManage: ExportAnimTeamManage;
+    animTemplate: ExportAnimTemplate;
+    appAssets: ExportAppAssets;
+    appLogger: ExportAppLogger;
+    appSdkVersion: ExportAppSdkVersion;
+    article: ExportArticle;
+    assetsKey: ExportAssetsKey;
+    bSdkDocpool: ExportBSdkDocpool;
+    bSdkMddocpool: ExportBSdkMddocpool;
+    bSdkMenu: ExportBSdkMenu;
+    client: ExportClient;
+    clientLanguage: ExportClientLanguage;
+    clientMenu: ExportClientMenu;
+    clientRole: ExportClientRole;
+    codeTag: ExportCodeTag;
+    competitionManage: ExportCompetitionManage;
+    competitionSlice: ExportCompetitionSlice;
+    componentDoc: ExportComponentDoc;
+    componentKey: ExportComponentKey;
+    configVersion: ExportConfigVersion;
+    cssKey: ExportCssKey;
+    detail: ExportDetail;
+    docpool: ExportDocpool;
+    faq: ExportFaq;
+    fileUpload: ExportFileUpload;
+    fileUploadBySpliteChunk: ExportFileUploadBySpliteChunk;
+    i18nKey: ExportI18nKey;
+    imgDescription: ExportImgDescription;
+    jsKey: ExportJsKey;
+    keyChangeRecord: ExportKeyChangeRecord;
+    keyConfigRecord: ExportKeyConfigRecord;
+    keyGroup: ExportKeyGroup;
+    language: ExportLanguage;
+    layoutTemplate: ExportLayoutTemplate;
+    mdHistory: ExportMdHistory;
+    mddocpool: ExportMddocpool;
+    menu: ExportMenu;
+    middlewareInterface: ExportMiddlewareInterface;
+    modularSettingCache: ExportModularSettingCache;
+    packingConfig: ExportPackingConfig;
+    packingProcess: ExportPackingProcess;
+    packingRecord: ExportPackingRecord;
+    questionTopic: ExportQuestionTopic;
+    role: ExportRole;
+    scanMatch: ExportScanMatch;
+    themeTemplate: ExportThemeTemplate;
+    updateRecord: ExportUpdateRecord;
+    user: ExportUser;
+    versionGroup: ExportVersionGroup;
+    matchMaterial: {
+      athleteManage: ExportMatchMaterialAthleteManage;
+      historicalVideos: ExportMatchMaterialHistoricalVideos;
+      matchOyh: ExportMatchMaterialMatchOyh;
+      matchOzb: ExportMatchMaterialMatchOzb;
+      uploadFile: ExportMatchMaterialUploadFile;
+      venueManage: ExportMatchMaterialVenueManage;
+    }
+  }
+}

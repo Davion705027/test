@@ -1,0 +1,772 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "logValue": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "type": "ctoken",
+        "ignoreJSON": true,
+        "useSession": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf",
+        "supportedRequests": [
+          {
+            "path": {},
+            "methods": [
+              "POST",
+              "PATCH",
+              "DELETE",
+              "PUT",
+              "CONNECT"
+            ]
+          }
+        ],
+        "refererWhiteList": []
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "ipExceptionList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-onerror/lib/onerror_page.mustache",
+      "all": "<Function all>"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-session/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-jsonp/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-onerror/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-i18n/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-watcher/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-schedule/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-development/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-logrotator/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-static/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-view/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-mongoose/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-validate/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-cors/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-jwt/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-router-group/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/locales",
+        "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 524288000,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": [
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".gif",
+        ".bmp",
+        ".wbmp",
+        ".webp",
+        ".svg",
+        ".json",
+        ".zip",
+        ".mp3",
+        ".mp4",
+        ".avi",
+        ".md",
+        ".drawio",
+        ".apk",
+        ".ipa",
+        ".svga",
+        ".txt"
+      ],
+      "allowArrayField": true,
+      "tmpdir": "/var/folders/g5/83p9wy7d0yg80xt3c3fs1st80000gn/T/egg-multipart-tmp/client-api-doc-server-new",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *",
+        "disable": false
+      },
+      "fileModeMatch": "/(\\/file\\/upload)|(\\/appAssets\\/create)|(\\/matchMaterial\\/upload)/"
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false,
+      "overrideIgnore": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "static/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/app/view",
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {}
+    },
+    "mongoose": {
+      "url": "",
+      "options": {},
+      "plugins": [],
+      "loadModel": true,
+      "app": true,
+      "agent": false,
+      "client": {
+        "url": "mongodb://localhost:27017/api_doc_new",
+        "options": {
+          "useNewUrlParser": true
+        },
+        "plugins": []
+      }
+    },
+    "validate": {},
+    "cors": {
+      "origin": "*",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
+    },
+    "jwt": {
+      "secret": "<String len: 12>",
+      "enable": true,
+      "match": "/^((?!(login|public|yunwei|openapi)).)*$/",
+      "expiresIn": "12h"
+    },
+    "routerGroup": {},
+    "env": "local",
+    "name": "client-api-doc-server-new",
+    "keys": "<String len: 43>",
+    "cookies": {},
+    "proxy": false,
+    "maxIpsCount": 0,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "client-api-doc-server-new",
+      "version": "1.0.0",
+      "description": "",
+      "private": true,
+      "egg": {
+        "declarations": true
+      },
+      "scripts": {
+        "doc-make": "apidoc -i app/router/ -o doc/",
+        "doc-server": "node ./api-doc.js",
+        "doc": "run-s doc-make doc-server ",
+        "start": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new",
+        "start1": "egg-scripts start ",
+        "start2": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new",
+        "start3": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new",
+        "start-test": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new --env=test --ignore-stderr",
+        "start-prod": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new --env=prod --ignore-stderr",
+        "stop": "egg-scripts stop --title=egg-server-client-api-doc-server-new",
+        "dev": "egg-bin dev  ",
+        "dev-egg": "egg-bin dev",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod"
+      },
+      "dependencies": {
+        "apidoc": "^0.51.0",
+        "dayjs": "^1.11.0",
+        "egg": "^3.17.5",
+        "egg-cors": "^2.2.3",
+        "egg-jwt": "^2.0.0",
+        "egg-mongoose": "^4.0.1",
+        "egg-router-group": "^1.1.0",
+        "egg-scripts": "^2.11.0",
+        "egg-sequelize": "^6.0.0",
+        "egg-validate": "^2.0.2",
+        "json2xls": "^0.1.2",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1",
+        "mongoose-paginate": "^5.0.3",
+        "mysql2": "^2.3.3",
+        "node-xlsx": "^0.4.0",
+        "pump": "^3.0.0",
+        "randomstring": "^1.2.2",
+        "url-parse": "^1.5.10",
+        "uuid": "^8.3.2"
+      },
+      "devDependencies": {
+        "autod": "^2.4.2",
+        "autod-egg": "^1.1.0",
+        "egg-bin": "^5",
+        "egg-ci": "^2",
+        "egg-mock": "^5",
+        "eslint": "^8",
+        "eslint-config-egg": "^12",
+        "live-server": "^1.1.0",
+        "npm-run-all": "^4.1.5",
+        "sequelize-cli": "^6.4.1"
+      },
+      "engines": {
+        "node": ">=16.0.0"
+      },
+      "ci": {
+        "version": "16"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "author": "",
+      "license": ""
+    },
+    "baseDir": "/Users/admin/Desktop/code/full-stack/client-api-doc-server",
+    "HOME": "/Users/admin",
+    "rundir": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>",
+      "cacheControl": "public, max-age=2592000"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "20mb",
+      "jsonLimit": "20mb",
+      "textLimit": "1mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "./rizhi-jilu/",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "client-api-doc-server-new-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "enablePerformanceTimer": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "cors",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "multipart",
+      "eggLoaderTrace"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 18101,
+        "hostname": "0.0.0.0"
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "SERVER_API_DOMAIN": "http://127.0.0.1:18101",
+    "jwterr": {
+      "enable": true,
+      "match": "/^((?!login).)*$/"
+    },
+    "middleware": [
+      "jwt",
+      "errorHandler",
+      "jwterr",
+      "cost",
+      "auth",
+      "adminRecord"
+    ],
+    "api_prefix": {
+      "backend_prefix": "/backend",
+      "client_prefix": "/client"
+    },
+    "upload_dir": "static/public/upload/",
+    "open_delete_fn": false,
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 524288000,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-onerror",
+      "version": "2.2.0"
+    },
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-session",
+      "version": "3.3.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-watcher",
+      "version": "3.1.1",
+      "dependents": [
+        "development"
+      ]
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-multipart",
+      "version": "2.13.1"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-security",
+      "version": "2.11.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-development",
+      "version": "2.7.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-logrotator",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-schedule",
+      "version": "3.7.0",
+      "dependents": [
+        "logrotator"
+      ]
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-static",
+      "version": "2.3.1"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-view",
+      "version": "2.1.4"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-mongoose",
+      "version": "3.3.1"
+    },
+    "validate": {
+      "enable": true,
+      "package": "egg-validate",
+      "name": "validate",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-validate",
+      "version": "2.0.2"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-cors",
+      "version": "2.2.3"
+    },
+    "jwt": {
+      "enable": true,
+      "package": "egg-jwt",
+      "name": "jwt",
+      "dependencies": [],
+      "optionalDependencies": [
+        "onerror"
+      ],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-jwt",
+      "version": "3.1.7"
+    },
+    "routerGroup": {
+      "enable": true,
+      "package": "egg-router-group",
+      "name": "routerGroup",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config/plugin.js",
+      "path": "/Users/admin/Desktop/code/full-stack/client-api-doc-server/node_modules/egg-router-group",
+      "version": "1.1.0"
+    }
+  },
+  "appInfo": {
+    "name": "client-api-doc-server-new",
+    "baseDir": "/Users/admin/Desktop/code/full-stack/client-api-doc-server",
+    "env": "local",
+    "scope": "",
+    "HOME": "/Users/admin",
+    "pkg": {
+      "name": "client-api-doc-server-new",
+      "version": "1.0.0",
+      "description": "",
+      "private": true,
+      "egg": {
+        "declarations": true
+      },
+      "scripts": {
+        "doc-make": "apidoc -i app/router/ -o doc/",
+        "doc-server": "node ./api-doc.js",
+        "doc": "run-s doc-make doc-server ",
+        "start": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new",
+        "start1": "egg-scripts start ",
+        "start2": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new",
+        "start3": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new",
+        "start-test": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new --env=test --ignore-stderr",
+        "start-prod": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new --env=prod --ignore-stderr",
+        "stop": "egg-scripts stop --title=egg-server-client-api-doc-server-new",
+        "dev": "egg-bin dev  ",
+        "dev-egg": "egg-bin dev",
+        "debug": "egg-bin debug",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod"
+      },
+      "dependencies": {
+        "apidoc": "^0.51.0",
+        "dayjs": "^1.11.0",
+        "egg": "^3.17.5",
+        "egg-cors": "^2.2.3",
+        "egg-jwt": "^2.0.0",
+        "egg-mongoose": "^4.0.1",
+        "egg-router-group": "^1.1.0",
+        "egg-scripts": "^2.11.0",
+        "egg-sequelize": "^6.0.0",
+        "egg-validate": "^2.0.2",
+        "json2xls": "^0.1.2",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.1",
+        "mongoose-paginate": "^5.0.3",
+        "mysql2": "^2.3.3",
+        "node-xlsx": "^0.4.0",
+        "pump": "^3.0.0",
+        "randomstring": "^1.2.2",
+        "url-parse": "^1.5.10",
+        "uuid": "^8.3.2"
+      },
+      "devDependencies": {
+        "autod": "^2.4.2",
+        "autod-egg": "^1.1.0",
+        "egg-bin": "^5",
+        "egg-ci": "^2",
+        "egg-mock": "^5",
+        "eslint": "^8",
+        "eslint-config-egg": "^12",
+        "live-server": "^1.1.0",
+        "npm-run-all": "^4.1.5",
+        "sequelize-cli": "^6.4.1"
+      },
+      "engines": {
+        "node": ">=16.0.0"
+      },
+      "ci": {
+        "version": "16"
+      },
+      "repository": {
+        "type": "git",
+        "url": ""
+      },
+      "author": "",
+      "license": ""
+    },
+    "root": "/Users/admin/Desktop/code/full-stack/client-api-doc-server"
+  }
+}

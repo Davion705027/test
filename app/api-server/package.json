@@ -1,0 +1,76 @@
+{
+  "name": "client-api-doc-server-new",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "scripts": {
+    "doc-make": "apidoc -i app/router/ -o doc/",
+    "doc-server": "node ./api-doc.js",
+    "doc": "run-s doc-make doc-server ",
+    "start": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new",
+    "start1": "egg-scripts start ",
+    "start2": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new",
+    "start3": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new",
+    "start-test": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new --env=test --ignore-stderr",
+    "start-prod": "egg-scripts start --daemon --title=egg-server-client-api-doc-server-new --env=prod --ignore-stderr",
+    "stop": "egg-scripts stop --title=egg-server-client-api-doc-server-new",
+    "dev": "egg-bin dev  ",
+    "dev-egg": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "dependencies": {
+    "apidoc": "^0.51.0",
+    "dayjs": "^1.11.0",
+    "egg": "^3.17.5",
+    "egg-cors": "^2.2.3",
+    "egg-jwt": "^2.0.0",
+    "egg-mongoose": "^4.0.1",
+    "egg-router-group": "^1.1.0",
+    "egg-scripts": "^2.11.0",
+    "egg-sequelize": "^6.0.0",
+    "egg-validate": "^2.0.2",
+    "json2xls": "^0.1.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose-paginate": "^5.0.3",
+    "mysql2": "^2.3.3",
+    "node-xlsx": "^0.4.0",
+    "pump": "^3.0.0",
+    "randomstring": "^1.2.2",
+    "url-parse": "^1.5.10",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "autod": "^2.4.2",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^5",
+    "egg-ci": "^2",
+    "egg-mock": "^5",
+    "eslint": "^8",
+    "eslint-config-egg": "^12",
+    "live-server": "^1.1.0",
+    "npm-run-all": "^4.1.5",
+    "sequelize-cli": "^6.4.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "ci": {
+    "version": "16"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": ""
+}

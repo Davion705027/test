@@ -1,0 +1,42 @@
+/*
+ * @Date           : 2022-04-10 17:28:50
+ * @LastEditTime   : 2022-04-11 18:04:01
+ * @Description    :  
+ */
+
+客户端页面：
+加白：直接对外，开放访问所有人都能访问  无限制
+文件目录：/opt/project/client-api-doc-web
+特征：纯前端服务
+域名建议： http://api-doc-2.sportxxxw1box.com
+这个域名临时使用后期项目配置好之后 会  使用 http://api-doc.sportxxxw1box.com 替换
+
+
+
+后台管理页面：
+加白：公司办公室出口
+文件目录：/opt/project/client-api-doc-admin
+域名建议： http://api-doc-admin.sportxxxw1box.com
+特征：纯前端服务
+
+
+服务端：
+加白：直接对外，开放访问所有人都能访问  无限制
+文件目录：/opt/project/client-api-doc-server
+域名建议：http://api-doc-server.sportxxxw1box.com
+安装依赖：npm install
+启动命令: npm run start-prod
+
+
+
+ 
+
+admin
+VNJ0t8ej9ZRHeUpt
+
+内网连接:
+外网连接:
+127.0.0.1:27017
+
+admin
+VNJ0t8ej9ZRHeUpt

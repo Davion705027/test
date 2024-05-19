@@ -1,0 +1,11 @@
+2023-11-06 00:00:01,068 INFO 40739 [egg-logrotator] agent logger reload: got log-reload message
+2023-11-07 12:34:45,538 INFO 27615 [egg:logger] init all loggers with options: {"dir":"./rizhi-jilu/","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"client-api-doc-server-new-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2023-11-07 12:34:45,542 INFO 27615 [egg:core] dump config after load, 3ms
+2023-11-07 12:34:45,559 INFO 27615 [egg-watcher] Start watching: ["/Users/admin/Desktop/code/full-stack/client-api-doc-server/app","/Users/admin/Desktop/code/full-stack/client-api-doc-server/config","/Users/admin/Desktop/code/full-stack/client-api-doc-server/mocks","/Users/admin/Desktop/code/full-stack/client-api-doc-server/mocks_proxy","/Users/admin/Desktop/code/full-stack/client-api-doc-server/app.js"]
+2023-11-07 12:34:45,560 INFO 27615 [egg-watcher] Start watching: "/Users/admin/Desktop/code/full-stack/client-api-doc-server/app"
+2023-11-07 12:34:45,560 INFO 27615 [egg-watcher] Start watching: "/Users/admin/Desktop/code/full-stack/client-api-doc-server/config"
+2023-11-07 12:34:45,560 INFO 27615 [egg-watcher] Start watching: "/Users/admin/Desktop/code/full-stack/client-api-doc-server/mocks"
+2023-11-07 12:34:45,560 INFO 27615 [egg-watcher] Start watching: "/Users/admin/Desktop/code/full-stack/client-api-doc-server/mocks_proxy"
+2023-11-07 12:34:45,560 INFO 27615 [egg-watcher] Start watching: "/Users/admin/Desktop/code/full-stack/client-api-doc-server/app.js"
+2023-11-07 12:34:45,560 INFO 27615 [egg-watcher:agent] watcher start success
+2023-11-07 12:34:45,578 INFO 27615 [egg:core] dump config after ready, 2ms

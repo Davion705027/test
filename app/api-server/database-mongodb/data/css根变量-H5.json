@@ -1,0 +1,4072 @@
+[
+  {
+    "key": "backdrop-filter-bg-1",
+    "group": "backdrop_filter",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "blur(5px)",
+    "day": "none"
+  },
+  {
+    "key": "border-color-1",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#393939",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "border-color-2",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#757679",
+    "day": "#e0e2ea"
+  },
+  {
+    "key": "border-color-3",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ffb001"
+  },
+  {
+    "key": "border-color-4",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#e7e7e7",
+    "day": "#000000"
+  },
+  {
+    "key": "border-color-5",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#414655",
+    "day": "#BFCEDD"
+  },
+  {
+    "key": "border-color-6",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#393939",
+    "day": "#e4e4e4"
+  },
+  {
+    "key": "border-color-7",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#393939",
+    "day": "#eeeeee"
+  },
+  {
+    "key": "border-color-8",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#191919",
+    "day": "#edeef1"
+  },
+  {
+    "key": "border-color-9",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#414141",
+    "day": "#f2f3f7"
+  },
+  {
+    "key": "border-color-10",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#1e1e1e",
+    "day": "#f5f6f9"
+  },
+  {
+    "key": "border-color-11",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.03)",
+    "day": "#f5f7fa"
+  },
+  {
+    "key": "border-color-12",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#1f1f1f",
+    "day": "#f5f5f9"
+  },
+  {
+    "key": "border-color-13",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.2)",
+    "day": "#e4ebf1"
+  },
+  {
+    "key": "border-color-14",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "transparent",
+    "day": "#f6f9fc"
+  },
+  {
+    "key": "border-color-15",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "transparent",
+    "day": "#edeef9"
+  },
+  {
+    "key": "border-color-16",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#2F2F2F",
+    "day": "rgba(0,0,0,0.15)"
+  },
+  {
+    "key": "border-color-17",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#2F2F2F",
+    "day": "#CCD0D6"
+  },
+  {
+    "key": "border-color-18",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff7000"
+  },
+  {
+    "key": "border-color-19",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#3C3C3C",
+    "day": "#ffffff"
+  },
+  {
+    "key": "border-color-20",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#696969",
+    "day": "#d0d0d0"
+  },
+  {
+    "key": "border-color-21",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a3a3a3",
+    "day": "#414655"
+  },
+  {
+    "key": "border-color-22",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#2a2a2a",
+    "day": "#dfe0e8"
+  },
+  {
+    "key": "border-color-23",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#2a2a2a",
+    "day": "#edeef1"
+  },
+  {
+    "key": "border-color-24",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#191919",
+    "day": "#cfcfcf"
+  },
+  {
+    "key": "border-color-25",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#414141",
+    "day": "#e0e2ea"
+  },
+  {
+    "key": "border-color-26",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#1e1e1e",
+    "day": "#f2f3f7"
+  },
+  {
+    "key": "border-color-27",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.03)",
+    "day": "#edeef1"
+  },
+  {
+    "key": "border-color-28",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.3)",
+    "day": "#e1e1e1"
+  },
+  {
+    "key": "border-color-29",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.1)",
+    "day": "#dedede"
+  },
+  {
+    "key": "border-color-30",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "rgba(254, 151, 31, 0.4)"
+  },
+  {
+    "key": "border-color-31",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255,176,1,0.44)",
+    "day": "rgba(255,145,36,0.36)"
+  },
+  {
+    "key": "border-color-32",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "transparent"
+  },
+  {
+    "key": "border-color-33",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "hsla(0,0%,100%,0.1)",
+    "day": "#e0e0e0"
+  },
+  {
+    "key": "border-color-34",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#242424",
+    "day": "#f5f7fa"
+  },
+  {
+    "key": "border-color-35",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#2f2f2f",
+    "day": "#edeef1"
+  },
+  {
+    "key": "border-color-36",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "transparent",
+    "day": "#cfcfcf"
+  },
+  {
+    "key": "border-color-37",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#191919",
+    "day": "#ffffff"
+  },
+  {
+    "key": "border-color-38",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "#ffffff"
+  },
+  {
+    "key": "border-color-39",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#242424",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "border-color-42",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#333333",
+    "day": "#d1d1d1"
+  },
+  {
+    "key": "border-color-43",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ffd9bc"
+  },
+  {
+    "key": "border-color-44",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "hsla(0,0%,100%,0.2)",
+    "day": "rgba(0, 0, 0, 0.2)"
+  },
+  {
+    "key": "border-color-45",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#5e5e5e",
+    "day": "#dedede"
+  },
+  {
+    "key": "border-color-46",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "border-color-47",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.3)",
+    "day": "transparent"
+  },
+  {
+    "key": "border-color-48",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff9124"
+  },
+  {
+    "key": "border-color-49",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "transparent",
+    "day": "#f5f7fa"
+  },
+  {
+    "key": "border-color-50",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#1b1b1b",
+    "day": "#f2f3f7"
+  },
+  {
+    "key": "border-color-51",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "#edeef1"
+  },
+  {
+    "key": "border-color-52",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "transparent",
+    "day": "#e4ebf1"
+  },
+  {
+    "key": "border-color-53",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "hsla(0,0%,100%,0.1)",
+    "day": "#e0e0e0"
+  },
+  {
+    "key": "border-color-54",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#414655",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "border-color-55",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ffb001"
+  },
+  {
+    "key": "border-color-56",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#333742",
+    "day": "#F7F7F7"
+  },
+  {
+    "key": "border-color-57",
+    "group": "border_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255,176,1,1)",
+    "day": "rgba(255,176,1,1)"
+  },
+  {
+    "key": "box-shadow-color-1",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "unset",
+    "day": "0 0.04rem 0.02rem -0.02rem #d2d6dc"
+  },
+  {
+    "key": "box-shadow-color-2",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "0 0 10px 0 rgba(0, 0, 0, 0.15)",
+    "day": "0 0 10px 0 rgba(0, 0, 0, 0.15)"
+  },
+  {
+    "key": "box-shadow-color-3",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "0 4px 0.04rem 0 rgba(0, 0, 0, 0.07)",
+    "day": "0 4px 0.04rem 0 rgba(0, 0, 0, 0.07)"
+  },
+  {
+    "key": "box-shadow-color-4",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "0 0.02rem 0.05rem 0 rgba(0, 0, 0, 0.04)",
+    "day": "0 0.02rem 0.05rem 0 rgba(0, 0, 0, 0.04)"
+  },
+  {
+    "key": "box-shadow-color-5",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "0 0 0.1rem 0 rgba(0, 0, 0, 0.2)",
+    "day": "0 0 0.1rem 0 rgba(0, 0, 0, 0.2)"
+  },
+  {
+    "key": "box-shadow-color-6",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "0 4px 5px 0 rgba(0, 0, 0, 0.08)",
+    "day": "0 4px 5px 0 rgba(0, 0, 0, 0.08)"
+  },
+  {
+    "key": "box-shadow-color-7",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "0 2px 4px 0 rgba(0, 0, 0, 0.1)",
+    "day": "0 2px 4px 0 rgba(0, 0, 0, 0.1)"
+  },
+  {
+    "key": "box-shadow-color-8",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "0 0 0.08rem 0 rgba(0, 0, 0, 0.1)",
+    "day": "0 0 0.08rem 0 rgba(0, 0, 0, 0.1)"
+  },
+  {
+    "key": "box-shadow-color-9",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "unset",
+    "day": "0 2px 4px 0 rgba(153, 153, 153, 0.06)"
+  },
+  {
+    "key": "box-shadow-color-10",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "unset",
+    "day": "0 0 6px 0 rgba(0, 0, 0, 0.1)"
+  },
+  {
+    "key": "box-shadow-color-11",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "unset",
+    "day": "0 1px 2px #f5f5f5 inset"
+  },
+  {
+    "key": "box-shadow-color-12",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "unset",
+    "day": "0 2px 6px 0 rgba(0, 0, 0, 0.05)"
+  },
+  {
+    "key": "box-shadow-color-13",
+    "group": "box_shadow",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "-0.05rem 0 0.1rem -0.01rem rgba(0, 0, 0, 0.08)",
+    "day": "-0.05rem 0 0.1rem -0.01rem rgba(0, 0, 0, 0.08)"
+  },
+  {
+    "key": "fs-color-1",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#333333"
+  },
+  {
+    "key": "fs-color-2",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#707070",
+    "day": "#b6b9c6"
+  },
+  {
+    "key": "fs-color-3",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-4",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#858687",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-5",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#333333"
+  },
+  {
+    "key": "fs-color-6",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff9124"
+  },
+  {
+    "key": "fs-color-7",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a0a0a0",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-8",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#707070",
+    "day": "#99a3b1"
+  },
+  {
+    "key": "fs-color-9",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#999999",
+    "day": "#6b737d"
+  },
+  {
+    "key": "fs-color-10",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a0a0a0",
+    "day": "#ffffff"
+  },
+  {
+    "key": "fs-color-11",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#213b5b"
+  },
+  {
+    "key": "fs-color-12",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-13",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#707070",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-14",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#e7e7e7",
+    "day": "#000000"
+  },
+  {
+    "key": "fs-color-15",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#bcbcbc",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-16",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "rgba(0, 0, 0, 0.25)"
+  },
+  {
+    "key": "fs-color-17",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#707070",
+    "day": "#d1d1d1"
+  },
+  {
+    "key": "fs-color-18",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#596076"
+  },
+  {
+    "key": "fs-color-19",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#595959",
+    "day": "#c7c7c9"
+  },
+  {
+    "key": "fs-color-20",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#B8B8B8",
+    "day": "#2D2D2D"
+  },
+  {
+    "key": "fs-color-21",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#FF7000"
+  },
+  {
+    "key": "fs-color-22",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#3C3C3C",
+    "day": "#D8D8D8"
+  },
+  {
+    "key": "fs-color-23",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a0a0a0",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-24",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffffff",
+    "day": "#4d525d"
+  },
+  {
+    "key": "fs-color-25",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-26",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#414655",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-27",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#bbbbbc",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-28",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#fa6400"
+  },
+  {
+    "key": "fs-color-29",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#888888",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-30",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#888888",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-31",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ea5a5a",
+    "day": "#7a0f25"
+  },
+  {
+    "key": "fs-color-32",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#666666"
+  },
+  {
+    "key": "fs-color-33",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#707070",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-34",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-35",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#e7e7e7",
+    "day": "#000000"
+  },
+  {
+    "key": "fs-color-36",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ffffff"
+  },
+  {
+    "key": "fs-color-37",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#e0e0e0",
+    "day": "#ffb001"
+  },
+  {
+    "key": "fs-color-38",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-39",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a0a0a0",
+    "day": "#000000"
+  },
+  {
+    "key": "fs-color-40",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#e7e7e7",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-41",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#e7e7e7",
+    "day": "#000000"
+  },
+  {
+    "key": "fs-color-42",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#e7e7e7",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-43",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#f6f6f6",
+    "day": "#ffffff"
+  },
+  {
+    "key": "fs-color-44",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#A0A0A0",
+    "day": "#888888"
+  },
+  {
+    "key": "fs-color-45",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a0a0a0",
+    "day": "#888888"
+  },
+  {
+    "key": "fs-color-46",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#e7e7e7",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-47",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "hsla(0,0%,60%,0.7)",
+    "day": "rgba(153, 153, 153, 0.7)"
+  },
+  {
+    "key": "fs-color-48",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#888888",
+    "day": "#000000"
+  },
+  {
+    "key": "fs-color-49",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#888888",
+    "day": "#5A6074"
+  },
+  {
+    "key": "fs-color-50",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ffb001"
+  },
+  {
+    "key": "fs-color-51",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ff9124",
+    "day": "#ff9124"
+  },
+  {
+    "key": "fs-color-52",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ff7373",
+    "day": "#ffffff"
+  },
+  {
+    "key": "fs-color-53",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#131313",
+    "day": "#ffffff"
+  },
+  {
+    "key": "fs-color-54",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#e7e7e7",
+    "day": "#ffffff"
+  },
+  {
+    "key": "fs-color-55",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#fff",
+    "day": "#333"
+  },
+  {
+    "key": "fs-color-56",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#D2B79C",
+    "day": "#D2B79C"
+  },
+  {
+    "key": "fs-color-57",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#FF9124"
+  },
+  {
+    "key": "fs-color-58",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#585858",
+    "day": "#888"
+  },
+  {
+    "key": "fs-color-59",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#e7e7e7",
+    "day": "#333"
+  },
+  {
+    "key": "fs-color-60",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a0a0a0",
+    "day": "#666"
+  },
+  {
+    "key": "fs-color-61",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#888888",
+    "day": "#bdbdbd"
+  },
+  {
+    "key": "fs-color-62",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.6)",
+    "day": "#ffffff"
+  },
+  {
+    "key": "fs-color-63",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#ffffff"
+  },
+  {
+    "key": "fs-color-64",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#585858",
+    "day": "#adadad"
+  },
+  {
+    "key": "fs-color-106",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#585858",
+    "day": "#adadad"
+  },
+  {
+    "key": "fs-color-107",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "rgba(0, 0, 0, 0.25)"
+  },
+  {
+    "key": "fs-color-108",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff2a2a"
+  },
+  {
+    "key": "fs-color-109",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#fff",
+    "day": "#FF7000"
+  },
+  {
+    "key": "fs-color-110",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a0a0a0",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-111",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#585858",
+    "day": "#000000"
+  },
+  {
+    "key": "fs-color-112",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#499b16",
+    "day": "#66a754"
+  },
+  {
+    "key": "fs-color-113",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ff2a2a",
+    "day": "#e02020"
+  },
+  {
+    "key": "fs-color-114",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#e7e7e7",
+    "day": "#FF9124"
+  },
+  {
+    "key": "fs-color-116",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff2a2a"
+  },
+  {
+    "key": "fs-color-117",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#707070",
+    "day": "#5a6074"
+  },
+  {
+    "key": "fs-color-118",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#707070",
+    "day": "#666666"
+  },
+  {
+    "key": "fs-color-119",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#707070",
+    "day": "#000000"
+  },
+  {
+    "key": "fs-color-120",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#FF9124"
+  },
+  {
+    "key": "fs-color-121",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.9)",
+    "day": "#ff9124"
+  },
+  {
+    "key": "fs-color-122",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "unset"
+  },
+  {
+    "key": "fs-color-123",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "unset"
+  },
+  {
+    "key": "fs-color-124",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#414141",
+    "day": "#d1d1d1"
+  },
+  {
+    "key": "fs-color-125",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a0a0a0",
+    "day": "#ffffff"
+  },
+  {
+    "key": "fs-color-126",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#5a6074"
+  },
+  {
+    "key": "fs-color-127",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ffb001"
+  },
+  {
+    "key": "fs-color-128",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ffb001"
+  },
+  {
+    "key": "fs-color-129",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#000000"
+  },
+  {
+    "key": "fs-color-130",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#FF9124"
+  },
+  {
+    "key": "fs-color-131",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255,255,255,0.8)",
+    "day": "rgba(65,70,85,0.8)"
+  },
+  {
+    "key": "fs-color-132",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffffff",
+    "day": "#CBCED8"
+  },
+  {
+    "key": "fs-color-133",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255,255,255,0.5)",
+    "day": "#8F959F"
+  },
+  {
+    "key": "fs-color-134",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffffff",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-135",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff9124"
+  },
+  {
+    "key": "fs-color-136",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffffff",
+    "day": "#5A6074"
+  },
+  {
+    "key": "fs-color-137",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffffff",
+    "day": "#ff9124"
+  },
+  {
+    "key": "fs-color-138",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255,255,255,0.5)",
+    "day": "rgba(255,255,255,0.7)"
+  },
+  {
+    "key": "fs-color-139",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a0a0a0",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-140",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#414655",
+    "day": "#CBCED8"
+  },
+  {
+    "key": "fs-color-141",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#333333"
+  },
+  {
+    "key": "fs-color-142",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffffff",
+    "day": "#FF9124"
+  },
+  {
+    "key": "fs-color-143",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#707070",
+    "day": "#99a3b1"
+  },
+  {
+    "key": "fs-color-144",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffffff",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-145",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "inherit",
+    "day": "inherit"
+  },
+  {
+    "key": "fs-color-146",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#999999",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-147",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-148",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a0a0a0",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-149",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff9124"
+  },
+  {
+    "key": "fs-color-150",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.9)",
+    "day": "#ff9124"
+  },
+  {
+    "key": "fs-color-151",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff9124"
+  },
+  {
+    "key": "fs-color-152",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ffb001"
+  },
+  {
+    "key": "fs-color-153",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#333333"
+  },
+  {
+    "key": "fs-color-154",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#707070",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-155",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#a0a0a0",
+    "day": "#3a404c"
+  },
+  {
+    "key": "fs-color-156",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff9124"
+  },
+  {
+    "key": "fs-color-157",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#FFB001",
+    "day": "#FA6400"
+  },
+  {
+    "key": "fs-color-158",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#FFB001",
+    "day": "#FF7000"
+  },
+  {
+    "key": "fs-color-159",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#999999",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-160",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#888888",
+    "day": "#000000"
+  },
+  {
+    "key": "fs-color-161",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#B2B3B7",
+    "day": "#414655"
+  },
+  {
+    "key": "fs-color-162",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#FFB001",
+    "day": "#000000"
+  },
+  {
+    "key": "fs-color-163",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#A2A2A2",
+    "day": "#999999"
+  },
+  {
+    "key": "fs-color-164",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#B2B3B7",
+    "day": "#5A6074"
+  },
+  {
+    "key": "fs-color-165",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ff9124",
+    "day": "#ff9124"
+  },
+  {
+    "key": "fs-color-166",
+    "group": "fs_color",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#FC2222",
+    "day": "#C31337"
+  },
+  {
+    "key": "img-bg-1",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/home/home_unchecked_black.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/home/home_unchecked.png\")"
+  },
+  {
+    "key": "img-bg-2",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/png/v1/home_item_all_back.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/png/v1/home_item_all.png\")"
+  },
+  {
+    "key": "img-bg-3",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/skin1_2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/skin1.svg\")"
+  },
+  {
+    "key": "img-bg-4",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/skin2_2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/skin2.svg\")"
+  },
+  {
+    "key": "img-bg-5",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/svg/home/money-black.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/svg/home/money.svg\")"
+  },
+  {
+    "key": "img-bg-6",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/home/notice2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/home/notice.svg\")"
+  },
+  {
+    "key": "img-bg-7",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/png/v1/home_item_all_back2.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/png/v1/home_item_all2.png\")"
+  },
+  {
+    "key": "img-bg-8",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/set_close_2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/set_close.svg\")"
+  },
+  {
+    "key": "img-bg-9",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/setting-menu-icon-theme02.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/setting-menu-icon.svg\")"
+  },
+  {
+    "key": "img-bg-10",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/refesh_2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/refesh.svg\")"
+  },
+  {
+    "key": "img-bg-11",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/png/banner_bg.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/png/banner_bg.png\")"
+  },
+  {
+    "key": "img-bg-12",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50image/bw3/svg/footer/fillter-high-light.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/svg/footer/fillter-high-light.svg\")"
+  },
+  {
+    "key": "img-bg-13",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/menu/foot_menubj.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/menu/foot_menubj.png\")"
+  },
+  {
+    "key": "img-bg-14",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/menu/foot_menubj2.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/menu/foot_menubj2.png\")"
+  },
+  {
+    "key": "img-bg-33",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/home/home_checked.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/home/home_checked.svg\")"
+  },
+  {
+    "key": "img-bg-34",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/home/all.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/home/all.svg\")"
+  },
+  {
+    "key": "img-bg-35",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/svg/stick_btn.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/svg/stick_btn.svg\")"
+  },
+  {
+    "key": "img-bg-36",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/common/slide_icon.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/common/slide_icon.svg\")"
+  },
+  {
+    "key": "img-bg-37",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/bet_jianp2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/bet_jianp.svg\")"
+  },
+  {
+    "key": "img-bg-46",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/menu/team_logo_02.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/menu/team_logo_01.png\")"
+  },
+  {
+    "key": "img-bg-47",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1001-02.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1001.png\")"
+  },
+  {
+    "key": "img-bg-48",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1011-02.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1011.png\")"
+  },
+  {
+    "key": "img-bg-49",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1002-02.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1002.png\")"
+  },
+  {
+    "key": "img-bg-50",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1010-02.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1010.png\")"
+  },
+  {
+    "key": "img-bg-51",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1004-02.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1004.png\")"
+  },
+  {
+    "key": "img-bg-52",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1009-02.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/png/bg1009.png\")"
+  },
+  {
+    "key": "img-bg-53",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/have_single-02.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/have_single.svg\")"
+  },
+  {
+    "key": "img-bg-54",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/setting-menu-icon-02.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/setting-menu-icon-01.svg\")"
+  },
+  {
+    "key": "img-bg-55",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/sport_menu_01.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/sport_menu_01.png\")"
+  },
+  {
+    "key": "img-bg-56",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/menu_active_bg02.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/menu_active_bg.png\")"
+  },
+  {
+    "key": "img-bg-57",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/svg/virtual-sports/vir_ending.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/svg/virtual-sports/vir_ending.svg\")"
+  },
+  {
+    "key": "img-bg-58",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/common/f-icon-pay-change.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/common/f-icon-pay-change.svg\")"
+  },
+  {
+    "key": "img-bg-59",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/bet_add2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/bet_add.svg\")"
+  },
+  {
+    "key": "img-bg-60",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/wwwassets/bw3/svg/thumbs.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/wwwassets/bw3/svg/thumbs.svg\")"
+  },
+  {
+    "key": "img-bg-61",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/wwwassets/bw3/svg/thumbs3.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/wwwassets/bw3/svg/thumbs3.svg\")"
+  },
+  {
+    "key": "img-bg-65",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_white/shaidan.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_white/shaidan.svg\")"
+  },
+  {
+    "key": "img-bg-66",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_white/shield_msg.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_white/shield_msg.svg\")"
+  },
+  {
+    "key": "img-bg-68",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_white/bet.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_white/bet.svg\")"
+  },
+  {
+    "key": "img-bg-72",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/wwwassets/bw3/svg/show-bet-icon.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/wwwassets/bw3/svg/show-bet-icon2.svg\")"
+  },
+  {
+    "key": "img-bg-73",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_black/bet_shared.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_white/bet_shared.svg\")"
+  },
+  {
+    "key": "img-bg-74",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/set_switch_2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/set_switch.svg\")"
+  },
+  {
+    "key": "img-bg-75",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/set_sort-02.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/set_sort.svg\")"
+  },
+  {
+    "key": "img-bg-76",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/select.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/menu/select.svg\")"
+  },
+  {
+    "key": "img-bg-77",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/svg/match-list/information-icon.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/svg/match-list/information-icon.svg\")"
+  },
+  {
+    "key": "img-bg-78",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/common/m-list-favorite-s.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/common/m-list-favorite-s.svg\")"
+  },
+  {
+    "key": "img-bg-79",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/common/DJ-play.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/common/DJ-play.svg\")"
+  },
+  {
+    "key": "img-bg-80",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/svg/full_screen_heart_like_full.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/svg/full_screen_heart_like_full.svg\")"
+  },
+  {
+    "key": "img-bg-81",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/go-back-icon-black.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/go-back-icon.svg\")"
+  },
+  {
+    "key": "img-bg-82",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/menu/left_menubj.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/menu/left_menubj.png\")"
+  },
+  {
+    "key": "img-bg-83",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/list/video_play-button-play-theme02.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/list/video_play-button-play.svg\")"
+  },
+  {
+    "key": "img-bg-84",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/common/slide_icon_black.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/common/slide_icon.svg\")"
+  },
+  {
+    "key": "img-bg-85",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/list/video_play-button-playing-02.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/list/video_play-button-playing.svg\")"
+  },
+  {
+    "key": "img-bg-86",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/list/video_play-button-play-02.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/list/video_play-button-play.svg\")"
+  },
+  {
+    "key": "img-bg-87",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/list/video_play-button-disabled-02.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/list/video_play-button-disabled.svg\")"
+  },
+  {
+    "key": "img-bg-88",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/list/timeing-02.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/image/wwwassets/bw3/list/timeing.svg\")"
+  },
+  {
+    "key": "img-bg-89",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/list/whistle-02.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/svg/virtual-sports/whistle.svg\")"
+  },
+  {
+    "key": "img-bg-90",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/record/sort_time2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/record/sort_time2.svg\")"
+  },
+  {
+    "key": "img-bg-91",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/record/sort_settled_time2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/record/sort_settled_time2.svg\")"
+  },
+  {
+    "key": "img-bg-92",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/record/calendar2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/record/calendar2.svg\")"
+  },
+  {
+    "key": "img-bg-93",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/search3.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/search3.svg\")"
+  },
+  {
+    "key": "img-bg-94",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/select_a.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/select_a.svg\")"
+  },
+  {
+    "key": "img-bg-95",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/bet_more2.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/bet_more2.svg\")"
+  },
+  {
+    "key": "img-bg-96",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/svg/active-black.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/svg/active.svg\")"
+  },
+  {
+    "key": "img-bg-97",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/bw3/svg/tab_up_btn.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/bw3/svg/tab_up_btn.svg\")"
+  },
+  {
+    "key": "img-bg-98",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/close.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/bw3/svg/close.svg\")"
+  },
+  {
+    "key": "img-bg-99",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/image/wwwassets/activity/smaller.png\")",
+    "day": "url(\"/2023-01-07-09-45-50/image/wwwassets/activity/smaller.png\")"
+  },
+  {
+    "key": "img-bg-100",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_black/send_hint.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_white/send_hint.svg\")"
+  },
+  {
+    "key": "img-bg-101",
+    "group": "img_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_black/icon-notice.svg\")",
+    "day": "url(\"/2023-01-07-09-45-50/bw3/svg/chatroom/yellow_white/icon-notice.svg\")"
+  },
+  {
+    "key": "skeleton-bg-1",
+    "group": "skeleton_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#414655",
+    "day": "#f0f0f0"
+  },
+  {
+    "key": "skeleton-bg-2",
+    "group": "skeleton_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#262B37",
+    "day": "#dedede"
+  },
+  {
+    "key": "skeleton-bg-3",
+    "group": "skeleton_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#999999"
+  },
+  {
+    "key": "linear-gradient-bg-1",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, rgba(255, 176, 1, 0.2) 0%,rgba(255, 176, 1, 0.02) 99%)",
+    "day": "linear-gradient(180deg, rgba(255, 176, 1, 0.2) 0%,rgba(255, 176, 1, 0.02) 99%)"
+  },
+  {
+    "key": "linear-gradient-bg-2",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(270deg, #ffb001 0%, #ff7000 100%)",
+    "day": "linear-gradient(270deg, #ffb001 0%, #ff7000 100%)"
+  },
+  {
+    "key": "linear-gradient-bg-3",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(235deg, #F7B500 1%, #FF9124 100%)",
+    "day": "linear-gradient(235deg, #F7B500 1%, #FF9124 100%)"
+  },
+  {
+    "key": "linear-gradient-bg-4",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(-45deg, #FFB001 0%, #FF7000 100%)",
+    "day": "linear-gradient(-45deg, #FFB001 0%, #FF7000 100%)"
+  },
+  {
+    "key": "linear-gradient-bg-5",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.3)",
+    "day": "linear-gradient(to right, #ffd700, #ffad00)"
+  },
+  {
+    "key": "linear-gradient-bg-6",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(-34deg,#f7b500,#ff9124 88%)",
+    "day": " linear-gradient(-34deg,  #F7B500 0%, #FF9124 88%)"
+  },
+  {
+    "key": "linear-gradient-bg-7",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": " linear-gradient(-40deg, #ff9124 4%, #f7b500 96%)",
+    "day": " linear-gradient(-40deg, #ff9124 4%, #f7b500 96%)"
+  },
+  {
+    "key": "linear-gradient-bg-8",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(0deg,#15171C 2%,#242424 99%)",
+    "day": "linear-gradient(0deg,#e8ecf1 1%,#fff)"
+  },
+  {
+    "key": "linear-gradient-bg-9",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, rgba(255,176,1,0.20) 0%, rgba(255,176,1,0.02) 99%)",
+    "day": "linear-gradient(180deg, rgba(255,176,1,0.20) 0%, rgba(255,176,1,0.02) 99%)"
+  },
+  {
+    "key": "linear-gradient-bg-10",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, rgba(255,176,1,0.20) 0%, rgba(255,176,1,0.02) 99%)",
+    "day": "linear-gradient(180deg, rgba(255,176,1,0.20) 0%, rgba(255,176,1,0.02) 99%)"
+  },
+  {
+    "key": "linear-gradient-bg-11",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(-34deg,  #F7B500 0%,  #FF9124 88%)",
+    "day": "linear-gradient(-34deg,  #F7B500 0%,  #FF9124 88%)"
+  },
+  {
+    "key": "linear-gradient-bg-12",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(90deg, #15171C 0%, #15171C 100%)",
+    "day": "linear-gradient(90deg, #ffffff 0%, #f5f5f5 100%)"
+  },
+  {
+    "key": "linear-gradient-bg-13",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(270deg, #FFB001 0%, #FF7000 100%)",
+    "day": "linear-gradient(270deg, #FFB001 0%, #FF7000 100%)"
+  },
+  {
+    "key": "linear-gradient-bg-14",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, rgba(255, 176, 1, 0.2) 0%, rgba(255, 176, 1, 0.02) 100%)",
+    "day": "linear-gradient(180deg,#fff,#ffe7d3)"
+  },
+  {
+    "key": "linear-gradient-bg-15",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(0deg, rgba(255, 255, 255, 0.01) 1%, rgba(255, 255, 255, 0.1) 100%)",
+    "day": "linear-gradient(0deg, rgba(57, 68, 85, 0) 0%, rgba(93, 112, 133, 0.3) 100%)"
+  },
+  {
+    "key": "linear-gradient-bg-16",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "repeating-linear-gradient(180deg, #ffb001 0, #ffb001 6px, transparent 6px, transparent 8px)",
+    "day": "repeating-linear-gradient(180deg, #ffb001 0, #ffb001 6px, #ffffff 6px, #ffffff 8px)"
+  },
+  {
+    "key": "linear-gradient-bg-17",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, #73581d 0%, #5e4611 100%)",
+    "day": "unset"
+  },
+  {
+    "key": "linear-gradient-bg-18",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(-34deg,  #F7B500 0%, #FF9124 88%)",
+    "day": "linear-gradient(-34deg,  #F7B500 0%, #FF9124 88%)"
+  },
+  {
+    "key": "linear-gradient-bg-19",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, #3B414E 0%, #1D202A 64.71%, #262B37 100%)",
+    "day": "linear-gradient(87deg,rgba(169,174,190,0.2),rgba(169,174,190,0.4) 98%)"
+  },
+  {
+    "key": "linear-gradient-bg-20",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, #3B414E 0%, #1D202A 64.71%, #262B37 100%)",
+    "day": "linear-gradient(0deg,#e8ecf1 1%,#fff)"
+  },
+  {
+    "key": "linear-gradient-bg-21",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(235deg, #F7B500 1%, #FF9124 100%)",
+    "day": "linear-gradient(235deg, #F7B500 1%, #FF9124 100%)"
+  },
+  {
+    "key": "linear-gradient-bg-22",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(#ffb001, #ffb001)",
+    "day": "linear-gradient(#ffb001, #ffb001)"
+  },
+  {
+    "key": "linear-gradient-bg-23",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(#ffb001, #ffb001)",
+    "day": "linear-gradient(#ffb001, #ffb001)"
+  },
+  {
+    "key": "linear-gradient-bg-24",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.3)",
+    "day": "linear-gradient(to right, #ffd700, #ffad00)"
+  },
+  {
+    "key": "linear-gradient-bg-25",
+    "group": "linear_gradient",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, rgba(255,176,1,0.20) 0%, rgba(255,176,1,0.02) 99%)",
+    "day": "linear-gradient(180deg, rgba(255,176,1,0.02) 0%, rgba(255,176,1,0.20) 99%)"
+  },
+  {
+    "key": "page-bg-color-1",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "page-bg-color-2",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, #3B414E 0%, #1D202A 64.71%, #262B37 100%)",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-3",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#414141",
+    "day": "#eff0f4"
+  },
+  {
+    "key": "page-bg-color-4",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(0, 0, 0, 0.7)",
+    "day": "rgba(0, 0, 0, 0.3)"
+  },
+  {
+    "key": "page-bg-color-5",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#414655",
+    "day": "#CBCED8"
+  },
+  {
+    "key": "page-bg-color-6",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(86, 159, 253, 0.3)",
+    "day": "rgba(86,159,253,0.06)"
+  },
+  {
+    "key": "page-bg-color-7",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#1F222B",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-8",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#292929",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "page-bg-color-9",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "#F9FBFF"
+  },
+  {
+    "key": "page-bg-color-10",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, #191C24 22.04%, #212736 100%)",
+    "day": "#F9FBFF"
+  },
+  {
+    "key": "page-bg-color-11",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "tranparent",
+    "day": "#f9efef"
+  },
+  {
+    "key": "page-bg-color-12",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "tranparent",
+    "day": "#ff9124"
+  },
+  {
+    "key": "page-bg-color-13",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.3)",
+    "day": "#ffb001"
+  },
+  {
+    "key": "page-bg-color-14",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#471c1c",
+    "day": "#f9efef"
+  },
+  {
+    "key": "page-bg-color-15",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#b8b8b8",
+    "day": "#fcfcfc"
+  },
+  {
+    "key": "page-bg-color-16",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.03)",
+    "day": "#e4ebf1"
+  },
+  {
+    "key": "page-bg-color-17",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(40, 40, 40, 0.9)",
+    "day": "rgba(0, 0, 0, 0.5)"
+  },
+  {
+    "key": "page-bg-color-18",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#191919",
+    "day": "#fff4dc"
+  },
+  {
+    "key": "page-bg-color-19",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff9124"
+  },
+  {
+    "key": "page-bg-color-20",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#816f4f",
+    "day": "rgba(0, 0, 0, 0.1)"
+  },
+  {
+    "key": "page-bg-color-21",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "#f5f8fa"
+  },
+  {
+    "key": "page-bg-color-22",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 42, 42, 0.2)",
+    "day": "#ffe8e8"
+  },
+  {
+    "key": "page-bg-color-23",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(0, 0, 0, 0.6)",
+    "day": "rgba(255, 255, 255, 0.6)"
+  },
+  {
+    "key": "page-bg-color-24",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.2)",
+    "day": "#707070"
+  },
+  {
+    "key": "page-bg-color-25",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.1)",
+    "day": "#edeef9"
+  },
+  {
+    "key": "page-bg-color-26",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "#ff9124"
+  },
+  {
+    "key": "page-bg-color-27",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "rgba(216, 216, 216, 0)"
+  },
+  {
+    "key": "page-bg-color-28",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.1)",
+    "day": "#f6f9fc"
+  },
+  {
+    "key": "page-bg-color-29",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#2A2A2A",
+    "day": "#F6F7FA"
+  },
+  {
+    "key": "page-bg-color-30",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#2e2e2e",
+    "day": "rgb(233, 231, 231)"
+  },
+  {
+    "key": "page-bg-color-31",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#2f2f2f",
+    "day": "#dfe0e8"
+  },
+  {
+    "key": "page-bg-color-32",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#edf0f3"
+  },
+  {
+    "key": "page-bg-color-33",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.03)",
+    "day": "#e6e7ee"
+  },
+  {
+    "key": "page-bg-color-34",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#242424",
+    "day": "rgba(0, 0, 0, 0.01)"
+  },
+  {
+    "key": "page-bg-color-35",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "transparent",
+    "day": "rgb(37, 48, 68)"
+  },
+  {
+    "key": "page-bg-color-36",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "#F7F7F7"
+  },
+  {
+    "key": "page-bg-color-37",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#242424",
+    "day": "#fff"
+  },
+  {
+    "key": "page-bg-color-38",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "rgba(0, 0, 0, 0.2)"
+  },
+  {
+    "key": "page-bg-color-39",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(0, 0, 0, 0.6)",
+    "day": "rgba(0,0,0,0.2)"
+  },
+  {
+    "key": "page-bg-color-40",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#2f3031",
+    "day": "#d6dade"
+  },
+  {
+    "key": "page-bg-color-41",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#242424",
+    "day": "#e6e6e6"
+  },
+  {
+    "key": "page-bg-color-42",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#5e5e5e",
+    "day": "#d7d7d7"
+  },
+  {
+    "key": "page-bg-color-43",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.3)",
+    "day": "rgba(255, 176, 1, 0.1)"
+  },
+  {
+    "key": "page-bg-color-44",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 42, 42, 0.2)",
+    "day": "#f9efef"
+  },
+  {
+    "key": "page-bg-color-45",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-46",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#191919",
+    "day": "#e4e4e4"
+  },
+  {
+    "key": "page-bg-color-47",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(59, 67, 89, 0.2)",
+    "day": "#F9F9F9"
+  },
+  {
+    "key": "page-bg-color-48",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#3b3b3b",
+    "day": "#d8d8d8"
+  },
+  {
+    "key": "page-bg-color-49",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#8b8b8b",
+    "day": "#bdc5cf"
+  },
+  {
+    "key": "page-bg-color-50",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ffb001"
+  },
+  {
+    "key": "page-bg-color-51",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.7)",
+    "day": "#ffb001"
+  },
+  {
+    "key": "page-bg-color-52",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "unset",
+    "day": "#fcfdfe"
+  },
+  {
+    "key": "page-bg-color-53",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#242424",
+    "day": "#fcfdfe"
+  },
+  {
+    "key": "page-bg-color-54",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#191919",
+    "day": "#fcfdfe"
+  },
+  {
+    "key": "page-bg-color-55",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "#fff"
+  },
+  {
+    "key": "page-bg-color-56",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#191919",
+    "day": "#f5f7fa"
+  },
+  {
+    "key": "page-bg-color-57",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.5)",
+    "day": "rgba(255, 176, 1, 0.5)"
+  },
+  {
+    "key": "page-bg-color-58",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#171717",
+    "day": "unset"
+  },
+  {
+    "key": "page-bg-color-59",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#69C969",
+    "day": "#69C969"
+  },
+  {
+    "key": "page-bg-color-60",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#202020",
+    "day": "#fff"
+  },
+  {
+    "key": "page-bg-color-61",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#202020",
+    "day": "#F6F7FA"
+  },
+  {
+    "key": "page-bg-color-62",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#171717",
+    "day": "#fff"
+  },
+  {
+    "key": "page-bg-color-63",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "tranparent",
+    "day": "tranparent"
+  },
+  {
+    "key": "page-bg-color-64",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#2a2a2a",
+    "day": "#dfe0e8"
+  },
+  {
+    "key": "page-bg-color-65",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "#dfe0e8"
+  },
+  {
+    "key": "page-bg-color-66",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#242424",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "page-bg-color-69",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.5)",
+    "day": "rgba(255, 176, 1, 0.5)"
+  },
+  {
+    "key": "page-bg-color-70",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 255, 255, 0.05)",
+    "day": "#f5f8fa"
+  },
+  {
+    "key": "page-bg-color-71",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(18, 18, 18, 0.8)",
+    "day": "#f5f8fa"
+  },
+  {
+    "key": "page-bg-color-72",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#191919",
+    "day": "#fff4dc"
+  },
+  {
+    "key": "page-bg-color-73",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff9124"
+  },
+  {
+    "key": "page-bg-color-74",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#242424",
+    "day": "#F7F7F7"
+  },
+  {
+    "key": "page-bg-color-75",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#5e4611",
+    "day": "#fff4dc"
+  },
+  {
+    "key": "page-bg-color-76",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(86,159,253,0.3)",
+    "day": "rgba(255,176,1,0.06)"
+  },
+  {
+    "key": "page-bg-color-77",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(0,0,0,0.6)",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "page-bg-color-78",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(0,0,0,0.6)",
+    "day": "rgba(0, 0, 0, 0.4)"
+  },
+  {
+    "key": "page-bg-color-79",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.3)",
+    "day": "unset"
+  },
+  {
+    "key": "page-bg-color-80",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": " hsla(0,0%,100%,0.03)",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "page-bg-color-81",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#1c1e20",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-82",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(42, 48, 64, 0.4)",
+    "day": "rgba(42, 48, 64, 0.4)"
+  },
+  {
+    "key": "page-bg-color-83",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#191919",
+    "day": "#fafbfc"
+  },
+  {
+    "key": "page-bg-color-84",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#006aff",
+    "day": "#006aff"
+  },
+  {
+    "key": "page-bg-color-85",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255,176,1,0.06)",
+    "day": "rgba(255,176,1,0.06)"
+  },
+  {
+    "key": "page-bg-color-86",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "hsla(0,0%,100%,0.05)",
+    "day": "rgba(0,0,0,0.05)"
+  },
+  {
+    "key": "page-bg-color-88",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#242424",
+    "day": "#fcfcfd"
+  },
+  {
+    "key": "page-bg-color-89",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "tranparent",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-90",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(0,0,0,0.6)",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-91",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-92",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255,255,255,0.2)",
+    "day": "rgba(0,0,0,0.2)"
+  },
+  {
+    "key": "page-bg-color-93",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255,176,1,0.2)",
+    "day": "rgba(255,176,1,0.2)"
+  },
+  {
+    "key": "page-bg-color-94",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#F7F9FE"
+  },
+  {
+    "key": "page-bg-color-95",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#1F222B",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-96",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, #3B414E 0%, #1D202A 64.71%, #262B37 100%)",
+    "day": "linear-gradient(0deg,#e8ecf1 1%,#fff)"
+  },
+  {
+    "key": "page-bg-color-97",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(0deg, rgba(233, 61, 61, 0.1), rgba(233, 61, 61, 0.1)), #262B37",
+    "day": "#FEF5F5"
+  },
+  {
+    "key": "page-bg-color-98",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(0deg, rgba(80, 192, 66, 0.1), rgba(80, 192, 66, 0.1)), #262B37",
+    "day": "#F6FCF6"
+  },
+  {
+    "key": "page-bg-color-99",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#414655",
+    "day": "#E4EAFF"
+  },
+  {
+    "key": "page-bg-color-100",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.3)",
+    "day": "#FFB001"
+  },
+  {
+    "key": "page-bg-color-102",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#1F222B",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-103",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#1F222B",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-104",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#262B37",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-105",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#1F222B",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-106",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "page-bg-color-107",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#F7F7F7"
+  },
+  {
+    "key": "page-bg-color-108",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.3)",
+    "day": "#ffb001"
+  },
+  {
+    "key": "page-bg-color-109",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "page-bg-color-110",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "unset",
+    "day": "unset"
+  },
+  {
+    "key": "page-bg-color-111",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.3)",
+    "day": "#ffb001"
+  },
+  {
+    "key": "page-bg-color-112",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "rgba(255, 176, 1, 0.3)",
+    "day": "#ffb001"
+  },
+  {
+    "key": "page-bg-color-101",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "page-bg-color-113",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "unset",
+    "day": "#F9FBFF"
+  },
+  {
+    "key": "page-bg-color-114",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#191919",
+    "day": "#ffffff"
+  },
+  {
+    "key": "page-bg-color-115",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#ffb001",
+    "day": "#ff9124"
+  },
+  {
+    "key": "page-bg-color-116",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#1F222B",
+    "day": "#f5f5f5"
+  },
+  {
+    "key": "page-bg-color-117",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#fff"
+  },
+  {
+    "key": "page-bg-color-118",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "linear-gradient(180deg, #3B414E 0%, #1D202A 64.71%, #262B37 100%)",
+    "day": "#fff"
+  },
+  {
+    "key": "page-bg-color-119",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#262B37",
+    "day": "#F9FBFF"
+  },
+  {
+    "key": "page-bg-color-120",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#15171C",
+    "day": "#F5F5F5"
+  },
+  {
+    "key": "page-bg-color-121",
+    "group": "page_bg",
+    "project": 1,
+    "root": -1,
+    "description": "",
+    "mark": "",
+    "night": "#5F5133",
+    "day": "#FFF6E1"
+  }
+]
